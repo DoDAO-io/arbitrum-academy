@@ -1,0 +1,284 @@
+categories: []
+content: A deeper look into Arbitrum Nitro
+created: '2023-10-30T18:23:44.534Z'
+guideType: onboarding
+key: arbitrum-nitro-arbitrum-university-560
+name: 'Arbitrum Nitro '
+publishStatus: Live
+steps:
+  - content: >-
+      ## Arbitrum Nitro
+
+
+      Arbitrum Nitro is a significant technical upgrade for Arbitrum, which is a
+      Layer 2 scaling solution for Ethereum. It aims to lower transaction fees
+      and increase the processing capacity of Ethereum by moving contract
+      computation and storage from the primary chain. This upgrade, known as
+      Nitro, is designed to be more compatible with the Ethereum Virtual Machine
+      (EVM) and provides a better user experience with lower fees and faster
+      transactions. With Nitro, Arbitrum aims to push the boundaries of
+      security, efficiency, and scalability, offering a promising solution for
+      the future of Ethereum. Some of the major features include:
+
+
+      ### WebAssembly Code
+
+
+      Nitro introduces a new prover that uses WebAssembly (WASM) code to perform
+      Arbitrum's interactive fraud proofs. This upgrade enhances the scalability
+      and efficiency of the system, allowing for thousands of transactions to be
+      processed per second. Despite being a separate blockchain, Arbitrum Nitro
+      maintains the security and privacy features of Ethereum's Layer 1 (L1) and
+      relays all transaction information to the main Ethereum chain.
+
+
+      ### EVM Compatiblility
+
+
+      Developers can easily integrate Arbitrum Nitro without making any
+      modifications because it supports the EVM. This means that existing
+      Ethereum contracts and transactions can run on Arbitrum without any
+      changes. The goal of Arbitrum Nitro is to provide a trustless and scalable
+      solution for Ethereum, offering benefits such as trustless security,
+      compatibility with Ethereum, scalability, and minimum cost.
+
+
+      ### Deterministic Transactions
+
+
+      To use Arbitrum Nitro, users need to submit their transactions to the
+      chain's inbox. The chain will then execute the transaction and produce
+      outputs, including a transaction receipt and any initiated withdrawals.
+      The execution of transactions is deterministic, meaning that the result is
+      known as soon as the transaction is placed in the inbox. Arbitrum ensures
+      the correctness of the chain state and outputs, supports
+      Ethereum-compatible contracts and transactions, and manages the transfer
+      and management of ETH and tokens on the chain. 
+    name: What is Arbitrum Nitro?
+    stepItems: []
+    uuid: 71f23120-3f81-446c-9d03-fe061903a797
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: c3f60710-b204-4c63-bd7c-809389c6735f
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: 4f6183f2-289d-45f2-bebd-8f1661846cf5
+        explanation: Explanation of the question
+    uuid: 40dd8254-e6e1-4dd7-9e68-34f14bf45792
+  - content: >-
+      Sequencing is a crucial process in the Nitro chain, where transactions are
+      organized and executed in a specific order. It begins with the user
+      creating a transaction, signing it with their wallet, and sending it to
+      the Sequencer. The Sequencer's primary role is to arrange the incoming
+      transactions into a sequence and make it public.
+
+
+      Once the transactions are sequenced, they are passed through the state
+      transition function one by one. This function takes into account the
+      current state of the chain, including account balances and contract code,
+      along with the next transaction. It updates the state and may generate a
+      new Layer 2 block on the Nitro chain.
+
+
+      To ensure the integrity of the sequence, the state transition function
+      detects and discards any invalid transactions. A reliable Sequencer will
+      filter out these invalid transactions, reducing costs and keeping
+      transaction fees low. However, even if the Sequencer includes invalid
+      transactions, Nitro will still function correctly.
+
+
+      The state transition function operates deterministically, meaning its
+      behavior solely depends on the current state and the contents of the next
+      transaction. This determinism allows anyone with knowledge of the
+      transaction sequence to compute the state transition function
+      independently and obtain identical results. Nitro nodes typically follow
+      this approach by obtaining the transaction sequence and running the state
+      transition function locally.
+
+
+      The Sequencer publishes the transaction sequence in two ways: a real-time
+      feed and batches posted on L1 Ethereum. The real-time feed provides
+      instant notifications of each sequenced transaction. Nitro nodes can
+      subscribe to this feed directly from the Sequencer or through a relay. By
+      trusting the Sequencer's promises, users can rely on the feed to obtain
+      immediate information about the transaction sequence and quickly learn the
+      results of each transaction.
+
+
+      Periodically, the Sequencer combines the next set of transactions in the
+      feed, compresses them using the "brotli" data compression algorithm, and
+      posts the result as calldata on Ethereum. Once this Ethereum transaction
+      achieves finality, the Layer 2 Nitro transactions it records also achieve
+      finality. The finality of these transactions is based on their position in
+      the sequence and the deterministic nature of their outcomes.
+
+
+      In summary, sequencing plays a vital role in the Nitro chain by organizing
+      transactions, executing them in order, and ensuring the integrity of the
+      state transition function. The Sequencer publishes the transaction
+      sequence through a real-time feed and batches posted on Ethereum, allowing
+      users to stay informed and obtain immediate results. By following a
+      deterministic approach, Nitro nodes can independently compute the state
+      transition function and achieve identical outcomes.
+    name: 'Arbitrum Nitro Design '
+    stepItems: []
+    uuid: fc866114-3380-41da-a037-351a9246246a
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: e49c619f-5960-4060-9b89-cdd09521cf36
+  - content: >-
+      In simple terms, let's understand how Arbitrum works. Arbitrum works by
+      allowing developers to create smart contracts and submit transactions to
+      its inboxes. It uses optimistic rollup to process transactions off-chain,
+      while still publishing a small amount of data on the layer one network for
+      validation. Nitro offers various features that enhance performance, reduce
+      costs, and ensure compatibility with Ethereum. Some of the features are:
+
+
+      ### Optimistic Rollup
+
+      Developers create smart contracts and send transactions to Arbitrum's
+      inboxes. These transactions have an impact on how Arbitrum handles them
+      and its overall state. To process Ethereum transactions, Arbitrum uses a
+      technique called optimistic rollup. This technique improves processing
+      speeds by moving transaction data off-chain. However, unlike other
+      sidechains, Arbitrum still publishes a small amount of data on the
+      decentralized layer one network for validation, ensuring security.
+
+
+      Optimistic rollups do not publish proofs of validity for on-chain
+      transaction batches. Instead, they assume that off-chain transactions are
+      valid. This sets them apart from zero-knowledge rollups, which provide
+      cryptographic proofs of validity for off-chain transactions. Arbitrum
+      Nitro, which is compiled to WASM, allows for the use of standard languages
+      and tools instead of Arbitrum Classic's AVM architecture. Additionally,
+      Offchain Labs has rewritten ArbsOS components in Go to facilitate
+      cross-chain communication and reduce expenses on the layer one network.
+
+
+      ### Sequencing 
+
+
+      First, it creates a single ordered sequence of all transactions and
+      commits to that sequence. Then, a deterministic state transition function
+      processes these transactions in that order. 
+
+
+      ### Based of Go-Ethereum
+
+
+      Nitro leverages the core code of go-Ethereum (Geth), ensuring
+      compatibility with Ethereum's data structures, formats, and virtual
+      machines. It separates proving from execution by compiling the source code
+      twice, once for proving (portability and security) and once for execution
+      on a Nitro node (speed optimization).
+
+
+      ### Seperate Execution from Proving
+
+
+      Using an optimistic rollup protocol with interactive fraud proofs, Nitro
+      settles transactions on the Layer 1 Ethereum chain. The processing of
+      transactions in Nitro involves the sequencer accepting or rejecting them
+      immediately. Nitro offers a unique combination of features, including
+      advanced calldata compression, separate contexts for execution and fault
+      proving, Ethereum L1 gas compatibility, additional L1 interoperability,
+      and safe retryables.
+    name: How does it work?
+    stepItems: []
+    uuid: 664a3e8e-12ae-44f4-a078-025b15e01c10
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 0bf49cd7-6692-4004-9742-d436f3924da3
+  - content: >-
+      When comparing Nitro and Classic, it is important to understand their
+      similarities and differences. Both Nitro and Classic aim to create an
+      execution environment that closely resembles the Ethereum Virtual Machine
+      (EVM) as a second layer to Ethereum. However, they use different
+      approaches to achieve this.
+
+
+      ## Different Virtual Machines
+
+
+      Classic uses the Arbitrum Virtual Machine (AVM), a custom-made virtual
+      machine, to establish the execution environment. On the other hand, Nitro
+      utilizes WebAssembly (Wasm) for low-level instructions. It compiles the Go
+      code to WASM and includes the widely used Ethereum implementation, Geth,
+      within the ArbOS program.
+
+
+      ## Architectural Differences
+
+
+      The architecture of Nitro is its defining feature. It allows for direct
+      usage of Geth's EVM implementation, making it more efficient and
+      performant. In contrast, Classic relies on the AVM for low-level
+      instructions. This architectural difference leads to several benefits for
+      Nitro.
+
+
+      ## Gas Fee and Ethereum Compatibility
+
+
+      One of the main benefits of Nitro is lower fees. By optimizing the
+      execution environment and leveraging native execution of Go code, Nitro
+      reduces the cost of transactions for end users. Additionally, Nitro offers
+      better Ethereum compatibility. It inherits the compatibility of Geth,
+      making it easier for clients to interact with the system.
+
+
+      ## Simplicity of Codebase
+
+      Simplicity is another advantage of Nitro. By using Geth and incorporating
+      widely used compression libraries, Nitro simplifies the codebase and
+      reduces technical risks. This simplicity makes Nitro more accessible for
+      auditors and contributors, ensuring a higher level of implementation
+      security.
+    name: Nitro vs Classic
+    stepItems: []
+    uuid: 488abfeb-0e2c-472d-88cf-8fbc888963ee
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: ca041520-b639-4eab-b2c7-37b09560b6ea
+  - content: >-
+      - [https://docs.arbitrum.io/why-nitro]
+
+
+      -
+      [https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450]
+
+
+      - [https://chainstack.com/arbitrum-nitro-an-overview/#3-nitro-vs-classic]
+
+
+      -
+      [https://docs.arbitrum.io/inside-arbitrum-nitro/#:~:text=Nitro%20is%20a%20major%20upgrade,of%20data%20posted%20to%20L1]
+    name: References
+    stepItems: []
+    uuid: d10846b3-3be8-43e0-9e3b-c8a48b29b98a
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 50fa38e9-68d4-4201-91ba-22c3f6a39319
+version: 1
+priority: 50
