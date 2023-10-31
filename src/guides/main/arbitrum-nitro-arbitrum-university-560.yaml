@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-10-30T18:23:44.534Z'
+created: '2023-10-31T11:04:26.127Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -18,7 +18,21 @@ steps:
       (EVM) and provides a better user experience with lower fees and faster
       transactions. With Nitro, Arbitrum aims to push the boundaries of
       security, efficiency, and scalability, offering a promising solution for
-      the future of Ethereum. Some of the major features include:
+      the future of Ethereum. 
+
+
+      It introduces advanced calldata compression, reducing transaction costs
+      even further. Nitro enhances the performance of Layer 1 (L1) nodes, aligns
+      EVM operation pricing with Ethereum, and introduces additional
+      synchronization with Ethereum L1 blocks. As it seamlessly supports the
+      Ethereum Virtual Machine (EVM), no hefty modifications are required. With
+      Nitro, transactions on Arbitrum have become extremely efficient. 
+
+
+      ## Features of Arbitrum Nitro
+
+
+      The mojor features of Arbitrum Nitro include:
 
 
       ### WebAssembly Code
@@ -279,6 +293,6 @@ steps:
     uuid: d10846b3-3be8-43e0-9e3b-c8a48b29b98a
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 50fa38e9-68d4-4201-91ba-22c3f6a39319
+uuid: arbitrum-nitro-arbitrum-university-560
 version: 1
 priority: 50
