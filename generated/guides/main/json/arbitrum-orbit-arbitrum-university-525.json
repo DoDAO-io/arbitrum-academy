@@ -1,0 +1,147 @@
+{
+  "categories": [],
+  "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
+  "created": "2023-10-31T17:34:44.320Z",
+  "guideType": "onboarding",
+  "key": "arbitrum-orbit-arbitrum-university-525",
+  "name": "Arbitrum Orbit",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "\nIntroduction Comments \n        ",
+      "name": "What is an arbitrum Orbit?",
+      "stepItems": [],
+      "uuid": "16adea27-d0a8-4a7b-99aa-c7635f4cd221"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "8057ffff-5953-4d13-be00-1a462febb9d1"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "a34afef3-148a-4e79-8f14-fe0aae2c90f7",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "62a5e58f-54fa-45d3-ba27-92d8ab5f9a40"
+    },
+    {
+      "content": "",
+      "name": "Importance of Orbit Chain",
+      "stepItems": [],
+      "uuid": "dc9130cc-0a1c-4d6c-8f47-06622f53d0ef"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "3f7ccfec-7f60-48c2-a0dd-4a1df45eb790"
+    },
+    {
+      "content": "",
+      "name": "How to launch an Orbit Chain?",
+      "stepItems": [],
+      "uuid": "4a550e4d-c00e-4586-8051-3403a44a7929"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "d01a95c5-37c4-48db-89f0-2dd8d9b6f80b"
+    },
+    {
+      "content": "",
+      "name": "Orbit Ownership and Licensing",
+      "stepItems": [],
+      "uuid": "061749cd-bd33-4f0b-9524-1ab46bcd2411"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "3ecc45ec-080d-4df9-893c-e6b4654cc324"
+    },
+    {
+      "content": "",
+      "name": "Customize Orbit's Precompiles",
+      "stepItems": [],
+      "uuid": "4a32d9e2-67db-449a-8855-c81923d2235b"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "2fbf3bc3-4ebb-4e56-aa3f-3a9b4d41b3aa"
+    },
+    {
+      "content": "",
+      "name": "Customizing Orbit's Behavior",
+      "stepItems": [],
+      "uuid": "14adb360-28f6-443f-91fa-aa4bd739db19"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "c8b8de87-633b-4859-9735-8626bb4912ef"
+    },
+    {
+      "content": "",
+      "name": "Adding Testnet Orbit to Bridge",
+      "stepItems": [],
+      "uuid": "891cf4d3-b625-40ef-b3dd-91550445ccf9"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "434af98e-6faa-4d81-8839-80551f065301"
+    },
+    {
+      "content": "",
+      "name": "Customizing Orbit's Deployment",
+      "stepItems": [],
+      "uuid": "f3695fc2-2f3d-4e42-b679-7abaadbef60c"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "6bef430c-31af-4813-9d6f-26fabf977eee"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "145485fb-dfac-4fea-8a48-dc5e998da59c",
+  "version": 1,
+  "priority": 50
+}
