@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-10-31T15:12:12.106Z'
+created: '2023-10-31T17:44:16.570Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -33,7 +33,7 @@ steps:
       The key advantages of Stylus include:
 
 
-      ### Expediated and Secure Development
+      #### Expediated and Secure Development
 
 
       It leverages existing libraries and modules available in Rust and C++.
@@ -43,7 +43,7 @@ steps:
       secure practices from each language.
 
 
-      ### Lower Gas Fee
+      #### Lower Gas Fee
 
 
       The use of WASM brings several benefits to Stylus smart contracts. WASM
@@ -54,7 +54,7 @@ steps:
       making it a versatile choice for smart contract development.
 
 
-      ### Greater Efficiency
+      #### Greater Efficiency
 
 
       Stylus aims to make smart contract development more accessible and
@@ -100,7 +100,7 @@ steps:
       the blockchain space. 
 
 
-      ### Better Performance
+      #### Better Performance
 
 
       One notable feature is its enhanced performance. Stylus contracts are more
@@ -110,7 +110,7 @@ steps:
       high-compute blockchain applications efficiently.
 
 
-      ### Cost Effective Transactions
+      #### Cost Effective Transactions
 
 
       Another significant feature of Stylus is its cost efficiency. High
@@ -122,7 +122,7 @@ steps:
       without financial constraints.
 
 
-      ### Inclusivity and Flexibility
+      #### Inclusivity and Flexibility
 
 
       Inclusivity is another key feature of Stylus. Unlike other platforms that
@@ -136,7 +136,7 @@ steps:
       onboard new talent into the blockchain space.
 
 
-      ### Improved Security
+      #### Improved Security
 
 
       Stylus offers improved security features. It allows developers to deploy
@@ -165,7 +165,7 @@ steps:
       coding, compilation, execution, and proving.
 
 
-      ### Coding
+      #### Coding
 
 
       At the heart of any program lies its code - the digital DNA that
@@ -180,7 +180,7 @@ steps:
       compatibility and efficiency.
 
 
-      ### Compilation
+      #### Compilation
 
 
       A Stylus program undergoes a dual-phase compilation. Initially,
@@ -194,7 +194,7 @@ steps:
       and fraud prevention standards. 
 
 
-      ### Execution
+      #### Execution
 
 
       Stylus contracts come alive through Wasmer, a state-of-the-art WASM
@@ -206,7 +206,7 @@ steps:
       arenas, communicate, and cooperate without any hitches.
 
 
-      ### Proving
+      #### Proving
 
 
       In the world of Nitro, where trust and transparency reign supreme, Stylus
