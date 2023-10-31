@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-10-31T18:19:51.061Z'
+created: '2023-10-31T18:24:30.384Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -148,7 +148,84 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 3f7ccfec-7f60-48c2-a0dd-4a1df45eb790
-  - content: ''
+  - content: >-
+      ## Launching an Orbit Chain
+
+
+      Launching an orbit chain involves several steps to ensure a smooth
+      deployment. 
+
+
+      #### Step 1
+
+
+      Firstly, you need to acquire at least 1.5 testnet $ETH to cover the cost
+      of deploying your Orbit chain's base contracts. It is recommended to use
+      the Sepolia network instead of Goerli as Goerli will be deprecated soon.
+      You can acquire testnet $ETH by using an L1 testnet $ETH faucet like
+      goerlifaucet.com or sepoliafaucet.com.
+
+
+      #### Step 2
+
+
+      Once you have the testnet $ETH, you need to bridge it from Ethereum's L1
+      Goerli or Sepolia network to Arbitrum's corresponding L2 testnet. This can
+      be done using the Arbitrum bridge. It is important to note that Arbitrum
+      Rollup is a trustless and permissionless protocol that requires all chain
+      data to be posted on Ethereum's "Layer 1" (L1) chain. This ensures the
+      security and availability of the data.
+
+
+      #### Step 3
+
+
+      Depending on your use-case, you can choose between Rollup chains and
+      AnyTrust chains. Rollup chains are recommended for use-cases that demand a
+      high level of security, such as decentralized exchanges and DeFi
+      applications. AnyTrust chains, on the other hand, are suitable for
+      use-cases that require lower fees and generate a large number of
+      transactions, such as gaming and social applications.
+
+
+      #### Step 4
+
+
+      Once you have decided on the type of chain, you need to configure the
+      validators and batch poster. Validators are responsible for validating the
+      integrity of transactions, while the batch poster is responsible for
+      posting batches of transactions from your Orbit chain to its base
+      contracts. These addresses need to be added to an allow-list in your
+      chain's base contracts.
+
+
+      #### Step 5
+
+
+      After configuring the validators and batch poster, you can proceed to
+      review and deploy your Orbit chain. This involves submitting a transaction
+      to the Arbitrum testnet, which deploys your Orbit chain's base contracts
+      to the Arbitrum testnet. These base contracts facilitate the exchange of
+      information between your chain's node(s) and its base chain's nodes.
+
+
+      #### Step 6
+
+
+      Once the deployment is complete, you may need to configure your keyset if
+      you deployed an AnyTrust chain. This involves assigning an initial keyset
+      to your SequencerInbox contract. Finally, you can download your chain's
+      configuration files and launch your chain. These files contain important
+      information about your chain, including the addresses of your chain's base
+      contracts.
+
+
+      By following these steps, you can successfully launch an orbit chain and
+      start utilizing its features and capabilities. Remember to fund the batch
+      poster and validator accounts on your underlying L2 chain and deposit ETH
+      into your account using the chain's bridge. Monitoring the logs and
+      tracking the progress of your chain's deployment is also important for
+      debugging and troubleshooting purposes.
     name: How to launch an Orbit Chain?
     stepItems: []
     uuid: 4a550e4d-c00e-4586-8051-3403a44a7929
