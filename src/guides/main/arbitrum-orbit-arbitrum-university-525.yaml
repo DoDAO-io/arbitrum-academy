@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-10-31T18:24:30.384Z'
+created: '2023-10-31T18:37:22.223Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -233,7 +233,65 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d01a95c5-37c4-48db-89f0-2dd8d9b6f80b
-  - content: ''
+  - content: >-
+      Orbit ownership and licensing play a crucial role in the management and
+      upgrades of Orbit chains. The chain owner of an Orbit chain is responsible
+      for carrying out critical upgrades to the chain's core protocol. This
+      includes tasks such as upgrading protocol contracts, setting core system
+      parameters, and adding or removing other chain owners. The initial chain
+      owner of an Orbit chain is determined by the chain's creator during
+      deployment.
+
+
+      The chain-ownership architecture of Orbit chains offers flexibility to the
+      creators in deciding how upgrades to their chain occur. However, it is
+      important to note that Orbit is still in its public preview phase, and the
+      product and its documentation may undergo significant changes based on
+      user feedback.
+
+
+      Each Orbit chain is deployed with two Upgrade Executors, one on the Orbit
+      chain itself and one on its parent chain. The Upgrade Executor contracts
+      are given the critical affordances of the chain at deployment. The parent
+      chain's core protocol contracts are upgradeable proxies controlled by a
+      proxy admin, which is owned by the Upgrade Executor on the parent chain.
+      Similarly, the Upgrade Executor on the parent chain is given the admin
+      role of the core Rollup contract.
+
+
+      To initiate upgrades, a chain owner must call the Upgrade Executor, which
+      then calls the target contract. Only entities granted the EXECUTOR_ROLE
+      affordance on the Upgrade Executor can make calls to it. Upgrade executors
+      also have the ADMIN_ROLE affordance, allowing chain owners to add or
+      remove other chain owners.
+
+
+      The Upgrade Executor serves as a single source of truth for the critical
+      upgradability of the chain. Upgrades can be executed by calling
+      UpgradeExecutor.executeCall to directly call the target contract or by
+      using UpgradeExecutor.execute to delegate-call to an "action contract" and
+      utilize its code to call the target contract.
+
+
+      A chain owner can be any address and is set by the Orbit chain's deployer.
+      It can represent various governance schemes such as an externally owned
+      account (EOA), a multisig, or a governance token system. The Arbitrum DAO
+      governed chains, although not Orbit chains themselves, follow a similar
+      architecture and upgrade pattern with a governance token and a multisig
+      acting as chain owners.
+
+
+      If you want to launch an independent Arbitrum Nitro chain as an L2 on
+      Ethereum, you will need to obtain a custom license as the Arbitrum Orbit
+      license does not automatically include chains that settle to a
+      non-Arbitrum-DAO-governed chain. You have two options to obtain a custom
+      license. Firstly, you can reach out to Offchain Labs, the initial
+      developer of the Arbitrum Nitro codebase, who serves as the licensor of
+      the software and can grant custom licenses. Secondly, you can propose your
+      L2 chain to the Arbitrum DAO, which has co-licensor rights to approve
+      additional L2s on Ethereum that do not settle to a DAO-governed chain. The
+      DAO will democratically decide whether to grant the license for your
+      proposed L2 chain based on the submitted proposal.
     name: Orbit Ownership and Licensing
     stepItems: []
     uuid: 061749cd-bd33-4f0b-9524-1ab46bcd2411
