@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Delving deeper into stylus blockchain",
-  "created": "2023-10-31T14:52:21.900Z",
+  "created": "2023-10-31T15:12:12.106Z",
   "guideType": "onboarding",
   "key": "introduction-to-stylus-arbitrum-university-536",
   "name": "Introduction to Stylus ",
@@ -80,7 +80,7 @@
       "uuid": "86f2ddbd-3798-4123-a17a-9eb2c3a70015"
     },
     {
-      "content": "",
+      "content": "https://docs.arbitrum.io/stylus/how-tos/adding-support-for-new-languages\n\nhttps://pgrandinetti.github.io/compilers/page/how-to-build-a-new-programming-language/",
       "name": "Adding Programming Language",
       "stepItems": [],
       "uuid": "3e80e9f0-0c11-4bb4-959c-ae1be14f33c5"
@@ -92,7 +92,7 @@
       "uuid": "b4436542-96d0-4c03-adf3-eebb6b76b0e4"
     },
     {
-      "content": "",
+      "content": "https://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node\n\n",
       "name": "Running a Local Stylus Dev Node",
       "stepItems": [],
       "uuid": "5572f53f-c444-4ea5-963e-3cb9c256bbd7"
@@ -104,7 +104,7 @@
       "uuid": "7cdd1dc7-3526-4107-b5bf-55c9002665ef"
     },
     {
-      "content": "",
+      "content": "https://docs.arbitrum.io/stylus/how-tos/optimizing-binaries",
       "name": "Reducing WASM Binary Size",
       "stepItems": [],
       "uuid": "425bcdc8-5f40-47d9-abb5-1616beead56e"
@@ -116,14 +116,14 @@
       "uuid": "2c856c6f-58e4-4320-bda7-787c5a7be17d"
     },
     {
-      "content": "- https://docs.arbitrum.io/stylus/stylus-gentle-introduction\n\n- https://tradedog.io/arbitrum-stylus-the-future-of-ethereum-development/\n\n- https://blockworks.co/news/arbitrum-stylus-testnet\n\n- https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22\n\n- https://medium.com/offchainlabs/stylus-in-action-lifecycle-of-a-stylus-contract-630f492ff85c",
+      "content": "https://docs.arbitrum.io/stylus/stylus-gentle-introduction\n\nhttps://tradedog.io/arbitrum-stylus-the-future-of-ethereum-development/\n\nhttps://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node\n\nhttps://docs.arbitrum.io/stylus/how-tos/optimizing-binaries\n\nhttps://blockworks.co/news/arbitrum-stylus-testnet\n\nhttps://medium.com/offchainlabs/hello-stylus-6b18fecc3a22\n\nhttps://medium.com/offchainlabs/stylus-in-action-lifecycle-of-a-stylus-contract-630f492ff85c",
       "name": "References",
       "stepItems": [],
       "uuid": "35bd6d26-0080-4857-8e38-85296952e5d6"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "5d679448-6b80-41d6-803e-fec9f71893c4",
+  "uuid": "introduction-to-stylus-arbitrum-university-536",
   "version": 1,
   "priority": 50
 }
