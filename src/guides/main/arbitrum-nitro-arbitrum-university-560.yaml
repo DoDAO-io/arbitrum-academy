@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-10-31T11:08:33.176Z'
+created: '2023-10-31T11:10:56.514Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -159,6 +159,9 @@ steps:
     stepItems: []
     uuid: e49c619f-5960-4060-9b89-cdd09521cf36
   - content: >-
+      ## Working of Arbitrum Nitro
+
+
       In simple terms, let's understand how Arbitrum works. Arbitrum works by
       allowing developers to create smart contracts and submit transactions to
       its inboxes. It uses optimistic rollup to process transactions off-chain,
