@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-10-31T13:25:55.673Z'
+created: '2023-10-31T17:40:20.512Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -23,7 +23,7 @@ steps:
       mainnet.
 
 
-      ### Transaction Rollups
+      #### Transaction Rollups
 
 
       The platform utilizes a technique called 'transaction rollups' to improve
@@ -77,7 +77,7 @@ steps:
       distributed to other network participants, such as validators.
 
 
-      ###  Arbitrum's Challenge Mechanism 
+      ####  Arbitrum's Challenge Mechanism 
 
 
       To maintain the integrity of the system, Arbitrum introduces a challenge
@@ -88,7 +88,7 @@ steps:
       behavior.
 
 
-      ###  Arbitrum Virtual Machine (AVM)
+      ####  Arbitrum Virtual Machine (AVM)
 
 
       Arbitrum also features its own custom virtual machine called the Arbitrum
@@ -99,7 +99,7 @@ steps:
       the AVM.
 
 
-      ###  Optimistic Rollups
+      ####  Optimistic Rollups
 
 
       In terms of scalability, Arbitrum utilizes blockchain rollups, a 2-layer
@@ -185,7 +185,7 @@ steps:
       limitations of the Ethereum network. 
 
 
-      ###  Compatible with EVM 
+      ####  Compatible with EVM 
 
 
       One of the standout features of Arbitrum is its compatibility with the
@@ -198,7 +198,7 @@ steps:
       validation of smart contracts. 
 
 
-      ###  Greater Speed and Scalibility 
+      ####  Greater Speed and Scalibility 
 
 
       While Ethereum's switch to a proof-of-stake (PoS) consensus mechanism was
@@ -212,7 +212,7 @@ steps:
       allowing developers to use familiar languages like Solidity and Vyper.
 
 
-      ###  Robust Developer Tooling 
+      ####  Robust Developer Tooling 
 
 
       Arbitrum aims to minimize barriers to entry for developers by providing
@@ -225,7 +225,7 @@ steps:
       sufficient incentives for validators.
 
 
-      ###  Developer-Focused Approach
+      ####  Developer-Focused Approach
 
 
       Arbitrum has already conducted several testnets and is currently live on
