@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-10-31T11:04:26.127Z'
+created: '2023-10-31T11:08:33.176Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -224,6 +224,8 @@ steps:
     stepItems: []
     uuid: 0bf49cd7-6692-4004-9742-d436f3924da3
   - content: >-
+      ## Comparing Nitro and Classic
+
       When comparing Nitro and Classic, it is important to understand their
       similarities and differences. Both Nitro and Classic aim to create an
       execution environment that closely resembles the Ethereum Virtual Machine
@@ -231,7 +233,7 @@ steps:
       approaches to achieve this.
 
 
-      ## Different Virtual Machines
+      ###  Different Virtual Machines
 
 
       Classic uses the Arbitrum Virtual Machine (AVM), a custom-made virtual
@@ -241,7 +243,7 @@ steps:
       within the ArbOS program.
 
 
-      ## Architectural Differences
+      ###  Architectural Differences
 
 
       The architecture of Nitro is its defining feature. It allows for direct
@@ -251,7 +253,7 @@ steps:
       Nitro.
 
 
-      ## Gas Fee and Ethereum Compatibility
+      ###  Gas Fee and Ethereum Compatibility
 
 
       One of the main benefits of Nitro is lower fees. By optimizing the
@@ -261,7 +263,8 @@ steps:
       making it easier for clients to interact with the system.
 
 
-      ## Simplicity of Codebase
+      ###  Simplicity of Codebase
+
 
       Simplicity is another advantage of Nitro. By using Geth and incorporating
       widely used compression libraries, Nitro simplifies the codebase and
