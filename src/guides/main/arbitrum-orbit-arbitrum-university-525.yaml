@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-10-31T17:59:49.036Z'
+created: '2023-10-31T18:19:51.061Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -18,7 +18,7 @@ steps:
       token, governance, and more.
 
 
-      ## Advantages of Orbit Chains
+      ## Why do we need it?
 
 
       #### Gas Price Reliability
@@ -79,7 +79,68 @@ steps:
         uuid: a34afef3-148a-4e79-8f14-fe0aae2c90f7
         explanation: Explanation of the question
     uuid: 62a5e58f-54fa-45d3-ba27-92d8ab5f9a40
-  - content: ''
+  - content: >
+      ## Importance of Orbit Chains
+
+
+      The Orbit Chain is of great importance because it is a valuable tool for
+      developers and users of decentralized applications (dApps). 
+
+
+      #### Dedicated Throughput
+
+
+      One of the key advantages is dedicated throughput. By running a dApp on
+      its own Orbit chain, developers can ensure high-performance and consistent
+      resource availability. This means they don't have to compete for
+      computation and storage resources, resulting in a smoother and more
+      efficient user experience.
+
+
+      #### Compatible to EVM+
+
+
+      Another significant benefit is EVM+ compatibility. Orbit chains support
+      the same EVM+ compatibility as Stylus, allowing developers to deploy
+      EVM-compatible smart contracts using popular programming languages like
+      Solidity, C, C++, and Rust. This eliminates the need to migrate to a new
+      language or toolchain, making it easier for developers to continue using
+      their preferred technologies.
+
+
+      #### Independent Product Roadmap
+
+
+      Orbit chains also offer an independent product roadmap. This means that
+      developers can decouple their app chain's roadmap from that of Ethereum
+      and/or Arbitrum. By doing so, they can implement cutting-edge features and
+      innovations ahead of projects following Ethereum's public roadmap. This
+      flexibility allows developers to stay ahead of the curve and deliver
+      unique and advanced functionalities to their users.
+
+
+      #### Increased Gas Price Reliability
+
+
+      Orbit chains provide increased gas price reliability. Gas prices can
+      greatly impact the cost and efficiency of dApps. By using Orbit chains,
+      developers can isolate their dApp from the on-chain activity of other
+      apps, ensuring more reliable gas prices. This predictability allows
+      developers to model and predict business costs accurately, making it
+      easier to experiment with cost-prohibitive mechanisms and deliver
+      decentralized experiences that feel familiar to non-technical audiences.
+
+
+      #### Customizable fee Tokens
+
+
+      Orbit chains offer customizable fee tokens and protocol logic. Developers
+      have the freedom to choose any token as the fee token, facilitating
+      seamless integration with their dApp's ecosystem. They can also modify the
+      logic of their chain's settlement, execution, or governance protocols to
+      meet specific requirements. This customization allows developers to tailor
+      their dApps to their unique needs and create a more optimized and
+      efficient user experience.
     name: Importance of Orbit Chain
     stepItems: []
     uuid: dc9130cc-0a1c-4d6c-8f47-06622f53d0ef
