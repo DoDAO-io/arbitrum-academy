@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-10-31T13:26:47.592Z'
+created: '2023-10-31T17:42:51.305Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -35,7 +35,7 @@ steps:
       The mojor features of Arbitrum Nitro include:
 
 
-      ### WebAssembly Code
+      #### WebAssembly Code
 
 
       Nitro introduces a new prover that uses WebAssembly (WASM) code to perform
@@ -46,7 +46,7 @@ steps:
       relays all transaction information to the main Ethereum chain.
 
 
-      ### EVM Compatiblility
+      #### EVM Compatiblility
 
 
       Developers can easily integrate Arbitrum Nitro without making any
@@ -57,7 +57,7 @@ steps:
       compatibility with Ethereum, scalability, and minimum cost.
 
 
-      ### Deterministic Transactions
+      #### Deterministic Transactions
 
 
       To use Arbitrum Nitro, users need to submit their transactions to the
@@ -105,7 +105,7 @@ steps:
       based on four big idea:
 
 
-      ### Sequencing and Deterministic Execution
+      #### Sequencing and Deterministic Execution
 
 
       When a user initiates a transaction, it is signed using their wallet and
@@ -135,7 +135,7 @@ steps:
       also achieve "hard finality" on Layer 2 Nitro, solidifying their sequence.
 
 
-      ### Based on Go-Ethereum
+      #### Based on Go-Ethereum
 
 
       "Geth," short for go-ethereum, represents the predominant node software
@@ -161,7 +161,7 @@ steps:
       adoption of the "geth-sandwich" nomenclature.
 
 
-      ### Separate Execution and Proving
+      #### Separate Execution and Proving
 
 
       Designing a practical rollup system often encounters the challenge of
@@ -188,7 +188,7 @@ steps:
       participants to store full data structures for content retrieval.
 
 
-      ### Optimistic Rollup
+      #### Optimistic Rollup
 
 
       Arbitrum operates as a rollup, wherein the inputs to the chain,
@@ -230,7 +230,7 @@ steps:
       used because it is considered more efficient and flexible.
 
 
-      ### Interactive Fraud Proof
+      #### Interactive Fraud Proof
        
       The concept behind interactive proving is that the participants in the
       dispute engage in a back-and-forth protocol. This protocol is overseen by
@@ -238,7 +238,7 @@ steps:
       the dispute with minimal work required from the L1 contract. 
 
 
-      ### Process of Interactive Fraud Proof
+      #### Process of Interactive Fraud Proof
 
 
       To begin the process, if a party claims that the chain will produce a
@@ -253,7 +253,7 @@ steps:
       ## Advantages of Interactive Fraud proof
 
 
-      ### Greater Efficiency
+      #### Greater Efficiency
 
 
       The key principle behind interactive proving is that both parties should
@@ -264,7 +264,7 @@ steps:
       within the block. This reduces the L1 footprint and overall cost.
 
 
-      ### Quicker Actions
+      #### Quicker Actions
 
 
       Interactive proving also has advantages in the pessimistic case. The L1
@@ -275,7 +275,7 @@ steps:
       certain scenarios.
 
 
-      ### Higher Flexibility
+      #### Higher Flexibility
 
 
       Interactive proving offers more implementation flexibility compared to
@@ -300,7 +300,7 @@ steps:
       approaches to achieve this.
 
 
-      ###  Different Virtual Machines
+      ####  Different Virtual Machines
 
 
       Classic uses the Arbitrum Virtual Machine (AVM), a custom-made virtual
@@ -310,7 +310,7 @@ steps:
       within the ArbOS program.
 
 
-      ###  Architectural Differences
+      ####  Architectural Differences
 
 
       The architecture of Nitro is its defining feature. It allows for direct
@@ -320,7 +320,7 @@ steps:
       Nitro.
 
 
-      ###  Gas Fee and Ethereum Compatibility
+      ####  Gas Fee and Ethereum Compatibility
 
 
       One of the main benefits of Nitro is lower fees. By optimizing the
@@ -330,7 +330,7 @@ steps:
       making it easier for clients to interact with the system.
 
 
-      ###  Simplicity of Codebase
+      ####  Simplicity of Codebase
 
 
       Simplicity is another advantage of Nitro. By using Geth and incorporating
