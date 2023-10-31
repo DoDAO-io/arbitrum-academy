@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-10-31T13:14:03.864Z'
+created: '2023-10-31T13:25:55.673Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -246,6 +246,9 @@ steps:
     stepItems: []
     uuid: f77544c4-4e06-4dc0-adfc-6562e656ef2e
   - content: >
+      - https://docs.arbitrum.io/intro/
+
+
       -
       https://www.ledger.com/academy/topics/blockchain/what-is-arbitrum#:~:text=Arbitrum%20is%20a%20Layer%202,storage%20to%20the%20second%20chain
 
