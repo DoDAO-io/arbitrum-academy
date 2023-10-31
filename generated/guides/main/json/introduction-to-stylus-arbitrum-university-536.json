@@ -1,0 +1,129 @@
+{
+  "categories": [],
+  "content": "Delving deeper into stylus blockchain",
+  "created": "2023-10-31T14:52:21.900Z",
+  "guideType": "onboarding",
+  "key": "introduction-to-stylus-arbitrum-university-536",
+  "name": "Introduction to Stylus ",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "## Stylus Overview\n\nStylus is a revolutionary platform that allows developers to write smart contracts for the Ethereum blockchain using popular programming languages like Rust, C, and C++. This is a significant departure from the traditional approach, which primarily relies on the Solidity programming language. By supporting multiple programming languages, Stylus invites a broader range of developers to the Ethereum ecosystem. Those proficient in Rust, C, or C++ can now contribute without learning Solidity from scratch.\n\nStylus is built on top of Arbitrum Nitro, a tech stack upgrade that powers Arbitrum One, Arbitrum Nova, and Arbitrum Orbit chains. It introduces a second virtual machine, the WebAssembly (WASM) virtual machine, alongside the Ethereum Virtual Machine (EVM). This allows smart contracts written in programming languages that compile down to WASM to be executed on the Arbitrum blockchain.\n\n##  Benefits of Stylus\n\nThe key advantages of Stylus include:\n\n### Expediated and Secure Development\n\nIt leverages existing libraries and modules available in Rust and C++. Developers can use these resources to expedite development and introduce more functionalities. Additionally, different programming languages have various security features, and Stylus allows developers to use the most secure practices from each language.\n\n### Lower Gas Fee\n\nThe use of WASM brings several benefits to Stylus smart contracts. WASM programs are significantly more efficient, resulting in faster execution and lower gas fees. Memory usage is also cheaper, unlocking new use cases that were previously not viable on the blockchain. WASM is a modern binary format that is widely supported by web browsers and programming languages, making it a versatile choice for smart contract development.\n\n### Greater Efficiency\n\nStylus aims to make smart contract development more accessible and efficient by allowing developers to use their favorite programming languages. It expands the possibilities of what developers can achieve on the Ethereum blockchain and fosters a cohesive ecosystem where different applications can work together. With its faster execution, reduced fees, and interoperability with the Ethereum Virtual Machine, Stylus is poised to revolutionize the way smart contracts are written and deployed.",
+      "name": "What is Stylus?",
+      "stepItems": [],
+      "uuid": "c4c75764-bd0f-4590-8594-c928d4994600"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "6060ea71-ae02-4033-add5-265b2701d796"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "e36dee50-4d76-482a-829e-2a402fcac604",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "0b874314-5f3a-442f-a7f8-0cd1c1558009"
+    },
+    {
+      "content": "## Advantagous Features of Stylus\n\nStylus, a feature of Arbitrum, offers several advantages for developers in the blockchain space. \n\n### Better Performance\n\nOne notable feature is its enhanced performance. Stylus contracts are more versatile and faster compared to traditional contracts written in languages like Solidity. This means that applications written in languages like Rust can run much quicker on Stylus, enabling developers to build high-compute blockchain applications efficiently.\n\n### Cost Effective Transactions\n\nAnother significant feature of Stylus is its cost efficiency. High transaction fees have been a concern in the blockchain industry, but Stylus addresses this issue by drastically reducing fees. This reduction in fees makes it feasible to run complex blockchain applications without incurring exorbitant costs. By making blockchain more affordable, Stylus opens up opportunities for developers to create innovative solutions without financial constraints.\n\n### Inclusivity and Flexibility\n\nInclusivity is another key feature of Stylus. Unlike other platforms that restrict developers to a single programming language, Stylus allows developers to use their preferred programming language. This inclusivity means that more developers can contribute to the Ethereum ecosystem, driving innovation and expanding the community. With Stylus, developers can write applications in languages like Rust, C, and C++, all interoperable on any Arbitrum chain. This flexibility enables developers to leverage their existing skills and knowledge, making it easier to onboard new talent into the blockchain space.\n\n### Improved Security\n\nStylus offers improved security features. It allows developers to deploy custom precompiles, including cryptography libraries, without requiring permission. This enhances the security of the applications built on Stylus, as developers can utilize specialized libraries to strengthen their code. Furthermore, Stylus provides cheap reentrancy detection, a vulnerability that developers often struggle to mitigate in Solidity. By default, reentrancy is disabled in Rust, unless intentionally overridden, providing an added layer of protection against potential exploits.\n",
+      "name": "Features of Stylus",
+      "stepItems": [],
+      "uuid": "2c531825-b9c2-488f-a24b-c0991f2972ca"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "6ffd959e-56e9-41a1-8844-eeb5374a8441"
+    },
+    {
+      "content": "## Working of Stylus\n\nStylus is not just another smart contract platform; it represents an evolutionary step in decentralized application development, offering capabilities beyond its predecessors. It's designed to unlock new horizons for developers and validators. Here's a deep dive into its lifecycle: coding, compilation, execution, and proving.\n\n### Coding\n\nAt the heart of any program lies its code - the digital DNA that determines its function and behavior. Stylus is versatile, catering to multiple languages that can be compiled into WebAssembly (WASM). While developers have the freedom to utilize a plethora of languages, Stylus initially offers streamlined support for Rust, C++, C, and “BF”. Notably, Stylus enriches these languages with an “Ethereum API”, allowing functionalities akin to what Solidity offers, only with more dynamism and flexibility. So, whether it's harnessing official cryptographic reference implementations or crafting a brand-new functionality, Stylus ensures compatibility and efficiency.\n\n### Compilation\n\nA Stylus program undergoes a dual-phase compilation. Initially, developers, using their trusted compilers like Clang, transform their high-level code into WASM. This WASM, once posted on-chain, sets the deterministic behavior of the contract. But the magic amplifies when the ArbWasm precompile steps in. This process transforms the WASM into a node's native assembly, ensuring efficient and tailored execution. Instrumentation, added during this phase, not only assures optimized execution but also ensures that the program aligns with blockchain safety and fraud prevention standards. \n\n### Execution\n\nStylus contracts come alive through Wasmer, a state-of-the-art WASM runtime. The agility of Wasmer ensures that Stylus contracts are executed at lightning speeds, translating to tangible gas savings. Simultaneously, the platform respects its Ethereum roots. The system intelligently discerns between an EVM contract and a WASM program, ensuring seamless interoperability. Contracts, whether they hail from Solidity or WASM arenas, communicate, and cooperate without any hitches.\n\n### Proving\n\nIn the world of Nitro, where trust and transparency reign supreme, Stylus stands as a testament to enhanced security. It gracefully extends Nitro's fraud-proving prowess. If discrepancies arise, Nitro and Stylus join forces, dissecting execution histories, be it native or WASM. The robustness of this system guarantees determinism, ensuring that every action, every opcode, undergoes rigorous scrutiny. The safety net it offers isn't just theoretical; Stylus has a working fraud prover in place, marking a leap in smart contract integrity.",
+      "name": "Working of Stylus",
+      "stepItems": [],
+      "uuid": "06c60302-2c7f-4951-88e4-44318ccd0507"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "86f2ddbd-3798-4123-a17a-9eb2c3a70015"
+    },
+    {
+      "content": "",
+      "name": "Adding Programming Language",
+      "stepItems": [],
+      "uuid": "3e80e9f0-0c11-4bb4-959c-ae1be14f33c5"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "b4436542-96d0-4c03-adf3-eebb6b76b0e4"
+    },
+    {
+      "content": "",
+      "name": "Running a Local Stylus Dev Node",
+      "stepItems": [],
+      "uuid": "5572f53f-c444-4ea5-963e-3cb9c256bbd7"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "7cdd1dc7-3526-4107-b5bf-55c9002665ef"
+    },
+    {
+      "content": "",
+      "name": "Reducing WASM Binary Size",
+      "stepItems": [],
+      "uuid": "425bcdc8-5f40-47d9-abb5-1616beead56e"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "2c856c6f-58e4-4320-bda7-787c5a7be17d"
+    },
+    {
+      "content": "- https://docs.arbitrum.io/stylus/stylus-gentle-introduction\n\n- https://tradedog.io/arbitrum-stylus-the-future-of-ethereum-development/\n\n- https://blockworks.co/news/arbitrum-stylus-testnet\n\n- https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22\n\n- https://medium.com/offchainlabs/stylus-in-action-lifecycle-of-a-stylus-contract-630f492ff85c",
+      "name": "References",
+      "stepItems": [],
+      "uuid": "35bd6d26-0080-4857-8e38-85296952e5d6"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "5d679448-6b80-41d6-803e-fec9f71893c4",
+  "version": 1,
+  "priority": 50
+}
