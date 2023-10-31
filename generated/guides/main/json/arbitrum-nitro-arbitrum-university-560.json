@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into Arbitrum Nitro",
-  "created": "2023-10-31T13:11:18.920Z",
+  "created": "2023-10-31T13:26:47.592Z",
   "guideType": "onboarding",
   "key": "arbitrum-nitro-arbitrum-university-560",
   "name": "Arbitrum Nitro ",
@@ -92,7 +92,7 @@
       "uuid": "ca041520-b639-4eab-b2c7-37b09560b6ea"
     },
     {
-      "content": "- https://docs.arbitrum.io/why-nitro\n\n- https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450\n\n- https://chainstack.com/arbitrum-nitro-an-overview/#3-nitro-vs-classic\n\n- https://docs.arbitrum.io/inside-arbitrum-nitro/#:~:text=Nitro%20is%20a%20major%20upgrade,of%20data%20posted%20to%20L1",
+      "content": "- https://docs.arbitrum.io/why-nitro\n\n- https://docs.arbitrum.io/inside-arbitrum-nitro/#:~:text=Nitro%20is%20a%20major%20upgrade,of%20data%20posted%20to%20L1\n\n- https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450\n\n- https://chainstack.com/arbitrum-nitro-an-overview/#3-nitro-vs-classic\n\n",
       "name": "References",
       "stepItems": [],
       "uuid": "d10846b3-3be8-43e0-9e3b-c8a48b29b98a"
