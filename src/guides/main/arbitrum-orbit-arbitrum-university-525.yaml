@@ -1,15 +1,56 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-10-31T17:34:44.320Z'
+created: '2023-10-31T17:59:49.036Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
 publishStatus: Live
 steps:
-  - content: |-
+  - content: >-
+      ## What is Arbitrum Oribit
 
-      Introduction Comments 
-              
+
+      Arbitrum Orbit is a product that allows you to create your own dedicated
+      chain that settles to one of Arbitrum's Layer 2 (L2) chains. These L2
+      chains include Arbitrum One, Arbitrum Nova, Arbitrum Goerli, and Arbitrum
+      Sepolia. With Arbitrum Orbit, you have full ownership and control over
+      your chain. You can customize its privacy settings, permissions, fee
+      token, governance, and more.
+
+
+      ## Advantages of Orbit Chains
+
+
+      #### Gas Price Reliability
+
+
+      One of the key benefits of using Arbitrum Orbit is the gas price
+      reliability it offers to end-users. The dedicated throughput and traffic
+      isolation provided by Orbit chains ensure that your users can enjoy
+      consistent and predictable gas prices. This is particularly useful in the
+      Ethereum ecosystem, where network congestion often leads to high gas fees
+      and delays.
+
+
+      #### Control on Permission Access
+
+
+      Another advantage of Arbitrum Orbit is the ability to implement permission
+      access. You can decide who can read your chain's data and who can deploy
+      smart contracts to your chain. This allows you to create a completely
+      permissionless chain like Ethereum and Arbitrum One, or you can set up
+      your own permissions policies according to your specific requirements.
+
+
+      #### Token of Choice
+
+
+      Arbitrum Orbit also allows you to collect fees using a token of your
+      choice. This gives you the flexibility to experiment with different
+      mechanism designs and capture value in a way that aligns with your
+      business goals. Additionally, Orbit chains are built on top of Arbitrum's
+      L2 Nitro technology stack, which incorporates fraud proofs, advanced
+      compression, EVM+ compatibility via Stylus, and continuous improvements.
     name: What is an arbitrum Orbit?
     stepItems: []
     uuid: 16adea27-d0a8-4a7b-99aa-c7635f4cd221
@@ -96,6 +137,6 @@ steps:
     uuid: 6bef430c-31af-4813-9d6f-26fabf977eee
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 145485fb-dfac-4fea-8a48-dc5e998da59c
+uuid: arbitrum-orbit-arbitrum-university-525
 version: 1
 priority: 50
