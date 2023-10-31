@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-10-30T17:17:09.971Z'
+created: '2023-10-31T13:14:03.864Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -23,7 +23,7 @@ steps:
       mainnet.
 
 
-      ## Transaction Rollups
+      ### Transaction Rollups
 
 
       The platform utilizes a technique called 'transaction rollups' to improve
@@ -77,7 +77,7 @@ steps:
       distributed to other network participants, such as validators.
 
 
-      ## Arbitrum's Challenge Mechanism 
+      ###  Arbitrum's Challenge Mechanism 
 
 
       To maintain the integrity of the system, Arbitrum introduces a challenge
@@ -88,7 +88,7 @@ steps:
       behavior.
 
 
-      ## Arbitrum Virtual Machine (AVM)
+      ###  Arbitrum Virtual Machine (AVM)
 
 
       Arbitrum also features its own custom virtual machine called the Arbitrum
@@ -99,7 +99,7 @@ steps:
       the AVM.
 
 
-      ## Optimistic Rollups
+      ###  Optimistic Rollups
 
 
       In terms of scalability, Arbitrum utilizes blockchain rollups, a 2-layer
@@ -178,11 +178,14 @@ steps:
     stepItems: []
     uuid: 35076c67-6a2a-4dfe-bfb4-c5b9565ed0f4
   - content: >-
+      ## Key Benefits of Arbitrum
+
+
       Arbitrum offers several benefits that make it a promising solution for the
       limitations of the Ethereum network. 
 
 
-      ## Compatible with EVM 
+      ###  Compatible with EVM 
 
 
       One of the standout features of Arbitrum is its compatibility with the
@@ -195,7 +198,8 @@ steps:
       validation of smart contracts. 
 
 
-      ## Greater Speed and Scalibility 
+      ###  Greater Speed and Scalibility 
+
 
       While Ethereum's switch to a proof-of-stake (PoS) consensus mechanism was
       expected to improve transaction speeds and scalability, it did not address
@@ -208,7 +212,7 @@ steps:
       allowing developers to use familiar languages like Solidity and Vyper.
 
 
-      ## Robust Developer Tooling 
+      ###  Robust Developer Tooling 
 
 
       Arbitrum aims to minimize barriers to entry for developers by providing
@@ -221,7 +225,7 @@ steps:
       sufficient incentives for validators.
 
 
-      ## Developer-Focused Approach
+      ###  Developer-Focused Approach
 
 
       Arbitrum has already conducted several testnets and is currently live on
@@ -243,18 +247,18 @@ steps:
     uuid: f77544c4-4e06-4dc0-adfc-6562e656ef2e
   - content: >
       -
-      [https://www.ledger.com/academy/topics/blockchain/what-is-arbitrum#:~:text=Arbitrum%20is%20a%20Layer%202,storage%20to%20the%20second%20chain]
+      https://www.ledger.com/academy/topics/blockchain/what-is-arbitrum#:~:text=Arbitrum%20is%20a%20Layer%202,storage%20to%20the%20second%20chain
 
 
-      - [https://capital.com/what-is-arbitrum-and-how-does-it-work]
+      - https://capital.com/what-is-arbitrum-and-how-does-it-work
 
 
-      - [https://coinmarketcap.com/academy/article/what-is-arbitrum]
+      - https://coinmarketcap.com/academy/article/what-is-arbitrum
     name: References
     stepItems: []
     uuid: 49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 5c4825b7-4556-4d45-917d-3dfd57668826
+uuid: introduction-to-arbitrum-arbitrum-university-794
 version: 1
 priority: 50
