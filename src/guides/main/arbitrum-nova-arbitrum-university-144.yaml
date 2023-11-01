@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-01T18:40:51.625Z'
+created: '2023-11-01T18:48:11.585Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -126,7 +126,48 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 7f2b25cc-5ddc-4386-a8bf-82e8ee18f826
-  - content: ''
+  - content: >+
+      ## What is a Data Availability Certificate (DACerts)
+
+
+      Data Availability Certificates (DACerts) are an essential component of
+      AnyTrust, a system that ensures the availability of data in a
+      decentralized network. A DACert serves as proof that a specific block's
+      data will be accessible from at least one honest Committee member until a
+      specified expiration time. It consists of a BLS aggregated signature,
+      which demonstrates that N-1 Committee members have signed the (hash,
+      expiration time) pair. By utilizing DACerts, AnyTrust enhances the
+      trustworthiness and availability of data in the decentralized network. It
+      provides a mechanism to ensure that data blocks can be accessed by at
+      least one honest Committee member, thereby increasing the reliability of
+      the system. DACerts offer a valuable solution for maintaining data
+      availability and integrity in decentralized environments.
+
+
+      #### How is it different from Nitro System? 
+
+
+      In the traditional Nitro system, data blocks are posted on the L1 chain as
+      calldata, and their hashes are committed by the L1 Inbox contract. This
+      allows the data to be reliably read by L2 code. However, AnyTrust
+      introduces an additional option for the sequencer to post a data block on
+      L1: using a DACert to prove the availability of the data.
+
+
+      #### Verification of DACert
+
+
+      When a DACert is submitted to the L1 inbox contract, it undergoes
+      validation checks. The contract ensures that the DACert uses a valid
+      Keyset, while other aspects of DACert validity are verified by the L2
+      code. These checks include confirming that the number of signers meets the
+      requirements of the Keyset and that the expiration time is at least two
+      weeks after the current L2 timestamp. If a DACert is found to be invalid
+      during the validation process, the L2 code discards it and proceeds to the
+      next data block. However, if the DACert is valid, the L2 code reads the
+      associated data block, which is guaranteed to be available due to the
+      DACert's validity.
+
     name: Data Availability Certificates
     stepItems: []
     uuid: 23e855d8-e3ff-49e3-bef2-9961ebefa48e
@@ -160,6 +201,6 @@ steps:
     uuid: 34b03539-d2e8-4489-b118-af2b06dca0d1
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 65055d86-c5b5-4366-b89a-8bbaf849cf97
+uuid: arbitrum-nova-arbitrum-university-144
 version: 1
 priority: 50
