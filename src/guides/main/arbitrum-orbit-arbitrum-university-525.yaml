@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-01T13:58:18.965Z'
+created: '2023-11-01T14:29:11.206Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -287,7 +287,9 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 3ecc45ec-080d-4df9-893c-e6b4654cc324
-  - content: ''
+  - content: |-
+      Coding related content
+      https://docs.arbitrum.io/launch-orbit-chain/how-tos/customize-precompile 
     name: Customize Orbit's Precompiles
     stepItems: []
     uuid: 4a32d9e2-67db-449a-8855-c81923d2235b
@@ -295,7 +297,10 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 2fbf3bc3-4ebb-4e56-aa3f-3a9b4d41b3aa
-  - content: ''
+  - content: |+
+      ## State Transition Function
+
+
     name: Customizing Orbit's Behavior
     stepItems: []
     uuid: 14adb360-28f6-443f-91fa-aa4bd739db19
@@ -303,7 +308,50 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: c8b8de87-633b-4859-9735-8626bb4912ef
-  - content: ''
+  - content: >-
+      ## How to add your testnet Orbit chain to Arbitrum's bridge?
+
+
+      To add your testnet Orbit chain to Arbitrum's bridge, follow these steps:
+
+
+      1. If you're currently connected to mainnet and don't want to manually
+      switch networks in your wallet, you can enable testnet mode in the bridge.
+      Simply click on your address in the top right corner of the bridge UI, go
+      to Settings, and turn on testnet mode.
+
+
+      2. In the Settings section of the bridge UI, scroll down until you find
+      "Add Testnet Orbit Chain: Orbit Bridge." This is where you will add your
+      testnet Orbit chain.
+
+
+      3. To add your chain, you need to copy and paste the JSON configuration
+      from your generated outputInfo.json file. This file contains the necessary
+      information for the bridge to recognize and connect to your testnet Orbit
+      chain.
+
+
+      4. After pasting the JSON configuration, your chain should now appear in
+      both the network dropdown in the top navigation pane and as an option in
+      the bridging UI. This means that your testnet Orbit chain has been
+      successfully added to Arbitrum's bridge.
+
+
+      ## Important to Note
+
+
+      Please note that users connecting to the bridge using WalletConnect may
+      experience errors due to recent upgrades. If you encounter any issues, it
+      is recommended to check for updates or try connecting using a different
+      method.
+
+
+      It's important to remember that the bridge will never ask you for your
+      seed phrase or private keys. Be cautious of any requests asking for this
+      sensitive information. By following these steps, you can safely and
+      securely add your testnet Orbit chain to Arbitrum's bridge and begin
+      utilizing its features.
     name: Adding Testnet Orbit to Bridge
     stepItems: []
     uuid: 891cf4d3-b625-40ef-b3dd-91550445ccf9
