@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
-  "created": "2023-11-01T14:29:11.206Z",
+  "created": "2023-11-01T15:21:59.949Z",
   "guideType": "onboarding",
   "key": "arbitrum-orbit-arbitrum-university-525",
   "name": "Arbitrum Orbit",
@@ -104,7 +104,7 @@
       "uuid": "2fbf3bc3-4ebb-4e56-aa3f-3a9b4d41b3aa"
     },
     {
-      "content": "## State Transition Function\n\n\n",
+      "content": "Coding related Content\nhttps://docs.arbitrum.io/launch-orbit-chain/how-tos/customize-stf \n\n\n",
       "name": "Customizing Orbit's Behavior",
       "stepItems": [],
       "uuid": "14adb360-28f6-443f-91fa-aa4bd739db19"
@@ -128,7 +128,7 @@
       "uuid": "434af98e-6faa-4d81-8839-80551f065301"
     },
     {
-      "content": "",
+      "content": "## Customizing Parameters\n\nCustomizing your Orbit chain's deployment configuration can be done through the deployment portal. By default, the form in the portal is prefilled with values that usually don't need to be changed. However, there are cases where customization may be necessary. When customizing your Orbit chain's deployment configuration, it's important to consider the tradeoffs associated with each parameter. By carefully selecting the values that align with your chain's needs, you can optimize its performance and security.\n\n#### Unique Integer Identifier \n\nOne parameter to consider customizing is the unique integer identifier for your chain's network. This identifier helps distinguish your Orbit chain from others. It's important to choose a name that is easily remembered and recognized by your users and developers.\n\n#### Challenge Period \n\nAnother parameter to consider is the challenge period. This determines the amount of time your chain's validators have to dispute the current state of the chain. A longer challenge period allows more time for fraudulent states to be disputed, but it also means users have to wait longer to withdraw their assets.\n\n#### Stake Tokens\n\nThe stake token parameter specifies the token that validators must deposit when staking. This incentivizes honest participation. You can specify the token's contract address on the L2 chain or use ETH as the stake token.\n\n#### Base Stake\n\nThe base stake parameter determines the amount of the stake token that validators must deposit to post assertions of the state of your Orbit chain. A higher base stake makes it more expensive for attackers to launch certain types of attacks, but it also creates a higher barrier to entry for validators.\n\n#### Account Address\n\nThe account address responsible for deploying and updating your Orbit chain's base contracts should be considered. In production scenarios, this address is often controlled by a governance protocol or multisig. For devnet chains, it can be thought of as a low-stakes administrative service account.",
       "name": "Customizing Orbit's Deployment",
       "stepItems": [],
       "uuid": "f3695fc2-2f3d-4e42-b679-7abaadbef60c"
