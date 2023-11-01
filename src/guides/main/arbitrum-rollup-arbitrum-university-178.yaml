@@ -1,0 +1,117 @@
+categories: []
+content: Unraveling the intricacies of Arbitrum Rollup
+created: '2023-11-01T16:32:59.716Z'
+guideType: onboarding
+key: arbitrum-rollup-arbitrum-university-178
+name: 'Arbitrum Rollup '
+publishStatus: Live
+steps:
+  - content: >
+      ## Arbitrum Rollup Protocol
+
+
+      The Arbitrum Rollup Protocol is a system that operates as a sub-module
+      within Ethereum. Unlike regular Ethereum transactions, the Arbitrum Rollup
+      chain does not require every transaction to be processed by Ethereum
+      nodes. Instead, Ethereum assumes that activity on Arbitrum follows the
+      proper rules until proven otherwise. If a violation occurs, it can be
+      disputed on Ethereum's layer 1 (L1), and fraud will be proven, invalid
+      claims disregarded, and the malicious party penalized financially. This
+      feature allows for the adjudication and proof of fraud on Ethereum's layer
+      1, ensuring the security of the system. Arbitrum Rollup functions in the
+      background, ensuring the system works without requiring constant
+      monitoring or study. However, developers are welcome to observe and
+      participate in the protocol if they wish. 
+
+
+      ## Functions of Arbitrum Rollup Protocol
+
+
+      #### Confirm Transaction Results
+       
+      The rollup protocol's main role is to confirm transaction results that
+      have already occurred. Once your transaction message is in the chain's
+      inbox, its result is known, and Arbitrum nodes will report that the
+      transaction is complete. The rollup protocol confirms these results,
+      allowing Ethereum to rely on them for operations such as fund withdrawals
+      from Nitro back to layer 1.
+
+
+      #### Identify and Expose False Claims
+       
+      It provides a trustless way to identify and expose any false claims about
+      transaction outcomes. While Ethereum cannot monitor every Arbitrum
+      transaction, once a result is confirmed, Ethereum can trust and rely on
+      it. This confirmation enables various operations on Ethereum, even if
+      Ethereum itself couldn't process every Arbitrum transaction. The rollup
+      protocol ensures that the correct execution of the chain is confirmed,
+      making the execution of an Arbitrum chain as trustless as Ethereum itself.
+
+
+      The rollup protocol tracks a chain of rollup blocks called RBlocks. These
+      RBlocks form a separate chain managed by the Arbitrum rollup protocol.
+      Each RBlock contains various claims made by the proposer, such as the
+      predecessor RBlock number and the number of inbox messages consumed in the
+      chain's history. The protocol eventually confirms or rejects each RBlock
+      based on the correctness of these claims. An RBlock implicitly claims the
+      correctness of its predecessor and the complete history of the chain. If a
+      disagreement arises, validators can propose alternative RBlocks, leading
+      to challenges and resolution processes. The protocol confirms or rejects
+      RBlocks based on their deadlines, ensuring the chain's integrity.
+    name: Arbitrum Rollup Protocol
+    stepItems: []
+    uuid: 6518ecd4-423b-4fda-9997-2eeef383a8c4
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 246b2968-3b32-4d29-8db6-219b87dce1fc
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: 712d4ad8-28db-4c05-acd3-7841884f416d
+        explanation: Explanation of the question
+    uuid: 2f4cf0fd-0182-42f6-a8e0-991b5744af12
+  - content: ''
+    name: How does it work?
+    stepItems: []
+    uuid: 27e1be96-8080-4790-bb00-62737a4237c2
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: b2d7ad9a-130d-42d7-8d49-ec0d26765109
+  - content: ''
+    name: Staking
+    stepItems: []
+    uuid: 8f451c3d-254b-489b-afbd-631adbe2df95
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 5fc9259a-0202-48db-ab19-853e6f3b7bba
+  - content: ''
+    name: Rules for Confirming & Rejecting
+    stepItems: []
+    uuid: f331c69f-c4dc-4d64-971a-f540dbc5d1a4
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: c128e2ad-b50c-40f8-8a37-0ac6f0f47c5e
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: bf6a9ac1-2acf-492c-832a-c5f7d0e5d8bf
+version: 1
+priority: 50
