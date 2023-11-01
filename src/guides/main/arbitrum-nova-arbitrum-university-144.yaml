@@ -1,0 +1,165 @@
+categories: []
+content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
+created: '2023-11-01T18:40:51.625Z'
+guideType: onboarding
+key: arbitrum-nova-arbitrum-university-144
+name: Arbitrum Nova
+publishStatus: Live
+steps:
+  - content: >-
+      ## Arbitrum Nova?
+
+
+      Arbitrum Nova is a high-performance alternative to Arbitrum One's chain.
+      While Arbitrum One focuses on pure trustlessness through the Rollup
+      protocol, Arbitrum Nova implements the AnyTrust protocol, which introduces
+      an additional trust assumption in the form of a Data Availability
+      Committee (DAC). This committee is responsible for storing, batching, and
+      posting L2 transaction data to Ethereum's L1, expediting the process and
+      improving performance and affordability. AnyTrust manages data off-chain,
+      relying on the committee members to provide the necessary data in case of
+      a challenge. This off-chain approach allows AnyTrust to offer lower fees,
+      making it a sensible tradeoff for applications that require high
+      transaction throughput but don't need the full decentralization provided
+      by rollups.
+
+
+      #### Use Cases and Focus
+
+
+      Arbitrum Nova is tailored for building social applications and gaming. The
+      new chain aims to help creators tackle scalability, privacy, and
+      speed-related issues. By implementing optimistic rollup technology,
+      Arbitrum Nova offers faster transactions, lower fees, and robust
+      Ethereum-based security benefits for Web3 developers. It provides full
+      access to the EVM environment, allowing developers to test out the new
+      technology and explore a broader range of use cases.
+
+
+      #### Transaction Data Handling
+
+
+      Arbitrum Nova utilizes the AnyTrust technology introduced in early 2022,
+      which significantly reduces transaction costs by only putting data
+      on-chain if the committee fails to perform its function. This approach
+      makes it ideal for projects with high transaction volume expectations,
+      such as gaming and social platforms. The creators of Arbitrum Nova also
+      plan to implement further improvements to reduce transaction costs over
+      time, ensuring that the chain remains efficient and cost-effective for
+      developers.
+    name: What is Arbitrum Nova?
+    stepItems: []
+    uuid: da215e0f-48ba-4f01-b253-88e962c31866
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: c2bf1043-ab0d-42e5-ae7f-7a2ea0dda0a3
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: d6fc5f36-3c2c-4a66-9a17-abbff017d633
+        explanation: Explanation of the question
+    uuid: 33bf1c78-8529-42b0-8ff8-3c55952709c9
+  - content: >+
+      ## What is AnyTrust?
+
+
+      AnyTrust is a variant of the Arbitrum Nitro technology that aims to lower
+      costs and improve efficiency by accepting a mild trust assumption. It
+      operates by relying on an external Data Availability Committee (DAC) to
+      store data and provide it when needed. The DAC consists of N members, with
+      the assumption that at least two of them are honest.
+
+
+      #### The Role of the Data Availability Committee
+
+
+      The Data Availability Committee plays a crucial role in the AnyTrust
+      protocol. It stores the data and ensures its availability for the rollup
+      protocol to function correctly. If N-1 Committee members promise to
+      provide access to certain data, it guarantees that at least one of the
+      promising parties is honest, ensuring the availability of the data.
+
+
+      #### Keysets and Membership Changes
+
+
+      To facilitate membership changes and provide flexibility to Committee
+      members, AnyTrust utilizes Keysets. A Keyset specifies the public keys of
+      Committee members and the number of signatures required for a Data
+      Availability Certificate to be valid. The L1 KeysetManager contract
+      maintains a list of currently valid Keysets, allowing the contents to be
+      recovered later by anyone given only the Keyset hash.
+
+
+      ## Benefits of Nova
+
+
+      #### Lowering Costs and Improving Efficiency
+
+
+      The main goal of AnyTrust is to reduce costs and speed up non-fungible
+      withdrawals in the common case. By keeping the data off-chain in the
+      happy/common case, the system can charge users significantly lower fees.
+      This is achieved by leveraging the trust assumption and relying on the
+      Committee to store and provide data on demand.
+
+    name: AnyTrust Overview
+    stepItems: []
+    uuid: 14b4f959-595a-479a-8123-0c31f19e26b7
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 7f2b25cc-5ddc-4386-a8bf-82e8ee18f826
+  - content: ''
+    name: Data Availability Certificates
+    stepItems: []
+    uuid: 23e855d8-e3ff-49e3-bef2-9961ebefa48e
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: c7e781c8-65cb-4190-bd76-26c6ef3756c1
+  - content: ''
+    name: 'Data Availability Servers '
+    stepItems: []
+    uuid: 6a3dea00-4a8f-43d6-9d9f-18a8476f1520
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: b614e0a9-e532-44c2-b943-6745b8f9d531
+  - content: ''
+    name: Sequencer Committee Interaction
+    stepItems: []
+    uuid: c973399d-1fc0-474a-9519-bfabb9015922
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 84d4d5a8-4702-4ba3-89e4-0fe218c8b0d3
+  - content: ''
+    name: Rollup vs Anytrust
+    stepItems: []
+    uuid: 4e3de1c8-a81b-438d-a502-266879063830
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 34b03539-d2e8-4489-b118-af2b06dca0d1
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 65055d86-c5b5-4366-b89a-8bbaf849cf97
+version: 1
+priority: 50
