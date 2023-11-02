@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-02T12:23:01.554Z'
+created: '2023-11-02T12:32:43.996Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -294,7 +294,8 @@ steps:
       for further processing within the Arbitrum ecosystem.
 
 
-      #### Fallback to Rollup:
+      #### Fallback to Rollup
+
 
       In the event that the sequencer fails to collect enough signatures within
       a few minutes, it will abandon the attempt to use the Committee. Instead,
@@ -308,7 +309,61 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 84d4d5a8-4702-4ba3-89e4-0fe218c8b0d3
-  - content: ''
+  - content: >-
+      ## Differences between Arbitrum Nova (AnyTrust) and Arbitrum One (Rollup)
+
+
+      Arbitrum Nova and Arbitrum One are two different chains within the
+      Arbitrum ecosystem, each with its own unique features and characteristics.
+      These differences provide users with options based on their specific needs
+      and preferences within the Arbitrum ecosystem. Let's explore the
+      differences between them.
+
+
+      #### Data Availability 
+
+
+      In Arbitrum One, all Layer 2 transaction data is posted on the Ethereum
+      blockchain, allowing validators to verify the authenticity of
+      transactions. On the other hand, Arbitrum Nova uses a different technology
+      called AnyTrust, where a Data Availability Committee (DAC) stores
+      transaction data and provides it to validators through Data Availability
+      Certificates (DACerts). This means that only the certificates are posted
+      on Layer 1, rather than the full transaction data.
+
+
+      #### Trust Assumption
+
+
+      Arbitrum One is trustless and permissionless, meaning that anyone can
+      participate in validating the chain and ensuring its safety. However,
+      Arbitrum Nova introduces a trust assumption by relying on the honesty of
+      at least two members of the Data Availability Committee. If this
+      assumption is met, the system operates without posting the L2 chain's data
+      on L1, resulting in significantly lower fees for users.
+
+
+      #### Gas Price and Scalability
+
+
+      The minimum allowed gas price on Arbitrum Nova is 0.01 gwei, while on
+      Arbitrum One it is 0.1 gwei. This means that transactions on Arbitrum Nova
+      can cost 10 times less than on Arbitrum One, even if they require the same
+      amount of computation effort. Additionally, Nova is designed to be more
+      scalable, making it a suitable choice for high-load decentralized
+      applications (dApps) like NFT-based games and Web3 social networks.
+
+
+      #### DeFi Protocols
+
+
+      Both Arbitrum Nova and Arbitrum One support various decentralized finance
+      (DeFi) protocols. However, Arbitrum One currently has a higher Total Value
+      Locked (TVL) with $3.4 billion compared to Nova's less than $5 million.
+      Notable DeFi protocols on Arbitrum One include Uniswap, Balancer, Aave,
+      Sushi, and Curve. Nova, on the other hand, features Sushi and other
+      lesser-known dApps like Arbswap, RCPswap, Symbiosis Finance, and Archly
+      Finance.
     name: Rollup vs Anytrust
     stepItems: []
     uuid: 4e3de1c8-a81b-438d-a502-266879063830
