@@ -1,0 +1,111 @@
+{
+  "categories": [],
+  "content": "Arbitrum One: Unraveling the intricacies of Arbitrum Rollup",
+  "created": "2023-11-02T14:13:29.232Z",
+  "guideType": "onboarding",
+  "key": "arbitrum-one-arbitrum-university-177",
+  "name": "Arbitrum One",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "## Arbitrum One?\n\nArbitrum One is a Layer 2 (L2) optimistic rollup chain that aims to improve the performance and user experience of Ethereum. It is built on the Arbitrum Rollup protocol and settles transactions on Ethereum's Layer 1 (L1) chain. The goal of Arbitrum One is to enable the development of high-performance Ethereum decentralized applications (dApps) with low transaction costs and Ethereum-grade security guarantees, all without introducing additional trust assumptions.\n\n#### Features of Arbitrum One\n\nArbitrum One utilizes the Nitro technology stack, which is based on a \"Geth-at-the-core\" architecture. This technology stack provides advanced calldata compression, separate contexts for common execution and fault proving, Ethereum L1 gas compatibility, and more. By leveraging these features, Arbitrum One is able to overcome the limitations of transaction throughput on the Ethereum Mainnet (L1) and offer a scalable solution for handling transactions off L1.\n\n#### Dispute Resolution\n\nArbitrum One employs a multi-round interactive design to efficiently resolve disputes on L1 at a low cost. When a validator on L2 posts bundled data to L1, they lock a bond in a smart contract. If someone believes the transaction data is incorrect, they can issue a challenge within a specified time window and also lock a bond in the smart contract. The validator and the challenger then work together to split the disputed part in a dichotomous way off-chain until the dispute is narrowed down to a specific part. Finally, they go to L1 to resolve the dispute.\n",
+      "name": "What is Arbitrum One?",
+      "stepItems": [],
+      "uuid": "4a797c46-12fd-437d-9784-346875967164"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "8f3de2ec-9615-4352-98c4-b2b61a738717"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "3c0a1bd5-a0ec-4929-9614-2702b739cdd7",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "287bba79-de96-4fbe-addd-140a78c46939"
+    },
+    {
+      "content": "",
+      "name": "Understanding Arbitrum Rollup",
+      "stepItems": [],
+      "uuid": "a622a2f6-e742-455b-9455-c724cbefae40"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e"
+    },
+    {
+      "content": "",
+      "name": "How does it work?",
+      "stepItems": [],
+      "uuid": "41ee7801-5700-4906-bb10-4d8d7e87e9bb"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "dc1888d0-1e86-43c3-a49e-06899a54b60e"
+    },
+    {
+      "content": "",
+      "name": "Staking",
+      "stepItems": [],
+      "uuid": "f7348a7d-f200-4414-96d6-39bd92294464"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "bad34284-ba34-49ed-96a0-6fc9d44f8aa0"
+    },
+    {
+      "content": "",
+      "name": "Rules to Confirm or Reject",
+      "stepItems": [],
+      "uuid": "04efe8e9-3a16-4650-9dba-185fc5833ea8"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "db8f8e9c-5d93-4e4d-9f1a-546382bb4096"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "0722f5bf-b73e-4386-a70d-08d41f2b5c2b",
+  "version": 1,
+  "priority": 50
+}
