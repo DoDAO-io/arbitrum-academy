@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-02T17:28:13.778Z'
+created: '2023-11-02T18:32:58.685Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -308,18 +308,11 @@ steps:
     stepItems: []
     uuid: 5f0d9535-a144-4950-bd96-dfcff6be14d4
   - content: >-
-      ## How to Bridge Tokens: A step-by-step guide
-
-
-      #### Introduction to Token Bridging
-
-
       Token bridging allows projects to seamlessly connect their existing Layer
       1 (L1) tokens with the Arbitrum ecosystem. This integration enables the
       transfer of tokens between L1 and Layer 2 (L2) networks, providing
-      increased scalability and efficiency. In this guide, we will explore the
-      different methods available for bridging tokens and how you can implement
-      them.
+      increased scalability and efficiency. Following are the different ways to
+      bridge tokens:
 
 
       #### Standard Gateway
