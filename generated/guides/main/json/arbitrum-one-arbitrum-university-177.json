@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum One: Unraveling the intricacies of Arbitrum Rollup",
-  "created": "2023-11-02T14:13:29.232Z",
+  "created": "2023-11-02T14:27:29.463Z",
   "guideType": "onboarding",
   "key": "arbitrum-one-arbitrum-university-177",
   "name": "Arbitrum One",
@@ -56,7 +56,7 @@
       "uuid": "287bba79-de96-4fbe-addd-140a78c46939"
     },
     {
-      "content": "",
+      "content": "## Arbitrum Rollup Protocol\n\nThe Arbitrum Rollup Protocol is a system that operates as a sub-module within Ethereum. Unlike regular Ethereum transactions, the protocol does not require every Arbitrum transaction to be processed by Ethereum nodes. Instead, Ethereum assumes that activity on Arbitrum follows the proper rules until proven otherwise. If a violation occurs, it can be disputed on Ethereum's layer 1 (L1), where fraud can be proven, invalid claims disregarded, and the malicious party penalized financially. This feature allows for adjudication and fraud-proofing on L1, ensuring the security inherited from Ethereum.\n\n## The Rollup Security\n\nThe rollup protocol's security is ensured by the presence of honest validators. Validators can choose to be stakers by placing an ETH deposit, which they can recover if they are not caught cheating. In most cases, only one validator will be staked, as long as there are no conflicting claims. The protocol allows for permissionless roles, but currently, on Arbitrum One, validators/stakers are allowlisted. Watchtower validators, who monitor the chain but do not take any on-chain actions, can be run permissionlessly. The key security feature of the rollup protocol is that any honest validator can enforce the correct execution of the chain, making the execution as trustless as Ethereum itself. This means that even in the presence of malicious actors, your transactions can be processed correctly, ensuring the integrity of the system.\n\n#### Confirming Transactions\n\nThe rollup protocol does not decide the results of transactions; it only confirms them. The results are determined by the sequence of messages in the chain's inbox. Once a transaction message is in the inbox, its result is known to the Arbitrum nodes, and they will report that the transaction is complete. The rollup protocol's role is to confirm the already occurred transaction results, allowing Ethereum to rely on them for operations such as processing fund withdrawals from Nitro back to L1. Confirming the results is necessary to prevent false claims and establish trust in a trustless manner.\n\nOne of the main reasons for confirming transaction results is to identify any lies or false claims. In a Layer 2 scaling system like Arbitrum, transactions can run without Ethereum having to process every transaction. However, a definitive and trustless way is needed to determine who is lying about a result. Once a result is confirmed, Ethereum becomes aware of it and can rely on it for further operations. This confirmation enables the processing of fund withdrawals from Nitro back to L1. By confirming results, Ethereum can trust the transactions that have taken place on Arbitrum.",
       "name": "Understanding Arbitrum Rollup",
       "stepItems": [],
       "uuid": "a622a2f6-e742-455b-9455-c724cbefae40"
@@ -105,7 +105,7 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "0722f5bf-b73e-4386-a70d-08d41f2b5c2b",
+  "uuid": "arbitrum-one-arbitrum-university-177",
   "version": 1,
   "priority": 50
 }
