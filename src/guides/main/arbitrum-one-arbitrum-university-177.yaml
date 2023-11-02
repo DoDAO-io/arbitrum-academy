@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-02T14:52:41.646Z'
+created: '2023-11-02T14:57:24.062Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -270,7 +270,67 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: bad34284-ba34-49ed-96a0-6fc9d44f8aa0
-  - content: ''
+  - content: >-
+      Rules to Confirming or Rejecting Rblocks
+
+
+      1. Disagreements and Dispute Resolution
+
+      When stakers are staked on different RBlocks with the same predecessor, a
+      disagreement arises about which RBlock is correct. To resolve this, an
+      interactive dispute resolution protocol is initiated between the two
+      parties. This protocol is similar to a bisection-type interactive
+      protocol. The outcome of the dispute resolution is that one party is found
+      to be incorrect, and their stake is given to the other party. This reduces
+      the amount of disagreement in the system and ensures that only valid
+      RBlocks are confirmed.
+
+
+      2. Progressive Elimination of Disagreement
+
+      After the staking deadline of an RBlock has passed, disputes progressively
+      eliminate any disagreement about how to treat that RBlock. Once all timely
+      stakes on the same branch from that RBlock remain, the system can confirm
+      the result of that RBlock. The RBlock is either accepted or rejected, and
+      the current state moves to the appropriate square to the right of the
+      RBlock. If the RBlock is confirmed as valid, its side-effects, such as
+      payments, are effectuated on-chain.
+
+
+      3. Trustless Confirmation and Finality
+
+      Arbitrum Rollup ensures trustless confirmation and finality. A single
+      honest party can force the virtual machine (VM) to behave correctly and
+      make progress. If a staker is staked on a square and knows that the path
+      to that square is truthful, they can be certain that the square they are
+      on will eventually be confirmed. Even if not staked on a path, if multiple
+      people are staked on it and at least one is trusted to be honest, then the
+      path will be confirmed eventually. This trustless finality allows for the
+      creation of market mechanisms and lending services based on the certainty
+      of eventual confirmation.
+
+
+      4. Defense Against Delay Attacks
+
+      The system is designed to defend against delay attacks by bad actors.
+      These attackers stake on false branches to delay the on-chain confirmation
+      of the honest path. However, their stakes are at risk as honest parties
+      can enter disputes against the attackers and claim their stakes. The more
+      stakes the attacker puts down, the more likely they are to attract even
+      more honest stakers who want to participate in claiming the attacker's
+      stakes. This creates a feeding frenzy against delay attackers, making it
+      costly for them to continue their attacks.
+
+
+      5. Optimizations and Future Development
+
+      Various optimizations can be implemented to reduce the on-chain
+      bookkeeping and gas cost of the protocol. These optimizations aim to make
+      beneficial feeding frenzies against delay attackers easier to mount. The
+      details of these optimizations are not provided in this content, but they
+      are expected to be included in the open-source codebase of Arbitrum Rollup
+      soon. The development of this protocol is ongoing, and contributions from
+      interested individuals are welcomed.
     name: Rules to Confirm or Reject
     stepItems: []
     uuid: 04efe8e9-3a16-4650-9dba-185fc5833ea8
