@@ -1,13 +1,13 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-01T15:21:59.949Z'
+created: '2023-11-02T12:58:46.715Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
 publishStatus: Live
 steps:
   - content: >-
-      ## What is Arbitrum Oribit
+      ## What is Arbitrum Orbit?
 
 
       Arbitrum Orbit is a product that allows you to create your own dedicated
@@ -51,7 +51,7 @@ steps:
       business goals. Additionally, Orbit chains are built on top of Arbitrum's
       L2 Nitro technology stack, which incorporates fraud proofs, advanced
       compression, EVM+ compatibility via Stylus, and continuous improvements.
-    name: What is an arbitrum Orbit?
+    name: What is Arbitrum Orbit?
     stepItems: []
     uuid: 16adea27-d0a8-4a7b-99aa-c7635f4cd221
   - content: ''
