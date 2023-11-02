@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-02T14:57:24.062Z'
+created: '2023-11-02T15:20:46.014Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -271,10 +271,11 @@ steps:
     stepItems: []
     uuid: bad34284-ba34-49ed-96a0-6fc9d44f8aa0
   - content: >-
-      Rules to Confirming or Rejecting Rblocks
+      ## Rules to Confirming or Rejecting Rblocks
 
 
-      1. Disagreements and Dispute Resolution
+      #### Disagreements and Dispute Resolution
+
 
       When stakers are staked on different RBlocks with the same predecessor, a
       disagreement arises about which RBlock is correct. To resolve this, an
@@ -286,7 +287,8 @@ steps:
       RBlocks are confirmed.
 
 
-      2. Progressive Elimination of Disagreement
+      #### Progressive Elimination of Disagreement
+
 
       After the staking deadline of an RBlock has passed, disputes progressively
       eliminate any disagreement about how to treat that RBlock. Once all timely
@@ -297,7 +299,8 @@ steps:
       payments, are effectuated on-chain.
 
 
-      3. Trustless Confirmation and Finality
+      #### Trustless Confirmation and Finality
+
 
       Arbitrum Rollup ensures trustless confirmation and finality. A single
       honest party can force the virtual machine (VM) to behave correctly and
@@ -310,7 +313,8 @@ steps:
       of eventual confirmation.
 
 
-      4. Defense Against Delay Attacks
+      #### Defense Against Delay Attacks
+
 
       The system is designed to defend against delay attacks by bad actors.
       These attackers stake on false branches to delay the on-chain confirmation
@@ -322,7 +326,8 @@ steps:
       costly for them to continue their attacks.
 
 
-      5. Optimizations and Future Development
+      #### Optimizations and Future Development
+
 
       Various optimizations can be implemented to reduce the on-chain
       bookkeeping and gas cost of the protocol. These optimizations aim to make
