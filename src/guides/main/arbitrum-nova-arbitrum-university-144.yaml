@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-02T12:14:35.338Z'
+created: '2023-11-02T12:23:01.554Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -243,7 +243,64 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: b614e0a9-e532-44c2-b943-6745b8f9d531
-  - content: ''
+  - content: >
+      ## Sequencer Committee Interaction
+
+
+      In the Arbitrum ecosystem, the Sequencer Committee plays a crucial role in
+      ensuring the smooth functioning of data posting. This interaction involves
+      the sequencer, committee members, and the L2 software. By following this
+      process, data batches are securely stored, signed, and made available for
+      further processing. In case of any issues, the fallback mechanism ensures
+      the continuity of data posting. This seamless interaction ensures the
+      efficient functioning of the Arbitrum ecosystem. Let's delve into the
+      process and understand how it works.
+
+
+      #### Data Batch Posting
+
+
+      When the Arbitrum sequencer wants to post a data batch using the
+      Committee, it sends the batch's data and an expiration time to all
+      Committee members simultaneously. This is done through a process called
+      Remote Procedure Call (RPC). The expiration time is typically set to three
+      weeks in the future.
+
+
+      #### Storage and Signing
+
+
+      Upon receiving the data, each Committee member stores it in its own
+      backing store, organizing it by the data's hash. Additionally, the member
+      signs the (hash, expiration time) pair using its BLS key. The signature,
+      along with a success indicator, is then sent back to the sequencer.
+
+
+      #### Signature Aggregation
+
+
+      Once the sequencer has collected enough signatures from the Committee
+      members, it can aggregate them to create a valid DACert (Data Availability
+      Certificate) for the (hash, expiration time) pair. This DACert is a
+      crucial component for data availability in the Arbitrum ecosystem.
+
+
+      ####  Posting to L1 Inbox Contract
+
+
+      The sequencer proceeds to post the DACert to the L1 inbox contract. By
+      doing so, the DACert becomes accessible to the AnyTrust chain software at
+      L2. This step ensures that the data is securely transferred and available
+      for further processing within the Arbitrum ecosystem.
+
+
+      #### Fallback to Rollup:
+
+      In the event that the sequencer fails to collect enough signatures within
+      a few minutes, it will abandon the attempt to use the Committee. Instead,
+      it will "fall back to rollup" by directly posting the full data to the L1
+      chain. This fallback mechanism ensures that data is not lost and can still
+      be processed in a non-AnyTrust chain scenario.
     name: Sequencer Committee Interaction
     stepItems: []
     uuid: c973399d-1fc0-474a-9519-bfabb9015922
