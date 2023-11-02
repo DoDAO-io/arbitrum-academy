@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-02T14:27:29.463Z'
+created: '2023-11-02T14:43:53.526Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -132,7 +132,77 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
-  - content: ''
+  - content: >
+      ## Working of Arbitrum Rollup
+
+
+      Arbitrum Rollup is an off-chain protocol that is managed by an on-chain
+      Ethereum contract. It allows dapp developers to run their contracts on the
+      Arbitrum Virtual Machine (VM). The state of the VM is organized as a
+      Merkle Tree, which means that a cryptographic hash of the VM's state can
+      be computed. This allows for the confirmation and finality of the VM's
+      state at any point in the protocol.
+
+
+      #### Disputable Assertions (DAs) 
+
+
+      Disputable Assertions play a crucial role in the Arbitrum Rollup protocol.
+      A participant in the protocol can make a DA, which claims that starting
+      from a specific state-hash, the VM can execute a certain number of
+      computation steps and reach a new state-hash. The party making the DA must
+      stake a deposit to validate its validity. If the DA is valid, the system
+      enters a new state with the specified payments and log events. If the DA
+      is invalid, it is rejected, and the state remains unchanged.
+
+
+      ## Addressing Limitations
+
+
+      The original Arbitrum protocol had limitations that have been addressed in
+      the new Arbitrum Rollup protocol. 
+
+
+      #### Number of Active DAS
+
+
+      Only one DA could be active at a time, which limited the rate of progress
+      of the VM. The new protocol allows for multiple DAs to be "pipelined,"
+      enabling the VM to progress as fast as validating nodes can emulate its
+      computations.
+
+
+      #### Temporary Delays
+
+
+      In the original protocol, a malicious party could freeze a VM by
+      challenging all DAs made for that VM. This could delay progress for a
+      significant amount of time. The new protocol prevents this by only
+      temporarily delaying on-chain recognition of outcomes that are already
+      "trustlessly final" for honest parties.
+
+
+      ## RBlocks and Protocol Resolution
+
+
+      The Arbitrum Rollup protocol tracks a chain of RBlocks, which are separate
+      from Layer 1 Ethereum blocks and Layer 2 Nitro blocks. Each RBlock
+      contains claims made by its proposer, such as the predecessor RBlock
+      number and the number of consumed inbox messages. The protocol eventually
+      confirms or rejects each RBlock based on the correctness of these claims.
+
+
+      Validators in the protocol have the option to agree or disagree with an
+      RBlock. If they agree, they don't need to take any action. If they
+      disagree, they can propose a different RBlock with a different result,
+      leading to a challenge against the first RBlock's staker.
+
+
+      The protocol confirms or rejects RBlocks based on their deadlines.
+      Confirmed RBlocks have been accepted and recorded by the Layer 1
+      contracts, while unresolved RBlocks are still awaiting resolution.
+      Validators can continue proposing RBlocks without waiting for the previous
+      one to be confirmed.
     name: How does it work?
     stepItems: []
     uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
