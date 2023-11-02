@@ -1,0 +1,81 @@
+categories: []
+content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
+created: '2023-11-02T16:16:05.166Z'
+guideType: onboarding
+key: arbitrum-bridge-arbitrum-university-959
+name: 'Arbitrum Bridge '
+publishStatus: Live
+steps:
+  - content: |-
+
+      Introduction Comments 
+              
+    name: Blockchain Bridge
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 7c89204f-9032-460b-89bb-c5190da1bb22
+    uuid: 68eec6db-69ca-4477-8c76-00c8f4200dcb
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: a7610243-ed0f-4a9b-a5a2-f2d9d410d155
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: ba884930-760e-425c-9a57-c7706f464444
+        explanation: Explanation of the question
+    uuid: 059345d4-d9d4-4b9f-b0fd-2b72e8812a73
+  - content: ''
+    name: What is Arbitrum Bridge?
+    stepItems: []
+    uuid: e57a1b9d-454b-49bf-a296-8e6a40ff692e
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: ddbd05bd-70c2-44c6-b2aa-bf4617f4d94e
+  - content: ''
+    name: Advantages of Arbitrum Bridge
+    stepItems: []
+    uuid: ce8891fc-c91f-4d37-bf36-7eb5d6f9adfb
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 69bb080d-7af7-4261-b5e5-52ea3feb5d31
+  - content: ''
+    name: Bridging using Arbitrum Bridge
+    stepItems: []
+    uuid: 06491485-bc66-48d4-8cde-1402be4a4aa1
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 5f0d9535-a144-4950-bd96-dfcff6be14d4
+  - content: ''
+    name: How to bridge tokens
+    stepItems: []
+    uuid: df19894b-5fce-4857-b6a6-87e4e9fd3311
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 095de5d0-5e63-480e-9e09-2e4c4e5e57e9
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 656734a8-35dd-460c-9b26-352840166e86
+version: 1
+priority: 50
