@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-02T17:27:23.433Z'
+created: '2023-11-02T17:28:13.778Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -325,7 +325,7 @@ steps:
       #### Standard Gateway
 
 
-      ### The standard gateway is the simplest method for bridging tokens. By
+      The standard gateway is the simplest method for bridging tokens. By
       choosing this option, an ERC-20 token will be automatically deployed on
       the Arbitrum network, acting as the L2 counterpart to your L1 token. This
       means that whenever a token is deposited on L1, an equivalent amount will
