@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-01T18:51:42.460Z'
+created: '2023-11-02T12:14:35.338Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -175,8 +175,14 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: c7e781c8-65cb-4190-bd76-26c6ef3756c1
-  - content: >-
+  - content: >
       ## Overview of Data Availability Servers (DAS)
+
+
+      Data Availability Servers (DAS) play a crucial role in ensuring the
+      availability and accessibility of data blocks. DAS software empowers
+      deployments to optimize data availability, durability, and performance
+      according to their specific needs.
 
 
       #### Sequencer API: Submitting Data Blocks for Storage
@@ -204,7 +210,11 @@ steps:
       data blocks efficiently and securely.
 
 
-      Flexible Data Storage Options
+      ## Features of DAS
+
+
+      #### Flexible Data Storage Options
+
 
       The DAS software offers a range of configuration options for storing data.
       Depending on the deployment's requirements, the software can store data in
@@ -216,7 +226,8 @@ steps:
       data availability and durability according to their specific requirements.
 
 
-      Optional Caching for Improved Performance
+      #### Optional Caching for Improved Performance
+
 
       To further enhance performance, the DAS software supports optional caching
       mechanisms. It can cache data in memory using Bigcache or in a Redis
@@ -225,17 +236,6 @@ steps:
       optional caching feature is particularly beneficial for deployments that
       require frequent access to specific data blocks, as it reduces the
       reliance on disk-based storage and accelerates data retrieval.
-
-
-      In conclusion, Data Availability Servers (DAS) play a crucial role in
-      ensuring the availability and accessibility of data blocks. The Sequencer
-      API enables authorized entities, specifically the Arbitrum chain's
-      Sequencer, to submit data blocks for storage securely. On the other hand,
-      the REST API allows users worldwide to fetch data blocks by their hash
-      values, promoting efficient and secure data retrieval. With flexible
-      storage options and optional caching mechanisms, the DAS software empowers
-      deployments to optimize data availability, durability, and performance
-      according to their specific needs.
     name: 'Data Availability Servers '
     stepItems: []
     uuid: 6a3dea00-4a8f-43d6-9d9f-18a8476f1520
