@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum One: Unraveling the intricacies of Arbitrum Rollup",
-  "created": "2023-11-02T14:43:53.526Z",
+  "created": "2023-11-02T14:52:41.646Z",
   "guideType": "onboarding",
   "key": "arbitrum-one-arbitrum-university-177",
   "name": "Arbitrum One",
@@ -80,7 +80,7 @@
       "uuid": "dc1888d0-1e86-43c3-a49e-06899a54b60e"
     },
     {
-      "content": "",
+      "content": "## What is Staking\n\nStaking is a process in which individuals deposit funds into a blockchain network as a way to participate in the network's operations and earn rewards. By staking their funds, individuals contribute to the security and functionality of the network. Staking is commonly used in proof-of-stake (PoS) blockchain networks, where validators are chosen to create new blocks and validate transactions based on the amount of cryptocurrency they hold and are willing to \"stake\" as collateral.\n\nStaking also plays a crucial role in the consensus mechanism of a blockchain network. By staking their funds, individuals contribute to the overall security and decentralization of the network. The more funds that are staked, the more difficult it becomes for malicious actors to manipulate the network or carry out attacks.\n\n## Process of Staking\n\n#### Staking Funds\n\nWhen someone decides to stake their funds, they deposit a certain amount of cryptocurrency into a smart contract or a designated staking wallet. This amount is then locked up as collateral and cannot be accessed or withdrawn until the staking period ends or specific conditions are met. The staked funds act as a guarantee that the validator will act honestly and in the best interest of the network.\n\n#### Selecting Validators\n\nValidators are selected based on various factors, such as the amount of cryptocurrency they have staked and their reputation within the network. Once selected, validators are responsible for creating new blocks, validating transactions, and maintaining the network's integrity. In return for their services, validators receive rewards in the form of additional cryptocurrency.\n\n#### Ensuring Validator Honesty\n\nIf a validator fails to fulfill their duties or acts maliciously, they risk losing their staked funds. This serves as an incentive for validators to act honestly and in accordance with the network's rules. Additionally, stakers have the ability to challenge and dispute the actions of validators, further ensuring the network's security and fairness.",
       "name": "Staking",
       "stepItems": [],
       "uuid": "f7348a7d-f200-4414-96d6-39bd92294464"
