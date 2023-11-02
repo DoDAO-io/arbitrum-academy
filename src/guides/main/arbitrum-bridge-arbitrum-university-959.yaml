@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-02T17:26:11.049Z'
+created: '2023-11-02T17:27:23.433Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -214,14 +214,12 @@ steps:
 
       #### Install a web3 wallet
 
-
       Before you can start the bridging process, you need to have a web3 wallet
       installed. This will allow you to interact with the bridge and initiate
       the transfer of funds.
 
 
       #### Obtain the native currency of the parent chain
-
 
       To bridge your assets from one chain to another, you need to have the
       native currency of the parent chain. For example, if you want to bridge
@@ -231,14 +229,12 @@ steps:
 
       #### Connect to the desired chain
 
-
       Add the desired chain's RPC endpoint to your wallet. For example, if you
       want to bridge funds to Arbitrum One, you need to add the Arbitrum One RPC
       endpoint to your wallet.
 
 
       #### Visit the Arbitrum bridge website
-
 
       Go to bridge.arbitrum.io and log in with your web3 wallet. Make sure you
       are connected to the source network (the chain from where you want to
@@ -247,13 +243,11 @@ steps:
 
       #### Select the destination network
 
-
       Choose the destination network where you want your assets to go. This
       could be Arbitrum One or another compatible chain.
 
 
       #### Enter the amount and initiate the transfer
-
 
       Enter the amount of ETH or ERC-20 tokens you want to bridge in the "From"
       box and click on the "Move funds" button. Make sure you have enough ETH in
@@ -261,7 +255,6 @@ steps:
 
 
       #### Wait for the funds to arrive
-
 
       After submitting the transaction through your web3 wallet, you can expect
       your funds to arrive on the destination chain within approximately 15-30
@@ -274,14 +267,12 @@ steps:
 
       #### Log in to the Arbitrum bridge
 
-
       Make sure you are logged in to the Arbitrum bridge with your web3 wallet.
       Connect to the source network (the chain from where you want to withdraw
       your assets).
 
 
       #### Select the destination network
-
 
       Choose the destination network where you want your assets to go. For
       example, if you want to withdraw funds to Ethereum mainnet, select
@@ -290,14 +281,12 @@ steps:
 
       #### Enter the amount and initiate the withdrawal
 
-
       Enter the amount of ETH or ERC-20 tokens you want to bridge in the "From"
       box and click on the "Move funds" button. Ensure that you have enough ETH
       in your wallet to cover the transaction fees.
 
 
       #### Wait for the withdrawal period
-
 
       Once you initiate the withdrawal, there is a minimum 7-day withdrawal
       period for networks like Arbitrum One and Nova. During this period, you
@@ -306,7 +295,6 @@ steps:
 
 
       #### Claim your funds
-
 
       After the withdrawal period is over, switch to the destination network on
       your wallet and press the "Claim" button to receive your funds. Make sure
