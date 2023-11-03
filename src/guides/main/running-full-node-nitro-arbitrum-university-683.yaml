@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-03T17:14:28.350Z'
+created: '2023-11-03T17:16:17.852Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -36,7 +36,15 @@ steps:
       ``--init.url="file:///path/to/snapshot/in/container/snapshot-file.tar"``. 
 
 
-      ### 
+      ### Required Parameters
+
+      When configuring a Nitro full node, the `--parent-chain.connection.url`
+      parameter is used to link the node with a Layer 1 Ethereum node's RPC URL,
+      which can be either self-hosted or provided by a third party. For
+      identifying the Layer 2 chain, `--chain.id` or `--chain.name` parameters
+      are used to specify the chain by its ID or name respectively, with the
+      latter being a newer option introduced in version v2.1.0, replacing the
+      previous `--l1.url` and `--l2.chain-id` parameters.
     name: 'Prerequisites '
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
