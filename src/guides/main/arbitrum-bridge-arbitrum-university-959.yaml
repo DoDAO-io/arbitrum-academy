@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-03T11:44:49.359Z'
+created: '2023-11-03T11:48:12.728Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -179,21 +179,37 @@ steps:
       https://docs.arbitrum.io/node-running/node-providers 
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699011863312_arbitrum_step%202.png"/>
+      </div>
+
+
 
       #### Initiate the Deposit
 
       To bridge ETH or ERC-20 tokens, visit bridge.arbitrum.io and connect your
       wallet to the source network. Choose the destination network (e.g.,
-      Arbitrum One or Nova), and select the token you wish to bridge. Ensure you
-      have enough ETH for the transaction fee, enter the amount to bridge, and
-      confirm the transaction. Funds should transfer within 15-30 minutes,
-      depending on network traffic. Remember to switch your wallet to the
-      destination chain to view your funds upon arrival.  
-
+      Arbitrum One or Nova), and select the token you wish to bridge. 
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699011863312_arbitrum_step%202.png"/>
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012014633_step_3%20image%201.png"/>
+      </div>
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012046014_step_3%20image%202.png"/>
+      </div>
+
+
+      Ensure you have enough ETH for the transaction fee, enter the amount to
+      bridge, and confirm the transaction. Funds should transfer within 15-30
+      minutes, depending on network traffic. Remember to switch your wallet to
+      the destination chain to view your funds upon arrival.  
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012077413_step_3%20image%203.png"/>
       </div>
 
     name: Deposit using Arbitrum Bridge
