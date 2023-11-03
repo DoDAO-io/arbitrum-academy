@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-03T11:48:12.728Z'
+created: '2023-11-03T11:53:21.904Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -187,9 +187,9 @@ steps:
 
       #### Initiate the Deposit
 
-      To bridge ETH or ERC-20 tokens, visit bridge.arbitrum.io and connect your
-      wallet to the source network. Choose the destination network (e.g.,
-      Arbitrum One or Nova), and select the token you wish to bridge. 
+      To bridge ETH or ERC-20 tokens, visit https://bridge.arbitrum.io/ and
+      connect your wallet to the source network. Choose the destination network
+      (e.g., Arbitrum One or Nova), and select the token you wish to bridge. 
 
 
       <div align="center">
@@ -219,7 +219,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 69bb080d-7af7-4261-b5e5-52ea3feb5d31
-  - content: >-
+  - content: >+
 
       ## Withdrawing Funds
 
@@ -228,14 +228,14 @@ steps:
 
       Make sure you are logged in to the Arbitrum bridge with your web3 wallet.
       Connect to the source network (the chain from where you want to withdraw
-      your assets).
-
-
-      #### Select the destination network
-
-      Choose the destination network where you want your assets to go. For
-      example, if you want to withdraw funds to Ethereum mainnet, select
+      your assets). Choose the destination network where you want your assets to
+      go. For example, if you want to withdraw funds to Ethereum mainnet, select
       Ethereum mainnet as the destination network.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012297002_withdraw_image%201.png"/>
+      </div>
 
 
       #### Enter the amount and initiate the withdrawal
@@ -245,20 +245,26 @@ steps:
       in your wallet to cover the transaction fees.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012336404_withdraw_image%202.png"/>
+      </div>
+
+
       #### Wait for the withdrawal period
 
       Once you initiate the withdrawal, there is a minimum 7-day withdrawal
       period for networks like Arbitrum One and Nova. During this period, you
       will have to wait for your funds to be transferred back to the parent
-      chain.
+      chain. After the withdrawal period is over, switch to the destination
+      network on your wallet and press the "Claim" button to receive your funds.
+      Make sure to check the status of your withdrawal in the Transactions tab
+      of your profile.
 
 
-      #### Claim your funds
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699012382443_withdraw_image%203.png"/>
+      </div>
 
-      After the withdrawal period is over, switch to the destination network on
-      your wallet and press the "Claim" button to receive your funds. Make sure
-      to check the status of your withdrawal in the Transactions tab of your
-      profile.
     name: Withdraw using Arbitrum Bridge
     stepItems: []
     uuid: 06491485-bc66-48d4-8cde-1402be4a4aa1
