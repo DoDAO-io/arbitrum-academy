@@ -1,15 +1,42 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-03T16:35:47.752Z'
+created: '2023-11-03T17:14:28.350Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
 publishStatus: Live
 steps:
-  - content: |-
+  - content: >-
+      The following hardware and software are required to run a full node:
 
-      Introduction Comments 
-              
+
+      ### Minimum Hardware Configurations
+
+      The bare minimum hardware setup demands 8-16 GB of RAM and a 2-4 core CPU,
+      akin to AWS's t3 xLarge instance. A crucial aspect is the storage, with at
+      least 1.2TB of SSD capacity required, and it's important that this storage
+      can be expanded as the Nitro blockchain is projected to swell by
+      approximately 3GB daily. Keep in mind that as the blockchain expands,
+      these minimum storage specifications will rise, so opting for hardware
+      exceeding these minimums is advisable for maintaining a resilient full
+      node.
+
+
+      ### Prerequisites 
+
+      The recommended practice is to employ the latest Docker image specified by
+      `offchainlabs/nitro-node:v2.1.1-e9d8842`. For the Arbitrum One network, it
+      is essential to begin with a database snapshot, which establishes the
+      historical state of the blockchain. This snapshot can be integrated via
+      the ``--init.url`` parameter on the node's first run, where an example
+      snapshot might be located at
+      `https://snapshot.arbitrum.foundation/arb1/nitro-pruned.tar`. This local
+      snapshot can be referenced by using the `--init.url` parameter with a file
+      URI scheme, such as
+      ``--init.url="file:///path/to/snapshot/in/container/snapshot-file.tar"``. 
+
+
+      ### 
     name: 'Prerequisites '
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
@@ -48,6 +75,6 @@ steps:
     uuid: e97ba39d-652f-4fb7-b5cc-0a35b1d7d014
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 0b3f5fb8-101b-4d17-b1da-308e6da90178
+uuid: running-full-node-nitro-arbitrum-university-683
 version: 1
 priority: 50
