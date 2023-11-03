@@ -1,0 +1,81 @@
+categories: []
+content: Bridging Blockchains with Seamless Communication
+created: '2023-11-03T12:18:01.189Z'
+guideType: onboarding
+key: cross-chain-messaging-arbitrum-university-977
+name: Cross Chain Messaging
+publishStatus: Live
+steps:
+  - content: |-
+
+      Introduction Comments 
+              
+    name: What Are Retryable Tickets?
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 96a676bc-8e09-45b8-86ea-c47aa34541c1
+    uuid: e5f87e56-a15c-49a7-a31b-cddb38539591
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 678d553e-b4b7-4436-b4ac-a18dc03d72a6
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: 317752e1-5081-46e3-8b44-b404151a14f1
+        explanation: Explanation of the question
+    uuid: 35844908-8d65-4070-baef-48de69c74ec2
+  - content: ''
+    name: L1 to L2 Messaging
+    stepItems: []
+    uuid: 4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 45ccd21e-4685-41e2-b6f7-18d3c9f606fd
+  - content: ''
+    name: Other Concepts
+    stepItems: []
+    uuid: 47dca17b-42d8-43ff-a8ae-894f128e993e
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 895f2692-d815-4d2a-9fec-59ae56ce5179
+  - content: ''
+    name: L2 to L1 Messaging
+    stepItems: []
+    uuid: 9e939755-5c98-45a0-8335-cdd8adb16734
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: a8ed5c86-cc78-469c-ab98-aac3701cf5d5
+  - content: ''
+    name: Protocol Design Details
+    stepItems: []
+    uuid: 5b8bc743-4417-4f4c-b85d-1e2ef5174150
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: dbaea1cf-22eb-4c4d-96b6-106ba0c7d26a
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 4626c542-74f7-4b6a-a202-7ae63399732c
+version: 1
+priority: 50
