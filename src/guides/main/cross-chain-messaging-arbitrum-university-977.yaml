@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-03T13:45:59.665Z'
+created: '2023-11-03T15:35:42.068Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -99,7 +99,7 @@ steps:
       L2, the sender's address will not be the same as the L1 address that sent
       the message. Instead, it will be the address's "L2 Alias." An address's L2
       alias is calculated by increasing its value by the hex value
-      0x1111000000000000000000000000000000001111.
+      `0x1111000000000000000000000000000000001111`.
 
 
       #### The Purpose of Address Aliasing
