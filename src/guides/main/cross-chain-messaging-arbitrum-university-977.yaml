@@ -1,12 +1,12 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-03T15:38:24.698Z'
+created: '2023-11-03T15:38:59.517Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
 publishStatus: Live
 steps:
-  - content: >-
+  - content: >
       ## Retryable Tickets
 
 
@@ -60,42 +60,6 @@ steps:
       another full period if a fee is paid. It is important to note that if a
       ticket expires without being redeemed, any message and value it carries
       could be lost without the possibility of recovery.
-
-
-      ```
-
-      - `l1CallValue (also referred to as deposit)`: Not a real function
-      parameter, it is rather the callValue that is sent along with the
-      transaction
-
-      - `address to`: The destination L2 address
-
-      - `uint256 l2CallValue`: The callvalue for retryable L2 message that is
-      supplied within the deposit (l1CallValue)
-
-      - `uint256 maxSubmissionCost`: The maximum amount of ETH to be paid for
-      submitting the ticket. This amount is (1) supplied within the deposit
-      (l1CallValue) to be later deducted from sender's L2 balance and is (2)
-      directly proportional to the size of the retryable’s data and L1 basefee
-
-      - `address excessFeeRefundAddress`: The L2 address to which the excess fee
-      is credited (l1CallValue - (autoredeem ? ticket execution cost :
-      submission cost) - l2CallValue)
-
-      - `address callValueRefundAddress`: The L2 address to which the
-      l2CallValue is credited if the ticket times out or gets cancelled (this is
-      also called the `beneficiary`, who's got a critical permission to cancel
-      the ticket)
-
-      - `uint256 gasLimit`: Maximum amount of gas used to cover L2 execution of
-      the ticket
-
-      - `uint256 maxFeePerGas`: The gas price bid for L2 execution of the ticket
-      that is supplied within the deposit (l1CallValue)
-
-      - `bytes calldata data`: The calldata to the destination L2 address
-
-      ```
     name: L1 to L2 Messaging
     stepItems: []
     uuid: 4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d
