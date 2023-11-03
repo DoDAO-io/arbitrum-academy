@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-03T17:28:52.942Z'
+created: '2023-11-03T17:29:29.164Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -90,16 +90,19 @@ steps:
       `/some/local/dir/arbitrum`) exists to prevent permission issues. Run the
       node with the following command: 
 
+
       `docker run --rm -it -v /some/local/dir/arbitrum:/home/user/.arbitrum -p
       0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548
       offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url
       https://l1-node:8545 --chain.id=<L2ChainId> --http.api=net,web3,eth,debug
       --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=*`
 
+
       If your L1 node is on the same machine (`localhost`), add `--network host`
       for proper networking. Use this command for a smooth shutdown that
       preserves the current state and provides a 300-second timeout to save the
       state:
+
 
       `docker stop --time=300 $(docker ps -aq)`
 
