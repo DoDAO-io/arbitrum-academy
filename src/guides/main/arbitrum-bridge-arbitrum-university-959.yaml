@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-03T10:51:06.812Z'
+created: '2023-11-03T10:52:50.492Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -149,71 +149,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ddbd05bd-70c2-44c6-b2aa-bf4617f4d94e
-  - content: >-
-      ## Advantages of Arbitrum Bridge
-
-
-      #### Scalability
-
-
-      The Arbitrum Bridge is designed to address the scalability issues faced by
-      Ethereum's mainnet. By offloading much of the computational load to
-      Arbitrum, the bridge enables faster transaction processing and reduces
-      congestion on Ethereum. Transactions executed on Arbitrum are consolidated
-      and batch-processed, resulting in significant cost savings when they are
-      finally posted to Ethereum.
-
-
-      #### Security
-
-
-      The Arbitrum Bridge prioritizes the security of assets being transferred.
-      Built on Ethereum's robust security model, the bridge has mechanisms in
-      place to detect and correct any irregularities, ensuring that assets are
-      always safeguarded. It supports the transfer of various ERC-20 tokens,
-      providing users with versatility in their transactions. Additionally, the
-      bridge allows anyone to become a validator, contributing to the overall
-      security and robustness of the system.
-
-
-      #### User Experience
-
-
-      The Arbitrum Bridge is designed to provide a seamless and intuitive user
-      experience. Its interface is user-friendly, making the interaction between
-      layers easy to understand, even for those new to the cryptocurrency space.
-      The bridge aims to enhance the overall user experience by simplifying the
-      process of transferring assets and navigating the Ethereum ecosystem.
-
-
-      #### Interoperability
-
-
-      The Arbitrum Bridge enables interoperability between different blockchain
-      networks. It allows for the transfer of assets between Ethereum and other
-      compatible networks, expanding the possibilities for users to engage with
-      different decentralized applications and ecosystems. This interoperability
-      feature enhances the overall flexibility and accessibility of the Arbitrum
-      Bridge.
-
-
-      #### Cost Efficiency
-
-
-      By consolidating and batch-processing transactions, the Arbitrum Bridge
-      significantly reduces the cumulative cost of transactions when they are
-      finally posted to Ethereum. This cost efficiency benefits users by
-      minimizing transaction fees and making it more affordable to engage with
-      the Ethereum ecosystem. The bridge's cost-saving measures contribute to a
-      more sustainable and accessible blockchain network.
-    name: Advantages of Arbitrum Bridge
-    stepItems: []
-    uuid: ce8891fc-c91f-4d37-bf36-7eb5d6f9adfb
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 69bb080d-7af7-4261-b5e5-52ea3feb5d31
-  - content: >-
+  - content: >
       The Arbitrum bridge allows users to transfer their funds between different
       chains, such as Ethereum and Arbitrum One. This process, known as
       bridging, involves depositing funds from a parent chain to a child chain
@@ -273,7 +209,14 @@ steps:
       your funds to arrive on the destination chain within approximately 15-30
       minutes, depending on the network congestion. Make sure your wallet is set
       to the destination chain to see your funds when they arrive.
-
+    name: Deposit using Arbitrum Bridge
+    stepItems: []
+    uuid: ce8891fc-c91f-4d37-bf36-7eb5d6f9adfb
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 69bb080d-7af7-4261-b5e5-52ea3feb5d31
+  - content: >-
 
       ## Withdrawing Funds
 
@@ -313,7 +256,7 @@ steps:
       your wallet and press the "Claim" button to receive your funds. Make sure
       to check the status of your withdrawal in the Transactions tab of your
       profile.
-    name: Bridging using Arbitrum Bridge
+    name: Withdraw using Arbitrum Bridge
     stepItems: []
     uuid: 06491485-bc66-48d4-8cde-1402be4a4aa1
   - content: ''
