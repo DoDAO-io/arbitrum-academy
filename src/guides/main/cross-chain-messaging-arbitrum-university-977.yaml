@@ -1,12 +1,12 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-03T15:38:59.517Z'
+created: '2023-11-03T16:27:40.363Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
 publishStatus: Live
 steps:
-  - content: >
+  - content: >-
       ## Retryable Tickets
 
 
@@ -60,6 +60,9 @@ steps:
       another full period if a fee is paid. It is important to note that if a
       ticket expires without being redeemed, any message and value it carries
       could be lost without the possibility of recovery.
+
+
+      TO DO: ADD IMAGES FROM https://docs.arbitrum.io/arbos/l1-to-l2-messaging 
     name: L1 to L2 Messaging
     stepItems: []
     uuid: 4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d
