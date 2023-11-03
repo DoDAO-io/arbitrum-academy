@@ -1,12 +1,12 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-03T18:20:28.184Z'
+created: '2023-11-03T18:23:13.196Z'
 guideType: onboarding
 key: useful-tools-arbitrum-university-260
 name: Useful Tools
 publishStatus: Live
 steps:
-  - content: >
+  - content: >+
       ## RPC Endpoints
 
       RPC endpoints facilitate interaction with various Arbitrum chains.
@@ -52,8 +52,24 @@ steps:
       To engage with public Arbitrum chains, you can utilize the same esteemed
       node providers that serve the Ethereum ecosystem.
 
-      | ProviderArb One?Arb Nova?Arb Goerli?Arb
-      Sepolia?1RPC✅Alchemy✅✅Allnodes✅✅✅Ankr✅Blast✅✅✅BlockPi✅✅✅ |
+      | Provider   | Arb One? | Arb Nova? | Arb Goerli? | Arb Sepolia? |   |
+
+      |------------|----------|-----------|-------------|--------------|---|
+
+      | Allnodes   | ✅        | ✅         | ✅           |              |
+
+      | Chainstack | ✅        |           | ✅           |              |
+
+      | DataHub    | ✅        |           |             |              |
+
+      | DRPC       | ✅        | ✅         |             |              |
+
+      | GetBlock   | ✅        |           | ✅           |              |
+
+      | Infura     | ✅        |           | ✅           | ✅            |
+
+      | Lava       | ✅        | ✅         |
+
     name: RPC Endpoint Providers
     stepItems: []
     uuid: 655e2e3e-9d5d-4ecd-9668-8e9671ee5ed3
