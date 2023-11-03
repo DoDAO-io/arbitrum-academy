@@ -1,0 +1,142 @@
+{
+  "categories": [],
+  "content": "Understanding the Useful Tools in Arbitrum",
+  "created": "2023-11-03T18:07:41.366Z",
+  "guideType": "onboarding",
+  "key": "useful-tools-arbitrum-university-260",
+  "name": "Useful Tools",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "\nIntroduction Comments \n        ",
+      "name": "RPC Endpoint Providers",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "d8978b38-486a-43ef-94ea-6c7e5a3baf30"
+        }
+      ],
+      "uuid": "655e2e3e-9d5d-4ecd-9668-8e9671ee5ed3"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "36db3505-d7e4-44c1-9fbe-4d40b3a538e3"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "583cf885-cf06-4e10-a858-183521ae678a",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "5a7e0e7c-3a0f-462e-bf38-0bd3b1f55631"
+    },
+    {
+      "content": "",
+      "name": "Debugging Tools",
+      "stepItems": [],
+      "uuid": "7592f819-87ad-405a-81d7-8875b44e7cc0"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "9cf39a96-1c0c-406b-a25d-ae1c0046c8a2"
+    },
+    {
+      "content": "",
+      "name": "Monitoring Tools & Block Explore",
+      "stepItems": [],
+      "uuid": "ae119411-0da4-49ab-b15b-a9cd9542f566"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "c545665f-0351-4484-a4bc-08c8cf64f00f"
+    },
+    {
+      "content": "",
+      "name": "Oracles",
+      "stepItems": [],
+      "uuid": "46de9394-bd29-44b4-8cde-84ff50bfa545"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "b4ed4860-e3ad-4452-a917-897b4b47a92e"
+    },
+    {
+      "content": "",
+      "name": "Development Frameworks",
+      "stepItems": [],
+      "uuid": "62960e42-d0d3-4d72-a317-6c7afc6c4163"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "ae306467-1801-4340-8d1c-30b4e149c1b1"
+    },
+    {
+      "content": "",
+      "name": "Web3 Libraries",
+      "stepItems": [],
+      "uuid": "cae31bbc-0e25-4b4d-9df6-90681b896dcc"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "e0704691-428a-4226-affb-9e60eda87e4f"
+    },
+    {
+      "content": "",
+      "name": "Chain Parameters",
+      "stepItems": [],
+      "uuid": "884c7c69-2116-45ca-acb8-0c9510a9e601"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "02bc1767-ce09-4805-b42d-f48b67f55ee7"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "69222987-d34b-458e-9b9a-08f7361fe04a",
+  "version": 1,
+  "priority": 50
+}
