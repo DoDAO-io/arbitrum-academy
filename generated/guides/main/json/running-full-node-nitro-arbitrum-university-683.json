@@ -1,0 +1,75 @@
+{
+  "categories": [],
+  "content": "How to run a full node (Nitro)?",
+  "created": "2023-11-03T16:35:47.752Z",
+  "guideType": "onboarding",
+  "key": "running-full-node-nitro-arbitrum-university-683",
+  "name": "Running Full Node (Nitro)",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "\nIntroduction Comments \n        ",
+      "name": "Prerequisites ",
+      "stepItems": [],
+      "uuid": "c62a372f-7b31-4de5-a179-ac0449b07374"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "7902163c-997a-4a4b-a867-aed5802f8f24"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "b449f310-1f41-4842-a192-7283a918edc2",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "5e0af96a-3e39-48ff-a474-b227e7eec2f2"
+    },
+    {
+      "content": "",
+      "name": "Configurations",
+      "stepItems": [],
+      "uuid": "6b399e10-ae42-4832-a0a9-3c783ac1fdb2"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "e97ba39d-652f-4fb7-b5cc-0a35b1d7d014"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "0b3f5fb8-101b-4d17-b1da-308e6da90178",
+  "version": 1,
+  "priority": 50
+}
