@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-03T17:16:17.852Z'
+created: '2023-11-03T17:18:19.745Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -45,6 +45,14 @@ steps:
       are used to specify the chain by its ID or name respectively, with the
       latter being a newer option introduced in version v2.1.0, replacing the
       previous `--l1.url` and `--l2.chain-id` parameters.
+
+
+      ### Important Ports
+
+      Configuring a Nitro node requires setting up specific ports: 8547 for RPC
+      services, 9642 for Sequencer Feed, and 8548 for WebSocket connections. To
+      enable the WebSocket port, use flags `--ws.port=8548`, `--ws.addr=0.0.0.0`
+      to bind to all interfaces, and `--ws.origins=*` to allow all origins.
     name: 'Prerequisites '
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
