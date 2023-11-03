@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-03T10:52:50.492Z'
+created: '2023-11-03T11:44:49.359Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -149,7 +149,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ddbd05bd-70c2-44c6-b2aa-bf4617f4d94e
-  - content: >
+  - content: >+
       The Arbitrum bridge allows users to transfer their funds between different
       chains, such as Ethereum and Arbitrum One. This process, known as
       bridging, involves depositing funds from a parent chain to a child chain
@@ -161,54 +161,41 @@ steps:
       ## Depositing Funds
 
 
-      #### Install a web3 wallet
+      #### Obtain Native Currency
 
-      Before you can start the bridging process, you need to have a web3 wallet
-      installed. This will allow you to interact with the bridge and initiate
-      the transfer of funds.
-
-
-      #### Obtain the native currency of the parent chain
-
-      To bridge your assets from one chain to another, you need to have the
-      native currency of the parent chain. For example, if you want to bridge
-      assets from Ethereum to Arbitrum One, you'll need ETH on Ethereum to
-      initiate the process.
+      To bridge assets to another chain, such as from Ethereum to Arbitrum One,
+      you must have the parent chain's native currency (e.g., ETH) for the
+      transaction. You can acquire this either through a centralized exchange,
+      an on-ramp service, or for testnets, via a faucet.
 
 
-      #### Connect to the desired chain
+      #### Add Preferred Network to Wallet 
 
-      Add the desired chain's RPC endpoint to your wallet. For example, if you
-      want to bridge funds to Arbitrum One, you need to add the Arbitrum One RPC
-      endpoint to your wallet.
-
-
-      #### Visit the Arbitrum bridge website
-
-      Go to bridge.arbitrum.io and log in with your web3 wallet. Make sure you
-      are connected to the source network (the chain from where you want to
-      deposit your assets).
+      To bridge assets using a wallet like MetaMask, add your target chain's RPC
+      endpoint: open MetaMask, select 'Add Network' at the bottom, and enter the
+      network details manually. Information for common Arbitrum chains (Arbitrum
+      One, Nova, and Sepolia testnet) includes specific RPC URLs, Chain IDs, and
+      currency symbols, with more details available on
+      https://docs.arbitrum.io/node-running/node-providers 
 
 
-      #### Select the destination network
 
-      Choose the destination network where you want your assets to go. This
-      could be Arbitrum One or another compatible chain.
+      #### Initiate the Deposit
+
+      To bridge ETH or ERC-20 tokens, visit bridge.arbitrum.io and connect your
+      wallet to the source network. Choose the destination network (e.g.,
+      Arbitrum One or Nova), and select the token you wish to bridge. Ensure you
+      have enough ETH for the transaction fee, enter the amount to bridge, and
+      confirm the transaction. Funds should transfer within 15-30 minutes,
+      depending on network traffic. Remember to switch your wallet to the
+      destination chain to view your funds upon arrival.  
 
 
-      #### Enter the amount and initiate the transfer
 
-      Enter the amount of ETH or ERC-20 tokens you want to bridge in the "From"
-      box and click on the "Move funds" button. Make sure you have enough ETH in
-      your wallet to pay for the transaction.
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699011863312_arbitrum_step%202.png"/>
+      </div>
 
-
-      #### Wait for the funds to arrive
-
-      After submitting the transaction through your web3 wallet, you can expect
-      your funds to arrive on the destination chain within approximately 15-30
-      minutes, depending on the network congestion. Make sure your wallet is set
-      to the destination chain to see your funds when they arrive.
     name: Deposit using Arbitrum Bridge
     stepItems: []
     uuid: ce8891fc-c91f-4d37-bf36-7eb5d6f9adfb
