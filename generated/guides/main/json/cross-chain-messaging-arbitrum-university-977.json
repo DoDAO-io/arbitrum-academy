@@ -1,69 +1,14 @@
 {
   "categories": [],
   "content": "Bridging Blockchains with Seamless Communication",
-  "created": "2023-11-03T12:18:01.189Z",
+  "created": "2023-11-03T13:10:49.337Z",
   "guideType": "onboarding",
   "key": "cross-chain-messaging-arbitrum-university-977",
   "name": "Cross Chain Messaging",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
-      "name": "What Are Retryable Tickets?",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "96a676bc-8e09-45b8-86ea-c47aa34541c1"
-        }
-      ],
-      "uuid": "e5f87e56-a15c-49a7-a31b-cddb38539591"
-    },
-    {
-      "content": "",
-      "name": "Evaluation",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "678d553e-b4b7-4436-b4ac-a18dc03d72a6"
-        },
-        {
-          "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
-          ],
-          "choices": [
-            {
-              "content": "Choice 1",
-              "key": "choice_1"
-            },
-            {
-              "content": "Choice 2",
-              "key": "choice_2"
-            },
-            {
-              "content": "Choice 3",
-              "key": "choice_3"
-            },
-            {
-              "content": "Choice 4",
-              "key": "choice_4"
-            }
-          ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "317752e1-5081-46e3-8b44-b404151a14f1",
-          "explanation": "Explanation of the question"
-        }
-      ],
-      "uuid": "35844908-8d65-4070-baef-48de69c74ec2"
-    },
-    {
-      "content": "",
+      "content": "## Retryable Tickets\n\nRetryable tickets are a crucial method for creating L1 to L2 messages in the Arbitrum network. These tickets allow L1 transactions to initiate messages that are executed on L2. The Retryable Tickets Lifestyle includes various stages such as:\n\n#### Submission of Retryable Tickets\n\nTo create a retryable ticket, a user needs to call the createRetryableTicket function of the inbox contract. This function requires the sender to provide a reasonable amount of funds to cover the submission and execution of the ticket. The funds are deducted from the sender and placed into an escrow for later use in redeeming the ticket. The creation of a ticket on L1 is separate from its execution on L2, so a successful L1 ticket creation does not guarantee a successful redemption.\n\n#### Auto-Redemption\n\nAfter a ticket is successfully created, two conditions are checked before attempting to execute it on L2. First, the user's L2 balance must be sufficient to cover the gas fees for execution. Second, the gas price provided by the user must be greater than or equal to the L2 base fee. If these conditions are met, the ticket is auto-redeemed, and the execution takes place with the original submission's parameters. The submission fee is refunded to the user on L2.\n\n#### Manual Redemption\n\nIf a ticket is not auto-redeemed or the initial redemption fails, the submission fee is collected on L2 to cover the resources required to keep the ticket in memory for a fixed period. In this case, a manual redemption of the ticket is required. Anyone can attempt to manually redeem the ticket by calling the redeem precompile method. The gas for the redemption attempt comes from the call to redeem, ensuring that the block's gas limit is not reached before execution.\n\n#### Ticket Expiration\n\nIf a ticket is not redeemed or rescheduled within seven days, it expires and is automatically discarded. However, the ticket can be kept alive for another full period if a fee is paid. It is important to note that if a ticket expires without being redeemed, any message and value it carries could be lost without the possibility of recovery.",
       "name": "L1 to L2 Messaging",
       "stepItems": [],
       "uuid": "4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d"
@@ -75,7 +20,7 @@
       "uuid": "45ccd21e-4685-41e2-b6f7-18d3c9f606fd"
     },
     {
-      "content": "",
+      "content": "## Eth Deposits\n\nEth deposits are a way to send Ethereum (Eth) from Layer 1 (L1) to Layer 2 (L2). There is a special message type specifically for Eth deposits. When an Eth deposit is made, the Eth will be sent to the same address on L2 as the sender's address on L1. If the sender on L1 is an externally owned account (EOA), the Eth will be deposited to the same EOA address on L2. If the sender on L1 is a contract, the funds will be deposited to the contract's aliased address on L2.\n\n#### Transacting via the Delayed Inbox\n\nTo transact via the delayed inbox, both retryable tickets and Eth deposits must be submitted through it. The delayed inbox is a necessary recourse to ensure censorship resistance on the Arbitrum chain, even if the Sequencer misbehaves. However, under normal circumstances, it is recommended to use the delayed inbox only for retryables and Eth deposits. For all other messages, it is recommended to transact via the Sequencer.\n\n## Address Aliasing\n\nWhen messages are submitted via the delayed inbox, the sender's address is \"aliased.\" This means that when these unsigned messages are executed on L2, the sender's address will not be the same as the L1 address that sent the message. Instead, it will be the address's \"L2 Alias.\" An address's L2 alias is calculated by increasing its value by the hex value 0x1111000000000000000000000000000000001111.\n\n#### The Purpose of Address Aliasing\n\nThe use of L2 aliases for L1-to-L2 messages in the Arbitrum protocol serves an important purpose. It prevents cross-chain exploits that could occur if the same L1 addresses were reused as the L2 sender. By using L2 aliases, it becomes much more difficult to trick an L2 contract that expects a call from a specific contract address by sending a retryable ticket from the expected contract address on L1. This adds an extra layer of security and prevents potential vulnerabilities in the system.",
       "name": "Other Concepts",
       "stepItems": [],
       "uuid": "47dca17b-42d8-43ff-a8ae-894f128e993e"
@@ -112,7 +57,7 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "4626c542-74f7-4b6a-a202-7ae63399732c",
+  "uuid": "cross-chain-messaging-arbitrum-university-977",
   "version": 1,
   "priority": 50
 }
