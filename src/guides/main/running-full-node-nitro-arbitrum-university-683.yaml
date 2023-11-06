@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:48:47.169Z'
+created: '2023-11-06T16:50:10.369Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -187,11 +187,11 @@ steps:
       Resolve permission issues for the Nitro Docker image with:
 
 
-      ```bash
-
-      mkdir /data/arbitrum && chmod -R 777 /data/arbitrum
-
-      ```
+      'docker run --rm -it  -v /some/local/dir/arbitrum:/home/user/.arbitrum -p
+      0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548
+      offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url
+      https://l1-node:8545 --chain.id=<L2ChainId> --http.api=net,web3,eth,debug
+      --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=*'
 
 
       This ensures all users have full access to the `/data/arbitrum` directory.
