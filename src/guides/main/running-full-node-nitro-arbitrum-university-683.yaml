@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:51:33.739Z'
+created: '2023-11-06T16:52:07.819Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -189,7 +189,7 @@ steps:
 
       `mkdir /data/arbitrum
 
-      chmod -fR 777 /data/arbitrum'
+      chmod -fR 777 /data/arbitrum'`
 
 
       This ensures all users have full access to the `/data/arbitrum` directory.
