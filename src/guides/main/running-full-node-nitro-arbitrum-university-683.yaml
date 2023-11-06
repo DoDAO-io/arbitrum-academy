@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:17:30.753Z'
+created: '2023-11-06T16:18:17.378Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -95,7 +95,6 @@ steps:
       provided by a third-party service.
 
       - Prior to v2.1.0, this was referred to as `--l1.url`.
-
 
       L2 chain id or name
 
