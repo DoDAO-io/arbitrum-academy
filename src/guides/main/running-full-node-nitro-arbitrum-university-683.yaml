@@ -1,12 +1,21 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-03T17:34:03.620Z'
+created: '2023-11-06T15:20:12.947Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
 publishStatus: Live
 steps:
   - content: >-
+      ### TODO: EXPLAIN WHAT IS A NODE FIRST
+
+
+      ### TODO - Also capture - Considerations for running an Arbitrum full node
+
+
+      ### TODO - Fix formatting of this step
+
+
       The following hardware and software are required to run a full node:
 
 
