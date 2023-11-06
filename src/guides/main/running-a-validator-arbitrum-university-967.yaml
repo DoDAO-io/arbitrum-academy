@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T14:20:40.530Z'
+created: '2023-11-06T14:34:07.412Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -193,14 +193,67 @@ steps:
 
       - **Backup Importance**: It is critical to backup the wallet file as it is
       the sole method for withdrawing the staked funds when required.
-    name: Allowlisted Validator
+    name: Wallet for Allowlisted Validator
     stepItems: []
     uuid: e8989e11-37b2-43e6-a12b-7445aeba64df
   - content: ''
     name: Evaluation
     stepItems: []
     uuid: 7838a21b-dedb-4c3c-85d7-5387e31f9010
-  - content: ''
+  - content: >-
+      ### Setup for Defensive Validators
+
+
+      #### Wallet Creation
+
+      - **Pre-existing Wallet**: A defensive validator must have a wallet
+      created beforehand using the previously outlined steps.
+
+
+      #### Funding Requirements
+
+      - **Initial Funding Unnecessary**: Wallets for defensive validators do not
+      need to be funded right away.
+
+
+      #### Action on Deviation
+
+      - **Post-Deviation Procedure**: If a deviation is detected, the defensive
+      validator will log "bringing defensive validator online because of
+      incorrect assertion". It will then require funding to be added to the
+      wallet to post a stake and initiate a dispute.
+
+
+      ### Running a Defensive Validator
+
+
+      #### Example Command for Arbitrum One
+
+      - **Command to Start Defensive Validator**:
+        ```sh
+        docker run --rm -it -v /some/local/dir/arbitrum:/home/user/.arbitrum offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url=https://l1-mainnet-node:8545 --l2.chain-id=42161 --node.staker.enable --node.staker.strategy=Defensive --parent-chain.wallet.password="SOME SECURE PASSWORD"
+        ```
+
+      ### Validator Verification
+
+
+      #### Log Verification for Setup
+
+      - **Correct Wallet Setup Indication**: The log message `INFO
+      [09-28|18:43:49.367] running as validator txSender=0x...
+      actingAsWallet=0x... whitelisted=true strategy=Defensive` indicates a
+      correctly set up wallet.
+         - **Allowlist Status**: The `whitelisted` flag should be `true`, confirming the wallet is on the allowlist.
+         - **Strategy Confirmation**: The `strategy` should read `Defensive`.
+         - **Wallet Presence**: `txSender` and `actingAsWallet` should have valid addresses, not be `nil`.
+
+      #### Log Messages for Validator Functionality
+
+      - **L2 Block Validator Check**: The log entry "validation succeeded"
+      signifies the L2 block validator's successful operation.
+
+      - **L1 Validator Confirmation**: "found correct assertion" in the logs
+      confirms the proper functioning of the L1 validator.
     name: Running Allowlisted Validator
     stepItems: []
     uuid: 04fa81f2-b494-4528-93b8-40ca7537c1ac
