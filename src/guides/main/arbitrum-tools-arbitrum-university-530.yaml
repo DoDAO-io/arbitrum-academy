@@ -1,12 +1,27 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-06T17:13:53.379Z'
+created: '2023-11-06T17:19:21.528Z'
 guideType: onboarding
 key: arbitrum-tools-arbitrum-university-530
 name: Arbitrum Tools
 publishStatus: Live
 steps:
   - content: >-
+      ## Introduction
+
+      This guide delves into the critical components that developers and
+      blockchain enthusiasts rely on to build, debug, and maintain decentralized
+      applications and systems. This guide explores RPC endpoint providers, the
+      conduits through which we interact with blockchain networks; oracles, the
+      crucial link that feeds real-world data into smart contracts; debugging
+      tools, which are indispensable for identifying and rectifying code issues;
+      monitoring tools and block explorers, which offer insights and
+      transparency into blockchain transactions and states; and development
+      frameworks, which provide structured environments for efficient smart
+      contract and dApp creation. This guide aims to equip you with the
+      knowledge and resources to navigate the landscape of blockchain technology
+      effectively.
+
 
       ## RPC Endpoints
 
