@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:59:02.729Z'
+created: '2023-11-06T17:32:10.271Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -135,7 +135,7 @@ steps:
         uuid: b449f310-1f41-4842-a192-7283a918edc2
         explanation: Explanation of the question
     uuid: 5e0af96a-3e39-48ff-a474-b227e7eec2f2
-  - content: >-
+  - content: >
       ### TODO - Fix formatting of this step - how?
 
 
@@ -158,58 +158,73 @@ steps:
 
       ### Putting it Together 
 
-      When setting up a Nitro node via Docker, it’s essential to mount an
-      external volume to `/home/user/.arbitrum` in the container for persistent
-      database storage. First, ensure the local directory (e.g.,
-      `/some/local/dir/arbitrum`) exists to prevent permission issues. Run the
-      node with the following command: 
+      When running docker image, an external volume should be mounted to persist
+      the database across restarts. The mount point inside the docker image
+      should be /home/user/.arbitrum
 
 
-      `docker run --rm -it -v /some/local/dir/arbitrum:/home/user/.arbitrum -p
+      Here is an example of how to run nitro-node:
+
+
+      Note that is important that /some/local/dir/arbitrum already exists,
+      otherwise the directory might be created with root as owner, and the
+      docker container won't be able to write to it
+
+      `docker run --rm -it  -v /some/local/dir/arbitrum:/home/user/.arbitrum -p
       0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548
       offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url
       https://l1-node:8545 --chain.id=<L2ChainId> --http.api=net,web3,eth,debug
       --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=*`
 
 
-      If your L1 node is on the same machine (`localhost`), add `--network host`
-      for proper networking. Use this command for a smooth shutdown that
-      preserves the current state and provides a 300-second timeout to save the
-      state:
+      Note that if you are running L1 node on localhost, you may need to add
+      --network host right after docker run to use docker host-based networking
 
 
-      `docker stop --time=300 $(docker ps -aq)`
+      When shutting down docker image, it is important to allow for a graceful
+      shutdown so that the current state can be saved to disk. Here is an
+      example of how to do a graceful shutdown of all docker images currently
+      running
+
+
+      docker stop `--time=300 $(docker ps -aq)`
 
 
       ### Permissions 
 
-      Resolve permission issues for the Nitro Docker image with:
-
+      The Docker image is configured to run as non-root UID 1000. This means if
+      you are running in Linux or OSX and you are getting permission errors when
+      trying to run the docker image, run this command to allow all users to
+      update the persistent folders
 
       `mkdir /data/arbitrum
 
-      chmod -fR 777 /data/arbitrum'`
-
-
-      This ensures all users have full access to the `/data/arbitrum` directory.
+      chmod -fR 777 /data/arbitrum`
 
 
       ### Watchtower Mode
 
-      Nitro full nodes operate in Watchtower mode by default, monitoring
-      on-chain assertions and flagging discrepancies with an error log. This
-      mode incurs minimal execution and memory overhead. If preferred, reduce
-      resource usage by deactivating Watchtower with the flag
+      By default, the full node will run in Watchtower mode. This means that the
+      node watches the on-chain assertions and if it disagrees with them, it
+      will log an error containing the string found incorrect assertion in
+      watchtower mode.
+
+      Watchtower mode adds a small amount of execution and memory overhead. You
+      can deactivate this mode by using the parameter
       `--node.staker.enable=false`.
 
 
       ### Pruning
 
-      To prune a Nitro full node, which entails discarding redundant blockchain
-      data beyond the latest 128 blocks to save disk space and enhance
-      efficiency, use `--init.prune` with "full" or "validator" as values
-      tailored to your node type. Initiate pruning at node startup; note that
-      the node will be unavailable for RPC requests during this operation.
+      Pruning a full node refers to the process of removing older, unnecessary
+      data from the local copy of the blockchain that the node maintains, in
+      order to save disk space and slightly improve the efficiency of the node.
+      Pruning will remove all states from blocks older than the latest 128.
+
+      You can activate pruning by using the parameter `--init.prune` and using
+      "full" or "validator" as the value (depending on the type of node you are
+      running). Keep in mind that this process will happen upon starting the
+      node and it will not serve RPC requests while pruning.
     name: Configurations
     stepItems: []
     uuid: 6b399e10-ae42-4832-a0a9-3c783ac1fdb2
