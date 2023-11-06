@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:56:33.572Z'
+created: '2023-11-06T16:57:55.419Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -107,22 +107,6 @@ steps:
       options including 'arb1', 'nova', 'goerli-rollup', and 'sepolia-rollup'.
 
       - Before v2.1.0, this was `--l2.chain-id` and accepted only chain IDs.
-       
-      #### Important Ports 
-
-      - RPC: 8547
-
-      - Sequencer Feed: 9642
-
-      - WebSocket: 8548
-
-      - WS port 8548 needs extra args to be opened. Please use these flags:
-
-      1. --ws.port=8548
-
-      2. --ws.addr=0.0.0.0
-
-      3. --ws.origins=* 
     name: Full Nodes
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
@@ -155,6 +139,21 @@ steps:
       ### TODO - Fix formatting of this step - how?
 
 
+      #### Important Ports 
+
+      - RPC: 8547
+
+      - Sequencer Feed: 9642
+
+      - WebSocket: 8548
+
+      - WS port 8548 needs extra args to be opened. Please use these flags:
+
+      1. --ws.port=8548
+
+      2. --ws.addr=0.0.0.0
+
+      3. --ws.origins=* 
 
 
       ### Putting it Together 
@@ -260,6 +259,10 @@ steps:
     name: Optional Parameters
     stepItems: []
     uuid: 80f904d8-1e5a-4748-aa82-4d6960184fba
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: aab07c67-7989-4e87-94c5-fc2f7a71186d
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: running-full-node-nitro-arbitrum-university-683
