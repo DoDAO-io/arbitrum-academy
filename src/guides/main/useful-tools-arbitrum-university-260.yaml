@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-06T11:45:10.403Z'
+created: '2023-11-06T11:53:51.823Z'
 guideType: onboarding
 key: useful-tools-arbitrum-university-260
 name: Useful Tools
@@ -150,7 +150,39 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 9cf39a96-1c0c-406b-a25d-ae1c0046c8a2
-  - content: ''
+  - content: >
+      | Tool       |
+      Use-cases                                                           |
+      Relevant
+      links                                                                                                                                                        
+      |
+
+      |------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+      | Arbiscan   | Track/trace transactions and examine addresses on Arbitrum
+      networks | Arbitrum One: https://arbiscan.io/ Arbitrum Nova:
+      https://nova.arbiscan.io/ Arbitrum Sepolia: https://sepolia.arbiscan.io
+      Arbitrum Goerli: https://goerli.arbiscan.io/ |
+
+      | DexGuru    | Track/trace transactions and examine addresses on Arbitrum
+      networks | Arbitrum One: https://arbitrum.dex.guru/ Arbitrum Nova:
+      https://nova.dex.guru/                                                                                        
+      |
+
+      | Blockscout | Track/trace transactions and examine addresses on Arbitrum
+      networks | Stylus Testnet:
+      https://stylus-testnet-explorer.arbitrum.io                                                                                                           
+      |
+
+      | Dune       | Visualize and analyze Arbitrum network
+      data                         | Dune Arbitrum community-created Duune
+      dashboard                                                                                                                       
+      |
+
+      | Chainbase  | Index, transform, and use on-chain data at
+      scale                    |
+      Chainbase                                                                                                                                                             
+      |
     name: Monitoring Tools & Block Explore
     stepItems: []
     uuid: ae119411-0da4-49ab-b15b-a9cd9542f566
