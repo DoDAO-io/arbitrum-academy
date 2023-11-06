@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T18:17:12.899Z'
+created: '2023-11-06T18:27:07.416Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -16,6 +16,32 @@ steps:
       maintaining the integrity of the protocol. Not all nodes are validators;
       some may choose to compute the correct chain behavior independently
       without participating in the consensus mechanism. 
+
+
+      ### Types of Validators 
+
+
+      **Active Validator**: This strategy involves validators proactively
+      participating in the network by proposing new rollup blocks and
+      maintaining a constant stake in the network to do so. Their main goal is
+      to advance the state of the chain. There is typically no need for more
+      than one honest active validator, as having more than one can be
+      resource-intensive.
+
+
+      **Defensive Validator**: Defensive validators monitor the rollup protocol
+      and only act if they detect an incorrect block being proposed. They will
+      then either propose a correct block or stake on an existing correct block.
+      This strategy is more resource-efficient, as it stakes only when necessary
+      to correct or prevent potential dishonest actions.
+
+
+      **Watchtower Validator**: Watchtower validators perform a passive
+      monitoring role, where they do not stake but keep an eye on the rollup
+      protocol. If they spot an incorrect block, they alert other parties so
+      they can take action. It relies on other staking parties to intervene
+      before the deadline for the incorrect block expires, allowing for a
+      response window of several days.
 
 
       ## Validation Strategies
