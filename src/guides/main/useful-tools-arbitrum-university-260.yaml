@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-03T18:27:38.760Z'
+created: '2023-11-06T11:45:10.403Z'
 guideType: onboarding
 key: useful-tools-arbitrum-university-260
 name: Useful Tools
@@ -98,7 +98,51 @@ steps:
         uuid: 583cf885-cf06-4e10-a858-183521ae678a
         explanation: Explanation of the question
     uuid: 5a7e0e7c-3a0f-462e-bf38-0bd3b1f55631
-  - content: ''
+  - content: >-
+      ## Tenderly
+
+
+      Tenderly is a comprehensive Web3 development platform that offers a range
+      of tools to help developers debug their decentralized apps (dApps). One of
+      the key features of Tenderly is its Debugger, which allows developers to
+      analyze smart contracts by examining specific lines of code in a format
+      that is easy to understand. This enables developers to quickly identify
+      and fix any bugs or issues in their smart contracts.
+
+
+      #### Simulator
+
+      Another useful tool provided by Tenderly is the Simulator. With the
+      Simulator, developers can simulate historical and current transactions
+      before sending them on-chain. This allows them to test and debug their
+      contracts by modifying relevant parameters and source code. By
+      streamlining the debugging process, Tenderly helps developers save time
+      and resources while improving the reliability of their smart contracts.
+      While Tenderly offers great debugging options, it's important to note that
+      there are some limitations when debugging L1-to-L2 messages. This is due
+      to the use of custom Geth errors. 
+
+
+      ## Arbiscan
+
+
+      Arbiscan is another valuable tool for debugging decentralized apps. It is
+      a well-known blockchain explorer and analytics platform that specializes
+      in the Arbitrum network. Arbiscan provides VMTrace and Debug tools that
+      assist developers and users in understanding the execution of transactions
+      on the Ethereum network.
+
+
+      #### VMTrace
+
+      The VMTrace tool offered by Arbiscan provides a step-by-step visualization
+      of the EVM (Ethereum Virtual Machine) execution. This allows developers to
+      trace the processing of transactions and identify any potential issues
+      that may arise. Additionally, the Debug tools provided by Arbiscan offer
+      further information such as input data, logs, and events emitted by the
+      smart contract during execution. These tools provide developers with
+      valuable insights into the behavior of their contracts and help them debug
+      any issues that may arise.
     name: Debugging Tools
     stepItems: []
     uuid: 7592f819-87ad-405a-81d7-8875b44e7cc0
