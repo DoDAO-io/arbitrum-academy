@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-06T17:11:08.648Z'
+created: '2023-11-06T17:13:53.379Z'
 guideType: onboarding
 key: arbitrum-tools-arbitrum-university-530
 name: Arbitrum Tools
@@ -73,11 +73,7 @@ steps:
 
               
     name: RPC Endpoint Providers
-    stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 513b89e1-abd2-4127-8503-d36a6b339659
+    stepItems: []
     uuid: 31647716-f241-4750-8695-d13d713e858c
   - content: ''
     name: Evaluation
@@ -127,7 +123,7 @@ steps:
       and contracts on the Arbitrum chain.
 
 
-      VMTrace
+      #### VMTrace
 
       The VMTrace tool offered by Arbiscan provides a step-by-step visualization
       of the EVM (Ethereum Virtual Machine) execution. This allows developers to
@@ -145,6 +141,14 @@ steps:
     stepItems: []
     uuid: 8110bc69-c6ac-4b03-a6e9-8ff02ac7459e
   - content: >
+      ## Purpose
+
+      Here is provided a curated selection of tools and blockchain explorers
+      designed to help you monitor and inspect transactions, smart contracts,
+      and general blockchain activity associated with decentralized applications
+      (dApps) across various Arbitrum chains.
+
+
       | Tool       |
       Use-cases                                                           |
       Relevant
@@ -175,8 +179,16 @@ steps:
     name: Monitoring Tools & Block Explore
     stepItems: []
     uuid: 9b5c8af4-687e-4b42-9919-1633037e72e2
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 968d3293-b498-4068-8f60-b4685435c8ad
+  - content: ''
+    name: Step 7
+    stepItems: []
+    uuid: 4d9d6470-c491-4038-92b8-4ed1a884e6f9
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 96512649-ff1f-4fe4-b707-a4b66445484c
+uuid: arbitrum-tools-arbitrum-university-530
 version: 1
 priority: 50

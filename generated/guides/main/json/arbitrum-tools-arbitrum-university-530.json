@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the Useful Tools in Arbitrum",
-  "created": "2023-11-06T17:11:08.648Z",
+  "created": "2023-11-06T17:13:53.379Z",
   "guideType": "onboarding",
   "key": "arbitrum-tools-arbitrum-university-530",
   "name": "Arbitrum Tools",
@@ -10,14 +10,7 @@
     {
       "content": "\n## RPC Endpoints\nRPC endpoints facilitate interaction with various Arbitrum chains. Sequencer endpoints are limited to `eth_sendRawTransaction` and `eth_sendRawTransactionConditional` operations.\n\n| Name                       | RPC Url(s)                             | Chain ID | Block explorer                               | Underlying chain | Tech stack       | Sequencer feed URL                    | Sequencer endpoint⚠️                             |\n|----------------------------|----------------------------------------|----------|----------------------------------------------|------------------|------------------|---------------------------------------|--------------------------------------------------|\n| Arbitrum One               | https://arb1.arbitrum.io/rpc           | 42161    | https://arbiscan.io/                         | Ethereum         | Nitro (Rollup)   | wss://arb1.arbitrum.io/feed           | https://arb1-sequencer.arbitrum.io/rpc           |\n| Arbitrum Nova              | https://nova.arbitrum.io/rpc           | 42170    | https://nova.arbiscan.io/                    | Ethereum         | Nitro (AnyTrust) | wss://nova.arbitrum.io/feed           | https://nova-sequencer.arbitrum.io/rpc           |\n| Arbitrum Goerli (Testnet)  | https://goerli-rollup.arbitrum.io/rpc  | 421613   | https://goerli.arbiscan.io                   | Goerli           | Nitro (Rollup)   | wss://goerli-rollup.arbitrum.io/feed  | https://goerli-rollup-sequencer.arbitrum.io/rpc  |\n| Arbitrum Sepolia (Testnet) | https://sepolia-rollup.arbitrum.io/rpc | 421614   | https://sepolia.arbiscan.io                  | Sepolia          | Nitro (Rollup)   | wss://sepolia-rollup.arbitrum.io/feed | https://sepolia-rollup-sequencer.arbitrum.io/rpc |\n| Stylus Testnet             | https://stylus-testnet.arbitrum.io/rpc | 23011913 | https://stylus-testnet-explorer.arbitrum.io/ | Arbitrum Sepolia | Nitro (Rollup)   | wss://stylus-sepolia.arbitrum.io/feed | https://stylus-testnet-sequencer.arbitrum.io/rpc |\n\n## RPC Providers\nTo engage with public Arbitrum chains, you can utilize the same esteemed node providers that serve the Ethereum ecosystem.\n| Provider   | Arb One? | Arb Nova? | Arb Goerli? | Arb Sepolia? |\n|------------|----------|-----------|-------------|--------------|\n| Allnodes   | ✅        | ✅         | ✅           |              |\n| Chainstack | ✅        |           | ✅           |              |\n| DataHub    | ✅        |           |             |              |\n| DRPC       | ✅        | ✅         |             |              |\n| GetBlock   | ✅        |           | ✅           |              |\n| Infura     | ✅        |           | ✅           | ✅            |\n| Lava       | ✅        | ✅         |\n\n        ",
       "name": "RPC Endpoint Providers",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "513b89e1-abd2-4127-8503-d36a6b339659"
-        }
-      ],
+      "stepItems": [],
       "uuid": "31647716-f241-4750-8695-d13d713e858c"
     },
     {
@@ -63,7 +56,7 @@
       "uuid": "c8d961e8-4287-4911-a40d-7cc087ea5e20"
     },
     {
-      "content": "Debugging tools are software applications or utilities used to test and debug code. They help programmers to identify and fix bugs or defects within software or systems. These tools often provide functionalities such as setting breakpoints, stepping through code, inspecting variables, and viewing call stacks to understand the state and flow of an application at various points during execution. \n\n## Arbiscan\nArbiscan is a valuable tool for debugging decentralized apps. It is a well-known blockchain explorer and analytics platform that specializes in the Arbitrum network. Arbiscan provides VMTrace and Debug tools that assist developers and users in understanding the execution of transactions on the Ethereum network. Arbiscan is a block explorer that is specifically designed for the Arbitrum network. It functions similarly to Etherscan but is tailored for exploring and analyzing blocks, transactions, smart contracts, and addresses on the Arbitrum Layer 2 scaling solution for Ethereum. Users of Arbitrum can utilize Arbiscan to verify transactions and contracts on the Arbitrum chain.\n\nVMTrace\nThe VMTrace tool offered by Arbiscan provides a step-by-step visualization of the EVM (Ethereum Virtual Machine) execution. This allows developers to trace the processing of transactions and identify any potential issues that may arise. Additionally, the Debug tools provided by Arbiscan offer further information such as input data, logs, and events emitted by the smart contract during execution. These tools provide developers with valuable insights into the behavior of their contracts and help them debug any issues that may arise.",
+      "content": "Debugging tools are software applications or utilities used to test and debug code. They help programmers to identify and fix bugs or defects within software or systems. These tools often provide functionalities such as setting breakpoints, stepping through code, inspecting variables, and viewing call stacks to understand the state and flow of an application at various points during execution. \n\n## Arbiscan\nArbiscan is a valuable tool for debugging decentralized apps. It is a well-known blockchain explorer and analytics platform that specializes in the Arbitrum network. Arbiscan provides VMTrace and Debug tools that assist developers and users in understanding the execution of transactions on the Ethereum network. Arbiscan is a block explorer that is specifically designed for the Arbitrum network. It functions similarly to Etherscan but is tailored for exploring and analyzing blocks, transactions, smart contracts, and addresses on the Arbitrum Layer 2 scaling solution for Ethereum. Users of Arbitrum can utilize Arbiscan to verify transactions and contracts on the Arbitrum chain.\n\n#### VMTrace\nThe VMTrace tool offered by Arbiscan provides a step-by-step visualization of the EVM (Ethereum Virtual Machine) execution. This allows developers to trace the processing of transactions and identify any potential issues that may arise. Additionally, the Debug tools provided by Arbiscan offer further information such as input data, logs, and events emitted by the smart contract during execution. These tools provide developers with valuable insights into the behavior of their contracts and help them debug any issues that may arise.",
       "name": "Debugging Tools",
       "stepItems": [],
       "uuid": "14ad15d3-9121-4b2f-92bd-5be323d3046d"
@@ -75,14 +68,26 @@
       "uuid": "8110bc69-c6ac-4b03-a6e9-8ff02ac7459e"
     },
     {
-      "content": "| Tool       | Use-cases                                                           | Relevant links                                                                                                                                                         |\n|------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Arbiscan   | Track/trace transactions and examine addresses on Arbitrum networks | Arbitrum One: https://arbiscan.io/ Arbitrum Nova: https://nova.arbiscan.io/ Arbitrum Sepolia: https://sepolia.arbiscan.io Arbitrum Goerli: https://goerli.arbiscan.io/ |\n| DexGuru    | Track/trace transactions and examine addresses on Arbitrum networks | Arbitrum One: https://arbitrum.dex.guru/ Arbitrum Nova: https://nova.dex.guru/                                                                                         |\n| Blockscout | Track/trace transactions and examine addresses on Arbitrum networks | Stylus Testnet: https://stylus-testnet-explorer.arbitrum.io                                                                                                            |\n| Dune       | Visualize and analyze Arbitrum network data                         | https://dune.com/browse/dashboards?q=arbitrum                                                                                       |\n",
+      "content": "## Purpose\nHere is provided a curated selection of tools and blockchain explorers designed to help you monitor and inspect transactions, smart contracts, and general blockchain activity associated with decentralized applications (dApps) across various Arbitrum chains.\n\n| Tool       | Use-cases                                                           | Relevant links                                                                                                                                                         |\n|------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Arbiscan   | Track/trace transactions and examine addresses on Arbitrum networks | Arbitrum One: https://arbiscan.io/ Arbitrum Nova: https://nova.arbiscan.io/ Arbitrum Sepolia: https://sepolia.arbiscan.io Arbitrum Goerli: https://goerli.arbiscan.io/ |\n| DexGuru    | Track/trace transactions and examine addresses on Arbitrum networks | Arbitrum One: https://arbitrum.dex.guru/ Arbitrum Nova: https://nova.dex.guru/                                                                                         |\n| Blockscout | Track/trace transactions and examine addresses on Arbitrum networks | Stylus Testnet: https://stylus-testnet-explorer.arbitrum.io                                                                                                            |\n| Dune       | Visualize and analyze Arbitrum network data                         | https://dune.com/browse/dashboards?q=arbitrum                                                                                       |\n",
       "name": "Monitoring Tools & Block Explore",
       "stepItems": [],
       "uuid": "9b5c8af4-687e-4b42-9919-1633037e72e2"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "968d3293-b498-4068-8f60-b4685435c8ad"
+    },
+    {
+      "content": "",
+      "name": "Step 7",
+      "stepItems": [],
+      "uuid": "4d9d6470-c491-4038-92b8-4ed1a884e6f9"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "96512649-ff1f-4fe4-b707-a4b66445484c",
+  "uuid": "arbitrum-tools-arbitrum-university-530",
   "version": 1,
   "priority": 50
 }
