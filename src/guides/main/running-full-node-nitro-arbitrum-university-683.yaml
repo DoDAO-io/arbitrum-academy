@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T17:58:49.154Z'
+created: '2023-11-06T18:06:05.874Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -16,6 +16,42 @@ steps:
       stream of inbox messages, utilizing the State Transition Function (STF) to
       update the Layer 2 chain state and generate the corresponding outputs,
       thereby facilitating the chain's evolution and functionality.
+
+
+      ## Types of Nodes
+
+      In the Arbitrum network, there are several other types of nodes that each
+      play a specific role in the operation and security of the network:
+
+
+      ### Validator Node
+
+      Participates in the consensus mechanism of Arbitrum's Layer 2 protocol.
+      Validators can post bonds and are responsible for asserting the correct
+      state of the rollup chain. They are also involved in challenging incorrect
+      assertions made by other validators.
+
+
+      ### Sequencer Node
+
+      A specialized type of node that batches and orders transactions before
+      they are confirmed by the validators. The sequencer provides faster
+      transaction throughput by temporarily acting as a central point before
+      decentralization through the validators' consensus.
+
+
+      ### Archivel Node
+
+      Stores the entire history of the network's transactions and states. While
+      not necessary for the operation of the network, they are useful for
+      services that need to query historical data.
+
+
+      ### Bridge Node
+
+      Manages the communication between the Arbitrum Layer 2 network and the
+      Ethereum mainnet, facilitating the transfer of assets between the two
+      chains.
 
 
       ## Considerations for Running Arbitrum Full Node
@@ -137,6 +173,10 @@ steps:
     name: Prerequisites
     stepItems: []
     uuid: 0df251af-2a35-4b4f-9a5a-be837167cf4e
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 25052d51-696c-4f1e-a6e2-7d4b5832e412
   - content: >
       ### Important Ports 
 
