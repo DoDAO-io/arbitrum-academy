@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T14:06:55.698Z'
+created: '2023-11-06T14:20:40.530Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -151,7 +151,48 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: cba9faea-8dae-4085-abe7-674963fb0f8d
-  - content: ''
+  - content: >-
+      ## Validator Wallet Requirements
+
+
+      #### Watchtower Validators
+
+      Watchtower validators operate without needing a wallet since they do not
+      perform any on-chain actions.
+
+
+      #### Defensive Validators
+
+      Defensive validators require a configured wallet, but it only needs to be
+      funded when an incorrect assertion is logged.
+
+
+      #### Active Validators
+
+      All other validator types need a wallet pre-funded to post stakes
+      immediately and to cover recurring costs at regular intervals.
+
+
+      ## Creating a wallet for an allowlisted validator
+
+
+      #### Example Command
+
+      - **Nitro Validator Wallet Creation**: The following Docker command
+      instructs the Nitro protocol to set up a validator wallet for Arbitrum One
+      and then exit:
+        ```sh
+        docker run --rm -it -v /some/local/dir/arbitrum:/home/user/.arbitrum offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url=https://l1-mainnet-node:8545 --l2.chain-id=42161 --node.staker.enable --parent-chain.wallet.only-create-key --parent-chain.wallet.password="SOME SECURE PASSWORD"
+        ```
+
+      #### Wallet File Location and Backup
+
+      - **File Creation and Directory**: The wallet file will be generated in
+      the mounted directory within `arb1/wallet/` for Arbitrum One or
+      `nova/wallet/` for Nova networks.
+
+      - **Backup Importance**: It is critical to backup the wallet file as it is
+      the sole method for withdrawing the staked funds when required.
     name: Allowlisted Validator
     stepItems: []
     uuid: e8989e11-37b2-43e6-a12b-7445aeba64df
