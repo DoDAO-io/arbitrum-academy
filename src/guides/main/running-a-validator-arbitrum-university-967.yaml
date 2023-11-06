@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T13:54:08.526Z'
+created: '2023-11-06T14:05:55.281Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -94,7 +94,69 @@ steps:
         uuid: f05c3999-b7ca-48e8-b63d-4cae6b3a9171
         explanation: Explanation of the question
     uuid: 792c3404-3c17-4f53-8951-a7e5e9a665ac
-  - content: ''
+  - content: >-
+      ## Watchtower Validator 
+
+      A Watchtower validator is a passive yet crucial participant in the
+      Arbitrum network that continuously monitors the rollup protocol without
+      placing stakes. Its role is to vigilantly observe for any incorrect blocks
+      proposed on the network and, upon detecting a discrepancy, it alerts the
+      network—through various possible mechanisms—so that active staking parties
+      can swiftly intervene. This intervention must occur before the expiry of
+      the dishonest block's deadline, which typically allows a window of several
+      days, ensuring that there is ample time for a response to protect the
+      network's integrity.
+
+
+      ## Running a Watchtower validator
+
+
+      #### Default Node Configuration
+
+
+      - **Watchtower Mode Activation**: Arbitrum nodes, inclusive of both full
+      and archive types, are preset to operate in Watchtower mode.
+
+
+      #### Error Logging
+
+
+      - **Incorrect Assertion Detection**: When a node in Watchtower mode
+      detects an incorrect assertion, it logs an error with the specific phrase
+      "found incorrect assertion in watchtower mode".
+
+
+      #### Log Verification
+
+
+      - **Watchtower Mode Confirmation**: The presence of a log entry like `INFO
+      [09-28|18:43:49.367] running as validator txSender=nil actingAsWallet=nil
+      whitelisted=false strategy=Watchtower` confirms that the node is running
+      in Watchtower mode.
+
+
+      #### Log Messages for Validator Operation
+
+
+      - **L2 Block Validator Check**: The message "validation succeeded" in the
+      logs indicates that the L2 block validator is functioning correctly.
+
+      - **L1 Validator Confirmation**: The log entry "found correct assertion"
+      signifies that the L1 validator is operational.
+
+
+      #### Performance Considerations
+
+
+      - **Overhead**: While Watchtower mode adds a slight amount of execution
+      and memory overhead to node operation.
+
+
+      #### Disabling Watchtower Mode
+
+
+      - **Deactivation**: If desired, Watchtower mode can be turned off by using
+      the configuration parameter `--node.staker.enable=false`.
     name: Watchtower Validator
     stepItems: []
     uuid: d5c43d16-0c09-42e2-8526-b494c7ffa349
@@ -120,6 +182,6 @@ steps:
     uuid: 868ae771-9d47-43b0-8d7e-f6ef6b2180b7
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 1e767c34-d416-4149-ac78-322e4fe34d64
+uuid: running-a-validator-arbitrum-university-967
 version: 1
 priority: 50
