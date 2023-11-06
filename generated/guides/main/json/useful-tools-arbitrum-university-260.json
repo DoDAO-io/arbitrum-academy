@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the Useful Tools in Arbitrum",
-  "created": "2023-11-06T12:40:54.059Z",
+  "created": "2023-11-06T12:42:24.891Z",
   "guideType": "onboarding",
   "key": "useful-tools-arbitrum-university-260",
   "name": "Useful Tools",
@@ -116,7 +116,7 @@
       "uuid": "e0704691-428a-4226-affb-9e60eda87e4f"
     },
     {
-      "content": "",
+      "content": "| Param                | Description                                                                                               | Arbitrum One               | Nova                      | Arb Goerli                | Arb Sepolia               |\n|----------------------|-----------------------------------------------------------------------------------------------------------|----------------------------|---------------------------|---------------------------|---------------------------|\n| Dispute window       | Time for assertions to get confirmed during which validaors can issue a challenge                         | 45818 blocks (~ 6.4 days ) | 45818 blocks (~ 6.4 days) | 20 blocks (~ 4.0 minutes) | 20 blocks (~ 4.0 minutes) |\n| Base stake           | Amount of stake required for a validator to make an assertion                                             | 1 ETH                      | 1 ETH                     | 1 Goerli ETH              | 1 Sepolia ETH             |\n| Force-include period | Period after which a delayed message can be included into the inbox without any action from the Sequencer | 5760 blocks / 24 hours     | 5760 blocks / 24 hours    | 5760 blocks / 24 hours    | 5760 blocks / 24 hours    |\n| Gas speed limit      | Target gas/sec, over which the congestion mechanism activates                                             | 7,000,000 gas/sec          | 7,000,000 gas/sec         | 3,000,000 gas/sec         | 7,000,000 gas/sec         |\n| Gas price floor      | Minimum gas price                                                                                         | 0.1 gwei                   | 0.01 gwei                 | 0.1 gwei                  | 0.1 gwei                  |\n| Block gas limit      | Maximum amount of gas that all the transactions inside a block are allowed to consume                     | 32,000,000                 | 32,000,000                | 20,000,000                | 32,000,000                |\n",
       "name": "Chain Parameters",
       "stepItems": [],
       "uuid": "884c7c69-2116-45ca-acb8-0c9510a9e601"
