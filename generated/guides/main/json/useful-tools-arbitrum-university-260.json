@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the Useful Tools in Arbitrum",
-  "created": "2023-11-06T12:28:23.385Z",
+  "created": "2023-11-06T12:40:54.059Z",
   "guideType": "onboarding",
   "key": "useful-tools-arbitrum-university-260",
   "name": "Useful Tools",
@@ -104,7 +104,7 @@
       "uuid": "ae306467-1801-4340-8d1c-30b4e149c1b1"
     },
     {
-      "content": "",
+      "content": "#### Ethers.js\n\nEthers.js is a comprehensive library for Ethereum, Arbitrum, and EVM-compatible blockchain interaction, featuring secure private key management, node compatibility, and ENS name integration. It supports JSON wallet import/export, BIP 39 mnemonics, and HD wallets, maintaining a lightweight profile. The library boasts extensive documentation, TypeScript readiness, and is open-source with an MIT License, fostering community contributions.\n\n#### thirdweb SDK\n\nThe thirdweb SDK is a full-stack web3 development toolkit, offering a range of features for building scalable applications on EVM-compatible blockchains. It simplifies complex tasks with wallet integration, smart contract capabilities, decentralized IPFS storage, and authentication mechanisms. It also includes a suite of user experience enhancements like gasless transactions, wallet connection components, FIAT gateways, and data APIs, streamlining the creation of user-friendly decentralized apps and allowing developers to concentrate on application development without the intricacies of blockchain technology.\n\n#### Viem\n\nViem is a modular, performance-focused tool for developing applications and libraries on Ethereum, Arbitrum, and other EVM-compatible blockchains. It provides flexible APIs, extensive TypeScript typing, and streamlined interaction with JSON-RPC APIs and smart contracts, leveraging official Ethereum terminology. With utilities for handling ABIs critical to smart contract interaction, Viem simplifies the development process, allowing developers to concentrate on building applications without the burden of low-level blockchain intricacies.\n\n#### Web3.js \n\nWeb3.js is a JavaScript library that allows developers to interact with Ethereum and other EVM-compatible blockchains directly from web browsers, server-side with Node.js, or in Electron-based applications. It streamlines various blockchain tasks, including sending Ether, querying smart contract data, and deploying contracts. Web3.js integrates well with the MetaMask extension, facilitating the creation of decentralized applications and enabling transaction management within browsers.\n\n#### Web3.py\n\nWeb3.py is a Python library designed for Ethereum blockchain interactions, tailored for Python developers. It offers similar functionalities as Web3.js, such as facilitating the sending of Ether, smart contract deployment, and data retrieval. Web3.py provides Pythonic bindings to the JSON RPC interface, making it a powerful and flexible tool for building Ethereum-based applications in Python environments. ",
       "name": "Web3 Libraries",
       "stepItems": [],
       "uuid": "cae31bbc-0e25-4b4d-9df6-90681b896dcc"
