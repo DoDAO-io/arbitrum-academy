@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-06T17:41:03.531Z'
+created: '2023-11-06T17:57:23.315Z'
 guideType: onboarding
 key: arbitrum-tools-arbitrum-university-530
 name: Arbitrum Tools
@@ -58,12 +58,14 @@ steps:
       23011913 | https://stylus-testnet-explorer.arbitrum.io/ | Arbitrum Sepolia
       | Nitro (Rollup)   | wss://stylus-sepolia.arbitrum.io/feed |
       https://stylus-testnet-sequencer.arbitrum.io/rpc |
-
-
-      ## RPC Providers
-
+              
+    name: RPC Endpoints
+    stepItems: []
+    uuid: 31647716-f241-4750-8695-d13d713e858c
+  - content: >
       To engage with public Arbitrum chains, you can utilize the same esteemed
       node providers that serve the Ethereum ecosystem.
+
 
       | Provider   | Arb One? | Arb Nova? | Arb Goerli? | Arb Sepolia? |
 
@@ -82,11 +84,9 @@ steps:
       | Infura     | ✅        |           | ✅           | ✅            |
 
       | Lava       | ✅        | ✅         |
-
-              
     name: RPC Endpoint Providers
     stepItems: []
-    uuid: 31647716-f241-4750-8695-d13d713e858c
+    uuid: d82a778b-de0b-4d5b-9aba-33262c53eabb
   - content: ''
     name: Evaluation
     stepItems:
@@ -195,57 +195,6 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 968d3293-b498-4068-8f60-b4685435c8ad
-  - content: >
-      Chain parameters define the essential rules and configurations for a
-      blockchain network, such as block size, block time, consensus rules, and
-      network IDs, ensuring that all nodes on the network are in sync and follow
-      the same protocol for validating and adding transactions. They are
-      critical for maintaining the blockchain's integrity and security.
-
-
-      | Param                |
-      Description                                                                                              
-      | Arbitrum One               | Nova                      | Arb
-      Goerli                | Arb Sepolia               |
-
-      |----------------------|-----------------------------------------------------------------------------------------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
-
-      | Dispute window       | Time for assertions to get confirmed during which
-      validaors can issue a challenge                         | 45818 blocks (~
-      6.4 days ) | 45818 blocks (~ 6.4 days) | 20 blocks (~ 4.0 minutes) | 20
-      blocks (~ 4.0 minutes) |
-
-      | Base stake           | Amount of stake required for a validator to make
-      an assertion                                             | 1
-      ETH                      | 1 ETH                     | 1 Goerli
-      ETH              | 1 Sepolia ETH             |
-
-      | Force-include period | Period after which a delayed message can be
-      included into the inbox without any action from the Sequencer | 5760
-      blocks / 24 hours     | 5760 blocks / 24 hours    | 5760 blocks / 24
-      hours    | 5760 blocks / 24 hours    |
-
-      | Gas speed limit      | Target gas/sec, over which the congestion
-      mechanism activates                                             |
-      7,000,000 gas/sec          | 7,000,000 gas/sec         | 3,000,000
-      gas/sec         | 7,000,000 gas/sec         |
-
-      | Gas price floor      | Minimum gas
-      price                                                                                        
-      | 0.1 gwei                   | 0.01 gwei                 | 0.1
-      gwei                  | 0.1 gwei                  |
-
-      | Block gas limit      | Maximum amount of gas that all the transactions
-      inside a block are allowed to consume                     |
-      32,000,000                 | 32,000,000                |
-      20,000,000                | 32,000,000                |
-    name: Chain Parameters
-    stepItems: []
-    uuid: b9898cae-fceb-4600-a441-1259d5a4dae7
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: b0ac1d96-5d77-44d8-b75e-70009afc35d4
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: arbitrum-tools-arbitrum-university-530
