@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:57:55.419Z'
+created: '2023-11-06T16:59:02.729Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -21,7 +21,7 @@ steps:
       ## Considerations for Running Arbitrum Full Node
 
 
-      #### Transaction Validation and Security
+      ### Transaction Validation and Security
 
       Operating a full node on the Arbitrum blockchain allows users to
       autonomously validate transactions, enhancing network security and
@@ -29,7 +29,7 @@ steps:
       depending on external services.
 
 
-      #### Reduced Trust Requirements
+      ### Reduced Trust Requirements
 
       Running a full node on the Arbitrum network allows users to transact with
       greater autonomy and security, diminishing reliance on third parties and
@@ -37,7 +37,7 @@ steps:
       grants users enhanced control and assurance of transaction integrity.
 
 
-      #### Lower Resource Requirements
+      ### Lower Resource Requirements
 
       Full nodes on the Arbitrum network are less resource-intensive than
       archive nodes, making them suitable for users with modest hardware,
@@ -50,7 +50,7 @@ steps:
       The following hardware and software are required to run a full node:
 
 
-      #### Minimum hardware configuration
+      ### Minimum hardware configuration
 
       To set up a Nitro full node (no archival), you would require:
 
@@ -62,7 +62,7 @@ steps:
 
       - Estimated Growth Rate: around 3 GB per day
        
-      #### Software Prerequisites
+      ### Software Prerequisites
 
       - Latest Docker Image: `offchainlabs/nitro-node:v2.1.1-e9d8842`
 
@@ -84,7 +84,7 @@ steps:
       parameter will be disregarded.
 
 
-      #### Required Parameters 
+      ### Required Parameters 
 
       L1 RPC URL
 
@@ -139,7 +139,7 @@ steps:
       ### TODO - Fix formatting of this step - how?
 
 
-      #### Important Ports 
+      ### Important Ports 
 
       - RPC: 8547
 
