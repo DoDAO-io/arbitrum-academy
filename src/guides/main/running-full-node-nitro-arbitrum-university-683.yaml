@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T15:20:12.947Z'
+created: '2023-11-06T15:21:42.221Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -91,6 +91,11 @@ steps:
         explanation: Explanation of the question
     uuid: 5e0af96a-3e39-48ff-a474-b227e7eec2f2
   - content: >-
+      ### TODO - Fix formatting of this step
+
+
+
+
       ### Putting it Together 
 
       When setting up a Nitro node via Docker, it’s essential to mount an
@@ -154,6 +159,12 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: e97ba39d-652f-4fb7-b5cc-0a35b1d7d014
+  - content: >-
+      TODO - Give descriptions of some of the optional parameters and give a
+      simpler table
+    name: Optional Parameters
+    stepItems: []
+    uuid: 80f904d8-1e5a-4748-aa82-4d6960184fba
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: running-full-node-nitro-arbitrum-university-683
