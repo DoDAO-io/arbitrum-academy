@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T14:05:55.281Z'
+created: '2023-11-06T14:06:55.698Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -95,30 +95,17 @@ steps:
         explanation: Explanation of the question
     uuid: 792c3404-3c17-4f53-8951-a7e5e9a665ac
   - content: >-
-      ## Watchtower Validator 
-
-      A Watchtower validator is a passive yet crucial participant in the
-      Arbitrum network that continuously monitors the rollup protocol without
-      placing stakes. Its role is to vigilantly observe for any incorrect blocks
-      proposed on the network and, upon detecting a discrepancy, it alerts the
-      network—through various possible mechanisms—so that active staking parties
-      can swiftly intervene. This intervention must occur before the expiry of
-      the dishonest block's deadline, which typically allows a window of several
-      days, ensuring that there is ample time for a response to protect the
-      network's integrity.
-
-
       ## Running a Watchtower validator
 
 
-      #### Default Node Configuration
+      ### Default Node Configuration
 
 
       - **Watchtower Mode Activation**: Arbitrum nodes, inclusive of both full
       and archive types, are preset to operate in Watchtower mode.
 
 
-      #### Error Logging
+      ### Error Logging
 
 
       - **Incorrect Assertion Detection**: When a node in Watchtower mode
@@ -126,7 +113,7 @@ steps:
       "found incorrect assertion in watchtower mode".
 
 
-      #### Log Verification
+      ### Log Verification
 
 
       - **Watchtower Mode Confirmation**: The presence of a log entry like `INFO
@@ -135,7 +122,7 @@ steps:
       in Watchtower mode.
 
 
-      #### Log Messages for Validator Operation
+      ### Log Messages for Validator Operation
 
 
       - **L2 Block Validator Check**: The message "validation succeeded" in the
@@ -145,14 +132,14 @@ steps:
       signifies that the L1 validator is operational.
 
 
-      #### Performance Considerations
+      ### Performance Considerations
 
 
       - **Overhead**: While Watchtower mode adds a slight amount of execution
       and memory overhead to node operation.
 
 
-      #### Disabling Watchtower Mode
+      ### Disabling Watchtower Mode
 
 
       - **Deactivation**: If desired, Watchtower mode can be turned off by using
