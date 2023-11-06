@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T17:34:23.915Z'
+created: '2023-11-06T17:58:49.154Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -43,9 +43,36 @@ steps:
       archive nodes, making them suitable for users with modest hardware,
       allowing for transaction validation and increased security without the
       need for powerful equipment.
-
-
-      ## Prerequisites 
+    name: Full Nodes
+    stepItems: []
+    uuid: c62a372f-7b31-4de5-a179-ac0449b07374
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 7902163c-997a-4a4b-a867-aed5802f8f24
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: b449f310-1f41-4842-a192-7283a918edc2
+        explanation: Explanation of the question
+    uuid: 5e0af96a-3e39-48ff-a474-b227e7eec2f2
+  - content: >-
+      ## Requirements for Running a Full Node 
 
       The following hardware and software are required to run a full node:
 
@@ -107,34 +134,9 @@ steps:
       options including 'arb1', 'nova', 'goerli-rollup', and 'sepolia-rollup'.
 
       - Before v2.1.0, this was `--l2.chain-id` and accepted only chain IDs.
-    name: Full Nodes
+    name: Prerequisites
     stepItems: []
-    uuid: c62a372f-7b31-4de5-a179-ac0449b07374
-  - content: ''
-    name: Evaluation
-    stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 7902163c-997a-4a4b-a867-aed5802f8f24
-      - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
-        choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: b449f310-1f41-4842-a192-7283a918edc2
-        explanation: Explanation of the question
-    uuid: 5e0af96a-3e39-48ff-a474-b227e7eec2f2
+    uuid: 0df251af-2a35-4b4f-9a5a-be837167cf4e
   - content: >
       ### Important Ports 
 
