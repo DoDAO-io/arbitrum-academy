@@ -1,0 +1,125 @@
+categories: []
+content: A comprehensive guide to run a Validator
+created: '2023-11-06T13:54:08.526Z'
+guideType: onboarding
+key: running-a-validator-arbitrum-university-967
+name: Running a Validator
+publishStatus: Live
+steps:
+  - content: >-
+      In the Arbitrum ecosystem, certain nodes opt to function as validators,
+      playing a crucial role in monitoring and advancing the rollup protocol to
+      ensure the chain's state progresses securely. These nodes validate the
+      actions on the chain by confirming the correctness of inbox messages, thus
+      maintaining the integrity of the protocol. Not all nodes are validators;
+      some may choose to compute the correct chain behavior independently
+      without participating in the consensus mechanism. 
+
+
+      ## Validation Strategies
+
+
+      Validators in the Arbitrum network can adopt several strategies, depending
+      on their roles and permissions. These strategies include:
+
+
+      #### Defensive (allowlist required):
+
+      Validators post stakes and initiate challenges if their local state
+      conflicts with the on-chain assertion. This strategy requires a wallet to
+      post stakes and will only incur costs if a discrepancy is detected. 
+
+
+      #### StakeLatest (allowlist required):
+
+
+      Validators remain staked on the latest assertion, ready to challenge any
+      incorrect assertions. This proactive approach requires a wallet and incurs
+      some gas expenditure with each new assertion.
+
+
+      #### ResolveNodes (allowlist required):
+
+
+      In addition to staying staked on the latest assertion, validators resolve
+      any unconfirmed assertions and challenge incorrect ones. This method
+      requires a wallet and consumes gas for resolving unconfirmed assertions or
+      when a new assertion is created.
+
+
+      #### MakeNodes (allowlist required):
+
+
+      Validators continuously generate new assertions and challenge any
+      incorrect ones found. This is the most gas-intensive strategy as it
+      requires a wallet, consistent staking, and may incur costs from gas spent
+      on reverted calls when multiple validators attempt to make a new assertion
+      simultaneously. 
+
+
+      #### Watchtower (no allowlist required):
+
+
+      This strategy is accessible to all nodes and operates in a monitoring
+      capacity. A Watchtower node will log an error if it detects an on-chain
+      assertion that diverges from the local computation of the chain state. It
+      is a passive strategy that does not engage with the chain directly and,
+      therefore, does not require a wallet or incur on-chain expenses. By
+      default, all nodes (full and archive) have Watchtower mode enabled. 
+    name: Validation Strategies
+    stepItems: []
+    uuid: 7bf74786-0745-43cf-8170-39f2c8f663cc
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 73e117ec-13ea-4a25-bafd-66b2104e4865
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: f05c3999-b7ca-48e8-b63d-4cae6b3a9171
+        explanation: Explanation of the question
+    uuid: 792c3404-3c17-4f53-8951-a7e5e9a665ac
+  - content: ''
+    name: Watchtower Validator
+    stepItems: []
+    uuid: d5c43d16-0c09-42e2-8526-b494c7ffa349
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: cba9faea-8dae-4085-abe7-674963fb0f8d
+  - content: ''
+    name: Allowlisted Validator
+    stepItems: []
+    uuid: e8989e11-37b2-43e6-a12b-7445aeba64df
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 7838a21b-dedb-4c3c-85d7-5387e31f9010
+  - content: ''
+    name: Running Allowlisted Validator
+    stepItems: []
+    uuid: 04fa81f2-b494-4528-93b8-40ca7537c1ac
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 868ae771-9d47-43b0-8d7e-f6ef6b2180b7
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 1e767c34-d416-4149-ac78-322e4fe34d64
+version: 1
+priority: 50
