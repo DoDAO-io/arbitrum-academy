@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T18:27:42.391Z'
+created: '2023-11-06T18:42:38.874Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -98,7 +98,7 @@ steps:
       is a passive strategy that does not engage with the chain directly and,
       therefore, does not require a wallet or incur on-chain expenses. By
       default, all nodes (full and archive) have Watchtower mode enabled. 
-    name: Validation Strategies
+    name: What is a Validator?
     stepItems: []
     uuid: 7bf74786-0745-43cf-8170-39f2c8f663cc
   - content: ''
