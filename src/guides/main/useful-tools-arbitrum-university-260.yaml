@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the Useful Tools in Arbitrum
-created: '2023-11-06T12:02:00.592Z'
+created: '2023-11-06T12:20:25.711Z'
 guideType: onboarding
 key: useful-tools-arbitrum-university-260
 name: Useful Tools
@@ -190,7 +190,57 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: c545665f-0351-4484-a4bc-08c8cf64f00f
-  - content: ''
+  - content: >-
+      #### Chainlink
+
+
+      Chainlink is a well-known platform in the Web3 services space that
+      specializes in decentralized oracle networks. With Chainlink, developers
+      can easily build Ethereum and Arbitrum dApps that connect to various
+      off-chain data feeds and APIs. These data feeds can provide a wide range
+      of information, such as asset prices, weather data, random number
+      generation, and more. By integrating Chainlink into your project, you can
+      ensure that your dApp has access to accurate and up-to-date off-chain
+      data.
+
+
+      #### API3
+
+
+      API3 is a collaborative project that aims to deliver traditional API
+      services to smart contract platforms in a decentralized and
+      trust-minimized manner. One of the key features of API3 is its ability to
+      enable Airnodes to push off-chain data to on-chain contracts. This means
+      that the data can be directly queried through the Airnode or through
+      dAPIs, which are data feeds that provide real-time off-chain data. By
+      utilizing API3, developers can seamlessly integrate off-chain data into
+      their projects and enhance the functionality of their smart contracts.
+
+
+      #### Tellor
+
+
+      Tellor is a decentralized oracle network that incentivizes a
+      permissionless network of data reporting and validation. Its main goal is
+      to ensure that any verifiable data can be brought on-chain. Tellor
+      supports a wide range of data needs, including basic spot prices,
+      sophisticated pricing specifications like TWAP/VWAP, Snapshot Vote
+      Results, and custom data requirements. By leveraging Tellor, developers
+      can integrate reliable and trustworthy off-chain data into their projects,
+      making their dApps more robust and secure.
+
+
+      #### Supra
+
+
+      Supra is a unique and high-throughput Oracle & IntraLayer toolkit that
+      offers a wide range of cross-chain solutions. It includes data oracles,
+      asset bridges, automation networks, and more. Supra's main objective is to
+      interlink all blockchains, whether they are public (L1s and L2s) or
+      private (enterprise). By utilizing Supra, developers can seamlessly
+      integrate off-chain data from various blockchains into their projects,
+      enabling interoperability and enhancing the overall functionality of their
+      applications.
     name: Oracles
     stepItems: []
     uuid: 46de9394-bd29-44b4-8cde-84ff50bfa545
