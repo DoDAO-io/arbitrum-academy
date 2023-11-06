@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
-  "created": "2023-11-02T12:58:46.715Z",
+  "created": "2023-11-06T17:47:37.919Z",
   "guideType": "onboarding",
   "key": "arbitrum-orbit-arbitrum-university-525",
   "name": "Arbitrum Orbit",
@@ -138,6 +138,18 @@
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "6bef430c-31af-4813-9d6f-26fabf977eee"
+    },
+    {
+      "content": "Chain parameters define the essential rules and configurations for a blockchain network, such as block size, block time, consensus rules, and network IDs, ensuring that all nodes on the network are in sync and follow the same protocol for validating and adding transactions. They are critical for maintaining the blockchain's integrity and security.\n\n| Param                | Description                                                                                               | Arbitrum One               | Nova                      | Arb Goerli                | Arb Sepolia               |\n|----------------------|-----------------------------------------------------------------------------------------------------------|----------------------------|---------------------------|---------------------------|---------------------------|\n| Dispute window       | Time for assertions to get confirmed during which validaors can issue a challenge                         | 45818 blocks (~ 6.4 days ) | 45818 blocks (~ 6.4 days) | 20 blocks (~ 4.0 minutes) | 20 blocks (~ 4.0 minutes) |\n| Base stake           | Amount of stake required for a validator to make an assertion                                             | 1 ETH                      | 1 ETH                     | 1 Goerli ETH              | 1 Sepolia ETH             |\n| Force-include period | Period after which a delayed message can be included into the inbox without any action from the Sequencer | 5760 blocks / 24 hours     | 5760 blocks / 24 hours    | 5760 blocks / 24 hours    | 5760 blocks / 24 hours    |\n| Gas speed limit      | Target gas/sec, over which the congestion mechanism activates                                             | 7,000,000 gas/sec          | 7,000,000 gas/sec         | 3,000,000 gas/sec         | 7,000,000 gas/sec         |\n| Gas price floor      | Minimum gas price                                                                                         | 0.1 gwei                   | 0.01 gwei                 | 0.1 gwei                  | 0.1 gwei                  |\n| Block gas limit      | Maximum amount of gas that all the transactions inside a block are allowed to consume                     | 32,000,000                 | 32,000,000                | 20,000,000                | 32,000,000                |\n",
+      "name": "Chain Parameters",
+      "stepItems": [],
+      "uuid": "aebca833-8c0a-491e-ad35-87b9e2889f05"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "26b0af8e-4de1-45cd-ba2c-acb7a331685c"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
