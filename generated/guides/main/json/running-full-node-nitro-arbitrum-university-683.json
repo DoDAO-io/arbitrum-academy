@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to run a full node (Nitro)?",
-  "created": "2023-11-06T16:52:07.819Z",
+  "created": "2023-11-06T16:56:33.572Z",
   "guideType": "onboarding",
   "key": "running-full-node-nitro-arbitrum-university-683",
   "name": "Running Full Node (Nitro)",
@@ -68,7 +68,7 @@
       "uuid": "e97ba39d-652f-4fb7-b5cc-0a35b1d7d014"
     },
     {
-      "content": "### TODO - Give descriptions of some of the optional parameters and give a simpler table",
+      "content": "Optional parameters for running a full node in a blockchain network are used to customize the node's operation based on the user's preferences or specific needs. They are not necessary for the basic functioning of the node but can enhance its performance, security, or usability. Such parameters may control aspects like logging verbosity, database cache size, network bandwidth usage, or enable additional features like metrics reporting or API extensions. These parameters offer flexibility to users who wish to fine-tune their nodes beyond the default configuration, allowing for a more tailored experience depending on the individual's system capabilities, security needs, and the role of the node within the network. \n\n| Flag                              | Description                                                                                                                           |\n|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|\n| --node.rpc.classic-redirect=<RPC> | Redirects archive requests for pre-nitro blocks to this RPC of an Arbitrum Classic node with archive database. Only for Arbitrum One. |\n| --http.api                        | Offered APIs over the HTTP-RPC interface. Default: net,web3,eth,arb. Add debug for tracing.                                           |\n| --http.corsdomain                 | Accepts cross origin requests from these comma-separated domains (browser enforced).                                                  |\n| --http.vhosts                     | Accepts requests from these comma-separated virtual hostnames (server enforced). Default: localhost. Accepts *.                       |\n\nFor more details on optional parameters visit https://docs.arbitrum.io/node-running/how-tos/running-a-full-node#optional-parameters ",
       "name": "Optional Parameters",
       "stepItems": [],
       "uuid": "80f904d8-1e5a-4748-aa82-4d6960184fba"
