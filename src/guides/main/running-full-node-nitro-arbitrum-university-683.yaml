@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:21:32.453Z'
+created: '2023-11-06T16:23:00.391Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -152,7 +152,7 @@ steps:
         explanation: Explanation of the question
     uuid: 5e0af96a-3e39-48ff-a474-b227e7eec2f2
   - content: >-
-      ### TODO - Fix formatting of this step
+      ### TODO - Fix formatting of this step - how?
 
 
 
