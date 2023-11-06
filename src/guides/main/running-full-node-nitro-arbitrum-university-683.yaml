@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-06T16:18:17.378Z'
+created: '2023-11-06T16:19:34.150Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
@@ -117,11 +117,11 @@ steps:
 
       - WS port 8548 needs extra args to be opened. Please use these flags:
 
-      --ws.port=8548
+      1. --ws.port=8548
 
-      --ws.addr=0.0.0.0
+      2. --ws.addr=0.0.0.0
 
-      --ws.origins=* 
+      3. --ws.origins=* 
     name: Full Nodes
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
