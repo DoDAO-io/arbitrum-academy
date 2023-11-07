@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-07T12:38:17.685Z'
+created: '2023-11-07T12:39:03.584Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -150,11 +150,11 @@ steps:
       `INFO [09-28|18:43:49.367] running as validator                    
       txSender=nil actingAsWallet=nil whitelisted=false strategy=Watchtower`
 
-                 "Strategy" should be `Watchtower`
+              "Strategy" should be `Watchtower`
 
-                  The presence of the log entry "validation succeeded" indicates that the L2 block validator is functioning correctly
+               The presence of the log entry "validation succeeded" indicates that the L2 block validator is functioning correctly
 
-                  The appearance of the log entry "found correct assertion" signifies that the L1 validator is operating as intended.
+               The appearance of the log entry "found correct assertion" signifies that the L1 validator is operating as intended.
 
       - Operating in Watchtower mode incurs a minor increase in execution and
       memory usage. To turn off this mode, apply the parameter
