@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-07T16:44:28.715Z'
+created: '2023-11-07T18:16:02.254Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -38,35 +38,35 @@ steps:
       on-chain.
 
 
-      ### Benefits of Layer 2
+      ## Benefits of Layer 2
 
 
-      #### Increased Transaction Throughput
+      ### 1. Increased Transaction Throughput
 
       By handling transactions off the main chain, Layer 2 can process many more
       transactions per second than the base layer, alleviating congestion.
 
 
-      #### Reduced Costs
+      ### 2. Reduced Costs
 
       Transactions on Layer 2 typically incur lower fees because they minimize
       the demand on the network's main chain resources.
 
 
-      #### Improved Speed
+      ### 3. Improved Speed
 
       Transactions can be completed faster on Layer 2, as they are not subject
       to the longer processing times of the main chain.
 
 
-      #### Enhanced Scalability
+      ### 4. Enhanced Scalability
 
       Layer 2 can scale independently from the main chain, allowing the network
       to support more users and applications without a proportional increase in
       transaction costs or times.
 
 
-      #### Maintained Security
+      ### 5. Maintained Security
 
       Despite processing transactions off-chain, Layer 2 solutions typically
       inherit the strong security guarantees of the underlying main chain.
