@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring the number one Layer 2 solution!",
-  "created": "2023-11-07T15:53:00.991Z",
+  "created": "2023-11-07T16:44:28.715Z",
   "guideType": "onboarding",
   "key": "introduction-to-arbitrum-arbitrum-university-794",
   "name": "Introduction to Arbitrum",
@@ -32,7 +32,7 @@
       "uuid": "3cc2ab75-c65d-4157-b7d9-c475e3d481f0"
     },
     {
-      "content": "## Arbitrum Chains\n### Nitro\n### NOVA\n### Orbit\n### How is arbiturm diferent from other Optimistic L2 Rollups",
+      "content": "Arbitrum ecosystem consists of various chains with distinct features that utilise unique technologies that enable ethereum scalability. The major arbitrum chains include.\n\n### Arbitrum One\nArbitrum One is a Layer 2 optimistic rollup solution that enhances Ethereum blockchain. It doesn't require any additional trust beyond that which is inherent to Ethereum's Layer 1. Enabled by the Nitro technology stack, Arbitrum One features efficient data handling and execution, improved transaction compression, and compatibility with Ethereum's gas system, streamlining the process while keeping security tight.\n\n### Arbitrum Nova\nArbitrum Nova is a Layer 2 scaling solution designed for high performance and cost efficiency. It operates on the AnyTrust protocol, which is a slightly less trustless system compared to Arbitrum One's Rollup protocol. The primary distinction lies in the AnyTrust protocol's reliance on a Data Availability Committee (DAC) to manage transaction data. This committee ensures the speedy and efficient handling of Level 2 transaction data before it is finalized on Ethereum's main chain. Arbitrum Nova is tailored for applications where high throughput and affordability are prioritized.\n\n### Arbitrum Orbit\nArbitrum Orbit allows the creation of personalized chains that settle transactions to Arbitrum's Layer 2 chains, such as Arbitrum One or Arbitrum Nova. You have full control over your Orbit chain, with the ability to tailor its privacy settings, permissions, governance structure, and fee token according to your specific requirements. Orbit chains can be as open or restricted as you prefer, offering a customizable path to decentralization and the option to integrate ongoing enhancements from the Arbitrum Nitro technology stack\n\n## How is arbiturm diferent from other Optimistic L2 Rollups?\nArbitrum's approach prioritizes a balance of speed, cost, security, and developer accessibility, underpinning its leading market position. Some of the major differences include:\n\n### Fraud Proofs\nArbitrum sets itself apart from other Optimistic L2 Rollups primarily through its multi-round fraud proof system, which contrasts with single-round fraud proofs used by platforms like Optimism. This system verifies only challenged transactions, which may result in lower fees due to decreased reliance on Layer 1 computations.\n\n### Virtual Machine Compatibility\nThe Arbitrum Virtual Machine (AVM) is more closely optimized for EVM coding languages, making it developer-friendly as applications don't need to be rewritten to transition from the EVM to the AVM. This contrasts with Optimism's Virtual Machine (OVM), which has faced some compatibility issues with the EVM.\n\n### Transaction Finality and Fees\nDue to the multi-round fraud proof mechanism, transaction finality on Arbitrum can be slower compared to some other rollups, but this trade-off allows for lower fees because of reduced Layer 1 computation reliance​.\n\n",
       "name": "Arbitrum Chains",
       "stepItems": [],
       "uuid": "6aae4c48-10e0-494b-bd9e-a8404f42515d"
@@ -44,7 +44,7 @@
       "uuid": "35076c67-6a2a-4dfe-bfb4-c5b9565ed0f4"
     },
     {
-      "content": "## Arbitrum Ecosystem\n### Stylus\n### Ecosystem Support\n### Decentralize governance",
+      "content": "The Arbitrum ecosystem boasts a vibrant network of decentralized applications, offering users enhanced transaction speed and reduced costs. With its robust compatibility with Ethereum's tools and smart contracts, it simplifies the developer experience for deploying dApps. \n\n### Stylus\nStylus is an innovative platform that extends smart contract development on the Ethereum blockchain to languages like Rust, C, and C++, diversifying beyond the conventional Solidity-centric approach. Integrated with Arbitrum Nitro's enhanced tech stack, Stylus employs the WebAssembly (WASM) virtual machine in tandem with the Ethereum Virtual Machine (EVM), enabling the execution of smart contracts authored in WASM-compatible languages on the Arbitrum network.\n\nStylus enhances the Arbitrum ecosystem by allowing developers to write smart contracts in Rust, C, and C++ and introducing significant performance enhancements for decentralized applications. It also adds the ability to create custom precompiles for advanced cryptographic functions, which, along with WASM support, enables high-speed execution and broader innovation, all while maintaining compatibility with the Ethereum ecosystem through its EVM+ integration.\n\n### Ecosystem Support\n\n### Decentralize governance",
       "name": "Arbitrum Ecosystem",
       "stepItems": [],
       "uuid": "44ce8c60-de16-42f2-abb6-a12bcbb75d00"
