@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-07T12:36:40.146Z'
+created: '2023-11-07T12:37:28.657Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -138,18 +138,24 @@ steps:
       - Every node, whether it's a full node or an archive node, operates in
       Watchtower mode by default.
 
+
       - Should a discrepancy be identified, a node in Watchtower mode will
       record an error, which includes the phrase "found incorrect assertion in
       watchtower mode".
+
 
       - To confirm the activation of Watchtower mode, the following message
       should be present in the log files:
 
       `INFO [09-28|18:43:49.367] running as validator                    
       txSender=nil actingAsWallet=nil whitelisted=false strategy=Watchtower`
+
        "Strategy" should be `Watchtower`
+
         The presence of the log entry "validation succeeded" indicates that the L2 block validator is functioning correctly
+
         The appearance of the log entry "found correct assertion" signifies that the L1 validator is operating as intended.
+
       - Operating in Watchtower mode incurs a minor increase in execution and
       memory usage. To turn off this mode, apply the parameter
       `--node.staker.enable=false`.
