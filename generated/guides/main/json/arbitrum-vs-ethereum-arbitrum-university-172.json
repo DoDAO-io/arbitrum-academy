@@ -1,14 +1,14 @@
 {
   "categories": [],
   "content": "Understanding the differences between Arbitrum and Ethereum ",
-  "created": "2023-11-07T17:32:07.466Z",
+  "created": "2023-11-07T17:53:34.850Z",
   "guideType": "onboarding",
   "key": "arbitrum-vs-ethereum-arbitrum-university-172",
   "name": "Arbitrum vs Ethereum",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
+      "content": "## Difference between Arbitrum and Ethereum\n\nArbitrum and Ethereum are both blockchain platforms that offer decentralized application (dApp) development capabilities. While they share many similarities, there are some key differences that developers should be aware of when working with Arbitrum. The major differences between both are:\n\n### Timing Differences \nOne of the main differences between Arbitrum and Ethereum lies in the timing assumptions. In Ethereum, the timing of blocks is well-established, but this doesn't directly translate to Arbitrum. Developers should familiarize themselves with how block numbers and time are handled in Arbitrum to avoid any timing-related issues.\n\n### RPC Methods \nMost of the RPC methods in Arbitrum behave similarly to Ethereum. However, there might be some methods that produce different results or provide additional information when used on an Arbitrum chain. It is important for developers to understand these differences to ensure their dApps function as intended.\n\n### Contract Deployment \nDeploying Solidity contracts onto Arbitrum is similar to Ethereum. Developers can use their existing knowledge and experience to deploy contracts on Arbitrum without the need for extensive relearning. This compatibility makes it easier for Ethereum developers to transition to Arbitrum.\n\n### Transaction Fees\nThe fee structure in Arbitrum is comparable to Ethereum's gas fees. However, Arbitrum transactions also include a fee component to cover the cost of posting calldata to the parent chain, which is Ethereum in this case. Developers should be aware of this additional fee component when estimating the cost of transactions on Arbitrum.\n\n### Message Passing\nArbitrum chains support message passing between parent chains (such as Ethereum) and child chains (like Arbitrum One or Arbitrum Nova). This functionality allows for seamless communication and interaction between different layers of the blockchain ecosystem. Developers should understand how this message passing works to leverage its potential in their dApps.\n\n### L2-Specific Precompiles\nIn addition to supporting all precompiles available in Ethereum, Arbitrum provides L2-specific precompiles that can be called by smart contracts. These precompiles offer additional methods that can be utilized in the same way as Solidity functions. Developers should explore these L2-specific precompiles to enhance the functionality of their dApps.",
       "name": "Arbitrum vs Ethereum",
       "stepItems": [],
       "uuid": "0d0e922e-6f2d-4e3a-97d4-afe4e527ee61"
@@ -93,7 +93,7 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "0781ce85-31ea-4127-b50a-f321c6d738ad",
+  "uuid": "arbitrum-vs-ethereum-arbitrum-university-172",
   "version": 1,
   "priority": 50
 }
