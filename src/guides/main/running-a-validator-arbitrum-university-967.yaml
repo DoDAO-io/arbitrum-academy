@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-06T18:45:45.576Z'
+created: '2023-11-07T12:17:36.859Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -184,22 +184,23 @@ steps:
       ## Validator Wallet Requirements
 
 
-      #### Watchtower Validators
+      | Validator            | Wallet
+      Requirement                                                               
+      |   |
 
-      Watchtower validators operate without needing a wallet since they do not
-      perform any on-chain actions.
+      |----------------------|-----------------------------------------------------------------------------------|---|
 
+      | Active Validator     |
+      Always                                                                           
+      |   |   |
 
-      #### Defensive Validators
+      | Defensive Validator  | Requires configured wallet, but funded only when
+      an incorrect assertion is logged |   |
 
-      Defensive validators require a configured wallet, but it only needs to be
-      funded when an incorrect assertion is logged.
+      | Watchtower Validator |
+      Never                                                                            
+      |
 
-
-      #### Active Validators
-
-      All other validator types need a wallet pre-funded to post stakes
-      immediately and to cover recurring costs at regular intervals.
 
 
       ## Creating a wallet for an allowlisted validator
