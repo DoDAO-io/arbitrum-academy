@@ -1,0 +1,99 @@
+{
+  "categories": [],
+  "content": "Understanding the differences between Arbitrum and Ethereum ",
+  "created": "2023-11-07T17:32:07.466Z",
+  "guideType": "onboarding",
+  "key": "arbitrum-vs-ethereum-arbitrum-university-172",
+  "name": "Arbitrum vs Ethereum",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "\nIntroduction Comments \n        ",
+      "name": "Arbitrum vs Ethereum",
+      "stepItems": [],
+      "uuid": "0d0e922e-6f2d-4e3a-97d4-afe4e527ee61"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "d6491b6a-2a44-4c44-9ec5-b596d650b234"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "b42acf17-4335-4f8a-8eb5-8986c6b12c81",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "5068b4d1-722e-47fd-8e7e-0281507ef189"
+    },
+    {
+      "content": "",
+      "name": "Block Numbers and Time",
+      "stepItems": [],
+      "uuid": "6c3a5926-2a51-47bb-8993-7ee42a4026b2"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "d7e1c842-3dd8-4431-84f7-756db0efcda9"
+    },
+    {
+      "content": "",
+      "name": "RPC Methods",
+      "stepItems": [],
+      "uuid": "052ae7a5-c972-4dd7-badb-fe51e0b8be9e"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "460179d1-32e7-48dd-9881-4fbb3bfc6a89"
+    },
+    {
+      "content": "",
+      "name": "Solidity Support",
+      "stepItems": [],
+      "uuid": "79d819b5-ef3b-486c-b2d4-2dc0a320f2ae"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "d273b538-9550-45c0-85e2-56361cd7c5df"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "0781ce85-31ea-4127-b50a-f321c6d738ad",
+  "version": 1,
+  "priority": 50
+}
