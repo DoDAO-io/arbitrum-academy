@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-11-07T12:18:43.915Z'
+created: '2023-11-07T12:19:30.852Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -186,21 +186,20 @@ steps:
 
       | Validator            | Wallet
       Requirement                                                               
-      |   |
+      |
 
       |----------------------|-----------------------------------------------------------------------------------|
 
       | Active Validator     |
       Always                                                                           
-      |   |
+      |   |   |
 
       | Defensive Validator  | Requires configured wallet, but funded only when
-      an incorrect assertion is logged |
+      an incorrect assertion is logged |   |
 
       | Watchtower Validator |
       Never                                                                            
       |
-
 
 
       ## Creating a wallet for an allowlisted validator
