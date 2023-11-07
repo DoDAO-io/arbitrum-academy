@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-07T18:30:52.213Z'
+created: '2023-11-07T18:36:45.203Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -276,7 +276,10 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: f77544c4-4e06-4dc0-adfc-6562e656ef2e
-  - content: >
+  - content: >-
+      ### Step 1
+
+
       - https://docs.arbitrum.io/intro/
 
 
@@ -290,11 +293,20 @@ steps:
       - https://coinmarketcap.com/academy/article/what-is-arbitrum
 
 
+      ### Step 2
+
+
       -
       https://medium.com/offchainlabs/optimistic-rollups-the-present-and-future-of-ethereum-scaling-60fb9067ae87
 
 
       - https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/
+
+
+      ### Step 3
+
+
+      - - https://coinmarketcap.com/academy/article/what-is-arbitrum
     name: References
     stepItems: []
     uuid: 49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8
