@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-08T16:03:23.701Z'
+created: '2023-11-08T16:29:48.682Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -153,13 +153,19 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ca041520-b639-4eab-b2c7-37b09560b6ea
-  - content: >+
-      ## The Key Nitro Design Ideas
+  - content: >-
+      ## How Transactions Work?
 
 
       Designed to enhance efficiency and streamline workflows, the Nitro design
-      emerges as an evidence to innovation in the Ethereum ecosystem. It is
-      based on four big idea:
+      emerges as an evidence to innovation in the Ethereum ecosystem. The
+      transaction pocess in Arbitrum Nitro technology consists of the following
+      cricial steps:
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699460949954_screenshot_2023-11-08%20at%207.19.13%20pm.png"/>
+      </div>
 
 
       #### Sequencing and Deterministic Execution
@@ -179,11 +185,6 @@ steps:
       latter involves compressing transactions using "brotli" and posting them
       to Ethereum, where their finalization ensures the sequence's immutability
       on Nitro.
-
-
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699455146437_screenshot_2023-11-08%20at%207.19.13%20pm-photoroom.png-photoroom.png"/>
-      </div>
 
 
       #### Based on Go-Ethereum
@@ -237,15 +238,6 @@ steps:
       the Ethereum network then verifies. This interactive process offloads most
       of the dispute resolution work off-chain, making it more efficient and
       cost-effective compared to re-executing entire transactions on Ethereum.
-
-
-      TO DO: ADD PROPER DIAGRAMS
-
-
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699459277274_screenshot_2023-11-08_at_7.19.13_pm-removebg-preview_%281%29.png"/>
-      </div>
-
     name: 'Arbitrum Nitro Design '
     stepItems: []
     uuid: fc866114-3380-41da-a037-351a9246246a
