@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-08T16:00:10.316Z'
+created: '2023-11-08T16:01:29.922Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -153,7 +153,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ca041520-b639-4eab-b2c7-37b09560b6ea
-  - content: >-
+  - content: >+
       ## The Key Nitro Design Ideas
 
 
@@ -240,6 +240,12 @@ steps:
 
 
       TO DO: ADD PROPER DIAGRAMS
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699459277274_screenshot_2023-11-08_at_7.19.13_pm-removebg-preview_%281%29.png"/>
+      </div>
+
     name: 'Arbitrum Nitro Design '
     stepItems: []
     uuid: fc866114-3380-41da-a037-351a9246246a
