@@ -1,14 +1,14 @@
 {
   "categories": [],
   "content": "Understanding the differences between Arbitrum and Ethereum ",
-  "created": "2023-11-07T18:07:20.091Z",
+  "created": "2023-11-08T12:45:44.496Z",
   "guideType": "onboarding",
   "key": "arbitrum-vs-ethereum-arbitrum-university-172",
   "name": "Arbitrum vs Ethereum",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "## Ethereum\n\n\n",
+      "content": "## What is Ethereum?\n\n## What is Arbitrum?\n\n### Understanding the differences\n\n\n",
       "name": "Arbitrum vs Ethereum",
       "stepItems": [],
       "uuid": "0d0e922e-6f2d-4e3a-97d4-afe4e527ee61"
@@ -90,6 +90,12 @@
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "d273b538-9550-45c0-85e2-56361cd7c5df"
+    },
+    {
+      "content": "### step 1\n\n- https://coindcx.com/blog/cryptocurrency/arbitrum-vs-polygon-vs-ethereum/\n\n- https://blog.mexc.com/arbitrum-vs-ethereum-how-the-layer-2-solution-boosts-crypto-scalability-and-innovation-creator-rogers/#:~:text=Ethereum%20is%20the%20most%20popular,what%20they%20mean%20for%20crypto.",
+      "name": "References",
+      "stepItems": [],
+      "uuid": "59bf63c8-22ec-438a-b08f-ae13e9d236a8"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",

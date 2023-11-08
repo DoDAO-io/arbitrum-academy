@@ -1,13 +1,17 @@
 categories: []
 content: 'Understanding the differences between Arbitrum and Ethereum '
-created: '2023-11-07T18:07:20.091Z'
+created: '2023-11-08T12:45:44.496Z'
 guideType: onboarding
 key: arbitrum-vs-ethereum-arbitrum-university-172
 name: Arbitrum vs Ethereum
 publishStatus: Live
 steps:
   - content: |+
-      ## Ethereum
+      ## What is Ethereum?
+
+      ## What is Arbitrum?
+
+      ### Understanding the differences
 
 
     name: Arbitrum vs Ethereum
@@ -62,6 +66,18 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d273b538-9550-45c0-85e2-56361cd7c5df
+  - content: >-
+      ### step 1
+
+
+      - https://coindcx.com/blog/cryptocurrency/arbitrum-vs-polygon-vs-ethereum/
+
+
+      -
+      https://blog.mexc.com/arbitrum-vs-ethereum-how-the-layer-2-solution-boosts-crypto-scalability-and-innovation-creator-rogers/#:~:text=Ethereum%20is%20the%20most%20popular,what%20they%20mean%20for%20crypto.
+    name: References
+    stepItems: []
+    uuid: 59bf63c8-22ec-438a-b08f-ae13e9d236a8
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: arbitrum-vs-ethereum-arbitrum-university-172
