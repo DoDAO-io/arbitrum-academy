@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-08T14:12:55.157Z'
+created: '2023-11-08T14:21:42.909Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -192,7 +192,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ca041520-b639-4eab-b2c7-37b09560b6ea
-  - content: >
+  - content: >+
       ## The Key Nitro Design Ideas
 
 
@@ -229,6 +229,11 @@ steps:
       compresses them with the "brotli" algorithm, and uploads them to the L1
       Ethereum chain. When these transactions are finalized on Ethereum, they
       also achieve "hard finality" on Layer 2 Nitro, solidifying their sequence.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699453278553_screenshot_2023-11-08_at_7.19.13_pm-removebg-preview.png"/>
+      </div>
 
 
       #### Based on Go-Ethereum
@@ -308,6 +313,9 @@ steps:
       discourages deceit but also rewards honest participants, thereby
       bolstering the system's integrity. In most scenarios, the uncontested
       submission of a correct rollup block is anticipated, minimizing disputes.
+
+
+
     name: 'Arbitrum Nitro Design '
     stepItems: []
     uuid: fc866114-3380-41da-a037-351a9246246a
