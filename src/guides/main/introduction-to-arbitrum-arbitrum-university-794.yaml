@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-07T18:42:17.435Z'
+created: '2023-11-08T10:44:33.203Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -324,6 +324,13 @@ steps:
       - https://coinmarketcap.com/academy/article/what-is-arbitrum
 
 
+      - https://chain.link/education-hub/what-is-layer-2 
+
+
+      -
+      https://www.investopedia.com/what-are-layer-1-and-layer-2-blockchain-scaling-solutions-7104877
+
+
       ### Step 2
 
 
@@ -337,7 +344,10 @@ steps:
       ### Step 3
 
 
-      - - https://coinmarketcap.com/academy/article/what-is-arbitrum
+      - https://coinmarketcap.com/academy/article/what-is-arbitrum
+
+
+      - https://docs.arbitrum.io/for-devs/concepts/public-chains#arbitrum-nova
     name: References
     stepItems: []
     uuid: 49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8
