@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum One: Unraveling the intricacies of Arbitrum Rollup",
-  "created": "2023-11-02T15:20:46.014Z",
+  "created": "2023-11-08T17:49:44.984Z",
   "guideType": "onboarding",
   "key": "arbitrum-one-arbitrum-university-177",
   "name": "Arbitrum One",
@@ -107,5 +107,5 @@
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
   "uuid": "arbitrum-one-arbitrum-university-177",
   "version": 1,
-  "priority": 50
+  "priority": 90
 }
