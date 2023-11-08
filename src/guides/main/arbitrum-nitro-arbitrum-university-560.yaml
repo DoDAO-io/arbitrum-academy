@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-08T14:39:17.971Z'
+created: '2023-11-08T14:51:31.047Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -192,7 +192,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: ca041520-b639-4eab-b2c7-37b09560b6ea
-  - content: >
+  - content: >-
       ## The Key Nitro Design Ideas
 
 
@@ -232,8 +232,9 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699454288334_screenshot_2023-11-08%20at%207.19-photoroom.png"/>
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699455049627_screenshot_2023-11-08%20at%207.19-photoroom.png"/>
       </div>
+
 
 
       #### Based on Go-Ethereum
