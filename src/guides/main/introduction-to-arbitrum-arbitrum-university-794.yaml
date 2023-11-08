@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-08T10:44:33.203Z'
+created: '2023-11-08T11:58:24.832Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -300,6 +300,32 @@ steps:
 
 
       ### Decentralize governance
+
+      Arbitrum's decentralized governance is orchestrated through the Arbitrum
+      DAO, which allows stakeholders to vote on key decisions affecting both the
+      Arbitrum One and Arbitrum Nova chains. The governance structure includes a
+      Security Council that can make urgent or minor changes, as well as a set
+      of allow-listed validators who confirm the chains' states. For Arbitrum
+      Nova, there's also a Data Availability Committee tasked with data storage
+      and availability. The governance system has the power to modify validators
+      and Sequencers, who are responsible for transaction ordering, thereby
+      maintaining a balance between central oversight and progressive
+      decentralization. This governance framework is designed to evolve, with
+      the potential for changes based on community feedback, reflecting the
+      adaptive nature of the protocol's management.
+
+
+      Progressive decentralization is a strategic approach to building trust and
+      stability within a blockchain ecosystem. It starts with a centralized
+      authority, such as the core development team, who can quickly respond to
+      issues and update the system efficiently. Over time, control is handed
+      over to a broader set of stakeholders, which enhances security by reducing
+      central points of failure. It also deepens community involvement, as more
+      participants are empowered to govern the network, which in turn fosters a
+      more resilient and democratic infrastructure. This gradual transition
+      allows the network to maintain continuity and stability while
+      progressively mitigating risks and adapting to a decentralized governance
+      structure.
     name: Arbitrum Ecosystem
     stepItems: []
     uuid: 44ce8c60-de16-42f2-abb6-a12bcbb75d00
@@ -348,6 +374,15 @@ steps:
 
 
       - https://docs.arbitrum.io/for-devs/concepts/public-chains#arbitrum-nova
+
+
+      ### Step 4
+
+
+      - https://docs.arbitrum.foundation/state-of-progressive-decentralization
+
+
+      - https://docs.arbitrum.io/stylus/stylus-gentle-introduction 
     name: References
     stepItems: []
     uuid: 49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8
