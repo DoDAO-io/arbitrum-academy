@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-08T18:09:32.145Z'
+created: '2023-11-08T18:27:22.280Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -13,7 +13,7 @@ steps:
 
       ### Based on Nitro technology Stack 
             Geth at the core
-            Dispute resolution
+            Optimistic Roll up
 
 
       ## Roll up Protocol
@@ -21,8 +21,8 @@ steps:
       ### What is Arbitrum roll up protocol?
 
       #### Purpose of roll up protocol 
-              Confrim results 
-              Process transactions for ethereum
+             Confirming results 
+             Process transactions for ethereum
 
        ## How does roll up work?
 
