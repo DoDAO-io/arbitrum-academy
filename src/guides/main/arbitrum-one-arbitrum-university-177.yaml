@@ -1,12 +1,43 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-08T17:49:44.984Z'
+created: '2023-11-08T18:09:32.145Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
 publishStatus: Live
 steps:
   - content: >
+      ## Introduction to Arbitrum One
+
+      ### what is arbitrum one ?
+
+      ### Based on Nitro technology Stack 
+            Geth at the core
+            Dispute resolution
+
+
+      ## Roll up Protocol
+
+      ### What is Arbitrum roll up protocol?
+
+      #### Purpose of roll up protocol 
+              Confrim results 
+              Process transactions for ethereum
+
+       ## How does roll up work?
+
+      ## The roll up security
+
+      ### Validators
+
+      ### Staking
+
+      ### Conforming or rejecting blocks
+
+
+
+
+
       ## Arbitrum One?
 
 
