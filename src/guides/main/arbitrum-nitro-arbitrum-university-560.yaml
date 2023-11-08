@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-08T12:24:40.821Z'
+created: '2023-11-08T12:26:31.198Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
@@ -29,48 +29,7 @@ steps:
       Nitro, transactions on Arbitrum have become extremely efficient. 
 
 
-      ## Nitro Vs Classic
-
-
-
-      **In Classic Arbitrum (old system):**
-
-      - You write code in Solidity or Vyper (these are programming languages
-      used for Ethereum).
-
-      - This code is converted into a special format (EVM bytecode) that
-      Ethereum can understand.
-
-      - ArbOS (the system managing Arbitrum transactions) changes this format
-      again into something the Arbitrum system can work with (AVM bytecode).
-
-      - This AVM bytecode does two jobs: it runs transactions and helps prove if
-      someone is cheating (fraud proofs).
-
-      - If there's a disagreement about a transaction, validators (who are like
-      referees) look at the AVM bytecode closely to figure out who's right.
-
-
-      **In Nitro Arbitrum (new system):**
-
-      - Similar to Classic, but it uses a more common language (Go) and a
-      universal format (WebAssembly, or Wasm) which many systems understand.
-
-      - Nitro creates checkpoints (think of them as save points in a game) that
-      summarize transactions into blocks, much like Ethereum.
-
-      - If there's a dispute, validators first agree on which block they're
-      arguing about before digging into the details with Wasm.
-
-      - This means that Nitro only does the heavy lifting of converting to Wasm
-      when there's a disagreement, which doesn't happen often.
-
-      - Normally, Nitro just runs transactions in the simplest way possible
-      without converting anything, which is quicker and cheaper.
-
-      - This makes Nitro more efficient because it doesn't prepare for problems
-      unless they actually happen, saving time and resources.
-
+      ## Features of Arbitrum Nitro
 
 
       #### WebAssembly Code
@@ -328,7 +287,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 0bf49cd7-6692-4004-9742-d436f3924da3
-  - content: >-
+  - content: >
       ## Comparing Nitro and Classic
 
       When comparing Nitro and Classic, it is important to understand their
@@ -376,6 +335,51 @@ steps:
       reduces technical risks. This simplicity makes Nitro more accessible for
       auditors and contributors, ensuring a higher level of implementation
       security.
+
+
+
+
+      ----
+
+
+      **In Classic Arbitrum (old system):**
+
+      - You write code in Solidity or Vyper (these are programming languages
+      used for Ethereum).
+
+      - This code is converted into a special format (EVM bytecode) that
+      Ethereum can understand.
+
+      - ArbOS (the system managing Arbitrum transactions) changes this format
+      again into something the Arbitrum system can work with (AVM bytecode).
+
+      - This AVM bytecode does two jobs: it runs transactions and helps prove if
+      someone is cheating (fraud proofs).
+
+      - If there's a disagreement about a transaction, validators (who are like
+      referees) look at the AVM bytecode closely to figure out who's right.
+
+
+
+      **In Nitro Arbitrum (new system):**
+
+      - Similar to Classic, but it uses a more common language (Go) and a
+      universal format (WebAssembly, or Wasm) which many systems understand.
+
+      - Nitro creates checkpoints (think of them as save points in a game) that
+      summarize transactions into blocks, much like Ethereum.
+
+      - If there's a dispute, validators first agree on which block they're
+      arguing about before digging into the details with Wasm.
+
+      - This means that Nitro only does the heavy lifting of converting to Wasm
+      when there's a disagreement, which doesn't happen often.
+
+      - Normally, Nitro just runs transactions in the simplest way possible
+      without converting anything, which is quicker and cheaper.
+
+      - This makes Nitro more efficient because it doesn't prepare for problems
+      unless they actually happen, saving time and resources.
     name: Nitro vs Classic
     stepItems: []
     uuid: 488abfeb-0e2c-472d-88cf-8fbc888963ee
