@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T16:56:52.795Z'
+created: '2023-11-09T17:19:32.772Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -350,7 +350,11 @@ steps:
     stepItems: []
     uuid: 955c8d11-2337-4d99-8b73-c07e348d5167
   - content: >
-      ## Differences between Arbitrum Nova (AnyTrust) and Arbitrum One (Rollup)
+      ## Differences between Arbitrum One (Rollup) and Arbitrum Nova (AnyTrust) 
+
+      Arbitrum One and Arbitrum nova are based on different block authentication
+      mechanisms which results in different use face, operations and cost. Some
+      of the major differences between two chains are listed in the table below.
 
 
       | Feature               | Arbitrum One
