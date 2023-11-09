@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-09T15:59:13.083Z'
+created: '2023-11-09T16:31:00.889Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -88,62 +88,96 @@ steps:
         uuid: d6fc5f36-3c2c-4a66-9a17-abbff017d633
         explanation: Explanation of the question
     uuid: 33bf1c78-8529-42b0-8ff8-3c55952709c9
-  - content: >+
+  - content: >-
+      ## The AnyTrust Security
+
+      AnyTrust security harnesses a strategic balance between trust and
+      decentralization, elevating the robustness of Arbitrum's rollup
+      infrastructure. By forming a Data Availability Committee, AnyTrust
+      fortifies data integrity and accessibility. It consists of the following
+      components:
+
+
       ### Data Availibility Committee
 
-      ### Dta Availibility Certificates
-
-      ### Data Availibility Software
-
-
-
-
-
-
-      ## What is AnyTrust?
+      The Data Availability Committee is a specialized group within the AnyTrust
+      protocol framework, tasked with the crucial role of storing and ensuring
+      the accessibility of Layer 2 transaction data for Arbitrum's rollup chain.
+      This committee is comprised of multiple appointed members, operating under
+      the fundamental assumption that at least two members are consistently
+      honest and reliable. The integrity of the system hinges on this
+      assumption, as it guarantees the availability of data, even in scenarios
+      where other members may act maliciously or fail. 
 
 
-      AnyTrust is a variant of the Arbitrum Nitro technology that aims to lower
-      costs and improve efficiency by accepting a mild trust assumption. It
-      operates by relying on an external Data Availability Committee (DAC) to
-      store data and provide it when needed. The DAC consists of N members, with
-      the assumption that at least two of them are honest.
+      The committee's operation is governed by a set of cryptographic public
+      keys, known as Keysets, which establish the identity and authenticity of
+      member signatures. These Keysets are dynamically manageable via a smart
+      contract on Ethereum's Layer 1, known as the KeysetManager, which tracks
+      and authenticates the current valid set of committee members. This
+      arrangement not only ensures the security and availability of transaction
+      data but also introduces a mechanism for manageable trust, reducing the
+      dependency on Ethereum's mainnet and leading to a more efficient and
+      cost-effective rollup process.
 
 
-      #### The Role of the Data Availability Committee
+      ### Data Availibility Certificates
+
+      The Data Availability Certificate (DACert) is an essential component of
+      the AnyTrust protocol, ensuring data accessibility in the Arbitrum
+      network. A DACert includes a data block's hash, an expiration time, and
+      cryptographic evidence that N-1 Committee members have endorsed it. This
+      evidence comprises the Keyset's hash used for signing, a bitmap of the
+      signatories, and a collective BLS signature. Under AnyTrust’s trust model,
+      a valid DACert guarantees that the data will be available from at least
+      one trustworthy Committee member until the expiration time. 
 
 
-      The Data Availability Committee plays a crucial role in the AnyTrust
-      protocol. It stores the data and ensures its availability for the rollup
-      protocol to function correctly. If N-1 Committee members promise to
-      provide access to certain data, it guarantees that at least one of the
-      promising parties is honest, ensuring the availability of the data.
+      In contrast to the standard Nitro practice where sequencers post full data
+      on Ethereum's Layer 1, AnyTrust permits posting a DACert as a more
+      gas-efficient alternative. The Layer 1 inbox contract validates the
+      Keyset, while Layer 2 code performs additional checks on the signature and
+      expiration time to ensure the DACert's validity. If the DACert passes
+      these checks, the associated data block is considered available, thereby
+      optimizing the data posting process by reducing the on-chain footprint and
+      maintaining data availability.
 
 
-      #### Keysets and Membership Changes
+      ### Data Availibility Server 
+
+      Committee members in the AnyTrust protocol operate Data Availability
+      Servers (DAS), which provide crucial infrastructure for data storage and
+      retrieval. The DAS implements two distinct application programming
+      interfaces (APIs):
 
 
-      To facilitate membership changes and provide flexibility to Committee
-      members, AnyTrust utilizes Keysets. A Keyset specifies the public keys of
-      Committee members and the number of signatures required for a Data
-      Availability Certificate to be valid. The L1 KeysetManager contract
-      maintains a list of currently valid Keysets, allowing the contents to be
-      recovered later by anyone given only the Keyset hash.
+      1. **Sequencer API:** This is a JSON-RPC interface exclusive to the
+      Arbitrum chain's Sequencer, through which the Sequencer submits data
+      blocks to be stored by the DAS. Access to this API is typically restricted
+      to the Sequencer to prevent unauthorized submissions.
 
 
-      ## Purpose of AnyTrust
+      2. **REST API:** Available publicly, this HTTP(S)-based RESTful API allows
+      any participant to fetch data blocks using their hash. It is designed to
+      be fully cacheable, and deployments often employ caching proxies or
+      content delivery networks (CDNs) to enhance scalability and mitigate the
+      risk of denial-of-service (DoS) attacks.
 
 
-      #### Lowering Costs and Improving Efficiency
-
-
-      The main goal of AnyTrust is to reduce costs and speed up non-fungible
-      withdrawals in the common case. By keeping the data off-chain in the
-      happy/common case, the system can charge users significantly lower fees.
-      This is achieved by leveraging the trust assumption and relying on the
-      Committee to store and provide data on demand.
-
-    name: AnyTrust Security
+      While the Sequencer API is essential only for Committee members, the REST
+      API's functionality is often supported by other entities as well,
+      contributing positively to the system's robustness. The DAS software
+      itself is versatile, with configuration options that allow data to be
+      stored in various ways—locally on file systems, within a Badger database
+      across multiple backing stores for redundancy. Furthermore, the DAS
+      includes features for enhanced performance and reliability, such as
+      optional in-memory caching utilizing Bigcache or external caching with a
+      Redis instance, catering to the diverse needs of data storage and access
+      in the AnyTrust ecosystem. This multi-faceted approach ensures that data
+      is not only stored securely but is also readily available for validation
+      and use by the network, thus maintaining the continuity and efficiency of
+      the Arbitrum protocol.
+    name: Security
     stepItems: []
     uuid: 14b4f959-595a-479a-8123-0c31f19e26b7
   - content: ''
