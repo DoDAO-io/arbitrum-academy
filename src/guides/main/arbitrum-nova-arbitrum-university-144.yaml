@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-09T16:51:00.764Z'
+created: '2023-11-09T16:56:05.807Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -206,6 +206,11 @@ steps:
       backing store, using the data’s hash as an index for future retrieval.
       Committee members then sign the pair consisting of the data’s hash and the
       expiration time using their individual BLS cryptographic keys.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nova_arbitrum_university_144/1699548934571_screenshot_2023-11-09%20at%209.54.11%20pm.png"/>
+      </div>
 
 
       ### Step 3: DACert Creation
