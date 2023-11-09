@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
-  "created": "2023-11-06T17:47:37.919Z",
+  "created": "2023-11-09T17:20:27.976Z",
   "guideType": "onboarding",
   "key": "arbitrum-orbit-arbitrum-university-525",
   "name": "Arbitrum Orbit",
@@ -155,5 +155,5 @@
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
   "uuid": "arbitrum-orbit-arbitrum-university-525",
   "version": 1,
-  "priority": 50
+  "priority": 80
 }
