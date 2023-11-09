@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T12:39:22.749Z'
+created: '2023-11-09T12:44:35.103Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -95,6 +95,11 @@ steps:
       rBlocks
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699533758069_screenshot_2023-11-09%20at%205.41.43%20pm.png"/>
+      </div>
+
+
       ### Step 1: RBlocks Creation
 
       Validators propose RBlocks, which form a chain managed by the Arbitrum
@@ -133,6 +138,11 @@ steps:
       RBlock, they will also be rejected.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699533830310_screenshot_2023-11-09%20at%205.39.32%20pm.png"/>
+      </div>
+
+
       ### Step 5: Resolving Conflicts
 
       Conflicts between RBlocks which claim the same predecessor, will be
@@ -149,9 +159,6 @@ steps:
       chain. Validators may stake ETH as a bond for proposing RBlocks. If they
       propose a wrong RBlock, they will lose their stake, incentivizing honest
       behavior.
-
-
-      ## Dispute resolution in Roll up Protocol
     name: Understanding Arbitrum Rollup
     stepItems: []
     uuid: a622a2f6-e742-455b-9455-c724cbefae40
