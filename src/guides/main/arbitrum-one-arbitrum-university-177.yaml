@@ -1,13 +1,13 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T14:04:49.615Z'
+created: '2023-11-09T14:07:00.222Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
 publishStatus: Live
 steps:
   - content: >-
-      ## what is arbitrum one ?
+      ## What is Arbitrum One ?
 
       Arbitrum One is a Layer 2 optimistic rollup solution developed by Offchain
       Labs, designed to enhance Ethereum's performance and user experience by
