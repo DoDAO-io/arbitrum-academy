@@ -1,79 +1,66 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-08T18:27:22.280Z'
+created: '2023-11-09T12:00:04.713Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
 publishStatus: Live
 steps:
-  - content: >
-      ## Introduction to Arbitrum One
+  - content: >-
+      ## what is arbitrum one ?
 
-      ### what is arbitrum one ?
-
-      ### Based on Nitro technology Stack 
-            Geth at the core
-            Optimistic Roll up
-
-
-      ## Roll up Protocol
-
-      ### What is Arbitrum roll up protocol?
-
-      #### Purpose of roll up protocol 
-             Confirming results 
-             Process transactions for ethereum
-
-       ## How does roll up work?
-
-      ## The roll up security
-
-      ### Validators
-
-      ### Staking
-
-      ### Conforming or rejecting blocks
+      Arbitrum One is a Layer 2 optimistic rollup solution developed by Offchain
+      Labs, designed to enhance Ethereum's performance and user experience by
+      handling transactions off the Ethereum Mainnet (Layer 1). It operates on
+      the Arbitrum Rollup protocol and settles to Ethereum's Layer 1, offering
+      high-performance dApps with lower transaction costs and Ethereum-level
+      security without additional trust assumptions. Powered by the Nitro
+      technology stack, Arbitrum One boasts advanced features like calldata
+      compression, separate contexts for execution and fault proving, and
+      Ethereum L1 gas compatibility. Its multi-round interactive Optimistic
+      Rollup approach optimistically assumes the correctness of data posted to
+      the Ethereum mainnet, allowing challenges and efficient dispute resolution
+      at low costs, while maintaining trustless protocol operation, EVM
+      compatibility, and secure fund control for users.
 
 
+      ## What is Arbitrum roll up protocol?
+
+      The Arbitrum Rollup Protocol is a Layer 2 scaling solution that works in
+      tandem with Ethereum's Layer 1, where it doesn't decide the outcomes of
+      transactions but instead confirms the results that are already determined
+      by the sequence of messages in the chain's inbox. Once a transaction is
+      included in the chain’s inbox, its outcome is considered finalized and can
+      be reported as complete. Arbitrum nodes validate these transactions,
+      providing users the confidence that their transactions are processed
+      without the need for constant awareness of the rollup protocol's
+      operation.
 
 
+      ### Benefits of Roll up Protocol
 
-      ## Arbitrum One?
+      The purpose of the Arbitrum Rollup Protocol is twofold.
+       
+      #### Confirms Accuracy
 
-
-      Arbitrum One is a Layer 2 (L2) optimistic rollup chain that aims to
-      improve the performance and user experience of Ethereum. It is built on
-      the Arbitrum Rollup protocol and settles transactions on Ethereum's Layer
-      1 (L1) chain. The goal of Arbitrum One is to enable the development of
-      high-performance Ethereum decentralized applications (dApps) with low
-      transaction costs and Ethereum-grade security guarantees, all without
-      introducing additional trust assumptions.
-
-
-      #### Features of Arbitrum One
+      Firstly, it serves as a trustless method to verify transaction results and
+      to identify and penalize dishonest parties. This is crucial because
+      although the outcomes of transactions are known, without the protocol,
+      there would be no way to confirm their accuracy and resolve disputes
+      definitively. 
 
 
-      Arbitrum One utilizes the Nitro technology stack, which is based on a
-      "Geth-at-the-core" architecture. This technology stack provides advanced
-      calldata compression, separate contexts for common execution and fault
-      proving, Ethereum L1 gas compatibility, and more. By leveraging these
-      features, Arbitrum One is able to overcome the limitations of transaction
-      throughput on the Ethereum Mainnet (L1) and offer a scalable solution for
-      handling transactions off L1.
+      #### Ethereum Scalability
 
-
-      #### Dispute Resolution
-
-
-      Arbitrum One employs a multi-round interactive design to efficiently
-      resolve disputes on L1 at a low cost. When a validator on L2 posts bundled
-      data to L1, they lock a bond in a smart contract. If someone believes the
-      transaction data is incorrect, they can issue a challenge within a
-      specified time window and also lock a bond in the smart contract. The
-      validator and the challenger then work together to split the disputed part
-      in a dichotomous way off-chain until the dispute is narrowed down to a
-      specific part. Finally, they go to L1 to resolve the dispute.
-    name: What is Arbitrum One?
+      Secondly, it relieves Ethereum from the burden of processing every
+      transaction, thereby allowing for scalable operations that Ethereum alone
+      could not efficiently monitor. By only stepping in when a transaction is
+      contested, Ethereum can ensure the integrity of the Arbitrum chain while
+      enabling fast and cost-effective Layer 2 transactions. This not only
+      enhances the scalability of Ethereum but also maintains its security by
+      enabling the confirmation of transactions and the processing of
+      withdrawals back to Layer 1.
+    name: Introduction to Arbitrum One
     stepItems: []
     uuid: 4a797c46-12fd-437d-9784-346875967164
   - content: ''
@@ -102,7 +89,7 @@ steps:
         explanation: Explanation of the question
     uuid: 287bba79-de96-4fbe-addd-140a78c46939
   - content: >-
-      ## Arbitrum Rollup Protocol
+      ## How does Arbitrum Rollup Work?
 
 
       The Arbitrum Rollup Protocol is a system that operates as a sub-module
@@ -163,217 +150,21 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
-  - content: >
-      ## Working of Arbitrum Rollup
+  - content: |
+      ## The Roll up security
 
+      ### Validators
 
-      Arbitrum Rollup is an off-chain protocol that is managed by an on-chain
-      Ethereum contract. It allows dapp developers to run their contracts on the
-      Arbitrum Virtual Machine (VM). The state of the VM is organized as a
-      Merkle Tree, which means that a cryptographic hash of the VM's state can
-      be computed. This allows for the confirmation and finality of the VM's
-      state at any point in the protocol.
+      ### Staking
 
-
-      #### Disputable Assertions (DAs) 
-
-
-      Disputable Assertions play a crucial role in the Arbitrum Rollup protocol.
-      A participant in the protocol can make a DA, which claims that starting
-      from a specific state-hash, the VM can execute a certain number of
-      computation steps and reach a new state-hash. The party making the DA must
-      stake a deposit to validate its validity. If the DA is valid, the system
-      enters a new state with the specified payments and log events. If the DA
-      is invalid, it is rejected, and the state remains unchanged.
-
-
-      ## Addressing Limitations
-
-
-      The original Arbitrum protocol had limitations that have been addressed in
-      the new Arbitrum Rollup protocol. 
-
-
-      #### Number of Active DAS
-
-
-      Only one DA could be active at a time, which limited the rate of progress
-      of the VM. The new protocol allows for multiple DAs to be "pipelined,"
-      enabling the VM to progress as fast as validating nodes can emulate its
-      computations.
-
-
-      #### Temporary Delays
-
-
-      In the original protocol, a malicious party could freeze a VM by
-      challenging all DAs made for that VM. This could delay progress for a
-      significant amount of time. The new protocol prevents this by only
-      temporarily delaying on-chain recognition of outcomes that are already
-      "trustlessly final" for honest parties.
-
-
-      ## RBlocks and Protocol Resolution
-
-
-      The Arbitrum Rollup protocol tracks a chain of RBlocks, which are separate
-      from Layer 1 Ethereum blocks and Layer 2 Nitro blocks. Each RBlock
-      contains claims made by its proposer, such as the predecessor RBlock
-      number and the number of consumed inbox messages. The protocol eventually
-      confirms or rejects each RBlock based on the correctness of these claims.
-
-
-      Validators in the protocol have the option to agree or disagree with an
-      RBlock. If they agree, they don't need to take any action. If they
-      disagree, they can propose a different RBlock with a different result,
-      leading to a challenge against the first RBlock's staker.
-
-
-      The protocol confirms or rejects RBlocks based on their deadlines.
-      Confirmed RBlocks have been accepted and recorded by the Layer 1
-      contracts, while unresolved RBlocks are still awaiting resolution.
-      Validators can continue proposing RBlocks without waiting for the previous
-      one to be confirmed.
-    name: How does it work?
+      ### Rules to confirm or reject
+    name: Fraud Proving
     stepItems: []
     uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
   - content: ''
     name: Evaluation
     stepItems: []
     uuid: dc1888d0-1e86-43c3-a49e-06899a54b60e
-  - content: >-
-      ## What is Staking
-
-
-      Staking is a process in which individuals deposit funds into a blockchain
-      network as a way to participate in the network's operations and earn
-      rewards. By staking their funds, individuals contribute to the security
-      and functionality of the network. Staking is commonly used in
-      proof-of-stake (PoS) blockchain networks, where validators are chosen to
-      create new blocks and validate transactions based on the amount of
-      cryptocurrency they hold and are willing to "stake" as collateral.
-
-
-      Staking also plays a crucial role in the consensus mechanism of a
-      blockchain network. By staking their funds, individuals contribute to the
-      overall security and decentralization of the network. The more funds that
-      are staked, the more difficult it becomes for malicious actors to
-      manipulate the network or carry out attacks.
-
-
-      ## Process of Staking
-
-
-      #### Staking Funds
-
-
-      When someone decides to stake their funds, they deposit a certain amount
-      of cryptocurrency into a smart contract or a designated staking wallet.
-      This amount is then locked up as collateral and cannot be accessed or
-      withdrawn until the staking period ends or specific conditions are met.
-      The staked funds act as a guarantee that the validator will act honestly
-      and in the best interest of the network.
-
-
-      #### Selecting Validators
-
-
-      Validators are selected based on various factors, such as the amount of
-      cryptocurrency they have staked and their reputation within the network.
-      Once selected, validators are responsible for creating new blocks,
-      validating transactions, and maintaining the network's integrity. In
-      return for their services, validators receive rewards in the form of
-      additional cryptocurrency.
-
-
-      #### Ensuring Validator Honesty
-
-
-      If a validator fails to fulfill their duties or acts maliciously, they
-      risk losing their staked funds. This serves as an incentive for validators
-      to act honestly and in accordance with the network's rules. Additionally,
-      stakers have the ability to challenge and dispute the actions of
-      validators, further ensuring the network's security and fairness.
-    name: Staking
-    stepItems: []
-    uuid: f7348a7d-f200-4414-96d6-39bd92294464
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: bad34284-ba34-49ed-96a0-6fc9d44f8aa0
-  - content: >-
-      ## Rules to Confirming or Rejecting Rblocks
-
-
-      #### Disagreements and Dispute Resolution
-
-
-      When stakers are staked on different RBlocks with the same predecessor, a
-      disagreement arises about which RBlock is correct. To resolve this, an
-      interactive dispute resolution protocol is initiated between the two
-      parties. This protocol is similar to a bisection-type interactive
-      protocol. The outcome of the dispute resolution is that one party is found
-      to be incorrect, and their stake is given to the other party. This reduces
-      the amount of disagreement in the system and ensures that only valid
-      RBlocks are confirmed.
-
-
-      #### Progressive Elimination of Disagreement
-
-
-      After the staking deadline of an RBlock has passed, disputes progressively
-      eliminate any disagreement about how to treat that RBlock. Once all timely
-      stakes on the same branch from that RBlock remain, the system can confirm
-      the result of that RBlock. The RBlock is either accepted or rejected, and
-      the current state moves to the appropriate square to the right of the
-      RBlock. If the RBlock is confirmed as valid, its side-effects, such as
-      payments, are effectuated on-chain.
-
-
-      #### Trustless Confirmation and Finality
-
-
-      Arbitrum Rollup ensures trustless confirmation and finality. A single
-      honest party can force the virtual machine (VM) to behave correctly and
-      make progress. If a staker is staked on a square and knows that the path
-      to that square is truthful, they can be certain that the square they are
-      on will eventually be confirmed. Even if not staked on a path, if multiple
-      people are staked on it and at least one is trusted to be honest, then the
-      path will be confirmed eventually. This trustless finality allows for the
-      creation of market mechanisms and lending services based on the certainty
-      of eventual confirmation.
-
-
-      #### Defense Against Delay Attacks
-
-
-      The system is designed to defend against delay attacks by bad actors.
-      These attackers stake on false branches to delay the on-chain confirmation
-      of the honest path. However, their stakes are at risk as honest parties
-      can enter disputes against the attackers and claim their stakes. The more
-      stakes the attacker puts down, the more likely they are to attract even
-      more honest stakers who want to participate in claiming the attacker's
-      stakes. This creates a feeding frenzy against delay attackers, making it
-      costly for them to continue their attacks.
-
-
-      #### Optimizations and Future Development
-
-
-      Various optimizations can be implemented to reduce the on-chain
-      bookkeeping and gas cost of the protocol. These optimizations aim to make
-      beneficial feeding frenzies against delay attackers easier to mount. The
-      details of these optimizations are not provided in this content, but they
-      are expected to be included in the open-source codebase of Arbitrum Rollup
-      soon. The development of this protocol is ongoing, and contributions from
-      interested individuals are welcomed.
-    name: Rules to Confirm or Reject
-    stepItems: []
-    uuid: 04efe8e9-3a16-4650-9dba-185fc5833ea8
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: db8f8e9c-5d93-4e4d-9f1a-546382bb4096
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: arbitrum-one-arbitrum-university-177
