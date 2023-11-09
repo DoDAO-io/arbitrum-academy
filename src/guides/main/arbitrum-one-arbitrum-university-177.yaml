@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T13:26:47.951Z'
+created: '2023-11-09T13:37:39.136Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -224,7 +224,7 @@ steps:
       proving, unfolds as follows:
 
 
-      **Step 1: Initiation of Dispute**
+      ### Step 1: Initiation of Dispute
 
       The claiment makes a claim about the result of the chain's computation.
       The other person challenges their claim, disagreeing with the result they
@@ -232,7 +232,7 @@ steps:
       by an L1 contract, aiming to resolve their dispute.
 
 
-      ** Step 2: Dissection of Dispute**
+      ### Step 2: Dissection of Dispute
 
       The claiment split their original claim, which covers N execution steps,
       into two separate claims, each representing N/2 steps. Other party then
@@ -243,7 +243,7 @@ steps:
       narrowed down to a disagreement about a single step of execution.
 
 
-      **Step 3: L1 Contract's Role**
+      ### Step 3: L1 Contract's Role
 
       During the iterative halving process, the L1 contract does not evaluate
       the merits of the execution; it only ensures that the protocol's rules are
@@ -251,7 +251,7 @@ steps:
       contract evaluate the execution to determine the correctness of the claim.
 
 
-      **Step 4: Resolution**
+      ### Step 4: Resolution
 
       Both parties are encouraged to perform as much of the dispute resolution
       work off-chain as possible, minimizing the load on the L1 contract. Once
@@ -260,39 +260,36 @@ steps:
       whether claiment's claim is correct.
 
 
-      ### Rules to confirm or reject
+      ## Rules to confirm or reject
 
       The first unresolved RBlock can be confirmed if:
 
 
-      - the RBlock's predecessor is the latest confirmed RBlock, and
+      - The RBlock's predecessor is the latest confirmed RBlock, and
 
 
-      - the RBlock's deadline has passed, and
+      - The RBlock's deadline has passed, and
 
 
-      - there is at least one staker, and
+      - There is at least one staker, and
 
 
-      - all stakers are staked on the RBlock.
+      - All stakers are staked on the RBlock.
 
 
       The first unresolved RBlock can be rejected if:
 
 
-      - the RBlock's predecessor has been rejected, or
+      - The RBlock's predecessor has been rejected, or
 
 
-      - all of the following are true:
+      - All of the following are true:
 
+         The RBlock's deadline has passed, and
 
-      - the RBlock's deadline has passed, and
+         There is at least one staker, and
 
-
-      - there is at least one staker, and
-
-
-      - no staker is staked on the RBlock.
+         No staker is staked on the RBlock.
     name: Fraud Proving
     stepItems: []
     uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
