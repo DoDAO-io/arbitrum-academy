@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T13:37:39.136Z'
+created: '2023-11-09T14:04:49.615Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -173,7 +173,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
-  - content: >
+  - content: >-
       ## The Roll up security
 
       Arbitrum Rollup's security model leverages the robustness of Ethereum's
@@ -258,6 +258,11 @@ steps:
       the dispute is reduced to a single step, the L1 contract examines the
       specific instruction in question to resolve the dispute, determining
       whether claiment's claim is correct.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699538665121_screenshot_2023-11-09%20at%206.31.01%20pm.png"/>
+      </div>
 
 
       ## Rules to confirm or reject
