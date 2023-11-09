@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-09T16:56:05.807Z'
+created: '2023-11-09T17:18:47.188Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -41,25 +41,21 @@ steps:
       The benefits of AnyTrust are extensive including:
 
 
-      #### Cost Reduction 
+      #### 1. Cost Reduction 
 
-      The protocol diminishes the burden on the Ethereum mainnet by limiting the
-      amount of data posted as calldata, which is the main cost driver in the
-      Arbitrum system. By relying on a Committee to store and furnish data as
-      needed, with protocols in place to manage membership and ensure data
-      integrity through a system of public keys and signature requirements
-      (Keysets), AnyTrust significantly reduces the gas costs associated with
-      data availability. 
+      The AnyTrust protocol reduces costs on the Arbitrum system by entrusting a
+      Committee with data storage and distribution, thus minimizing the data
+      posted to Ethereum's mainnet. Through a managed system of public keys and
+      signatures called Keysets, it ensures data integrity while lessening the
+      gas fees typically incurred for data posting.
 
 
-      #### Operational Efficiency 
+      #### 2. Operational Efficiency 
 
-      The structured management of Keysets, overseen by the L1 KeysetManager
-      contract, adds flexibility and security to the Committee's operation,
-      allowing for smooth membership changes and key updates while ensuring that
-      the data is accessible to anyone with the Keyset hash. This setup fosters
-      a trust-minimized environment that balances efficiency with the
-      decentralized ethos of blockchain systems.
+      The KeysetManager contract on L1 manages Keysets to facilitate secure and
+      flexible operation of the Committee, allowing for easy updates to
+      membership and keys. This ensures data availability and supports a
+      trust-minimized, efficient blockchain ecosystem.
     name: Introduction to Arbitrum Nova?
     stepItems: []
     uuid: da215e0f-48ba-4f01-b253-88e962c31866
@@ -247,6 +243,11 @@ steps:
     uuid: c7e781c8-65cb-4190-bd76-26c6ef3756c1
   - content: >
       ## Differences between Arbitrum Nova (AnyTrust) and Arbitrum One (Rollup)
+
+      Arbitrum One and Arbitrum nova are based on different block authentication
+      mechanisms which results in different use face, operations and cost. Some
+      of the major differences between two chains are listed in the table below.
+
 
 
       | Feature               | Arbitrum One
