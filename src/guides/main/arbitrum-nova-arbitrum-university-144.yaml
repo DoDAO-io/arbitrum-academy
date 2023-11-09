@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-09T16:50:15.704Z'
+created: '2023-11-09T16:51:00.764Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -217,7 +217,7 @@ steps:
       data batch.
 
 
-      ### DACert Posting
+      ### Step 4: DACert Posting
 
       The sequencer posts this DACert to the Layer 1 (L1) inbox contract. The
       DACert is now available for the AnyTrust Layer 2 (L2) chain software,
