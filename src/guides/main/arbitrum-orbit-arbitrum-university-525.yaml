@@ -1,12 +1,55 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-09T17:20:27.976Z'
+created: '2023-11-09T17:29:35.451Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
 publishStatus: Live
 steps:
   - content: >-
+      ## Introduction to Orbit
+
+      ### What is Orbit?
+
+      ### Purpose of Orbit
+
+      ### Benefits of Orbit
+
+
+      ## How to launch an orbit chain?
+
+      ### Step by step guide and diagram
+
+      ### Cross chain messaging
+
+
+      ## Orbit Ownership 
+
+      ### Licensing 
+
+      ### How (and when) to customize your Orbit chain's deployment
+      configuration
+
+
+      ## Customizing Orbit Chain
+
+      ### step by step guide to Customizing behaviours
+
+      ### Chain Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       ## What is Arbitrum Orbit?
 
 
