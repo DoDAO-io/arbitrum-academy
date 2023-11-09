@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum Nova: Enhanced scalability with AnyTrust verification.",
-  "created": "2023-11-02T12:32:43.996Z",
+  "created": "2023-11-09T14:05:37.427Z",
   "guideType": "onboarding",
   "key": "arbitrum-nova-arbitrum-university-144",
   "name": "Arbitrum Nova",
@@ -119,5 +119,5 @@
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
   "uuid": "arbitrum-nova-arbitrum-university-144",
   "version": 1,
-  "priority": 50
+  "priority": 90
 }
