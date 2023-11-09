@@ -1,100 +1,68 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-09T17:29:35.451Z'
+created: '2023-11-09T18:35:58.669Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
 publishStatus: Live
 steps:
   - content: >-
-      ## Introduction to Orbit
+      ## What is Orbit?
 
-      ### What is Orbit?
-
-      ### Purpose of Orbit
-
-      ### Benefits of Orbit
-
-
-      ## How to launch an orbit chain?
-
-      ### Step by step guide and diagram
-
-      ### Cross chain messaging
-
-
-      ## Orbit Ownership 
-
-      ### Licensing 
-
-      ### How (and when) to customize your Orbit chain's deployment
-      configuration
+      Arbitrum Orbit enables the creation of private blockchain chains with
+      customizable features, such as governance and fee structures, which settle
+      transactions on Arbitrum's Layer 2 ecosystems like Arbitrum One or Nova.
+      It utilizes the Arbitrum Nitro technology stack, offering benefits like
+      Nitro's fraud proofs, advanced data compression, and EVM+ compatibility,
+      while also allowing for ongoing upgrades from the Nitro stack
+      developments. Orbit chains can be tailored for specific applications or
+      broader use cases, offering gas price stability, permissioned access, and
+      the choice between Rollup or AnyTrust protocols. Governance is
+      independently determined by the chain creators, providing a flexible,
+      scalable, and secure platform for hosting a range of dApps or private
+      EVM-compatible smart contracts, with the ability to incrementally adopt
+      Ethereum's security features.
 
 
-      ## Customizing Orbit Chain
+      ## Problems Addressed by Orbit
 
-      ### step by step guide to Customizing behaviours
-
-      ### Chain Parameters
-
+      Arbitrum Orbit addresses several key challenges within the Ethereum
+      ecosystem:
 
 
+      **1. Scalability:** Orbit facilitates scalability by allowing the creation
+      of multiple chains. This helps alleviate scaling challenges by
+      distributing activities across various environments, each with its own
+      resource management, thereby easing bottlenecks that could arise on a
+      single chain.
 
 
+      **2. Flexible Security Models**: With Orbit, developers can implement and
+      test different security models to find the right balance for their
+      projects. For instance, while Arbitrum One offers a fully trustless
+      environment, Arbitrum Nova provides an option to optimize for lower fees
+      with a mild trust assumption. Orbit extends this flexibility, making
+      experimentation with security tradeoffs more accessible.
 
 
+      **3. Flexible Execution Environments**: Orbit chains allow for customized
+      execution environments. While maintaining full EVM compatibility, Orbit
+      chains can also limit smart contract functionalities to better serve
+      specific project requirements, leading to optimized performance.
 
 
+      **4. Flexible Governance**: Developers have the autonomy to establish
+      their own governance mechanisms on Orbit chains, which can be tailored to
+      suit the unique needs of their projects, communities, or stakeholders.
 
 
-
-
-
-      ## What is Arbitrum Orbit?
-
-
-      Arbitrum Orbit is a product that allows you to create your own dedicated
-      chain that settles to one of Arbitrum's Layer 2 (L2) chains. These L2
-      chains include Arbitrum One, Arbitrum Nova, Arbitrum Goerli, and Arbitrum
-      Sepolia. With Arbitrum Orbit, you have full ownership and control over
-      your chain. You can customize its privacy settings, permissions, fee
-      token, governance, and more.
-
-
-      ## Why do we need it?
-
-
-      #### Gas Price Reliability
-
-
-      One of the key benefits of using Arbitrum Orbit is the gas price
-      reliability it offers to end-users. The dedicated throughput and traffic
-      isolation provided by Orbit chains ensure that your users can enjoy
-      consistent and predictable gas prices. This is particularly useful in the
-      Ethereum ecosystem, where network congestion often leads to high gas fees
-      and delays.
-
-
-      #### Control on Permission Access
-
-
-      Another advantage of Arbitrum Orbit is the ability to implement permission
-      access. You can decide who can read your chain's data and who can deploy
-      smart contracts to your chain. This allows you to create a completely
-      permissionless chain like Ethereum and Arbitrum One, or you can set up
-      your own permissions policies according to your specific requirements.
-
-
-      #### Token of Choice
-
-
-      Arbitrum Orbit also allows you to collect fees using a token of your
-      choice. This gives you the flexibility to experiment with different
-      mechanism designs and capture value in a way that aligns with your
-      business goals. Additionally, Orbit chains are built on top of Arbitrum's
-      L2 Nitro technology stack, which incorporates fraud proofs, advanced
-      compression, EVM+ compatibility via Stylus, and continuous improvements.
-    name: What is Arbitrum Orbit?
+      **5. Increased Adoption of dApps**: Orbit lowers barriers to progressive
+      decentralization, making it more feasible for developers to launch
+      decentralized applications. It enables a new breed of dApps that benefit
+      from being built in more autonomous, self-managed conditions, potentially
+      increasing the adoption and diversity of dApps within the blockchain
+      space.
+    name: Introduction to Orbit
     stepItems: []
     uuid: 16adea27-d0a8-4a7b-99aa-c7635f4cd221
   - content: ''
@@ -123,6 +91,23 @@ steps:
         explanation: Explanation of the question
     uuid: 62a5e58f-54fa-45d3-ba27-92d8ab5f9a40
   - content: >
+      ### Licensing 
+
+      ### How (and when) to customize your Orbit chain's deployment
+      configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
       ## Importance of Orbit Chains
 
 
@@ -184,7 +169,7 @@ steps:
       meet specific requirements. This customization allows developers to tailor
       their dApps to their unique needs and create a more optimized and
       efficient user experience.
-    name: Importance of Orbit Chain
+    name: Orbit Ownership
     stepItems: []
     uuid: dc9130cc-0a1c-4d6c-8f47-06622f53d0ef
   - content: ''
@@ -192,6 +177,20 @@ steps:
     stepItems: []
     uuid: 3f7ccfec-7f60-48c2-a0dd-4a1df45eb790
   - content: >-
+      ## How to launch an orbit chain?
+
+      ### Step by step guide and diagram
+
+      ### Cross chain messaging
+
+
+
+
+
+
+
+
+
       ## Launching an Orbit Chain
 
 
@@ -276,200 +275,13 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d01a95c5-37c4-48db-89f0-2dd8d9b6f80b
-  - content: >-
-      ## Ownership and Architecture
-
-
-      Orbit chains introduce a concept of 'chain ownership'. A chain owner has
-      the authority to make pivotal updates to the chain, like altering core
-      protocols or even adding or removing other owners. Initially, the creator
-      of the Orbit chain sets its first owner. The design of this ownership
-      structure offers flexibility in how chains get updated over time. This
-      architecture is managed through Upgrade Executor contracts. These
-      contracts essentially act as the main controllers for pivotal chain
-      adjustments. For example, they manage the upgradation of the parent
-      chain's core protocols and the core Rollup contract's admin role. In
-      essence, these executors act as the ultimate point of control, making sure
-      the chain can be upgraded safely and correctly.
-
-
-      #### Upgrade Mechanism
-
-
-      Updates are facilitated when a chain owner communicates with an Upgrade
-      Executor. This communication can either be direct or via an intermediary
-      "action contract". This mechanism ensures that changes to the chain happen
-      in a controlled and predictable manner.
-
-
-      #### Ownership Flexibility
-
-
-      The beauty of the Orbit chain is the adaptability in ownership. A chain
-      owner isn't restricted to a specific type; it could be a single address,
-      multiple users in a multisig configuration, or even a governance system.
-      The Arbitrum DAO, although not an Orbit chain, employs a similar design,
-      allowing a blend of governance tokens and multisig configurations.
-
-
-      ## Licensing
-
-
-      Arbitrum Nitro codebase is open for customization, with a licensing model
-      that's both perpetual and recursive. This means once you have the license,
-      it's yours forever. Additionally, your Orbit chain can host other chains
-      under the same license agreement. However, a notable clause is that if you
-      wish for your chain to settle on a non-Arbitrum-DAO-governed platform,
-      like Ethereum's independent L2, a distinct license is required. Two
-      pathways exist for this: either approach Offchain Labs directly or make a
-      proposal to the Arbitrum DAO for democratic consideration.
-    name: Orbit Ownership and Licensing
-    stepItems: []
-    uuid: 061749cd-bd33-4f0b-9524-1ab46bcd2411
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 3ecc45ec-080d-4df9-893c-e6b4654cc324
-  - content: |-
-      Coding related content
-      https://docs.arbitrum.io/launch-orbit-chain/how-tos/customize-precompile 
-    name: Customize Orbit's Precompiles
-    stepItems: []
-    uuid: 4a32d9e2-67db-449a-8855-c81923d2235b
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 2fbf3bc3-4ebb-4e56-aa3f-3a9b4d41b3aa
-  - content: |+
-      Coding related Content
-      https://docs.arbitrum.io/launch-orbit-chain/how-tos/customize-stf 
-
-
-    name: Customizing Orbit's Behavior
-    stepItems: []
-    uuid: 14adb360-28f6-443f-91fa-aa4bd739db19
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: c8b8de87-633b-4859-9735-8626bb4912ef
-  - content: >-
-      ## How to add your testnet Orbit chain to Arbitrum's bridge?
-
-
-      To add your testnet Orbit chain to Arbitrum's bridge, follow these steps:
-
-
-      1. If you're currently connected to mainnet and don't want to manually
-      switch networks in your wallet, you can enable testnet mode in the bridge.
-      Simply click on your address in the top right corner of the bridge UI, go
-      to Settings, and turn on testnet mode.
-
-
-      2. In the Settings section of the bridge UI, scroll down until you find
-      "Add Testnet Orbit Chain: Orbit Bridge." This is where you will add your
-      testnet Orbit chain.
-
-
-      3. To add your chain, you need to copy and paste the JSON configuration
-      from your generated outputInfo.json file. This file contains the necessary
-      information for the bridge to recognize and connect to your testnet Orbit
-      chain.
-
-
-      4. After pasting the JSON configuration, your chain should now appear in
-      both the network dropdown in the top navigation pane and as an option in
-      the bridging UI. This means that your testnet Orbit chain has been
-      successfully added to Arbitrum's bridge.
-
-
-      ## Important to Note
-
-
-      Please note that users connecting to the bridge using WalletConnect may
-      experience errors due to recent upgrades. If you encounter any issues, it
-      is recommended to check for updates or try connecting using a different
-      method.
-
-
-      It's important to remember that the bridge will never ask you for your
-      seed phrase or private keys. Be cautious of any requests asking for this
-      sensitive information. By following these steps, you can safely and
-      securely add your testnet Orbit chain to Arbitrum's bridge and begin
-      utilizing its features.
-    name: Adding Testnet Orbit to Bridge
-    stepItems: []
-    uuid: 891cf4d3-b625-40ef-b3dd-91550445ccf9
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 434af98e-6faa-4d81-8839-80551f065301
-  - content: >-
-      ## Customizing Parameters
-
-
-      Customizing your Orbit chain's deployment configuration can be done
-      through the deployment portal. By default, the form in the portal is
-      prefilled with values that usually don't need to be changed. However,
-      there are cases where customization may be necessary. When customizing
-      your Orbit chain's deployment configuration, it's important to consider
-      the tradeoffs associated with each parameter. By carefully selecting the
-      values that align with your chain's needs, you can optimize its
-      performance and security.
-
-
-      #### Unique Integer Identifier 
-
-
-      One parameter to consider customizing is the unique integer identifier for
-      your chain's network. This identifier helps distinguish your Orbit chain
-      from others. It's important to choose a name that is easily remembered and
-      recognized by your users and developers.
-
-
-      #### Challenge Period 
-
-
-      Another parameter to consider is the challenge period. This determines the
-      amount of time your chain's validators have to dispute the current state
-      of the chain. A longer challenge period allows more time for fraudulent
-      states to be disputed, but it also means users have to wait longer to
-      withdraw their assets.
-
-
-      #### Stake Tokens
-
-
-      The stake token parameter specifies the token that validators must deposit
-      when staking. This incentivizes honest participation. You can specify the
-      token's contract address on the L2 chain or use ETH as the stake token.
-
-
-      #### Base Stake
-
-
-      The base stake parameter determines the amount of the stake token that
-      validators must deposit to post assertions of the state of your Orbit
-      chain. A higher base stake makes it more expensive for attackers to launch
-      certain types of attacks, but it also creates a higher barrier to entry
-      for validators.
-
-
-      #### Account Address
-
-
-      The account address responsible for deploying and updating your Orbit
-      chain's base contracts should be considered. In production scenarios, this
-      address is often controlled by a governance protocol or multisig. For
-      devnet chains, it can be thought of as a low-stakes administrative service
-      account.
-    name: Customizing Orbit's Deployment
-    stepItems: []
-    uuid: f3695fc2-2f3d-4e42-b679-7abaadbef60c
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 6bef430c-31af-4813-9d6f-26fabf977eee
   - content: >
+      ## step by step guide to Customizing behaviours
+
+
+
+      ## Chain Parameters
+
       Chain parameters define the essential rules and configurations for a
       blockchain network, such as block size, block time, consensus rules, and
       network IDs, ensuring that all nodes on the network are in sync and follow
@@ -513,13 +325,13 @@ steps:
       inside a block are allowed to consume                     |
       32,000,000                 | 32,000,000                |
       20,000,000                | 32,000,000                |
-    name: Chain Parameters
+    name: Customizing Orbit Chain
     stepItems: []
-    uuid: aebca833-8c0a-491e-ad35-87b9e2889f05
+    uuid: 061749cd-bd33-4f0b-9524-1ab46bcd2411
   - content: ''
     name: Evaluation
     stepItems: []
-    uuid: 26b0af8e-4de1-45cd-ba2c-acb7a331685c
+    uuid: 3ecc45ec-080d-4df9-893c-e6b4654cc324
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: arbitrum-orbit-arbitrum-university-525
