@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T12:44:35.103Z'
+created: '2023-11-09T12:52:19.148Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -91,8 +91,15 @@ steps:
   - content: >-
       ## How does Arbitrum Rollup Work?
 
-      Here is a step-by-step guide on how the rollup chain works to confirm the
-      rBlocks
+      An RBlock in the Arbitrum Rollup chain carries its identifier, the number
+      of the last correct RBlock, the total of L2 blocks made, inbox messages
+      used, and a hash of the chain's outputs. These except the RBlock's number
+      are the proposer's unverified claims, which the protocol must confirm or
+      reject. An RBlock also implies the correctness of all preceding RBlocks
+      back to the origin and contests the validity of any direct older RBlocks.
+      Validators can challenge an RBlock before a deadline by proposing an
+      alternative, which could lead to a staked conflict resolution. Here is a
+      step-by-step guide on how the rollup chain works to confirm the rBlocks
 
 
       <div align="center">
