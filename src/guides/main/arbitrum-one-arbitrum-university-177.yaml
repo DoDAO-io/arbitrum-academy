@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T15:10:20.326Z'
+created: '2023-11-09T15:22:10.343Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -173,7 +173,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
-  - content: >
+  - content: >-
       ## The Roll up security
 
       Arbitrum Rollup's security model leverages the robustness of Ethereum's
@@ -224,6 +224,11 @@ steps:
       RBlock you're staked on is considered an extension of your stake.  If a
       validator is staked only on the latest confirmed RBlock, they (or anyone
       else) can request a refund of their stake.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699543299054_screenshot_2023-11-09%20at%208.20.29%20pm.png"/>
+      </div>
 
 
       ### Step 3: Creating New RBlocks
