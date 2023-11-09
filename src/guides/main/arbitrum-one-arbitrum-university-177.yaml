@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-09T14:07:00.222Z'
+created: '2023-11-09T14:57:38.387Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -216,8 +216,14 @@ steps:
       if they fail a challenge. This staking mechanism is designed to secure the
       network by aligning validators' financial incentives with the chain's
       integrity.
-
-
+    name: Fraud Proving
+    stepItems: []
+    uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: dc1888d0-1e86-43c3-a49e-06899a54b60e
+  - content: >-
       ## Dispute Resolution
 
       The dispute resolution process in Arbitrum, which utilizes interactive
@@ -243,6 +249,11 @@ steps:
       narrowed down to a disagreement about a single step of execution.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699538665121_screenshot_2023-11-09%20at%206.31.01%20pm.png"/>
+      </div>
+
+
       ### Step 3: L1 Contract's Role
 
       During the iterative halving process, the L1 contract does not evaluate
@@ -258,11 +269,6 @@ steps:
       the dispute is reduced to a single step, the L1 contract examines the
       specific instruction in question to resolve the dispute, determining
       whether claiment's claim is correct.
-
-
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699538665121_screenshot_2023-11-09%20at%206.31.01%20pm.png"/>
-      </div>
 
 
       ## Rules to confirm or reject
@@ -295,13 +301,9 @@ steps:
          There is at least one staker, and
 
          No staker is staked on the RBlock.
-    name: Fraud Proving
+    name: Step 7
     stepItems: []
-    uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: dc1888d0-1e86-43c3-a49e-06899a54b60e
+    uuid: 4eea708f-4c60-45b1-8109-a2a64e003b41
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: arbitrum-one-arbitrum-university-177
