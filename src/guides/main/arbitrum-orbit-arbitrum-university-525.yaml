@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-10T12:48:48.238Z'
+created: '2023-11-10T13:29:19.014Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -454,7 +454,7 @@ steps:
       replay binary.
 
 
-      4.1 Build a dev image
+      #### Build a dev image
 
       The simplest way to build a Docker image with the new replay binary is to
       build a dev image. These images contain a freshly built replay binary, but
@@ -530,7 +530,7 @@ steps:
 
 
 
-      4.2 Preserving the replay binary
+      ####  Preserving the replay binary
 
       The primary issue with simply using a nitro-node-dev build is that,
       whenever the code changes at all, the replay binary will also change.
@@ -561,9 +561,9 @@ steps:
 
 
       These commands will output the new WASM module root, and create the
-      directory target/machines/<wasm module root>. There you'll find the three
-      versions of the replay binary mentioned earlier: replay.wasm,
-      machine.wavm.br, and module-root.txt, along with some other optional
+      directory `target/machines/<wasm module root>.` There you'll find the
+      three versions of the replay binary mentioned earlier: `replay.wasm`,
+      `machine.wavm.br`, and `module-root.txt`, along with some other optional
       files. Now that you've extracted the replay binary, there are two ways to
       add it to future Docker images, including non-dev image builds. You can
       either keep it locally and copy it in, or host it on the web.
@@ -571,18 +571,19 @@ steps:
 
       Option 1: Store the extracted replay binary locally
 
-      Now that we've extracted the replay binary, we can modify the Dockerfile
+      Now that we've extracted the replay binary, we can modify the `Dockerfile`
       to copy it into new Docker builds. Edit the Dockerfile file in the root of
-      the nitro folder, and after all the RUN ./download-machines.sh ... lines,
-      add:
+      the nitro folder, and after all the `RUN ./download-machines.sh ...`
+      lines, add:
 
 
-      COPY target/machines/<wasm module root> <wasm module root>
+      `COPY target/machines/<wasm module root> <wasm module root>
 
-      RUN ln -sfT <wasm module root> latest
+      RUN ln -sfT <wasm module root> latest`
 
 
-      Replace each <wasm module root> with the WASM module root you got earlier.
+      Replace each `<wasm module root>` with the WASM module root you got
+      earlier.
 
 
       Option 2: Host the replay binary on the web
@@ -592,31 +593,39 @@ steps:
       preferably, host the replay binary on the web.
 
 
-      To host the replay binary on the web, you'll need to host the replay.wasm
-      and machine.wavm.br files somewhere. One good option is GitHub releases,
-      but any hosting service works.
+      To host the replay binary on the web, you'll need to host the
+      `replay.wasm` and `machine.wavm.br` files somewhere. One good option is
+      GitHub releases, but any hosting service works.
 
 
-      Once you have those two files hosted, instead of the COPY and RUN command
-      mentioned in option 1, you'll need to add these new lines to the
-      Dockerfile file in the root of the nitro folder, after all the RUN
-      ./download-machines.sh ... lines:
+      Once you have those two files hosted, instead of the `COPY` and `RUN`
+      command mentioned in option 1, you'll need to add these new lines to the
+      Dockerfile file in the root of the nitro folder, after all the `RUN
+      ./download-machines.sh ...` lines:
 
 
-      RUN wasm_module_root="<wasm module root>" && \
+      `RUN wasm_module_root="<wasm module root>" && \
           mkdir "$wasm_module_root" && \
           wget <url of replay.wasm> -O "$wasm_module_root/replay.wasm" && \
           wget <url of machine.wavm.br> -O "$wasm_module_root/machine.wavm.br" && \
           echo "$wasm_module_root" > "$wasm_module_root/module-root.txt" && \
-          ln -sfT "$wasm_module_root" latest
+          ln -sfT "$wasm_module_root" latest`
 
-      Replace the <wasm module root> with the WASM module root you got earlier,
-      the <url of replay.wasm> with the direct link to the replay.wasm file (it
-      must be a direct link to the file and not just a download site), and the
-      <url of machine.wavm.br> with the direct link to the machine.wavm.br file.
+      Replace the `<wasm module root>` with the WASM module root you got
+      earlier, the `<url of replay.wasm>` with the direct link to the
+      `replay.wasm` file (it must be a direct link to the file and not just a
+      download site), and the `<url of machine.wavm.br>` with the direct link to
+      the `machine.wavm.br` file.
 
 
+      ### Step 4: Verify Fraud Proofs
 
+      With your Docker images ready, test your blockchain by making transactions
+      and monitoring for "validation succeeded" in the logs, indicating the
+      State Transition Function is working. If you encounter "Error during
+      validation," check that your replay binary is updated with your latest
+      changes and the WASM module root in the rollup contract is correctly set
+      to match your binary.
 
 
       ## Chain Parameters
