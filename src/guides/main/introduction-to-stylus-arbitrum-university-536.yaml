@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-11-10T17:18:45.034Z'
+created: '2023-11-10T17:45:15.648Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -96,61 +96,56 @@ steps:
         uuid: e36dee50-4d76-482a-829e-2a402fcac604
         explanation: Explanation of the question
     uuid: 0b874314-5f3a-442f-a7f8-0cd1c1558009
-  - content: >
-      ## Advantagous Features of Stylus
+  - content: >-
+      ## Working of Stylus 
+
+      Here's a step-by-step process explaining how Stylus works based on the
+      provided information:
 
 
-      Stylus, a feature of Arbitrum, offers several advantages for developers in
-      the blockchain space. 
+      ### Step 1: Coding
+
+      Developers write smart contracts in languages like Rust, C, or C++. These
+      languages are chosen because they can be compiled into efficient
+      WebAssembly (WASM) code. Rust is the most supported on launch, with a
+      dedicated SDK to simplify smart contract development. Developers can use
+      familiar EVM functionalities within the Rust environment.
 
 
-      #### Better Performance
+      ### Step 2: Compilation
+
+      The written program is first compiled into WASM using appropriate tools
+      like the Stylus SDK for Rust or compilers like Clang for C/C++. After
+      compilation, the WASM code is uploaded to the blockchain, but it’s not yet
+      executable. A special process called "activation" is then required. This
+      involves using the ArbWasm precompile to convert WASM into binary code
+      that’s optimized for the node’s architecture, ensuring the program is safe
+      and efficient for execution.
 
 
-      One notable feature is its enhanced performance. Stylus contracts are more
-      versatile and faster compared to traditional contracts written in
-      languages like Solidity. This means that applications written in languages
-      like Rust can run much quicker on Stylus, enabling developers to build
-      high-compute blockchain applications efficiently.
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_stylus_arbitrum_university_536/1699638292250_screenshot_2023-11-10%20at%2010.44.06%20pm.png"/>
+      </div>
 
 
-      #### Cost Effective Transactions
+      ### Step 3: Execution
+
+      Stylus programs run on a modified version of Wasmer, a leading WebAssembly
+      runtime, which is optimized for blockchain applications. This allows
+      Stylus programs to execute much faster than traditional EVM bytecode.
+      Despite the introduction of Stylus, existing EVM contracts operate as
+      usual. Both Solidity and WASM contracts are fully interoperable, allowing
+      cross-contract calls without language barriers.
 
 
-      Another significant feature of Stylus is its cost efficiency. High
-      transaction fees have been a concern in the blockchain industry, but
-      Stylus addresses this issue by drastically reducing fees. This reduction
-      in fees makes it feasible to run complex blockchain applications without
-      incurring exorbitant costs. By making blockchain more affordable, Stylus
-      opens up opportunities for developers to create innovative solutions
-      without financial constraints.
+      ### Step 4: Proving
 
-
-      #### Inclusivity and Flexibility
-
-
-      Inclusivity is another key feature of Stylus. Unlike other platforms that
-      restrict developers to a single programming language, Stylus allows
-      developers to use their preferred programming language. This inclusivity
-      means that more developers can contribute to the Ethereum ecosystem,
-      driving innovation and expanding the community. With Stylus, developers
-      can write applications in languages like Rust, C, and C++, all
-      interoperable on any Arbitrum chain. This flexibility enables developers
-      to leverage their existing skills and knowledge, making it easier to
-      onboard new talent into the blockchain space.
-
-
-      #### Improved Security
-
-
-      Stylus offers improved security features. It allows developers to deploy
-      custom precompiles, including cryptography libraries, without requiring
-      permission. This enhances the security of the applications built on
-      Stylus, as developers can utilize specialized libraries to strengthen
-      their code. Furthermore, Stylus provides cheap reentrancy detection, a
-      vulnerability that developers often struggle to mitigate in Solidity. By
-      default, reentrancy is disabled in Rust, unless intentionally overridden,
-      providing an added layer of protection against potential exploits.
+      In normal operations (the "happy case"), Nitro compiles execution history
+      to native code to ensure efficiency. If a dispute arises (the "sad case"),
+      Nitro uses WASM to perform interactive fraud proofs on Ethereum. Stylus
+      extends Nitro's fraud-proofing capability by enabling it to work with any
+      WASM program deployed by developers, maintaining the integrity and
+      trustworthiness of the blockchain. 
     name: How does it Work?
     stepItems: []
     uuid: 2c531825-b9c2-488f-a24b-c0991f2972ca
