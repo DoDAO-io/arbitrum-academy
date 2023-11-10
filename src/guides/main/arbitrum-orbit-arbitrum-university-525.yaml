@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-10T12:06:40.006Z'
+created: '2023-11-10T12:21:41.126Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -335,7 +335,42 @@ steps:
     stepItems: []
     uuid: d01a95c5-37c4-48db-89f0-2dd8d9b6f80b
   - content: >
-      ## step by step guide to Customizing behaviours
+      ## How to Customise Orbit Chain's Behaviour 
+
+      Customizing your Orbit chain requires understanding the State Transition
+      Function (STF), which determines block creation from transactions.
+      Modifications to the STF, like adding new EVM opcodes or changing gas
+      reward structures, necessitate updating the fraud proving system to
+      acknowledge the changes as legitimate; otherwise, unmodified nodes could
+      challenge these modifications. Non-STF changes, such as new RPC methods or
+      transaction ordering, don't affect consensus and need no such updates. For
+      compatibility with Arbitrum Nitro, the STF must be deterministic, not
+      retroactively alter block outcomes, operate without external resources,
+      maintain state within the Ethereum state trie, not alter Ethereum state
+      outside transactions, produce results swiftly to maintain node sync, and
+      handle all inputs without failure. 
+
+      If you're looking to alter the State Transition Function, it's necessary
+      to create a custom version of the Arbitrum Nitro node Docker image. The
+      behaviour of an orbit chain can be customised by following the steps given
+      below:
+
+
+      ### Step 1: Download Nitro Source Code
+
+      Start by duplicating the Nitro repository:
+
+      `git clone --branch v2.1.1 https://github.com/OffchainLabs/nitro.git
+
+      cd nitro
+
+      git submodule update --init --recursive --force
+
+      `
+
+      Proceed to apply your modifications to the State Transition Function.
+
+
 
 
 
