@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-10T11:52:58.011Z'
+created: '2023-11-10T11:53:53.532Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -309,13 +309,15 @@ steps:
       with your Owner account's private key and the local RPC URL with your
       node's. 
 
-      For Arbitrum Goerli, use
+
+      - For Arbitrum Goerli, use
 
       `PRIVATE_KEY="0xYourPrivateKey"
       L2_RPC_URL="https://goerli-rollup.arbitrum.io/rpc"
       L3_RPC_URL="http://localhost:8449" yarn run setup`. 
 
-      For Arbitrum Sepolia, 
+
+      - For Arbitrum Sepolia, 
 
       `PRIVATE_KEY="0xYourPrivateKey"
       L2_RPC_URL="https://sepolia-rollup.arbitrum.io/rpc"
