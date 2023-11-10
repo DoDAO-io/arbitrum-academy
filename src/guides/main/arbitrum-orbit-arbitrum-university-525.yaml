@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-10T13:29:19.014Z'
+created: '2023-11-10T13:30:35.968Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -337,18 +337,15 @@ steps:
   - content: >
       ## How to Customise Orbit Chain's Behaviour 
 
-      Customizing your Orbit chain requires understanding the State Transition
-      Function (STF), which determines block creation from transactions.
-      Modifications to the STF, like adding new EVM opcodes or changing gas
-      reward structures, necessitate updating the fraud proving system to
-      acknowledge the changes as legitimate; otherwise, unmodified nodes could
-      challenge these modifications. Non-STF changes, such as new RPC methods or
-      transaction ordering, don't affect consensus and need no such updates. For
-      compatibility with Arbitrum Nitro, the STF must be deterministic, not
-      retroactively alter block outcomes, operate without external resources,
-      maintain state within the Ethereum state trie, not alter Ethereum state
-      outside transactions, produce results swiftly to maintain node sync, and
-      handle all inputs without failure. 
+      Modifying your Orbit chain's State Transition Function (STF), responsible
+      for block generation, requires updating the fraud proof system for changes
+      like new EVM opcodes or gas rules to be recognized. Simple updates, like
+      adding RPC methods or altering transaction order, don't impact consensus
+      and don't need these adjustments. To be compatible with Arbitrum Nitro,
+      STF changes must ensure determinism, preserve historical block integrity,
+      avoid external dependencies, confine state changes to Ethereum's state
+      trie, maintain quick processing for node synchronization, and consistently
+      produce blocks without errors.
 
       If you're looking to alter the State Transition Function, it's necessary
       to create a custom version of the Arbitrum Nitro node Docker image. The
