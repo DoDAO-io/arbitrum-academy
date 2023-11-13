@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-13T13:32:48.146Z'
+created: '2023-11-13T13:53:21.317Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -86,86 +86,70 @@ steps:
         explanation: Explanation of the question
     uuid: 059345d4-d9d4-4b9f-b0fd-2b72e8812a73
   - content: >-
-      ### L1 contracts can submit L2 transactions
-
-      ### L1 to L2 ticket-based transactions
-
-      ### L2 to L1 ticket-based calls
-
+      Layer 1 (L1) and Layer 2 (L2) bridging enables the movement of assets from
+      the main Ethereum blockchain to secondary frameworks, reducing congestion
+      and fees. The Arbitrum bridge carries out the following processes between
+      Layer 1 and Layer 2:
 
 
+      ## L1 contracts can submit L2 transactions
+
+      A contract on Layer 1 (L1) can initiate a transaction on Layer 2 (L2)
+      through the Nitro chain's inbox contract on Ethereum, similar to how a
+      user might. This transaction is queued to be processed on L2, with its
+      outcomes remaining inaccessible to the initiating L1 contract. While the
+      transaction occurs on L2, the initiator on L1 is unable to view any
+      resulting actions. This approach benefits from being straightforward and
+      exhibiting low delay. 
 
 
+      However, it has a drawback where the L2 transaction may fail if the
+      initiating L1 contract does not accurately set the L2 gas price and
+      maximum gas limit. The lack of visibility for the L1 initiator means
+      there's no certainty that the L2 transaction will complete without issues.
+      This limitation poses a significant risk for specific L1 to L2 transaction
+      types. For instance, in a scenario where a token deposit occurs on L1 for
+      accessibility at an L2 address, a successful L1 transaction followed by a
+      failed L2 transaction results in tokens being locked in the L1 inbox
+      contract with no way to recover them on either layer, which is
+      problematic.
 
 
+      ## L1 to L2 ticket-based transactions
+
+      The ticket-based system for L1 to L2 transactions provides a more reliable
+      alternative to standard calls by mitigating gas-related failures. An L1
+      contract can issue a "retryable" transaction, which the Nitro chain
+      attempts to execute on L2. If it fails, a "ticketID" is created for the
+      failed transaction. This ticket can later be used by anyone to attempt the
+      transaction again by calling a specific contract on L2 with the ticketID.
+      The transaction details are stored, and the associated value is reserved
+      from the sender's account. Successful redemption completes the transaction
+      and invalidates the ticketID, while a failure allows for future redemption
+      attempts. This method ensures that the transaction has a chance to succeed
+      eventually, provided someone is willing to redeem the ticket, with costs
+      known upfront and determined by the data size of the transaction. Tickets
+      are valid for about a week, ensuring that the transaction won't be lost if
+      it doesn't go through initially.
 
 
+      ## L2 to L1 ticket-based calls
+
+      Interactions from Layer 2 (L2) to Layer 1 (L1) utilize a ticket-based
+      mechanism. An L2 contract can request a transaction on L1 by invoking a
+      function on the ArbSys precompiled contract. Once the L2 submission is
+      verified on L1, which can take several days, a ticket is generated within
+      the L1 outbox contract. This ticket can be activated by anyone who calls a
+      specific method on the L1 outbox and provides the ticketID. A ticket is
+      considered successfully redeemed if the corresponding L1 transaction
+      executes without failure.
 
 
-
-
-
-
-      ## Arbitrum Bridge
-
-
-      The Arbitrum Bridge is a decentralized application (DApp) created by
-      Offchain Labs to solve a major problem in the blockchain world:
-      transferring assets between the Ethereum main network (Layer 1) and its
-      Layer 2 counterpart, Arbitrum One. This bridge acts as a crucial link,
-      enabling assets to move seamlessly between these two layers while
-      maintaining interoperability.
-
-
-      The Arbitrum Bridge offers enhanced scalability by offloading Ethereum's
-      computational load, enabling faster and more cost-effective transactions
-      through batch processing. Its security is rooted in Ethereum's proven
-      model, with additional checks and the ability for users to contribute as
-      validators. The bridge's user-friendly interface simplifies asset
-      transfer, improving the user experience for both novices and experts in
-      the crypto realm. It fosters interoperability, allowing assets to move
-      across various blockchain networks, thereby broadening user engagement
-      with diverse applications. Lastly, its cost efficiency is a standout
-      feature, slashing transaction fees and promoting a sustainable blockchain
-      environment.
-
-
-      ## Purpose of Arbitrum Bridge
-
-
-      #### Facilitating Asset Transfers
-
-
-      The Arbitrum Bridge plays a central role in facilitating the transfer of
-      assets between Ethereum and the Arbitrum One network. Users can deposit
-      their ETH or ERC-20 tokens into the bridge contract on Ethereum's Layer 1.
-      These assets are then locked, and an equivalent amount is minted on the
-      Arbitrum network's Layer 2. The bridge acts as a custodian, ensuring the
-      security and integrity of the assets during the transition.
-
-
-      #### Moving Computational Work
-
-
-      The Arbitrum bridge operates by moving most of the computational work off
-      the Ethereum network (Layer 1) while still maintaining the security
-      guarantees of this decentralized blockchain. When a user wants to transfer
-      their assets from Ethereum to Arbitrum, they interact with the Arbitrum
-      bridge. This process utilizes 'roll-up' technology, which batches multiple
-      transactions into a single one, resulting in improved scalability and
-      reduced gas fees.
-
-
-      #### Withdrawals and Dispute Period
-
-
-      When a user wishes to withdraw their assets from Arbitrum back to
-      Ethereum, the tokens on the Arbitrum network are burned, and the
-      previously locked assets on Ethereum are released. However, it's important
-      to note that Arbitrum employs a security mechanism called the "dispute
-      period" for withdrawals. This means that withdrawals are delayed for
-      approximately one week to allow the Layer 2 network's state to be
-      challenged and verified on Ethereum before the funds are released.
+      The tickets for these L2-to-L1 transactions are perpetual, remaining valid
+      until they are redeemed. They incur no ongoing fees because they are
+      stored as a Merkle hash in the Ethereum storage, which is permanent and
+      does not charge rent. The initial storage costs for these ticket Merkle
+      roots are financed by the fees from L2 transactions.
     name: L1 and L2 Bridging
     stepItems: []
     uuid: e57a1b9d-454b-49bf-a296-8e6a40ff692e
