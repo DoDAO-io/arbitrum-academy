@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-13T18:10:18.370Z'
+created: '2023-11-13T18:22:04.511Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -111,7 +111,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1682ade3-97a3-4d83-bdfb-e75758c2edf4
-  - content: >+
+  - content: >
       ## What are Retryable Tickets?
 
       Retryable tickets in the Arbitrum system are a specific mechanism designed
@@ -152,7 +152,7 @@ steps:
       activated. Ticket creation causes the `ArbRetryableTx` precompile to emit
       a `TicketCreated` event containing the `TicketID` on L2.
 
-      `- `l1CallValue (also referred to as deposit)`: Not a real function
+      - `l1CallValue (also referred to as deposit)`: Not a real function
       parameter, it is rather the callValue that is sent along with the
       transaction
 
@@ -183,8 +183,6 @@ steps:
 
       - `bytes calldata data`: The calldata to the destination L2 address
 
-      `
-
 
       <div align="center">
         <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/cross_chain_messaging_arbitrum_university_977/1699898912101_screenshot_2023-11-13%20at%2011.07.31%20pm.png"/>
@@ -193,11 +191,28 @@ steps:
 
       ### 2. Automatic Redemption 
 
+      Ticket submission on Layer 1 and execution on Layer 2 are separate events;
+      successful submission doesn't ensure execution. For execution, the user
+      must have enough funds to cover the transaction fee and the base fee on
+      Layer 2. If these criteria are met, the ticket will automatically attempt
+      to execute, with success or failure depending on the gas provided. If the
+      ticket auto-redeems successfully, it carries out the transaction with the
+      original details including the sender, destination, callvalue and calldata
+      from the submission. Any excess submission fee is returned to the user on
+      Layer 2. To improve the chances of successful auto-redeem, the Arbitrum
+      SDK can be used to determine the correct gas parameters for Layer 1 to
+      Layer 2 messages. If the ticket isn't redeemed at submission or the first
+      redeem attempt fails (possibly due to a rise in the Layer 2 gas price),
+      the submission fee is used to store the ticket in memory for a week. Under
+      these circumstances, the ticket must be redeemed manually.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/cross_chain_messaging_arbitrum_university_977/1699899673388_screenshot_2023-11-13%20at%2011.20.35%20pm.png"/>
+      </div>
 
 
       ### 3. Manual Redemption
-
-
     name: L1 to L2 Messaging
     stepItems: []
     uuid: 4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d
