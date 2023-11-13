@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Bridging Blockchains with Seamless Communication",
-  "created": "2023-11-13T17:09:58.380Z",
+  "created": "2023-11-13T17:24:19.315Z",
   "guideType": "onboarding",
   "key": "cross-chain-messaging-arbitrum-university-977",
   "name": "Cross Chain Messaging",
@@ -18,6 +18,18 @@
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "0b537aa5-d7f1-41bf-88e1-f0b38af513dc"
+    },
+    {
+      "content": "The Arbitrum protocol and its associated tools simplify the process for developers to create cross-chain applications, enabling them to efficiently send messages between Ethereum and an Arbitrum chain, as well as in the reverse direction from an Arbitrum chain back to Ethereum.\n\n### Ethereum to Arbitrum Messaging \nContract calls from Ethereum's Layer 1 to Arbitrum's Layer 2 can be initiated using the `createRetryableTicket` method of the Inbox contract. When the transaction is executed on Layer 1, the corresponding action on Layer 2 is usually processed within a short time frame. Typically, the execution on Layer 2 completes successfully; however, in cases where it does not and a reversal occurs, it can be attempted again by invoking the `redeem` function of the ArbRetryableTx precompiled contract.\n\nTo visualise the example, check out the tutorial at https://github.com/OffchainLabs/arbitrum-tutorials/tree/master/packages/greeter.\n\n### Arbitrum to Ethereum Messaging \nContracts on Arbitrum's Layer 2 can also send messages to be executed on Ethereum's Layer 1. This is done by invoking the `sendTxToL1` function on the ArbSys precompiled contract. After a waiting period for confirmation, which typically lasts about one week, these messages can be processed. The necessary data for execution is obtained by calling the `constructOutboxProof` method of the NodeInterface contract. Following this, the messages are executed on Layer 1 through the Outbox contract's `executeTransaction` method.\n\nTo better understand, check out the demo at https://github.com/OffchainLabs/arbitrum-tutorials/tree/master/packages/outbox-execute.",
+      "name": "Arbitrum's Cross Chain Messaging",
+      "stepItems": [],
+      "uuid": "c6565013-2272-47a3-9ff0-d6aa141f938f"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "1682ade3-97a3-4d83-bdfb-e75758c2edf4"
     },
     {
       "content": "## What are Retryable Tickets?\n\n## Lifecycle of Retryable Tickets ",
@@ -66,6 +78,12 @@
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "dbaea1cf-22eb-4c4d-96b6-106ba0c7d26a"
+    },
+    {
+      "content": "## Step 1\n\n- https://www.techopedia.com/definition/cross-chain-in-blockchain#:~:text=XCM%20is%20a%20messaging%20format,chain%20and%20executed%20in%20another.\n- https://chain.link/education/cross-chain\n\n",
+      "name": "References",
+      "stepItems": [],
+      "uuid": "c77989b0-22f7-4926-8e33-9b38540f66e8"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/cross_chain_messaging_arbitrum_university_977/1699877869240_rectangle_101.png",
