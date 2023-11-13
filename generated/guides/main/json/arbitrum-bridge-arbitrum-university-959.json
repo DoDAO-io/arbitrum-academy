@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum Bridge: Seamless L1 to L2 Asset Transfer",
-  "created": "2023-11-13T13:53:21.317Z",
+  "created": "2023-11-13T14:06:59.287Z",
   "guideType": "onboarding",
   "key": "arbitrum-bridge-arbitrum-university-959",
   "name": "Arbitrum Bridge ",
@@ -93,7 +93,7 @@
     },
     {
       "content": "Token bridging allows projects to seamlessly connect their existing Layer 1 (L1) tokens with the Arbitrum ecosystem. This integration enables the transfer of tokens between L1 and Layer 2 (L2) networks, providing increased scalability and efficiency. Following are the different ways to bridge tokens:\n\n#### Standard Gateway\n\nThe standard gateway is the simplest method for bridging tokens. By choosing this option, an ERC-20 token will be automatically deployed on the Arbitrum network, acting as the L2 counterpart to your L1 token. This means that whenever a token is deposited on L1, an equivalent amount will be minted on L2, and vice versa. To learn more about the standard ERC-20 gateway and its implementation, refer to the relevant section in the conceptual page.\n\n#### Generic-Custom Gateway\n\nIf you require custom functionality for your ERC-20 token on Arbitrum, the generic-custom gateway is the way to go. With this method, you can deploy your counterpart token on Arbitrum with unique features tailored to your needs. Whether it's implementing specific rules or adding additional functionalities, the generic-custom gateway provides the flexibility you require. For more information on how to utilize the Arbitrum generic custom gateway, refer to the relevant section in the conceptual page.\n\n#### Custom Gateway\n\nIn certain cases where a custom ERC-20 token is not sufficient, the custom gateway offers an additional layer of flexibility. This method is suitable when you need more control over the gateway, such as when your token has the ability to increase its supply on L2. With the custom gateway, you can ensure that L2-minted tokens can be withdrawn back to L1 and recognized by the L1 contract. For a detailed understanding of other types of gateways and their implementation, refer to the relevant section in the conceptual page.\n\n#### Practical Implementation\n\nTo further assist you in bridging tokens, we provide examples and scripts that demonstrate the deposit and withdrawal processes using the Arbitrum SDK. These scripts showcase how to programmatically deposit tokens from L1 to L2 and vice versa. By following the step-by-step instructions outlined in the \"How to bridge tokens via Arbitrum's standard gateway\" section, you can easily initiate the bridging process and ensure a smooth transfer of tokens between the two networks.",
-      "name": "How to bridge tokens",
+      "name": "Ways to Bridge Tokens",
       "stepItems": [],
       "uuid": "df19894b-5fce-4857-b6a6-87e4e9fd3311"
     },
