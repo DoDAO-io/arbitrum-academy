@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-13T18:09:25.546Z'
+created: '2023-11-13T18:10:18.370Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -181,7 +181,9 @@ steps:
       - `uint256 maxFeePerGas`: The gas price bid for L2 execution of the ticket
       that is supplied within the deposit (l1CallValue)
 
-      - `bytes calldata data`: The calldata to the destination L2 address`
+      - `bytes calldata data`: The calldata to the destination L2 address
+
+      `
 
 
       <div align="center">
