@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-13T18:22:04.511Z'
+created: '2023-11-13T18:31:49.133Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -111,7 +111,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 1682ade3-97a3-4d83-bdfb-e75758c2edf4
-  - content: >
+  - content: >+
       ## What are Retryable Tickets?
 
       Retryable tickets in the Arbitrum system are a specific mechanism designed
@@ -213,6 +213,32 @@ steps:
 
 
       ### 3. Manual Redemption
+
+      Anyone can try to manually redeem an unclaimed ticket by using the
+      ArbRetryableTx's redeem function, which supplies the gas for the
+      redemption without being restricted by the original gas limit. ArbOS will
+      prioritize this redemption in its processing queue, ensuring it's executed
+      in the same block as the calling transaction, with no risk of hitting the
+      block's gas limit before execution. If the fixed period (one week) elapses
+      without a successful redeem, the ticket expires and will be automatically
+      discarded, unless some party has paid a fee to keep the ticket alive for
+      another full period. A ticket can live indefinitely as long as it is
+      renewed each time before it expires. Upon successful redemption, the
+      designated recipient gets the escrowed funds, and any leftover gas goes
+      back to the system's gas pools. If it fails, the funds return to escrow
+      for another try. Fees are settled during the initial transaction, so no
+      additional fees are incurred or refunded at this stage. It's also
+      important to note that while a ticket redemption is in progress, any
+      attempts to cancel or reschedule it will fail, ensuring the ticket doesn't
+      change during this process. If a ticket with funds is ultimately not used
+      (either cancelled or expired), the escrowed funds will be sent to a
+      specified refund address from the original submission.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/cross_chain_messaging_arbitrum_university_977/1699900133766_screenshot_2023-11-13%20at%2011.28.17%20pm.png"/>
+      </div>
+
     name: L1 to L2 Messaging
     stepItems: []
     uuid: 4c6d4203-d72d-45fc-bdbd-c0d8b9dc899d
