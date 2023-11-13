@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-13T18:37:55.147Z'
+created: '2023-11-13T18:44:48.921Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -246,17 +246,57 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 45ccd21e-4685-41e2-b6f7-18d3c9f606fd
-  - content: |-
+  - content: >-
       ## Receipt 
+
+      The life of a retryable ticket generates two types of Layer 2 receipts:
+
+
+      **1. Ticket Creation Receipt:** Emitted when a ticket is created
+      successfully via the Inbox's createRetryableTicket method. It includes a
+      TicketCreated event with a ticketId, which can be calculated using RLP
+      encoding and hashing.
+
+
+      **2. Redeem Attempt Receipt:** Emitted after a ticket is tried for
+      execution on Layer 2, indicating whether the redeem was successful or
+      failed. It includes a RedeemScheduled event with a ticketId. There will be
+      only one successful redeem receipt per ticket—if the initial auto-redeem
+      is successful, no other receipts are issued for that ticket. If the
+      auto-redeem fails or isn't attempted, subsequent attempts will continue to
+      emit redeem receipts until one is successful.
 
 
       ## Alternative "unsafe" Retryable Ticket Creation
 
+      The `Inbox.createRetryableTicket` method has built-in checks to ensure
+      that users provide enough funds from Layer 1 to cover the costs of
+      creating a ticket. It also handles the conversion of
+      `callValueRefundAddress` and `excessFeeRefundAddress` to their respective
+      address aliases if they are identified as contracts, which is determined
+      during the call. This provides a way for contracts on Layer 1 to reclaim
+      funds. However, for those with advanced knowledge, there is an alternative
+      method, `Inbox.unsafeCreateRetryableTicket`, which omits these safety
+      checks and is only recommended for experts.
+
 
       ## Eth deposits
 
+      There's a specific way to transfer Eth from Layer 1 (L1) to Layer 2 (L2)
+      by using the Inbox's `depositEth` method. When someone sends Eth this way,
+      it will be credited to their same address on L2 if they're an externally
+      owned account (EOA). If a contract makes the deposit, the Eth goes to a
+      corresponding special address for the contract on L2. It's important to
+      note that using `depositEth` to send Eth directly to a contract on L2
+      doesn't activate the contract's fallback function. While direct deposits
+      are straightforward, retryable tickets offer a more flexible alternative
+      for sending Ether to L2. They can specify different destination addresses
+      or activate a contract's fallback function on L2, which the standard
+      eth-deposit method does not.
+
 
       ## Transacting via the Delayed Inbox
+
 
 
       ## Address Aliasing
