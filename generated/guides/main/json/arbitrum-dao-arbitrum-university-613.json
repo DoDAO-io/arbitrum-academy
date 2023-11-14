@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the workings of the Arbitrum DAO",
-  "created": "2023-11-14T16:53:07.881Z",
+  "created": "2023-11-14T16:56:13.316Z",
   "guideType": "onboarding",
   "key": "arbitrum-dao-arbitrum-university-613",
   "name": "Arbitrum DAO",
@@ -80,7 +80,7 @@
       "uuid": "dab4315a-ba2f-4a65-a493-2f94f96606b7"
     },
     {
-      "content": "The users can refer to the additional knowledge and resrouce support through different communication channles including:\n\n### Airdrop eligibility and token distribution details\n\n### The Constitution of the Arbitrum DAO\n\n### Arbitrum DAO Glossary\n\n### Discord\n\n### Telegram\n\n### Arbitrum DAO governance forum\n",
+      "content": "The users can refer to the additional knowledge and resrouce support through different communication channles including:\n\n### Airdrop eligibility and token distribution details\nhttps://docs.arbitrum.foundation/airdrop-eligibility-distribution\n\n### The Constitution of the Arbitrum DAO\nhttps://docs.arbitrum.foundation/dao-constitution\n\n### Arbitrum DAO Glossary\nhttps://docs.arbitrum.foundation/dao-glossary\n\n### Discord\nhttps://discord.gg/arbitrum\n\n### Telegram\nhttps://t.me/arbitrum\n\n### Arbitrum DAO governance forum\nhttps://forum.arbitrum.foundation/\n",
       "name": "Information Channels",
       "stepItems": [],
       "uuid": "408edf63-29bd-4481-85db-07a40b936e0c"

@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the workings of the Arbitrum DAO
-created: '2023-11-14T16:53:07.881Z'
+created: '2023-11-14T16:56:13.316Z'
 guideType: onboarding
 key: arbitrum-dao-arbitrum-university-613
 name: Arbitrum DAO
@@ -245,20 +245,32 @@ steps:
 
       ### Airdrop eligibility and token distribution details
 
+      https://docs.arbitrum.foundation/airdrop-eligibility-distribution
+
 
       ### The Constitution of the Arbitrum DAO
+
+      https://docs.arbitrum.foundation/dao-constitution
 
 
       ### Arbitrum DAO Glossary
 
+      https://docs.arbitrum.foundation/dao-glossary
+
 
       ### Discord
+
+      https://discord.gg/arbitrum
 
 
       ### Telegram
 
+      https://t.me/arbitrum
+
 
       ### Arbitrum DAO governance forum
+
+      https://forum.arbitrum.foundation/
     name: Information Channels
     stepItems: []
     uuid: 408edf63-29bd-4481-85db-07a40b936e0c
