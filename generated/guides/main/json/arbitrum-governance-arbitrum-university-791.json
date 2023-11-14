@@ -1,14 +1,14 @@
 {
   "categories": [],
   "content": "A deeper look into the Arbitrum Governance Sructure",
-  "created": "2023-11-14T17:01:56.461Z",
+  "created": "2023-11-14T17:13:09.619Z",
   "guideType": "onboarding",
   "key": "arbitrum-governance-arbitrum-university-791",
   "name": "Arbitrum Governance",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "## What is governance?\n\n## Progressive Decentralization \n\n## Components of Progressive Decentralisation\n\n",
+      "content": "## What is Governance?\nGovernance is the process by which decisions are made within an organization. In traditional web2 setups, corporations make decisions through a board of directors, a small group chosen by the company's shareholders. When decisions are needed, the board discusses and votes, though their processes may not always be transparent to the shareholders. Web3 technologies, like those in the Arbitrum ecosystem, start similarly but move towards a system where decision-making is spread out among its community. This shift is known as progressive decentralization. Through these mechanisms, web3 governance aims to distribute power among its stakeholders, moving away from the centralized model of traditional corporate governance.\n\n## Progressive Decentralization \nProgressive decentralization is a process where control of a project shifts from a small, central group to its wider community. It involves setting up a DAO and issuing governance tokens, empowering community members to make decisions and guide the project's future democratically. This shift involves:\n\n**1. DAO Formation: **Entities like the Arbitrum DAO are created, taking over the governance of the network. The DAO operates based on a set of rules outlined in the Arbitrum DAO Constitution, which acts as a blueprint for its operations.\n\n**2. Governance Tokens:** Ownership of governance tokens indicates membership in the DAO. Token holders, such as those holding $ARB, are eligible to vote on proposals affecting the network's future.\n\n**3. Smart Contracts:** DAO governance relies on transparent smart contracts instead of traditional legal contracts. These smart contracts execute the rules set out in the DAO Constitution and allow for trustless, decentralized decision-making.\n\n## Components of Progressive Decentralisation\n\n",
       "name": "Intro to Arbitrum’s Governance",
       "stepItems": [],
       "uuid": "84327946-a002-459c-a6a3-5df7a57a52ec"
@@ -45,7 +45,7 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "7fe35948-d0eb-4e9d-9be7-d177fa8d18f2",
+  "uuid": "arbitrum-governance-arbitrum-university-791",
   "version": 1,
   "priority": 50
 }
