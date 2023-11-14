@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into the Arbitrum Governance Sructure",
-  "created": "2023-11-14T17:52:54.619Z",
+  "created": "2023-11-14T18:04:17.208Z",
   "guideType": "onboarding",
   "key": "arbitrum-governance-arbitrum-university-791",
   "name": "Arbitrum Governance",
@@ -32,7 +32,7 @@
       "uuid": "d7a04223-527f-4c9f-b8df-02956a1e0eba"
     },
     {
-      "content": "## What does the security council do \n\n## Way forward \n",
+      "content": "The Security Council's dual capacity for immediate action in emergencies and methodical upgrades in non-critical situations ensures the network's stability and responsiveness to threats, all while remaining accountable to the Arbitrum DAO's governance structure.\n\n## Emergency Protocol Upgrades\n\n**Function:** The Security Council can swiftly implement protocol upgrades in emergencies, bypassing the standard governance process.\n**Purpose:** Immediate action in case of critical vulnerabilities, without publicizing sensitive information in the DAO's governance forum.\n**Authority:** Empowered to act directly and expediently to apply urgent fixes, safeguarding the protocol's integrity.\n\n## Governance and Oversight\n\n**Transparency:** The Security Council is obliged to adhere to the Arbitrum DAO Constitution and to provide transparency reports post-action.\n**Accountability:** Members are elected by the DAO through semi-annual elections, ensuring that the council acts in the network's best interests.\n\n## Routine Upgrades\n\n**Scope:** Non-critical updates such as software maintenance and minor improvements.\n**Process:** These upgrades are subject to a delay period, allowing users the choice to withdraw if they disagree with the changes.\n\n## Resources\n\n**Documentation:** Detailed information about the Security Council's operations and guidelines can be found in the Security Council concept doc.\n**Constitutional Role:** The formal responsibilities and limits of the Security Council are outlined in The Constitution of the Arbitrum DAO. \n\n## Way forward \n",
       "name": "Security Council",
       "stepItems": [],
       "uuid": "cde1e0f7-0a64-4a50-8b0a-929eca9bf00b"
