@@ -1,0 +1,51 @@
+categories: []
+content: A deeper look into the Arbitrum Governance Sructure
+created: '2023-11-14T17:01:56.461Z'
+guideType: onboarding
+key: arbitrum-governance-arbitrum-university-791
+name: Arbitrum Governance
+publishStatus: Live
+steps:
+  - content: |+
+      ## What is governance?
+
+      ## Progressive Decentralization 
+
+      ## Components of Progressive Decentralisation
+
+    name: Intro to Arbitrum’s Governance
+    stepItems: []
+    uuid: 84327946-a002-459c-a6a3-5df7a57a52ec
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: c3f3254d-7e3c-4716-a7bf-ff29fe93a57f
+  - content: |
+      ## Chain Ownership 
+
+      ## On-Chain Governance 
+
+      ## Decentralization using $ARB
+    name: Balancing Power
+    stepItems: []
+    uuid: 410c2626-1869-42c5-b2b7-441e7193a61d
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: d7a04223-527f-4c9f-b8df-02956a1e0eba
+  - content: |
+      ## What does the security council do 
+
+      ## Way forward 
+    name: Security Council
+    stepItems: []
+    uuid: cde1e0f7-0a64-4a50-8b0a-929eca9bf00b
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 220fb1cb-5390-4fdd-a15a-dfbdf1f283be
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 7fe35948-d0eb-4e9d-9be7-d177fa8d18f2
+version: 1
+priority: 50
