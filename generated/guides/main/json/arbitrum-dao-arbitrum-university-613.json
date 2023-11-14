@@ -1,0 +1,100 @@
+{
+  "categories": [],
+  "content": "Understanding the workings of the Arbitrum DAO",
+  "created": "2023-11-14T15:47:42.752Z",
+  "guideType": "onboarding",
+  "key": "arbitrum-dao-arbitrum-university-613",
+  "name": "Arbitrum DAO",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "## What is arbitrum DAO \n\n## Why is it important?\n\n## What is $ARB?\n\n### $ARB vs $Eth\n        ",
+      "name": "Introduction to Arbitrum DAO",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "23ee0d07-5719-411f-a123-3786b661ed11"
+        }
+      ],
+      "uuid": "91988ce3-b4d4-4d35-84eb-eeade6b5d62b"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "6bf2a194-9c0e-425f-97bc-ee314685cfec"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "7acea72e-ed02-4cf6-b335-6ad0a4920cd5",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "6cc8edfb-d101-4053-bac3-419b9352d568"
+    },
+    {
+      "content": "## How does it work?\n\n## Decision Making by Arbitrum Governance\n",
+      "name": "Working of Arbitrum Governance",
+      "stepItems": [],
+      "uuid": "d8b0974d-a6cb-4e25-92fa-4451b1726041"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "227d10ac-a52f-4b51-bd19-beac530b6dfd"
+    },
+    {
+      "content": "## Web3 User Layer\n\n## Participation Options\n",
+      "name": " Arbitrum Stakeholders",
+      "stepItems": [],
+      "uuid": "1263d5bb-7002-4667-af03-4178c78a603e"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "dab4315a-ba2f-4a65-a493-2f94f96606b7"
+    },
+    {
+      "content": "The users can refer to the additional knowledge and resrouce support through different communication channles including:\n\n### Airdrop eligibility and token distribution details\n\n### The Constitution of the Arbitrum DAO\n\n### Arbitrum DAO Glossary\n\n### Discord\n\n### Telegram\n\n### Arbitrum DAO governance forum\n",
+      "name": "Information Channels",
+      "stepItems": [],
+      "uuid": "408edf63-29bd-4481-85db-07a40b936e0c"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "7bd73cbe-3243-4dea-8247-fc4873b7c1b7",
+  "version": 1,
+  "priority": 50
+}
