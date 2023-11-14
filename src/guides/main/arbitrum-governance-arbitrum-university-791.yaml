@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into the Arbitrum Governance Sructure
-created: '2023-11-14T18:06:59.572Z'
+created: '2023-11-14T18:09:26.043Z'
 guideType: onboarding
 key: arbitrum-governance-arbitrum-university-791
 name: Arbitrum Governance
@@ -204,7 +204,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d7a04223-527f-4c9f-b8df-02956a1e0eba
-  - content: >
+  - content: >-
       ## Features of Security Counsil
 
       The Security Council's dual capacity for immediate action in emergencies
@@ -250,6 +250,28 @@ steps:
 
 
       ## Way forward 
+
+      The launch of Arbitrum's governance equips the community with two key
+      mechanisms: a decentralized governance model and a swift, controlled
+      upgrade path for emergency situations. Looking ahead, the community faces
+      pivotal questions about the evolution of this system:
+
+
+      - Is it possible to achieve even greater decentralization in the
+      governance process?
+
+      - What steps can be taken to reduce or even remove the Security Council's
+      authority?
+
+
+      Finding answers to these questions will require ongoing, robust
+      discussions as Arbitrum develops and as perceptions of decentralization's
+      risks and benefits evolve. Importantly, the Arbitrum governance system has
+      full authority over the protocol's future, including the governance model
+      itself. This means that the future shape of Arbitrum, including changes to
+      how it is governed, rests with the Arbitrum community, ensuring that the
+      network's trajectory aligns with the collective vision and values of its
+      stakeholders.
     name: Security Council
     stepItems: []
     uuid: cde1e0f7-0a64-4a50-8b0a-929eca9bf00b
