@@ -1,0 +1,67 @@
+categories: []
+content: Representatives for token holders in Arbitrum DAO
+created: '2023-11-14T18:17:47.788Z'
+guideType: onboarding
+key: delegation-arbitrum-university-615
+name: Delegation
+publishStatus: Live
+steps:
+  - content: |-
+      ## What is a Delegate?
+
+      ## Benefits of being a delegate 
+
+              
+    name: Introduction to Delegates
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: 4b027233-1e12-41eb-9d26-8c7ba64affc0
+    uuid: bd65300c-703e-439a-991d-d04a6720d7cb
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: bfd9bd42-5019-4129-99d4-fa9951f453c0
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: b9ea048a-8cac-40e0-a072-735bc7d3959f
+        explanation: Explanation of the question
+    uuid: c6007096-3c41-4b14-a191-4ff982d9bddf
+  - content: '## How to become a delegate?'
+    name: Becoming a Delegate
+    stepItems: []
+    uuid: 90bb0a3d-315a-4cf3-bd9e-3b45570f6b6f
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: d5df51a7-bf7f-4f0e-8805-6c2bbeaba928
+  - content: '## How to build a Delegate platform?'
+    name: 'Delegate Platform '
+    stepItems: []
+    uuid: 57e8111d-52f8-4bcc-9774-7a6e06b984c4
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 273220b6-9656-4c99-99cf-acb291ae1a1e
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 7a8523be-dbc5-4456-8599-ec37be083896
+version: 1
+priority: 50
