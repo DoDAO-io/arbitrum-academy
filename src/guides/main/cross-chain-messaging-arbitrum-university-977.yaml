@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-13T18:44:48.921Z'
+created: '2023-11-14T11:17:11.213Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -297,9 +297,44 @@ steps:
 
       ## Transacting via the Delayed Inbox
 
+      Although the submission of retryable tickets and Eth deposits is required
+      to go through the delayed inbox, in theory, it's possible to send any type
+      of message this way. This approach is crucial for maintaining the Arbitrum
+      chain's ability to resist censorship, particularly if there are issues
+      with the Sequencer not acting as it should. Nonetheless, during regular
+      operations, it's advised that clients limit their use of the delayed inbox
+      to just retryable tickets and Eth deposits, while utilizing the Sequencer
+      for sending all other types of messages.
 
 
       ## Address Aliasing
+
+      Messages sent through the Delayed Inbox have their sender's address
+      transformed into a version known as the "L2 Alias" when executed on Layer
+      2. This means the address that appears as `msg.sender` in the execution
+      context is not the original Layer 1 address, but rather this altered "L2
+      Alias." Specifically, the L2 Alias is created by adding the hexadecimal
+      value `0x1111000000000000000000000000000000001111` to the original
+      address. For example:
+
+      `L2_Alias = L1_Contract_Address +
+      0x1111000000000000000000000000000000001111`
+
+      The Arbitrum protocol assigns L2 Aliases to messages moving from L1 to L2
+      to avoid potential security issues that could arise if L1 addresses were
+      used directly on L2. For example, without L2 Aliases, an attacker might
+      deceive an L2 contract by sending a message from a contract address on L1
+      that the L2 contract is designed to trust. To counteract such cross-chain
+      threats, L2 Aliases differentiate the sender's identity on L2.
+
+      If there's ever a need to determine the original L1 address from its L2
+      alias while on the chain, the AddressAliasHelper library provided by
+      Arbitrum can be used for this purpose:
+
+      `modifier onlyFromMyL1Contract() override {
+          require(AddressAliasHelper.undoL1ToL2Alias(msg.sender) == myL1ContractAddress, "ONLY_COUNTERPART_CONTRACT");
+          _;
+      }`
     name: Additional Concepts
     stepItems: []
     uuid: 47dca17b-42d8-43ff-a8ae-894f128e993e
