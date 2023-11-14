@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the workings of the Arbitrum DAO",
-  "created": "2023-11-14T16:45:01.945Z",
+  "created": "2023-11-14T16:53:07.881Z",
   "guideType": "onboarding",
   "key": "arbitrum-dao-arbitrum-university-613",
   "name": "Arbitrum DAO",
@@ -68,7 +68,7 @@
       "uuid": "227d10ac-a52f-4b51-bd19-beac530b6dfd"
     },
     {
-      "content": "## Web3 Layers\nImagine Arbitrum's stakeholders as a hierarchy of support layers, with the web3 user layer at the top:\n\n1. **Web3 User Layer**: This is where users interact with decentralized applications (dApps).\n2. **Web3 App Layer**: Here, you have the innovators and developers creating the dApps and tools needed for the web3 ecosystem.\n3. **Layer 2 (L2)**: This layer is made up of the Arbitrum DAO, its community, node operators, sequencers, and companies like Offchain Labs, all working to advance Ethereum's rollup-based future.\n4. **Layer 1 (L1)**: Encompasses the base layers of Ethereum's blockchain.\n5. **Consensus Layer (CL)**: Teams like Prysm contribute here, maintaining the agreement protocol of Ethereum's beacon chain.\n6. **Execution Layer (EL)**: Involves groups like Geth who develop the software that executes blockchain transactions.\n7. **Research Layer**: This includes experts focused on the latest developments in cryptography, economic system design, and governance models.\n\n## Participation Options\n",
+      "content": "## Web3 Layers\nImagine Arbitrum's stakeholders as a hierarchy of support layers, with the web3 user layer at the top:\n\n1. **Web3 User Layer**: This is where users interact with decentralized applications (dApps).\n2. **Web3 App Layer**: Here, you have the innovators and developers creating the dApps and tools needed for the web3 ecosystem.\n3. **Layer 2 (L2)**: This layer is made up of the Arbitrum DAO, its community, node operators, sequencers, and companies like Offchain Labs, all working to advance Ethereum's rollup-based future.\n4. **Layer 1 (L1)**: Encompasses the base layers of Ethereum's blockchain.\n5. **Consensus Layer (CL)**: Teams like Prysm contribute here, maintaining the agreement protocol of Ethereum's beacon chain.\n6. **Execution Layer (EL)**: Involves groups like Geth who develop the software that executes blockchain transactions.\n7. **Research Layer**: This includes experts focused on the latest developments in cryptography, economic system design, and governance models.\n\n## Participation Options\nThe users can choose to participate in the protocol's decisons using one of the many participation options such as:\n1. **Choose a Representative**: If you don't have time to vote on Arbitrum DAO proposals, you can appoint someone to vote for you. For how to do this, refer to \"Delegate your voting power.\"\n2. **Vote Yourself**: If you prefer to have a direct say, you can vote on DAO proposals on your own. For the process, see \"Vote on proposals.\"\n3. **Represent Others**: If you're keen on representing the community, you can become someone who votes for others. To learn more, check out \"Become a delegate.\"\n4. **Engage in Discussions**: Take part in shaping the future by joining the conversations on the Arbitrum DAO governance forum.\n5. **Connect on Discord**: Join the \"Arbinauts\" on Discord to be part of the community.",
       "name": " Arbitrum Stakeholders",
       "stepItems": [],
       "uuid": "1263d5bb-7002-4667-af03-4178c78a603e"

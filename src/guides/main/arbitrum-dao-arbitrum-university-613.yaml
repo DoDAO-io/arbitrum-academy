@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the workings of the Arbitrum DAO
-created: '2023-11-14T16:45:01.945Z'
+created: '2023-11-14T16:53:07.881Z'
 guideType: onboarding
 key: arbitrum-dao-arbitrum-university-613
 name: Arbitrum DAO
@@ -180,7 +180,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 227d10ac-a52f-4b51-bd19-beac530b6dfd
-  - content: >
+  - content: >-
       ## Web3 Layers
 
       Imagine Arbitrum's stakeholders as a hierarchy of support layers, with the
@@ -211,6 +211,26 @@ steps:
 
 
       ## Participation Options
+
+      The users can choose to participate in the protocol's decisons using one
+      of the many participation options such as:
+
+      1. **Choose a Representative**: If you don't have time to vote on Arbitrum
+      DAO proposals, you can appoint someone to vote for you. For how to do
+      this, refer to "Delegate your voting power."
+
+      2. **Vote Yourself**: If you prefer to have a direct say, you can vote on
+      DAO proposals on your own. For the process, see "Vote on proposals."
+
+      3. **Represent Others**: If you're keen on representing the community, you
+      can become someone who votes for others. To learn more, check out "Become
+      a delegate."
+
+      4. **Engage in Discussions**: Take part in shaping the future by joining
+      the conversations on the Arbitrum DAO governance forum.
+
+      5. **Connect on Discord**: Join the "Arbinauts" on Discord to be part of
+      the community.
     name: ' Arbitrum Stakeholders'
     stepItems: []
     uuid: 1263d5bb-7002-4667-af03-4178c78a603e
