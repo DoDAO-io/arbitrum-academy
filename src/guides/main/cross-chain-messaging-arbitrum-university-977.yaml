@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-14T11:17:11.213Z'
+created: '2023-11-14T12:13:21.673Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -317,8 +317,10 @@ steps:
       value `0x1111000000000000000000000000000000001111` to the original
       address. For example:
 
+
       `L2_Alias = L1_Contract_Address +
       0x1111000000000000000000000000000000001111`
+
 
       The Arbitrum protocol assigns L2 Aliases to messages moving from L1 to L2
       to avoid potential security issues that could arise if L1 addresses were
@@ -330,6 +332,7 @@ steps:
       If there's ever a need to determine the original L1 address from its L2
       alias while on the chain, the AddressAliasHelper library provided by
       Arbitrum can be used for this purpose:
+
 
       `modifier onlyFromMyL1Contract() override {
           require(AddressAliasHelper.undoL1ToL2Alias(msg.sender) == myL1ContractAddress, "ONLY_COUNTERPART_CONTRACT");
@@ -343,38 +346,72 @@ steps:
     stepItems: []
     uuid: 895f2692-d815-4d2a-9fec-59ae56ce5179
   - content: >-
-      Arbitrum's L2 to L1 communication system allows for messages to be sent
-      from its second-layer solution back to the main Ethereum blockchain, which
-      is the first layer (L1). This system is designed somewhat like a mirror
-      image of the process that sends messages from L1 to L2, but with specific
-      differences tailored for the reverse direction.
+      Arbitrum's Outbox allows contracts on Layer 2 (L2) to send messages that
+      result in actions on Layer 1 (L1). These outgoing messages are similar to
+      the process for sending messages from L1 to L2, but in the opposite
+      direction and with some variations.
 
 
-      ## Protocol Flow
+      ## Working of Protocol 
 
-      Every time a new set of transactions is processed on Arbitrum's L2, a
-      snapshot of certain information is taken. This snapshot includes a
-      cryptographic summary called a Merkle root that uniquely represents all
-      the L2 to L1 messages sent up to that point. After this snapshot is
-      captured in a proposed block, it goes through a waiting period—often about
-      a week—before it's fully confirmed. This waiting period is crucial for
-      ensuring the security and finality of the transactions.
+      Arbitrum keeps track of messages sent from Layer 2 (L2) to Layer 1 (L1) by
+      using a system similar to a digital fingerprint called a Merkle root. This
+      fingerprint is included in every RBlock, a type of data block in Arbitrum,
+      and after about a week, the RBlock gets confirmed and the fingerprint is
+      recorded on Layer 1 in something called the Outbox contract. This Outbox
+      contract then checks the messages' fingerprints to make sure they're valid
+      and keeps track of which messages have been processed.
 
 
-      ## Client Flow 
+      ## Steps for Users
 
-      When a user on Arbitrum's Layer 2 (L2) wants to send a message to
-      Ethereum's main layer (Layer 1 or L1), they start by calling the
-      `sendTxToL1` method on the L2 ArbSys precompile contract. This message is
-      bundled into an assertion, a group of transactions processed by Arbitrum,
-      and is typically included within about an hour. The assertion then goes
-      through a confirmation period of about a week for security verification.
-      After confirmation, the user must obtain a Merkle proof, which is done by
-      calling the `constructOutboxProof` function on Arbitrum's NodeInterface
-      contract. With this proof, the user approaches the Outbox contract on L1
-      and calls `executeTransaction`, providing the proof to execute their
-      message on the Ethereum mainnet, completing the cross-layer communication
-      process.
+      For users, sending a message from Layer 2 (L2) to Layer 1 (L1) starts with
+      a command to the L2 ArbSys contract. The message gets included in a kind
+      of data packet called an assertion usually within about an hour, and after
+      around a week, this assertion is officially confirmed. Once that's done,
+      anyone can activate the message. They do this by getting special proof
+      from the Arbitrum system, then using that proof with the Outbox's function
+      to make the message do its job on Layer 1.
+
+
+      ## Protocol Design Details 
+
+      The L2 to L1 is specially designed to efficiently process transactions
+      across the two layers. It consists of the following features:
+
+
+      ### Controlled Transaction Processing Effort
+
+      The Outbox system in Arbitrum is designed so that the step where data
+      blocks (RBlocks) are confirmed will always take the same amount of effort,
+      no matter how many messages it's processing. This is because the system
+      only updates a small piece of data (the outgoing message root hash) during
+      confirmation, and users themselves handle the actual execution of
+      messages. This design prevents the confirmation process from being
+      deliberately slowed down or "griefed."
+
+
+      ### Outgoing Messages Different From Retryable tickets
+
+      Outgoing messages, unlike retryable tickets which can include Ether for
+      automatic execution on L2, don't have a built-in way to automatically
+      execute on L1. That's because Ethereum doesn't have a feature for
+      scheduling automatic actions. However, special contracts could be created
+      to manage this execution step on L1. Outgoing messages also differ from
+      retryable tickets in their lifespan. Retryable tickets expire unless
+      they're redeemed or extended, while outgoing messages are recorded on L1
+      and last indefinitely without a deadline for execution.
+
+
+      ### Week Long Waiting Period
+
+      The delay of about a week before outgoing messages can be executed is a
+      built-in part of how Arbitrum's system works. This waiting period allows
+      time for validators to challenge the results if there are any issues. For
+      those interested in the technical side, Arbitrum has a feature called
+      NodeInterface, which acts like a built-in contract to provide specific
+      data for Arbitrum without needing to be an actual contract on the
+      blockchain.
     name: L2 to L1 Messaging
     stepItems: []
     uuid: 9e939755-5c98-45a0-8335-cdd8adb16734
@@ -382,74 +419,6 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: a8ed5c86-cc78-469c-ab98-aac3701cf5d5
-  - content: >-
-      ## Important Design Features
-
-
-      Protocol design details are crucial in ensuring the smooth and efficient
-      functioning of a system. 
-
-
-      #### Contant Overhead of Calls 
-
-      In the case of the Outbox system, one important aspect of its design is
-      the constant overhead of calls to confirmNode. This means that regardless
-      of the number of outgoing messages or the gas cost of executing them on
-      L1, the cost of confirming nodes remains constant. This design choice
-      prevents the RBlock confirmation process from being disrupted or
-      manipulated.
-
-
-      #### Long Delay Period
-
-      The week-long delay period before outgoing messages can be executed is an
-      inherent characteristic of Arbitrum Rollup and similar Optimistic Rollup
-      style L2 solutions. This delay is necessary to allow time for Arbitrum
-      validators to detect and prove any faults that may occur. While the result
-      of a transaction can be anticipated as soon as it is published on-chain,
-      Ethereum itself requires this delay period to accept the result and ensure
-      the integrity of the protocol.
-
-
-      #### Virtual Contracts
-
-      In the context of the system, the NodeInterface is referred to as a
-      "virtual" contract. Its methods can be accessed through specific calls,
-      but it does not actually exist on the blockchain like a regular contract.
-      It functions similarly to a precompile, which is a built-in contract in
-      Ethereum that cannot receive calls from other contracts. This clever
-      design choice allows for the inclusion of Arbitrum-specific data without
-      the need for implementing a custom RPC (Remote Procedure Call) mechanism.
-
-
-      ## Difference between Outbox and Retryables
-
-
-      #### Automatic Execution
-
-      Unlike Retryables, which allow for automatic L2 execution by providing
-      Ether, outgoing messages in the Outbox system do not have the capability
-      for in-protocol automatic L1 execution. This is because Ethereum itself
-      does not offer scheduled execution features. However, it is possible to
-      build application-layer contracts that interact with the Outbox and
-      provide similar functionality through an "execution market" approach. This
-      would allow for outsourcing the final L1 execution step.
-
-
-      #### Lifespan
-
-      Another difference between outgoing messages and Retryables is their
-      lifetime. Retryables have a limited lifespan and must be redeemed or have
-      their lifetime extended before a certain deadline. On the other hand, L2
-      to L1 messages in the Outbox system are stored in L1 state and persist
-      permanently without any specific deadline for execution.
-    name: Protocol Design Details
-    stepItems: []
-    uuid: 5b8bc743-4417-4f4c-b85d-1e2ef5174150
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: dbaea1cf-22eb-4c4d-96b6-106ba0c7d26a
   - content: >+
       ## Step 1
 
