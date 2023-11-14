@@ -1,12 +1,12 @@
 categories: []
 content: A deeper look into the Arbitrum Governance Sructure
-created: '2023-11-14T17:13:09.619Z'
+created: '2023-11-14T17:34:42.478Z'
 guideType: onboarding
 key: arbitrum-governance-arbitrum-university-791
 name: Arbitrum Governance
 publishStatus: Live
 steps:
-  - content: >+
+  - content: >-
       ## What is Governance?
 
       Governance is the process by which decisions are made within an
@@ -50,6 +50,71 @@ steps:
 
       ## Components of Progressive Decentralisation
 
+      The level of decentralization for Arbitrum One and Arbitrum Nova is
+      established by the following elements:
+
+
+      ### Chain ownership
+
+      Chain ownership refers to who has the power to make changes to a
+      blockchain's protocol, like updating its core smart contracts, tweaking
+      system settings, or even stopping the system temporarily. Chain ownership
+      for Arbitrum One and Nova is managed by the Arbitrum DAO, where $ARB token
+      holders and their delegates vote on protocol changes, and a Security
+      Council that can intervene in emergencies. This dual governance structure
+      safeguards the network, but there are risks if the Council or DAO acts
+      maliciously. Despite this, users have a safety net to withdraw funds to
+      Ethereum if needed. The governance framework also has the flexibility to
+      evolve itself through its own voting processes.
+
+
+      ### Validator ownership
+
+      Validator ownership pertains to the entities that verify the correct
+      functioning of the Arbitrum chains and confirm this on the Ethereum
+      mainnet (L1). Presently, only a select group of public entities are
+      authorized to validate on Arbitrum One and Arbitrum Nova, as part of a
+      controlled allow-list you can review. The governance system holds the
+      authority to modify this list of validators. The risk here is if all the
+      active validators are dishonest and one of them updates the chain with
+      incorrect information, it could endanger the security of the system.
+      However, the Arbitrum governance has the capability to change who is on
+      the allow-list, which includes the power to add new validators, remove
+      existing ones, or eliminate the allow-list altogether, thereby potentially
+      opening up the validation process.
+
+
+      ### Sequencer ownership
+
+      Validator ownership in the context of Arbitrum involves the role of the
+      Sequencer, which is tasked with gathering and sequencing users'
+      transactions. Right now, this function is centralized, with the Sequencers
+      for both Arbitrum One and Arbitrum Nova operated by the Arbitrum
+      Foundation. The governance system has the authority to appoint new
+      Sequencers as needed. The main risk with a centralized Sequencer is that
+      it can temporarily delay or reorder user transactions up to 24 hours,
+      although it cannot threaten the overall security of the system or
+      permanently prevent a transaction from being processed. The current
+      structure allows for changes: the Arbitrum governance has the ability to
+      replace the Sequencer if the community decides it is necessary through its
+      voting mechanisms.
+
+
+      ### Data Availability Committee (DAC) ownership
+
+      The Data Availability Committee (DAC) is essential for Arbitrum Nova,
+      which is an "AnyTrust" chain that depends on a selected group to store and
+      provide its data when needed. Presently, a 7-member committee handles this
+      task for the Arbitrum Nova chain. The members of this committee are
+      publicly listed and can be updated by the governance system, which has the
+      power to add or remove members. There's a risk involved; if 6 out of the 7
+      members, along with the Sequencer, act against the network's interests,
+      they could threaten the safety of the system. However, the governance
+      structure of Arbitrum is set up to address such issues, holding the
+      authority to make changes to the DAC. This includes the ability to change
+      its membership or adjust its influence on the network, ensuring the
+      committee aligns with the community's trust and the network's security
+      needs.
     name: Intro to Arbitrum’s Governance
     stepItems: []
     uuid: 84327946-a002-459c-a6a3-5df7a57a52ec
