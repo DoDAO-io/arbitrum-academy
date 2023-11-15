@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A setp to ensure network integrity!",
-  "created": "2023-11-15T14:14:19.635Z",
+  "created": "2023-11-15T14:25:26.505Z",
   "guideType": "onboarding",
   "key": "security-council-arbitrum-university-100",
   "name": "Security Council",
@@ -68,7 +68,7 @@
       "uuid": "416d33c0-8f0a-4756-b9b7-b29cbc4eded8"
     },
     {
-      "content": "## How elections work?",
+      "content": "## How elections work?\nThe working of the Security Council elections for the Arbitrum DAO can be outlined in the following steps:\n\n### Division of Council\nThe 12-member Security Council is divided into two groups, with elections for each group occurring every six months. Each elected member serves a one-year term, except the initial cohort whose terms are adjusted according to the DAO's launch date.\n\n### Candidacy Requirements\nCandidates must be members of the Arbitrum DAO and secure support from holders of at least 0.2% of votable tokens to run for a seat. Once candidates are determined, all members of the Arbitrum DAO can cast their votes. Candidates must be free of conflicts of interest to ensure they act in the best interests of the DAO.\n\n### Election Outcome\nThe six candidates receiving the most votes are elected to the Security Council. The Arbitrum Foundation may outline additional guidelines to ensure the elections are fair and transparent. No more than three members from the same organization can be elected to the Security Council.\n\n### Amendments to Election Rules\nElection rules can be changed by DAO members, but not during an ongoing election. A Security Council member can be removed if 10% of votable tokens participate in a vote with 5/6 majority favoring removal, or if 9 Council members vote for the removal. The Constitution is the ultimate authority on the DAO’s rules, and any discrepancies between other documents and the Constitution default to the latter’s precedence.\n",
       "name": "Working of Election",
       "stepItems": [],
       "uuid": "624da412-e84b-46b8-80ee-d5b2fb6d8090"
@@ -80,14 +80,14 @@
       "uuid": "2d2dde50-c492-4a4e-928a-fc30fe082600"
     },
     {
-      "content": "",
+      "content": "https://docs.arbitrum.foundation/concepts/security-council",
       "name": "Refence",
       "stepItems": [],
       "uuid": "5d86d06a-2bc1-4320-911d-694f01732d5d"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "426d6b46-d7c5-488d-a5e9-d42881d49fd4",
+  "uuid": "security-council-arbitrum-university-100",
   "version": 1,
   "priority": 50
 }
