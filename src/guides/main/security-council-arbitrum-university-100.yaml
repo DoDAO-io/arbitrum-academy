@@ -1,6 +1,6 @@
 categories: []
 content: A setp to ensure network integrity!
-created: '2023-11-15T17:53:26.215Z'
+created: '2023-11-15T17:54:16.800Z'
 guideType: onboarding
 key: security-council-arbitrum-university-100
 name: Security Council
@@ -27,13 +27,14 @@ steps:
       stability of the Arbitrum protocol and its broader ecosystem. Some of the
       important roles and responsibilities include:
 
-      **1. Critical Risk Management:** Addressing significant risks to the
+
+      1. **Critical Risk Management:** Addressing significant risks to the
       Arbitrum protocol and ecosystem.
 
-      **2. Emergency Decision-Making:** Acting swiftly in urgent situations to
+      2. **Emergency Decision-Making:** Acting swiftly in urgent situations to
       safeguard the DAO's interests.
 
-      **3. Community Protection:** Ensuring the welfare of the DAO and the wider
+      3. **Community Protection:** Ensuring the welfare of the DAO and the wider
       Arbitrum community.
     name: Introduction to Security Council
     stepItems: []
