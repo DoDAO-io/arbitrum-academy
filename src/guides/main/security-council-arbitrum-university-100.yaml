@@ -1,6 +1,6 @@
 categories: []
 content: A setp to ensure network integrity!
-created: '2023-11-15T17:48:55.791Z'
+created: '2023-11-15T17:50:14.569Z'
 guideType: onboarding
 key: security-council-arbitrum-university-100
 name: Security Council
@@ -121,8 +121,8 @@ steps:
   - content: >-
       ## How elections work?
 
-      The working of the Security Council elections for the Arbitrum DAO can be
-      outlined in the following steps:
+      The working of the Security Council elections for the Arbitrum DAO is
+      explained below:
 
 
       ### Members of the Council
@@ -172,7 +172,7 @@ steps:
     stepItems: []
     uuid: 2d2dde50-c492-4a4e-928a-fc30fe082600
   - content: https://docs.arbitrum.foundation/concepts/security-council
-    name: Refence
+    name: Reference
     stepItems: []
     uuid: 5d86d06a-2bc1-4320-911d-694f01732d5d
 thumbnail: >-
