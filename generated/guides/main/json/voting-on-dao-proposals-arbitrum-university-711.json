@@ -1,0 +1,93 @@
+{
+  "categories": [],
+  "content": "Understanding the importance of DAO Voting",
+  "created": "2023-11-15T14:30:09.453Z",
+  "guideType": "onboarding",
+  "key": "voting-on-dao-proposals-arbitrum-university-711",
+  "name": "Voting on DAO Proposals",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "## What is the need for voting?\n\n\n## Types of Voting\n\n        ",
+      "name": "Introduction to Voting",
+      "stepItems": [],
+      "uuid": "ac54a85c-3010-49e5-9685-0c5aa54bebfe"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "63e4b6f9-24a1-4d32-af48-7573fbf94218"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "81ad1b10-337e-4c66-8fea-0b58908ea31a",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "205607f8-42bd-4452-9242-cc6483b29a41"
+    },
+    {
+      "content": "",
+      "name": "Voting Mechanisms ",
+      "stepItems": [],
+      "uuid": "9cabd4b9-d7d1-4d22-a859-af1a1c60c6c1"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "26534fff-e7b8-45ee-9c2a-a163215be083"
+    },
+    {
+      "content": "",
+      "name": "Delegating Voting Powers",
+      "stepItems": [],
+      "uuid": "75fef35b-6e23-4ef0-8c14-0ad01e83ac28"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "874e5e33-a37e-4ced-b50b-97f68546ff07"
+    },
+    {
+      "content": "",
+      "name": "Reference",
+      "stepItems": [],
+      "uuid": "a488ccbe-7cf7-4aa0-911d-53d2c95048d7"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "010de07e-584f-4e14-96ae-f5f2c70e6e0e",
+  "version": 1,
+  "priority": 50
+}
