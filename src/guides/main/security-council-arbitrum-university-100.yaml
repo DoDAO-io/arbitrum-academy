@@ -1,6 +1,6 @@
 categories: []
 content: A setp to ensure network integrity!
-created: '2023-11-15T17:54:16.800Z'
+created: '2023-11-15T17:54:37.218Z'
 guideType: onboarding
 key: security-council-arbitrum-university-100
 name: Security Council
@@ -26,7 +26,6 @@ steps:
       The Security Council plays a crucial role in overseeing the health and
       stability of the Arbitrum protocol and its broader ecosystem. Some of the
       important roles and responsibilities include:
-
 
       1. **Critical Risk Management:** Addressing significant risks to the
       Arbitrum protocol and ecosystem.
