@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-15T17:15:12.149Z'
+created: '2023-11-15T17:22:08.688Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -47,9 +47,6 @@ steps:
       actively engaging with the DAO's governance. This not only fosters a sense
       of community but also gives members a sense of ownership over the DAO's
       future, as they are directly involved in shaping it.
-
-
-              
     name: Introduction to Voting
     stepItems: []
     uuid: ac54a85c-3010-49e5-9685-0c5aa54bebfe
@@ -199,7 +196,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: b4c2fe50-0b66-4980-bca5-5813d33a4899
-  - content: >+
+  - content: >-
       ## How to Delegate Voting Power?
 
       Delegating your voting power within the Arbitrum DAO allows you to have a
@@ -216,11 +213,21 @@ steps:
       the wallet address that holds your $ARB tokens (e.g., MetaMask).
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1700068848597_screenshot_2023-11-15%20at%2010.18.30%20pm.png"/>
+      </div>
+
+
       ### Step 2: Choose a Delegate
 
       Select the "Delegate" tab in the top menu on the Arbitrum DAO page on
       Tally. Use the search bar to find a delegate by their Ethereum address or
       name. Click on the "Delegate" button next to your chosen delegate's name.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1700068900397_screenshot_2023-11-15%20at%2010.18.00%20pm.png"/>
+      </div>
 
 
       ### Step 3: Confirm the Transaction
@@ -229,7 +236,6 @@ steps:
       button there and confirm the transaction on your wallet. Wait for the
       Arbitrum One network to confirm the transaction. Check the "Votes" tab on
       Tally to ensure your delegation to the chosen delegate is listed.
-
     name: Delegating Voting Powers
     stepItems: []
     uuid: 75fef35b-6e23-4ef0-8c14-0ad01e83ac28
