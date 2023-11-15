@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-15T16:37:50.154Z'
+created: '2023-11-15T16:51:00.912Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -199,7 +199,46 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: b4c2fe50-0b66-4980-bca5-5813d33a4899
-  - content: ''
+  - content: >-
+      ## How to Delegate Voting Power?
+
+      Delegating your voting power within the Arbitrum DAO allows you to have a
+      say in its governance, even if you're unable to participate directly. Here
+      are the step to delegating your voting power:
+
+
+      1. **Assess Potential Delegates**:
+         - Consider the delegate's alignment with the DAO's values, their track record, community engagement, responsiveness, and technical expertise.
+
+      2. **Access Tally**:
+         - Go to the Arbitrum DAO delegation page on Tally, the platform used by Arbitrum DAO for governance.
+
+      3. **Connect Your Wallet**:
+         - Click on "Connect Wallet" on Tally and choose the wallet address that holds your $ARB tokens (e.g., MetaMask).
+
+      4. **Navigate to Delegate Section**:
+         - Select the "Delegate" tab in the top menu on the Arbitrum DAO page on Tally.
+
+      5. **Choose a Delegate**:
+         - Use the search bar to find a delegate by their Ethereum address or name.
+
+      6. **Delegate Your Vote**:
+         - Click on the "Delegate" button next to your chosen delegate's name.
+
+      7. **Confirm the Transaction**:
+         - A pop-up window will appear for confirmation. Click on the "Delegate" button there and confirm the transaction on your wallet.
+
+      8. **Transaction Confirmation**:
+         - Wait for the Arbitrum One network to confirm the transaction.
+
+      9. **Verify Delegation**:
+         - Check the "Votes" tab on Tally to ensure your delegation to the chosen delegate is listed.
+
+      Remember, by delegating your voting power, you're entrusting your vote to
+      the selected delegate. It's crucial to pick someone who you believe will
+      represent your views and the best interest of the Arbitrum DAO. If at any
+      point you have questions or want to discuss concerns, you can visit the
+      Arbitrum DAO governance forum or Discord.
     name: Delegating Voting Powers
     stepItems: []
     uuid: 75fef35b-6e23-4ef0-8c14-0ad01e83ac28

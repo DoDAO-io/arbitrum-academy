@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the importance of DAO Voting",
-  "created": "2023-11-15T16:37:50.154Z",
+  "created": "2023-11-15T16:51:00.912Z",
   "guideType": "onboarding",
   "key": "voting-on-dao-proposals-arbitrum-university-711",
   "name": "Voting on DAO Proposals",
@@ -80,7 +80,7 @@
       "uuid": "b4c2fe50-0b66-4980-bca5-5813d33a4899"
     },
     {
-      "content": "",
+      "content": "## How to Delegate Voting Power?\nDelegating your voting power within the Arbitrum DAO allows you to have a say in its governance, even if you're unable to participate directly. Here are the step to delegating your voting power:\n\n1. **Assess Potential Delegates**:\n   - Consider the delegate's alignment with the DAO's values, their track record, community engagement, responsiveness, and technical expertise.\n\n2. **Access Tally**:\n   - Go to the Arbitrum DAO delegation page on Tally, the platform used by Arbitrum DAO for governance.\n\n3. **Connect Your Wallet**:\n   - Click on \"Connect Wallet\" on Tally and choose the wallet address that holds your $ARB tokens (e.g., MetaMask).\n\n4. **Navigate to Delegate Section**:\n   - Select the \"Delegate\" tab in the top menu on the Arbitrum DAO page on Tally.\n\n5. **Choose a Delegate**:\n   - Use the search bar to find a delegate by their Ethereum address or name.\n\n6. **Delegate Your Vote**:\n   - Click on the \"Delegate\" button next to your chosen delegate's name.\n\n7. **Confirm the Transaction**:\n   - A pop-up window will appear for confirmation. Click on the \"Delegate\" button there and confirm the transaction on your wallet.\n\n8. **Transaction Confirmation**:\n   - Wait for the Arbitrum One network to confirm the transaction.\n\n9. **Verify Delegation**:\n   - Check the \"Votes\" tab on Tally to ensure your delegation to the chosen delegate is listed.\n\nRemember, by delegating your voting power, you're entrusting your vote to the selected delegate. It's crucial to pick someone who you believe will represent your views and the best interest of the Arbitrum DAO. If at any point you have questions or want to discuss concerns, you can visit the Arbitrum DAO governance forum or Discord.",
       "name": "Delegating Voting Powers",
       "stepItems": [],
       "uuid": "75fef35b-6e23-4ef0-8c14-0ad01e83ac28"
