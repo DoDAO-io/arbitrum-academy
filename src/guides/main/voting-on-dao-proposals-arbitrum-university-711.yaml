@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-15T16:36:52.380Z'
+created: '2023-11-15T16:37:50.154Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -122,14 +122,12 @@ steps:
     stepItems: []
     uuid: 26534fff-e7b8-45ee-9c2a-a163215be083
   - content: >-
-      ## How to vote on governance proposals?
-
       Active participation in the Arbitrum DAO means voting on member-submitted
       governance proposals. Following it is briefed how to navigate the voting
       process across different proposal stages:
 
 
-      ## Proposals in the "temperature check" stage
+      ## How to vote for proposals in the "temperature check" stage
 
       Here's how to participate in the temperature check stage for proposals in
       the Arbitrum DAO:
@@ -160,7 +158,7 @@ steps:
       the voting process.
 
 
-      ## Proposals in the "on-chain vote" stage
+      ## How to vote for proposals in the "on-chain vote" stage
 
       Here is how to vote on proposals in the on-chain vote stage using Tally
       for the Arbitrum DAO:
