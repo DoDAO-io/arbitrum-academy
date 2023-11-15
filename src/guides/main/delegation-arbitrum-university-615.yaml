@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-15T12:11:47.839Z'
+created: '2023-11-15T12:20:36.250Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -149,7 +149,40 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d5df51a7-bf7f-4f0e-8805-6c2bbeaba928
-  - content: '## How to build a Delegate platform?'
+  - content: >-
+      ## How to build a Delegate platform?
+
+      Here are condensed tips for creating a strong delegate platform for the
+      Arbitrum DAO:
+
+
+      1. **Deeply Understand the DAO Constitution**: Study The Constitution of
+      the Arbitrum DAO to fully grasp the governance structure, roles, and
+      decision-making processes. Use comprehension checks to test your
+      knowledge.
+
+
+      2. **Engage with Token Holders**: Establish and maintain clear
+      communication channels, such as a website or social media, to keep token
+      holders informed and involved. Regular updates and active responsiveness
+      to their queries will build trust.
+
+
+      3. **Maintain Active Community Involvement**: Participate in Arbitrum DAO
+      forums, attend community events, join social media discussions, and
+      contribute to DAO development. An active presence fosters connection and
+      community trust.
+
+
+      4. **Emphasize Transparency and Accountability**: Be open about your
+      intentions and reasoning behind decisions. Be prepared to receive and
+      address feedback, demonstrating accountability to your constituents.
+
+
+      5. **Create a Supportive Network**: Cultivate relationships with community
+      influencers and assemble a team for research and analysis to aid in
+      thorough decision-making. A solid network can enhance the effectiveness of
+      your role.
     name: 'Delegate Platform '
     stepItems: []
     uuid: 57e8111d-52f8-4bcc-9774-7a6e06b984c4
@@ -171,6 +204,12 @@ steps:
 
 
       - https://docs.arbitrum.foundation/how-tos/apply-become-delegate
+
+
+      ## Step 3
+
+
+      - https://docs.arbitrum.foundation/how-tos/build-strong-delegate-platform
     name: References
     stepItems: []
     uuid: e55cfe23-fde1-4ebb-a75b-475a1c95d62c
