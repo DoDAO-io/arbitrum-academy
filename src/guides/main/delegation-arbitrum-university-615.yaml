@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-15T13:29:03.925Z'
+created: '2023-11-15T13:29:40.818Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -213,7 +213,7 @@ steps:
     stepItems: []
     uuid: 273220b6-9656-4c99-99cf-acb291ae1a1e
   - content: >-
-      ## Step 1
+      ### Step 1
 
 
       - https://docs.arbitrum.foundation/concepts/delegate-delegation
@@ -222,13 +222,13 @@ steps:
       https://docs.arbitrum.foundation/gentle-intro-dao-governance#why-would-i-want-to-become-a-delegate
 
 
-      ## Step 2
+      ### Step 2
 
 
       - https://docs.arbitrum.foundation/how-tos/apply-become-delegate
 
 
-      ## Step 3
+      ### Step 3
 
 
       - https://docs.arbitrum.foundation/how-tos/build-strong-delegate-platform
