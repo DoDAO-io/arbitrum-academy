@@ -1,0 +1,93 @@
+{
+  "categories": [],
+  "content": "A setp to ensure network integrity!",
+  "created": "2023-11-15T14:14:19.635Z",
+  "guideType": "onboarding",
+  "key": "security-council-arbitrum-university-100",
+  "name": "Security Council",
+  "publishStatus": "Live",
+  "steps": [
+    {
+      "content": "## What is Security Council\nThe Security Council, as established by the Constitution of the Arbitrum DAO, is a pivotal entity tasked with safeguarding the Arbitrum ecosystem. This council, composed of 12 members, is elected democratically by the Arbitrum DAO's members to manage and mitigate risks. Their role encompasses enacting both emergency and non-emergency measures to maintain the integrity and security of the network, ensuring the ecosystem's resilience against threats and vulnerabilities. Through this governance structure, the Arbitrum DAO emphasizes a proactive and responsive approach to security, entrusting elected individuals with significant responsibility in the stewardship of the platform's safety protocols.\n\n## Role of Security Council \nThe Security Council plays a crucial role in overseeing the health and stability of the Arbitrum protocol and its broader ecosystem. Tasked with identifying and addressing critical risks, the council is empowered to make rapid and decisive emergency decisions to avert or mitigate threats. This may involve swift actions to resolve vulnerabilities or respond to incidents that could potentially compromise the network. While the council operates with the autonomy necessary for timely interventions, it remains accountable to the DAO's members, who have the authority to replace council members to ensure alignment with the DAO's best interests. This structure ensures that the Security Council acts with both the agility required for security matters and the accountability appropriate for a community-governed ecosystem.",
+      "name": "Introduction to Security Council",
+      "stepItems": [],
+      "uuid": "062237b2-8d19-4899-8143-dd0f632bcbf4"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "ebdd1a42-ef5b-4f29-ade0-54706d06c843"
+        },
+        {
+          "answerKeys": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "choices": [
+            {
+              "content": "Choice 1",
+              "key": "choice_1"
+            },
+            {
+              "content": "Choice 2",
+              "key": "choice_2"
+            },
+            {
+              "content": "Choice 3",
+              "key": "choice_3"
+            },
+            {
+              "content": "Choice 4",
+              "key": "choice_4"
+            }
+          ],
+          "content": "Contents of the question",
+          "type": "MultipleChoice",
+          "uuid": "615501f8-e6a8-41bb-9473-99b54e339c61",
+          "explanation": "Explanation of the question"
+        }
+      ],
+      "uuid": "5149ae32-44e9-4b95-99c8-0ac02982cf4c"
+    },
+    {
+      "content": "## What are elections?\nThe election of the Security Council is a key component of the Arbitrum DAO's governance framework, serving as a mechanism through which community members can shape the leadership that manages the protocol's security. Community involvement in these elections is essential to appoint representatives who not only embody the community’s values but also possess the specialized technical expertise necessary for the role. \n\nFor members of the Arbitrum DAO, participation in the Security Council elections is not just a right but a responsibility that underscores the commitment to risk management and the broader goal of progressive decentralization. This involvement is critical for sustaining the DAO and the technologies under its purview, while also managing expectations and perceptions both within the Ethereum community and externally.\n\n## Importance of elections\nThe significance of the Security Council elections within the Arbitrum DAO can be summarized as follows:\n\n1. **Democratic Representation:** Elections ensure that those responsible for the DAO’s security are chosen by the community, upholding democratic principles.\n\n2. **Vigilance and Integrity:** Elected members are tasked with the critical role of maintaining the security and integrity of the DAO, aligning with the community's trust.\n\n3. **Alignment with DAO Values:** Regular elections facilitate the selection of Council members who embody the values outlined in the DAO’s Constitution.\n\n4. **Accountability:** The election process provides a mechanism for the removal of any member not acting in the DAO's best interests, ensuring accountability.\n\n5. **Adaptive Governance:** By enabling the community to refresh the Council's composition, elections help the DAO adapt to evolving challenges and needs.",
+      "name": "Elections",
+      "stepItems": [],
+      "uuid": "b649e11d-afb2-47c5-8c68-cf73be56b531"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "416d33c0-8f0a-4756-b9b7-b29cbc4eded8"
+    },
+    {
+      "content": "## How elections work?",
+      "name": "Working of Election",
+      "stepItems": [],
+      "uuid": "624da412-e84b-46b8-80ee-d5b2fb6d8090"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "2d2dde50-c492-4a4e-928a-fc30fe082600"
+    },
+    {
+      "content": "",
+      "name": "Refence",
+      "stepItems": [],
+      "uuid": "5d86d06a-2bc1-4320-911d-694f01732d5d"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "426d6b46-d7c5-488d-a5e9-d42881d49fd4",
+  "version": 1,
+  "priority": 50
+}
