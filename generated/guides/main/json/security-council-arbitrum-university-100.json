@@ -1,14 +1,14 @@
 {
   "categories": [],
   "content": "A setp to ensure network integrity!",
-  "created": "2023-11-15T17:50:14.569Z",
+  "created": "2023-11-15T17:53:26.215Z",
   "guideType": "onboarding",
   "key": "security-council-arbitrum-university-100",
   "name": "Security Council",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "## What is Security Council\nThe Security Council, as established by the Constitution of the Arbitrum DAO, is a pivotal entity tasked with safeguarding the Arbitrum ecosystem. This council, composed of 12 members, is elected democratically by the Arbitrum DAO's members to manage and mitigate risks. Their role encompasses enacting both emergency and non-emergency measures to maintain the integrity and security of the network, ensuring the ecosystem's resilience against threats and vulnerabilities. Through this governance structure, the Arbitrum DAO emphasizes a proactive and responsive approach to security, entrusting elected individuals with significant responsibility in the stewardship of the platform's safety protocols.\n\n## Role of Security Council \nThe Security Council plays a crucial role in overseeing the health and stability of the Arbitrum protocol and its broader ecosystem. Tasked with identifying and addressing critical risks, the council is empowered to make rapid and decisive emergency decisions to avert or mitigate threats. This may involve swift actions to resolve vulnerabilities or respond to incidents that could potentially compromise the network. While the council operates with the autonomy necessary for timely interventions, it remains accountable to the DAO's members, who have the authority to replace council members to ensure alignment with the DAO's best interests. This structure ensures that the Security Council acts with both the agility required for security matters and the accountability appropriate for a community-governed ecosystem.",
+      "content": "## What is Security Council\nThe Security Council, as established by the Constitution of the Arbitrum DAO, is a pivotal entity tasked with safeguarding the Arbitrum ecosystem. This council, composed of 12 members, is elected democratically by the Arbitrum DAO's members to manage and mitigate risks. Their role encompasses enacting both emergency and non-emergency measures to maintain the integrity and security of the network, ensuring the ecosystem's resilience against threats and vulnerabilities. Through this governance structure, the Arbitrum DAO emphasizes a proactive and responsive approach to security, entrusting elected individuals with significant responsibility in the stewardship of the platform's safety protocols.\n\n## Role of Security Council \nThe Security Council plays a crucial role in overseeing the health and stability of the Arbitrum protocol and its broader ecosystem. Some of the important roles and responsibilities include:\n**1. Critical Risk Management:** Addressing significant risks to the Arbitrum protocol and ecosystem.\n**2. Emergency Decision-Making:** Acting swiftly in urgent situations to safeguard the DAO's interests.\n**3. Community Protection:** Ensuring the welfare of the DAO and the wider Arbitrum community.",
       "name": "Introduction to Security Council",
       "stepItems": [],
       "uuid": "062237b2-8d19-4899-8143-dd0f632bcbf4"
