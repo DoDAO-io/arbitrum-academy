@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Representatives for token holders in Arbitrum DAO",
-  "created": "2023-11-15T13:28:15.529Z",
+  "created": "2023-11-15T13:29:03.925Z",
   "guideType": "onboarding",
   "key": "delegation-arbitrum-university-615",
   "name": "Delegation",
@@ -80,7 +80,7 @@
       "uuid": "273220b6-9656-4c99-99cf-acb291ae1a1e"
     },
     {
-      "content": "## Step 1\n\n- https://docs.arbitrum.foundation/concepts/delegate-delegation\n- https://docs.arbitrum.foundation/gentle-intro-dao-governance#why-would-i-want-to-become-a-delegate\n\n## Step 2\n\n- https://docs.arbitrum.foundation/how-tos/apply-become-delegate\n\n## Step 3\n\n- https://docs.arbitrum.foundation/how-tos/build-strong-delegate-platform",
+      "content": "## Step 1\n\n- https://docs.arbitrum.foundation/concepts/delegate-delegation\n- https://docs.arbitrum.foundation/gentle-intro-dao-governance#why-would-i-want-to-become-a-delegate\n\n## Step 2\n\n- https://docs.arbitrum.foundation/how-tos/apply-become-delegate\n\n## Step 3\n\n- https://docs.arbitrum.foundation/how-tos/build-strong-delegate-platform\n- https://docs.arbitrum.foundation/concepts/delegate-delegation",
       "name": "References",
       "stepItems": [],
       "uuid": "e55cfe23-fde1-4ebb-a75b-475a1c95d62c"
