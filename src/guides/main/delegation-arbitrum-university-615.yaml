@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-15T12:20:36.250Z'
+created: '2023-11-15T13:28:15.529Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -149,7 +149,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d5df51a7-bf7f-4f0e-8805-6c2bbeaba928
-  - content: >-
+  - content: >+
       ## How to build a Delegate platform?
 
       Here are condensed tips for creating a strong delegate platform for the
@@ -183,7 +183,29 @@ steps:
       influencers and assemble a team for research and analysis to aid in
       thorough decision-making. A solid network can enhance the effectiveness of
       your role.
-    name: 'Delegate Platform '
+
+
+      ## How to Delegate?
+
+      Here's a step-by-step guide on how to delegate your voting power in the
+      Arbitrum DAO using Tally:
+
+
+      1. **Connect Wallet**: Access Tally and connect your Ethereum wallet. Once
+      connected, locate and click on the Arbitrum DAO page within Tally.
+
+
+      2. **Delegate Voting Power**: Click the "delegate" button on the Arbitrum
+      DAO page. Search and select the delegate to whom you wish to delegate your
+      voting power.
+
+
+      3. **Confirm Delegation**: Follow the prompts on Tally to confirm your
+      delegation. Remember, you can change or revoke your delegation at any time
+      on Tally. If desired, you can proportionally delegate your voting power to
+      multiple delegates.
+
+    name: Delegate and Delegation
     stepItems: []
     uuid: 57e8111d-52f8-4bcc-9774-7a6e06b984c4
   - content: ''
