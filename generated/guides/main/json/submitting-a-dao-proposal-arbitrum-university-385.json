@@ -1,14 +1,14 @@
 {
   "categories": [],
   "content": "Learn how to submit proposals in Arbitrum DAO",
-  "created": "2023-11-16T12:29:13.844Z",
+  "created": "2023-11-16T12:49:13.201Z",
   "guideType": "onboarding",
   "key": "submitting-a-dao-proposal-arbitrum-university-385",
   "name": "Submitting a DAO proposal",
   "publishStatus": "Live",
   "steps": [
     {
-      "content": "## Why Submit Proposal?\n\n\n## Types of Proposals \n\n\n## Prerequisites",
+      "content": "## Why Submit Proposal?\nA DAO proposal is a formalized suggestion put forward by a member of a Decentralized Autonomous Organization (DAO), which is a community-led entity with no central authority, to make changes or take specific actions within the organization's ecosystem. The need for such proposals arises from the democratic nature of DAOs, where collective decision-making is fundamental. Proposals enable innovation, improvements, and community consensus on the evolution of the protocol or organization. They are essential for the transparent and equitable governance of blockchain-based projects, allowing stakeholders to vote and decide on the deployment of shared resources and strategic directions.\n\n## Types of Proposals \n\n\n## Prerequisites",
       "name": "DAO Proposals ",
       "stepItems": [],
       "uuid": "4d7fd5b4-b9b4-4457-88f5-491ae73f4e4c"
