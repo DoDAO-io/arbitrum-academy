@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to submit proposals in Arbitrum DAO
-created: '2023-11-16T13:49:59.042Z'
+created: '2023-11-16T13:53:47.977Z'
 guideType: onboarding
 key: submitting-a-dao-proposal-arbitrum-university-385
 name: Submitting a DAO proposal
@@ -298,7 +298,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: c821f543-03a5-40c5-8407-7a128dc2353f
-  - content: >-
+  - content: >+
       ## How to resubmit a DAO proposal?
 
       Here's a guide to resubmitting a proposal to the Arbitrum DAO:
@@ -325,6 +325,12 @@ steps:
       proposal or conduct more extensive community engagement. Resubmitting a
       proposal is about refining your idea in collaboration with the community
       to enhance its likelihood of acceptance. 
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/submitting_a_dao_proposal_arbitrum_university_385/1700142814396_screenshot_2023-11-16%20at%206.52.22%20pm.png"/>
+      </div>
+
     name: Re-Submitting the proposal
     stepItems: []
     uuid: de89e6dd-8634-4a00-b3a0-53be9f9f34dd
