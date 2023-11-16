@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-15T13:29:40.818Z'
+created: '2023-11-16T12:51:25.886Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -241,4 +241,4 @@ thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: delegation-arbitrum-university-615
 version: 1
-priority: 50
+priority: 30
