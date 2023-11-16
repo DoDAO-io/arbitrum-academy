@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Learn how to submit proposals in Arbitrum DAO",
-  "created": "2023-11-16T13:53:47.977Z",
+  "created": "2023-11-16T14:12:56.410Z",
   "guideType": "onboarding",
   "key": "submitting-a-dao-proposal-arbitrum-university-385",
   "name": "Submitting a DAO proposal",
@@ -90,6 +90,12 @@
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "3ab9244f-d520-475e-ac74-1b50af01cc37"
+    },
+    {
+      "content": "## The lifecycle of an Arbitrum Improvement Proposal (AIP)\nThe lifecycle of the proposal phase for an Arbitrum Improvement Proposal (AIP) is divided into several distinct phases:\n\n### Phase 1: Temperature Check\nSubmit the AIP for initial feedback on the Arbitrum DAO governance forum. Initiate a Snapshot poll to measure community interest. The poll, which lasts 7 days, requires a simple majority without a participation threshold. While optional, this phase is a governance best practice and influences the formal vote.\n\n### Phase 2: Formal AIP and Call for Voting\nOfficially submit the AIP on-chain with the required token representation. A 3-day discussion period follows the submission for community deliberation. The AIP must be designated as Constitutional or Non-Constitutional and specify affected chains.\n\n### Phase 3: On-chain DAO Vote\nDAO members vote on the AIP directly on-chain. The AIP must receive more favorable votes and meet a vote percentage threshold: 5% for Constitutional, 3% for Non-Constitutional. An AIP that passes progresses to further phases, while a failed AIP concludes here.\n\n### Phase 4: L2 Waiting Period\nA 3-day waiting period post-vote allows for objections and fund withdrawals. This phase respects the decision-making process by allowing stakeholders time to adjust.\n\n<div align=\"center\">\n  <img style=\"max-height:400px;margin-bottom:30px\" src=\"https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/submitting_a_dao_proposal_arbitrum_university_385/1700143955825_screenshot_2023-11-16%20at%207.11.27%20pm.png\"/>\n</div>\n\n### Phase 5: L2-to-L1 Message\nA message from L2 to L1 confirms the AIP's approval, taking at least 1 week to finalize. This phase links L2 decisions to L1, ensuring immutable record and trust in the DAO's choices.\n\n### Phase 6: L1 Waiting Period \nA 3-day waiting period post-L1 confirmation allows for transaction finalization on mainnet. This minimizes risks and ensures smooth implementation of the AIP.\n\n### Phase 7: Implementation \nThe approved AIP is executed, either directly on L1 or via an L1-to-L2 transaction. Changes remain active until superseded by subsequent AIPs. Extra waiting time can be specified for significant changes, allowing stakeholders to prepare. This ensures stability for Arbitrum DAO and third-party systems during changes.\n",
+      "name": "Lifecycle of Proposal",
+      "stepItems": [],
+      "uuid": "6f3154b9-4daf-499a-b801-29de328bc13f"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
