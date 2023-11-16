@@ -1,0 +1,52 @@
+uniqueId: b399c1f3-e331-46ee-9b48-f1245a308a84
+id: what-is-arbitrum-arbitrum-university
+name: What is Arbitrum
+content: Understanding Arbitrum, a Layer 2 scaling solution for Ethereum
+created: '2023-11-16T18:33:24.134Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: 332c7c5b-5f45-4e94-9459-647cfade7233
+    content: >-
+      Arbitrum is a Layer 2 scaling solution that enhances the scalability and
+      efficiency of the Ethereum blockchain. It processes transactions off the
+      main Ethereum chain and uses Rollup technology to bundle multiple
+      transactions into one.
+    stepItems: []
+  - name: Compatibility and Deployment
+    uuid: 0acd8ce8-89ee-43c0-bb56-4c35d73969c4
+    content: >-
+      Developed by Offchain Labs, Arbitrum maintains compatibility with
+      Ethereum's existing tools and smart contracts, which simplifies
+      application deployment. The Arbitrum One mainnet supports smart contract
+      execution with validation from the Ethereum network.
+    stepItems: []
+  - name: Benefits
+    uuid: 2771822e-3b61-4247-bdfa-6c173ab4f47b
+    content: >-
+      The use of Arbitrum significantly lowers transaction fees, making it a
+      cost-effective alternative for running decentralized applications and
+      smart contracts compared to Ethereum's mainnet.
+    stepItems: []
+  - name: What is Layer 2?
+    uuid: 8c71eac7-f980-4c8c-aa54-167eda0d199d
+    content: >-
+      Layer 2 refers to a secondary framework or protocol built on top of an
+      existing blockchain system, known as Layer 1. Its primary purpose is to
+      address scalability and performance issues by handling transactions off
+      the main chain, thus enabling faster processing times and reduced
+      transaction costs.
+    stepItems: []
+  - name: Benefits of Layer 2
+    uuid: 8053b896-fead-47dc-bf1c-58e219cad904
+    content: >-
+      By handling transactions off the main chain, Layer 2 can process many more
+      transactions per second, reducing costs and improving speed. Despite
+      processing transactions off-chain, Layer 2 solutions typically inherit the
+      strong security guarantees of the underlying main chain.
+    stepItems: []
+spaceId: arbitrum-university
