@@ -1,0 +1,80 @@
+categories: []
+content: Learn how to apply for foundation grants!
+created: '2023-11-16T14:17:18.404Z'
+guideType: onboarding
+key: foundation-grants-arbitrum-university-884
+name: Foundation Grants
+publishStatus: Live
+steps:
+  - content: |2-
+
+              
+    name: Introduction to Foundation Grant
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: d2e06860-d229-4de0-8cb1-d27e7e269017
+    uuid: 9b65efc7-4c57-4c3f-9379-d48abcf4166f
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: dbcf379f-fe2c-46e6-8fb4-b48dbe0210d9
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: 493f6619-ddba-4186-b8b5-a38892524735
+        explanation: Explanation of the question
+    uuid: 4da7bece-6c82-4a0b-9074-16e291565b88
+  - content: ''
+    name: Submission Guidelines
+    stepItems: []
+    uuid: a2d91b3f-626f-4598-802b-ccf466f476a5
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: ff4d0686-11fd-4343-b1b0-00ead014cef0
+  - content: ''
+    name: Current Phase Categories
+    stepItems: []
+    uuid: c06e21d4-872d-46df-936b-32b6d3440206
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 0fb91feb-9669-4145-a260-42eea58fa557
+  - content: ''
+    name: KPIs and Milestones
+    stepItems: []
+    uuid: 798c354c-5cf6-4111-b0aa-33d8abb09421
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 8f350c19-acfd-4b24-a2fc-2e2234b7cc5a
+  - content: ''
+    name: Project Lifecycle
+    stepItems: []
+    uuid: 9c607bda-f00d-4ad8-9aa5-6007231bd3de
+  - content: ''
+    name: Evaluation
+    stepItems: []
+    uuid: 4a6e6d9c-0061-44ef-99dc-82c999bc86e7
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: ccf64d96-44e0-4ee4-abc8-f7e9b34f909e
+version: 1
+priority: 50
