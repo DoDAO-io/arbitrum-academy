@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-11-16T15:58:22.568Z'
+created: '2023-11-16T16:01:43.670Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -204,7 +204,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 0fb91feb-9669-4145-a260-42eea58fa557
-  - content: >-
+  - content: >+
       Milestones and Key Performance Indicators (KPIs) are fundamental tools in
       measuring the progress and success of projects funded by the Arbitrum
       Foundation's Grant Program.
@@ -271,6 +271,15 @@ steps:
       monitor grant efficacy, provide feedback to the DAO, and identify any
       potential concerns, thereby fostering a robust, innovative, and
       sustainable ecosystem.
+
+
+      Following are some of the examples for KPIs and Milestones:
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1700150431980_screenshot_2023-11-16%20at%208.59.10%20pm.png"/>
+      </div>
+
     name: Performance Measures
     stepItems: []
     uuid: 798c354c-5cf6-4111-b0aa-33d8abb09421
