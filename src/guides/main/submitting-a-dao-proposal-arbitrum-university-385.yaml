@@ -1,0 +1,47 @@
+categories: []
+content: Learn how to submit proposals in Arbitrum DAO
+created: '2023-11-16T12:20:37.333Z'
+guideType: onboarding
+key: submitting-a-dao-proposal-arbitrum-university-385
+name: Submitting a DAO proposal
+publishStatus: Live
+steps:
+  - content: |-
+      Submitting a DAO proposal
+      Prerequisites
+      Format of Proposal
+      Procedure of Submission
+      Resubmission process
+    name: Introduction
+    stepItems: []
+    uuid: 4d7fd5b4-b9b4-4457-88f5-491ae73f4e4c
+  - content: ''
+    name: Introduction Evaluation
+    stepItems:
+      - label: Full Name
+        required: false
+        type: PublicShortInput
+        uuid: d6835cc2-5a08-4467-ab6a-f4cc91a87675
+      - answerKeys:
+          - choice_1
+          - choice_2
+          - choice_3
+        choices:
+          - content: Choice 1
+            key: choice_1
+          - content: Choice 2
+            key: choice_2
+          - content: Choice 3
+            key: choice_3
+          - content: Choice 4
+            key: choice_4
+        content: Contents of the question
+        type: MultipleChoice
+        uuid: f0469887-d474-4fe2-b286-ec9154284894
+        explanation: Explanation of the question
+    uuid: 4a07e553-f4d5-4735-8aa9-b2a07f967c5a
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 2d1d895c-d0c0-41cd-8e71-17ef617f7fa5
+version: 1
+priority: 50
