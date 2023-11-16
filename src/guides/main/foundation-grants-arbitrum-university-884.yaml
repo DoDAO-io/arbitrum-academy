@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-11-16T15:31:53.975Z'
+created: '2023-11-16T15:57:03.159Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -204,8 +204,68 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 0fb91feb-9669-4145-a260-42eea58fa557
-  - content: ''
-    name: KPIs and Milestones
+  - content: >-
+      Milestones and Key Performance Indicators (KPIs) are fundamental tools in
+      measuring the progress and success of projects funded by the Arbitrum
+      Foundation's Grant Program.
+
+
+      ## Milestones
+
+      These are significant events or achievements that signify progress in a
+      project, often representing the completion of a critical phase of
+      development or the attainment of a specific goal. These are the
+      checkpoints that grant recipients set during planning, which outline the
+      major steps they aim to accomplish in the short, medium, and long term.
+      The Foundation collaborates with grantees to understand their project
+      plans and determine where funding is most impactful, customizing the grant
+      to facilitate success while ensuring accountability. The emphasis is on
+      collaboration, not restriction, with the intention of releasing funds as
+      milestones are met to elevate the project.
+
+
+      ### Submission Guidelines
+
+      When crafting milestones for your grant application, follow these
+      guidelines to ensure clarity and effectiveness:
+
+
+      1. **Identify Growth-Based Milestones**: Clearly outline key growth-based
+      milestones that reflect significant development points in your project.
+
+
+      2. **Regular Interval**: Aim for approximately one milestone every 2 to 3
+      months throughout your project's development cycle.
+
+
+      3. **Periodic Submission**: Be prepared to submit detailed milestones
+      periodically in the format specified upon approval, which may include a
+      Github repository, a product demo, or a Dune Analytics dashboard,
+      especially for milestones concerning user growth.
+
+
+      4. **Content of Milestone Submission**: For each milestone, related to
+      your grant request, you should include:
+         - The specific growth-based milestone and its deliverables.
+         - The KPI goal that will be used to gauge success for this milestone.
+         - The current progress made towards achieving this milestone.
+         - The methodology for measuring the milestone and KPI progress.
+         - The anticipated date on which you expect to reach the milestone.
+
+      ## Key Performance Indicators (KPIs)
+
+      KPIs on the other hand, are quantifiable metrics that provide a more
+      continuous assessment of performance towards specific objectives. Unlike
+      milestones, which are binary and mark the completion of a task, KPIs offer
+      ongoing monitoring of a project's performance, ensuring it is on track to
+      meet its objectives. They are tailored to the unique goals of each project
+      and can include both standard metrics used by the Foundation to gauge the
+      performance of all grants and specialized indicators relevant to the
+      individual project's success. Through these KPIs, the Foundation can
+      monitor grant efficacy, provide feedback to the DAO, and identify any
+      potential concerns, thereby fostering a robust, innovative, and
+      sustainable ecosystem.
+    name: Performance Measures
     stepItems: []
     uuid: 798c354c-5cf6-4111-b0aa-33d8abb09421
   - content: ''
