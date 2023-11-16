@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-11-16T15:57:03.159Z'
+created: '2023-11-16T15:58:22.568Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -246,11 +246,17 @@ steps:
 
       4. **Content of Milestone Submission**: For each milestone, related to
       your grant request, you should include:
-         - The specific growth-based milestone and its deliverables.
-         - The KPI goal that will be used to gauge success for this milestone.
-         - The current progress made towards achieving this milestone.
-         - The methodology for measuring the milestone and KPI progress.
-         - The anticipated date on which you expect to reach the milestone.
+         
+      - The specific growth-based milestone and its deliverables.
+
+      - The KPI goal that will be used to gauge success for this milestone.
+
+      - The current progress made towards achieving this milestone.
+
+      - The methodology for measuring the milestone and KPI progress.
+
+      - The anticipated date on which you expect to reach the milestone.
+
 
       ## Key Performance Indicators (KPIs)
 
