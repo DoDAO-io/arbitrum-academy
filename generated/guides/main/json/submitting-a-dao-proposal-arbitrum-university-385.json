@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Learn how to submit proposals in Arbitrum DAO",
-  "created": "2023-11-16T12:49:13.201Z",
+  "created": "2023-11-16T12:52:00.899Z",
   "guideType": "onboarding",
   "key": "submitting-a-dao-proposal-arbitrum-university-385",
   "name": "Submitting a DAO proposal",
@@ -95,5 +95,5 @@
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
   "uuid": "submitting-a-dao-proposal-arbitrum-university-385",
   "version": 1,
-  "priority": 50
+  "priority": 25
 }
