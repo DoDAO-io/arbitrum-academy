@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to submit proposals in Arbitrum DAO
-created: '2023-11-16T13:48:26.388Z'
+created: '2023-11-16T13:49:59.042Z'
 guideType: onboarding
 key: submitting-a-dao-proposal-arbitrum-university-385
 name: Submitting a DAO proposal
@@ -238,85 +238,9 @@ steps:
       proposal.
 
 
-      @startuml
-
-      skinparam linetype polyline
-
-
-      title Steps to Submit a DAO Proposal
-
-
-      |Post on the DAO Governance Forum|
-
-      start
-
-      :Draft proposal;
-
-      :Post using template;
-
-      :Add context;
-
-
-      |Create a Snapshot Poll|
-
-      :Connect wallet to Snapshot;
-
-      :Access Arbitrum DAO space;
-
-      :Set up & link poll;
-
-
-      |Engage in Discussion|
-
-      :Share poll link on forum;
-
-      :Discuss and refine proposal;
-
-
-      |Review the Results|
-
-      :If poll fails, revise;
-
-      :If poll passes, prepare for on-chain vote;
-
-
-      |Proceed to On-chain Voting|
-
-      :Ensure wallet has required $ARB;
-
-      :Log into Tally;
-
-      :Select "Create new proposal";
-
-      :Choose governor;
-
-      :Fill in proposal details;
-
-      :Define actions;
-
-      :Save draft or submit;
-
-
-      |Voting Conditions for Passage|
-
-      :Confirm more favor than against;
-
-      :Ensure minimum vote percentage;
-
-
-      |Stay Engaged and Seek Feedback|
-
-      :Celebrate if proposal passes;
-
-      :Execute actions after delay;
-
-      :If fails, seek feedback for resubmission;
-
-
-      stop
-
-      @enduml
-
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/submitting_a_dao_proposal_arbitrum_university_385/1700142574023_plantuml_%281%29.svg"/>
+      </div>
 
 
       ## Submit your on-chain proposal using Tally
