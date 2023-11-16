@@ -1,0 +1,45 @@
+uniqueId: 7db5670c-619c-43ea-96bf-a97c310b319e
+id: what-are-rollups-arbitrum-university
+name: What are Rollups?
+content: Understanding the concept and types of Rollups
+created: '2023-11-16T18:40:08.832Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Rollups Overview
+    uuid: 6054b481-14ac-4627-9338-8e95a90ce636
+    content: >-
+      Rollups are a type of Layer 2 scaling solution that execute transactions
+      off-chain but record transaction data on the main chain. The core idea is
+      to batch many transactions into a single one, then post to the main chain.
+      This reduces the amount of data that needs to be stored and processed on
+      the main chain.
+    stepItems: []
+  - name: Rollups Types
+    uuid: 1a6d453a-2b1f-4dec-96e9-91df81368cef
+    content: >-
+      There are two main types of rollups, each with its own approach to
+      validating the batched transactions. These operate on the principle that
+      all transactions are assumed to be valid by default. They only execute
+      transaction computations on-chain in the event of a challenge.
+    stepItems: []
+  - name: Optimistic Rollups
+    uuid: 66270393-6e3f-439e-8255-b118f6bf8780
+    content: >-
+      Optimistic Rollups post transactions with a bond and wait for a challenge
+      period; if undisputed with a fraud proof, transactions are deemed valid,
+      offering scaling benefits despite a potential delay in finality.
+    stepItems: []
+  - name: ZK-Rollups
+    uuid: d9ada721-5034-40a2-ad61-d0b6cc7c3ddc
+    content: >-
+      ZK-Rollups combine transactions and create a zero-knowledge proof to
+      confirm their validity on-chain, allowing for faster finalization than
+      Optimistic Rollups, which require a challenge period. These enhance
+      privacy since the actual transaction data is off-chain. This makes
+      ZK-Rollups efficient and secure.
+    stepItems: []
+spaceId: arbitrum-university
