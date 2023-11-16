@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-11-16T16:13:25.872Z'
+created: '2023-11-16T16:42:20.745Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -111,9 +111,6 @@ steps:
       2. Participation in illicit trade, money laundering, or any form of
       criminal activity.
 
-      3. "Virtual Asset Services" such as public token launches or managing
-      virtual assets on behalf of others.
-
       4. Projects centered around token or securities issuance, including
       distributions, creation of new tokens, investments for returns, buybacks,
       dividends, or exchange listings for $ARB or other tokens.
@@ -122,11 +119,9 @@ steps:
       individuals or entities under sanctions, or projects that involve such
       sanctioned parties.
 
-      6. Proposals that require or imply endorsement by the Arbitrum Foundation.
 
-      7. Projects or teams located in countries subject to OFAC sanctions,
-      including but not limited to Cuba, Iran, North Korea, Russia, Syria,
-      Ukraine, or other prohibited jurisdictions.
+      For detailed guidelines, refer to
+      https://arbitrumfoundation.notion.site/Submission-Guidelines-5250083006c942d1a371ef0a85cd1b24
 
 
       ## Creating Grant Application
@@ -242,7 +237,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 0fb91feb-9669-4145-a260-42eea58fa557
-  - content: >+
+  - content: >
       Milestones and Key Performance Indicators (KPIs) are fundamental tools in
       measuring the progress and success of projects funded by the Arbitrum
       Foundation's Grant Program.
@@ -250,16 +245,13 @@ steps:
 
       ## Milestones
 
-      These are significant events or achievements that signify progress in a
-      project, often representing the completion of a critical phase of
-      development or the attainment of a specific goal. These are the
-      checkpoints that grant recipients set during planning, which outline the
-      major steps they aim to accomplish in the short, medium, and long term.
-      The Foundation collaborates with grantees to understand their project
-      plans and determine where funding is most impactful, customizing the grant
-      to facilitate success while ensuring accountability. The emphasis is on
-      collaboration, not restriction, with the intention of releasing funds as
-      milestones are met to elevate the project.
+      Milestones mark crucial progress points in a project, such as finishing
+      key development stages or reaching specific goals. They are part of the
+      planned targets for grant recipients, marking progress in various project
+      phases. The Foundation works with recipients to tailor funding to these
+      milestones, ensuring both support for the project's advancement and
+      accountability in grant use, with a focus on collaborative success and
+      milestone-based fund release.
 
 
       ### Submission Guidelines
@@ -298,17 +290,11 @@ steps:
 
       ## Key Performance Indicators (KPIs)
 
-      KPIs on the other hand, are quantifiable metrics that provide a more
-      continuous assessment of performance towards specific objectives. Unlike
-      milestones, which are binary and mark the completion of a task, KPIs offer
-      ongoing monitoring of a project's performance, ensuring it is on track to
-      meet its objectives. They are tailored to the unique goals of each project
-      and can include both standard metrics used by the Foundation to gauge the
-      performance of all grants and specialized indicators relevant to the
-      individual project's success. Through these KPIs, the Foundation can
-      monitor grant efficacy, provide feedback to the DAO, and identify any
-      potential concerns, thereby fostering a robust, innovative, and
-      sustainable ecosystem.
+      Key Performance Indicators (KPIs) are measurable values that continuously
+      track a project's progress toward its goals. Unlike the binary nature of
+      milestones, KPIs enable ongoing performance evaluation. Customized to each
+      project's aims, they help the Foundation assess grant impact, offer
+      feedback, and spot issues, contributing to a strong, inventive ecosystem.
 
 
       Following are some of the examples for KPIs and Milestones:
@@ -317,7 +303,7 @@ steps:
       <div align="center">
         <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1700150431980_screenshot_2023-11-16%20at%208.59.10%20pm.png"/>
       </div>
-
+       For more details visit: https://arbitrumfoundation.notion.site/Understanding-KPIs-Milestones-85e628abdb0640f1a3c280fb26e19934
     name: Performance Measures
     stepItems: []
     uuid: 798c354c-5cf6-4111-b0aa-33d8abb09421
