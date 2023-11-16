@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to submit proposals in Arbitrum DAO
-created: '2023-11-16T12:52:00.899Z'
+created: '2023-11-16T12:57:31.653Z'
 guideType: onboarding
 key: submitting-a-dao-proposal-arbitrum-university-385
 name: Submitting a DAO proposal
@@ -23,9 +23,60 @@ steps:
 
       ## Types of Proposals 
 
+      There are two distinct categories of AIPs (Arbitrum Improvement Proposals)
+      within the Arbitrum DAO framework:
+
+
+      ### Constitutional AIPs
+
+      These are significant proposals that have the potential to alter the
+      foundational rules and procedures of the Arbitrum ecosystem. They include
+      changes to the text of the Constitution or to AIP-1, which lays out the
+      initial rules for the governance process itself. They can also involve
+      installing or modifying software on any of the chains within the Arbitrum
+      network or taking actions that necessitate "chain owner" permissions,
+      which typically means they require a higher level of authority and
+      scrutiny due to their impact on the infrastructure and overall operation.
+
+
+      ### Non-Constitutional AIPs
+
+      This type encompasses proposals that are less structural in nature and do
+      not involve amending the Constitution or the foundational governance
+      document (AIP-1). They are usually operational or administrative, such as
+      requests for funds or grants, or they may offer guidelines or disseminate
+      information to the community. Non-Constitutional AIPs are generally more
+      straightforward and often deal with the day-to-day governance and
+      maintenance of the community's projects and initiatives.
 
 
       ## Prerequisites
+
+      To submit a proposal in a DAO the following prerequisites must be met:
+
+
+      ### For a Temperature Check Using Snapshot:
+
+
+      1. Possession of an Ethereum wallet address.
+
+      2. The Ethereum wallet must represent at least 0.01% of votable tokens
+      within the DAO's ecosystem.
+
+
+      ### For Submitting a Proposal On-chain Using Tally:
+
+
+      1. Possession of an Ethereum wallet address.
+
+      2. The Ethereum wallet must represent at least 1,000,000 tokens, which
+      equates to approximately 0.1% of votable tokens within the DAO's
+      ecosystem.
+
+
+      If you lack sufficient voting power, there is an option to delegate your
+      votes to a delegate with enough tokens. The delegate must have the
+      capability and willingness to create a proposal on your behalf.
     name: 'DAO Proposals '
     stepItems: []
     uuid: 4d7fd5b4-b9b4-4457-88f5-491ae73f4e4c
