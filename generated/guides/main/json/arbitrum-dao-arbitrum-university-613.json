@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the workings of the Arbitrum DAO",
-  "created": "2023-11-14T16:56:13.316Z",
+  "created": "2023-11-16T12:49:50.781Z",
   "guideType": "onboarding",
   "key": "arbitrum-dao-arbitrum-university-613",
   "name": "Arbitrum DAO",
@@ -89,5 +89,5 @@
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
   "uuid": "arbitrum-dao-arbitrum-university-613",
   "version": 1,
-  "priority": 50
+  "priority": 45
 }
