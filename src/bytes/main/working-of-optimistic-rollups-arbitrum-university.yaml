@@ -1,0 +1,54 @@
+uniqueId: 263b40a0-bdd7-4768-9b1b-fcb7dfda6c19
+id: working-of-optimistic-rollups-arbitrum-university
+name: Working of Optimistic Rollups
+content: Working process of Optimistic Rollups in blockchain technology
+created: '2023-11-17T11:47:04.696Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: 5d8c5776-f215-4855-b798-1eef1113a947
+    content: >-
+      Optimistic Rollups operates on the assumption that all transactions are
+      honest and valid unless proven otherwise. 
+    stepItems: []
+  - name: Execution and Aggregation
+    uuid: 20cc24e2-aa56-4fa3-8a0d-fa126ac78c5f
+    content: >-
+      Optimistic Rollups use sequencers to bundle transactions and submit them
+      to Ethereum. Sequencers centralize and expedite transaction processing. 
+    stepItems: []
+  - name: Sending RBlocks to Ethereum
+    uuid: 4fffcbed-d38f-4feb-ba94-5daa1ff37819
+    content: >-
+      Operators bundle off-chain transactions and submit them as 'calldata' to
+      Ethereum, saving space and costs without altering the state. 'Calldata' in
+      Solidity calls functions crucial for rollups' efficiency.
+    stepItems: []
+  - name: State Commitments
+    uuid: fde5c749-da67-4d14-b32a-4ceb0b8a539f
+    content: >-
+      Operators use a special kind of digital tree called a Merkle tree to keep
+      track of all changes in a rollup. They update this tree with new
+      information and send a summary to the main Ethereum system.
+    stepItems: []
+  - name: Fraud Proof
+    uuid: d0a5b46e-858a-4244-af84-dedb07755d3d
+    content: >-
+      Optimistic rollups save time by checking transactions later if someone
+      flags them. If a check finds a fraud, the cheater pays a fine. This method
+      uses some fees to keep records but tries to keep it low-cost with smarter
+      checks.
+    stepItems: []
+  - name: Interactive Proofs
+    uuid: 30fc7a97-1448-402d-b4e0-21fbdbd3d88a
+    content: >-
+      In optimistic rollups, a step-by-step dispute process narrows down the
+      exact error in a block, with a verifier contract on Ethereum deciding the
+      outcome. This secures the rollup by catching fraud and penalizing
+      wrongdoers.
+    stepItems: []
+spaceId: arbitrum-university
