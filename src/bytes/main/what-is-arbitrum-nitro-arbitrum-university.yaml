@@ -1,4 +1,4 @@
-uniqueId: 2a568539-e356-4605-a972-b850a0f122c1
+uniqueId: 35ea3657-b265-4594-b8eb-51a247202538
 id: what-is-arbitrum-nitro-arbitrum-university
 name: What is Arbitrum Nitro?
 content: A step to improved efficiency and scalability
@@ -26,10 +26,17 @@ steps:
       security, efficiency, and scalability, offering a promising solution for
       the future of Ethereum.
     stepItems: []
+  - name: 'Features of Nitro '
+    uuid: 20c79973-7aa0-4dc6-9c16-78e05bf9c4bd
+    content: >-
+      Nitro is a technological upgrade from the Arbitrum classic due to the
+      introduction of two essential features: Calldata Compression and EVM
+      Compatibility.
+    stepItems: []
   - name: Calldata Compression
     uuid: 762948b2-e6de-48f3-9707-f4cb49c24f0c
     content: >-
-      It introduces advanced calldata compression, reducing transaction costs
+      Nitro introduces advanced calldata compression, reducing transaction costs
       even further. Nitro enhances the performance of Layer 1 (L1) nodes, aligns
       EVM operation pricing with Ethereum, and introduces additional
       synchronization with Ethereum L1 blocks.
