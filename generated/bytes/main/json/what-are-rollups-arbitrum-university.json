@@ -1,5 +1,5 @@
 {
-  "uniqueId": "7db5670c-619c-43ea-96bf-a97c310b319e",
+  "uniqueId": "75c589a8-d8fa-4abf-bc21-7774cde04eb5",
   "id": "what-are-rollups-arbitrum-university",
   "name": "What are Rollups?",
   "content": "Understanding the concept and types of Rollups",
@@ -19,7 +19,7 @@
     {
       "name": "Rollups Types",
       "uuid": "1a6d453a-2b1f-4dec-96e9-91df81368cef",
-      "content": "There are two main types of rollups, each with its own approach to validating the batched transactions. These operate on the principle that all transactions are assumed to be valid by default. They only execute transaction computations on-chain in the event of a challenge.",
+      "content": "There are two main types of rollups, Otimistic Rollups and ZK-Rollups. These operate on the principle that all transactions are assumed to be valid by default. They only execute transaction computations on-chain in the event of a challenge.",
       "stepItems": []
     },
     {
