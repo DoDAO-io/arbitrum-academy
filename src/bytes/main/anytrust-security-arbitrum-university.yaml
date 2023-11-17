@@ -1,4 +1,4 @@
-uniqueId: 4b335e94-6ab9-400f-b61b-87b6b5b69033
+uniqueId: bc1dc9a3-4525-418d-b873-c0def24958da
 id: anytrust-security-arbitrum-university
 name: AnyTrust Security
 content: 'Understanding the strategic balance of trust '
@@ -25,6 +25,14 @@ steps:
       Layer 2 transaction data for Arbitrum's rollup chain. It operates under
       the assumption that at least two of its members are consistently honest.
     stepItems: []
+  - name: Purpose of DAC
+    uuid: 47d61510-2d2e-4197-bd08-8a44784217f4
+    content: >-
+      This arrangement ensures the security and availability of transaction
+      data. It also introduces a mechanism for manageable trust, reducing the
+      dependency on Ethereum's mainnet and leading to a more efficient and
+      cost-effective rollup process.
+    stepItems: []
   - name: Keysets Manager Contract
     uuid: 590d51e2-88b8-4354-b911-66f3da993046
     content: >-
@@ -33,14 +41,6 @@ steps:
       authenticity of member signatures. They are managed via a smart contract
       the KeysetManager, which authenticates the current valid set of committee
       members.
-    stepItems: []
-  - name: Purpose of DAC
-    uuid: 47d61510-2d2e-4197-bd08-8a44784217f4
-    content: >-
-      This arrangement ensures the security and availability of transaction
-      data. It also introduces a mechanism for manageable trust, reducing the
-      dependency on Ethereum's mainnet and leading to a more efficient and
-      cost-effective rollup process.
     stepItems: []
   - name: Issuance of DACert
     uuid: c47556c9-e409-43a0-b79a-f3f955eb8659
