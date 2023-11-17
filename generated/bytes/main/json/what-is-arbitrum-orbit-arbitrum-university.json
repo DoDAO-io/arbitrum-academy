@@ -1,0 +1,107 @@
+{
+  "uniqueId": "0fac6cf6-0c2e-4da0-a5bd-809b6ca60720",
+  "id": "what-is-arbitrum-orbit-arbitrum-university",
+  "name": "What is Arbitrum Orbit?",
+  "content": "Understanding the concept and features of Arbitrum Orbit",
+  "created": "2023-11-17T18:29:29.845Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Introduction",
+      "uuid": "1085d606-7986-499f-a9d1-11a515ea08c7",
+      "content": "Arbitrum Orbit is a technology that allows the creation of private blockchain chains with customizable features. These chains can settle transactions on Arbitrum's Layer 2 ecosystems like Arbitrum One or Nova.",
+      "stepItems": []
+    },
+    {
+      "name": "Technology Stack",
+      "uuid": "a5abb7b3-c485-42a3-888d-09646896b898",
+      "content": "Orbit utilizes the Arbitrum Nitro technology stack. This offers benefits like Nitro's fraud proofs, advanced data compression, and EVM+ compatibility. It also allows for ongoing upgrades from the Nitro stack developments.",
+      "stepItems": []
+    },
+    {
+      "name": "Customization",
+      "uuid": "0f1b5370-ceb4-431f-9492-68508659cfa6",
+      "content": "Orbit chains can be tailored for specific applications or broader use cases. They offer gas price stability, permissioned access, and the choice between Rollup or AnyTrust protocols.",
+      "stepItems": []
+    },
+    {
+      "name": "Governance",
+      "uuid": "6022e5ca-69ec-4631-b7f3-c688497028f7",
+      "content": "Governance of Orbit chains is independently determined by the chain creators. This provides a flexible, scalable, and secure platform for hosting a range of dApps or private EVM-compatible smart contracts. It also allows for the incremental adoption of Ethereum's security features.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "4876b6cf-2386-4229-a961-f6da102a668a",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "30563d80-c4cd-4c1f-b817-a1976ae36036",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Arbitrum One"
+            },
+            {
+              "key": "B",
+              "content": "Nova"
+            },
+            {
+              "key": "C",
+              "content": "Arbitrum Nitro"
+            },
+            {
+              "key": "D",
+              "content": "Rollup"
+            }
+          ],
+          "content": "What technology stack does Orbit utilize?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "Orbit utilizes the Arbitrum Nitro technology stack, which offers benefits like Nitro's fraud proofs, advanced data compression, and EVM+ compatibility."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "e9c1eb19-9e54-4003-8d5b-54380072bc87",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "81f6fa5b-1db2-4243-9fcb-0b983d9345ce",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Gas price stability"
+            },
+            {
+              "key": "B",
+              "content": "Permissioned access"
+            },
+            {
+              "key": "C",
+              "content": "Nitro's fraud proofs"
+            },
+            {
+              "key": "D",
+              "content": "Flexible, scalable, and secure platform"
+            }
+          ],
+          "content": "What does the governance of Orbit chains provide?",
+          "answerKeys": [
+            "D"
+          ],
+          "explanation": "Governance of Orbit chains is independently determined by the chain creators, providing a flexible, scalable, and secure platform for hosting a range of dApps or private EVM-compatible smart contracts. It also allows for the incremental adoption of Ethereum's security features."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
