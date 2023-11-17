@@ -1,4 +1,4 @@
-uniqueId: 575927f0-b50a-49b6-8c39-eb00f1533531
+uniqueId: f97bd06d-dcd0-4848-bae1-4d3c8366d761
 id: rollup-security-arbitrum-university
 name: Rollup Security
 content: Understanding the security of Arbitrum Rollup
@@ -14,16 +14,9 @@ steps:
     content: >-
       Arbitrum Rollup's security model leverages the robustness of Ethereum's
       Layer 1 to offer a Layer 2 scaling solution that doesn't compromise on
-      trustlessness. It uses a unique combination of on-chain data availability
-      and off-chain computation for security.
-    stepItems: []
-  - name: Dispute Resolution
-    uuid: 9fc9c6f5-1e71-45fb-842e-4bb18ef5cc89
-    content: >-
-      The interactive dispute resolution process allows any honest participant
-      to challenge incorrect claims by staking, thereby maintaining the overall
-      security and reliability of the network. This process ensures that any
-      false claims can be challenged and corrected.
+      trustlessness. The transactions are confirmed by validators who approve
+      the blocks through off chain calculations and interactive proving after
+      staking some asset.
     stepItems: []
   - name: Role of Validators
     uuid: e51cb12d-c9c5-4a84-9219-35b6c53413ff
@@ -32,6 +25,13 @@ steps:
       responsible for proposing and ensuring the accuracy of RBlocks in the
       network. They play a crucial role in maintaining the accuracy and
       integrity of the network's transactions.
+    stepItems: []
+  - name: Validator Allowlist
+    uuid: eeac8b9a-72c2-466f-86ae-7badb555fc2b
+    content: >-
+      While the role is intended to be open to all, Arbitrum One currently uses
+      an allowlist for validators. This measure is in place to ensure the
+      reliability of the network.
     stepItems: []
   - name: Stakers
     uuid: f41d6078-70d0-4499-83c9-daad0535f5cd
@@ -49,12 +49,13 @@ steps:
       with multiple validators only becoming active when necessary to resolve
       disputes.
     stepItems: []
-  - name: Validator Allowlist
-    uuid: eeac8b9a-72c2-466f-86ae-7badb555fc2b
+  - name: Dispute Resolution
+    uuid: 9fc9c6f5-1e71-45fb-842e-4bb18ef5cc89
     content: >-
-      While the role is intended to be open to all, Arbitrum One currently uses
-      an allowlist for validators. This measure is in place to ensure the
-      reliability of the network.
+      The interactive dispute resolution process allows any honest participant
+      to challenge incorrect claims by staking, thereby maintaining the overall
+      security and reliability of the network. This process ensures that any
+      false claims can be challenged and corrected.
     stepItems: []
   - name: Enforcing Correctness
     uuid: 55e40c91-9716-499d-af74-3ce409afb951
