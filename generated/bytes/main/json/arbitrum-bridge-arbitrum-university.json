@@ -1,0 +1,51 @@
+{
+  "uniqueId": "70481683-5b28-4312-b5d1-04e6495ccd55",
+  "id": "arbitrum-bridge-arbitrum-university",
+  "name": "Arbitrum Bridge",
+  "content": "Understanding the Arbitrum Bridge and its functionality",
+  "created": "2023-11-17T12:04:49.285Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Introduction",
+      "uuid": "94357795-fe1f-4795-9a2a-44a329273f29",
+      "content": "The Arbitrum Bridge connects Ethereum's mainnet (Layer-1) with the Arbitrum chains (Layer-2). It allows for the secure and efficient transfer of assets. The bridge enhances scalability by mitigating congestion and grouping transactions to reduce gas fees significantly.",
+      "stepItems": []
+    },
+    {
+      "name": "Security and Interoperability",
+      "uuid": "b6d94660-1dc9-4ef9-b18e-6430fe9cbd59",
+      "content": "Security is a top priority for the Arbitrum Bridge. It integrates Ethereum's security model and adds additional safeguards against malicious actions by validators. The bridge supports a wide range of assets, ensuring broad interoperability.",
+      "stepItems": []
+    },
+    {
+      "name": "Purpose",
+      "uuid": "fe86797a-b05a-4f67-ab54-4b4a47efdd53",
+      "content": "When users want to transfer their assets, such as ETH or ERC-20 tokens, to Layer 2, they interact with the Arbitrum Bridge.",
+      "stepItems": []
+    },
+    {
+      "name": "Working of Bridge",
+      "uuid": "e240e03d-42a8-45a0-a64d-7c8fddf9f706",
+      "content": "The bridge locks the user's assets into a smart contract on Ethereum. Simultaneously, an equivalent amount of these assets is created or 'minted' on the Arbitrum network. This process uses roll-up technology, reducing the amount of processing Ethereum has to do.",
+      "stepItems": []
+    },
+    {
+      "name": "Withdrawals",
+      "uuid": "42ff27c8-c051-4f33-b630-61f14cbf6451",
+      "content": "For withdrawals from Arbitrum back to Ethereum, the process is reversed but includes an additional security step. The tokens on Arbitrum are burnt or destroyed to prevent double-spending. Correspondingly, the smart contract on Ethereum releases the initially locked funds.",
+      "stepItems": []
+    },
+    {
+      "name": "Dispute Period",
+      "uuid": "49e71a8f-0156-4860-b5c1-80537ddd3088",
+      "content": "The transaction is not immediate due to a 'dispute period,' a week-long delay that allows for challenges and verification of the transaction's legitimacy on Ethereum before the assets are unlocked. ",
+      "stepItems": []
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
