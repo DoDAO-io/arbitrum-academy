@@ -1,0 +1,104 @@
+uniqueId: b11e634f-f652-4010-a60d-e84c14e97e03
+id: benefits-of-orbit-arbitrum-university
+name: Benefits of Orbit
+content: Understanding the usefulness Orbit Chains
+created: '2023-11-17T18:40:00.972Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Usefulness of Orbit Chains
+    uuid: 464855d0-7627-4ec5-9a68-269c411e4f32
+    content: >-
+      Arbitrum orbit has revolutionised the arbitrum ecosystem by introducing
+      the customizable chains that provide complete ownership for the creators.
+      Following are the benefits of Arbitrum Orbit:
+    stepItems: []
+  - name: Scalability
+    uuid: 5e846479-212a-4118-bbe1-4c5f32da3bfa
+    content: >-
+      Arbitrum Orbit enhances Ethereum's scalability by enabling multiple
+      chains, distributing workload and easing single-chain bottlenecks.
+    stepItems: []
+  - name: Flexible Security Models
+    uuid: 36917e33-82d1-4739-b20f-c37616637ef2
+    content: >-
+      With Orbit, developers can implement and test different security models to
+      find the right balance for their projects. For instance, while Arbitrum
+      One offers a fully trustless environment, Arbitrum Nova provides an option
+      to optimize for lower fees with a mild trust assumption. Orbit extends
+      this flexibility, making experimentation with security tradeoffs more
+      accessible.
+    stepItems: []
+  - name: Flexible Execution Environments
+    uuid: 2d1ffe7f-8ba5-4476-a569-21adef531fdf
+    content: >-
+      Orbit chains allow for customized execution environments. While
+      maintaining full EVM compatibility, Orbit chains can also limit smart
+      contract functionalities to better serve specific project requirements,
+      leading to optimized performance.
+    stepItems: []
+  - name: Flexible Governance
+    uuid: 3918ab6c-e052-446d-8dbd-c3b798060ffe
+    content: >-
+      Developers have the autonomy to establish their own governance mechanisms
+      on Orbit chains, which can be tailored to suit the unique needs of their
+      projects, communities, or stakeholders.
+    stepItems: []
+  - name: Increased Adoption of dApps
+    uuid: 280b068d-fc73-4105-8c55-9f2cb9a85ef3
+    content: >-
+      Orbit lowers barriers to progressive decentralization, making it more
+      feasible for developers to launch decentralized applications. It enables a
+      new breed of dApps that benefit from being built in more autonomous,
+      self-managed conditions, potentially increasing the adoption and diversity
+      of dApps within the blockchain space.
+    stepItems: []
+  - name: Evaluation
+    uuid: 2fb30bf4-fcd5-4094-9c7f-7f5f007ba7fb
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: ca328f34-375b-4804-94e8-b7d1b2d9c9b8
+        choices:
+          - key: A
+            content: >-
+              It allows the creation of multiple chains to address scalability
+              challenges
+          - key: B
+            content: It provides a fully trustless environment for developers
+          - key: C
+            content: It limits smart contract functionalities to optimize performance
+          - key: D
+            content: It establishes governance mechanisms for Orbit chains
+        content: What is one of the benefits of Orbit within the Ethereum ecosystem?
+        answerKeys:
+          - A
+        explanation: >-
+          Orbit facilitates scalability by allowing the creation of multiple
+          chains, which helps alleviate scaling challenges by distributing
+          activities across various environments.
+  - name: Evaluation
+    uuid: 201c1ade-c07d-401c-b94e-446f84d2ca97
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: fcfaf062-6513-454d-bc84-c71ee7c4d6cd
+        choices:
+          - key: A
+            content: Launching decentralized applications
+          - key: B
+            content: Progressive decentralization
+          - key: C
+            content: Creating customized execution environments
+          - key: D
+            content: Establishing governance mechanisms
+        content: What does Orbit lower barriers to within the blockchain space?
+        answerKeys:
+          - B
+        explanation: >-
+          Orbit lowers barriers to progressive decentralization, making it more
+          feasible for developers to launch decentralized applications.
+spaceId: arbitrum-university
