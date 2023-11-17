@@ -1,0 +1,113 @@
+{
+  "uniqueId": "ba91f7d2-4fdf-4f51-8251-5947c5684cc6",
+  "id": "how-anytrust-works-arbitrum-university",
+  "name": "How AnyTrust works?",
+  "content": "Sequencer-committee interaction in AnyTrust",
+  "created": "2023-11-17T17:40:58.680Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Initiation",
+      "uuid": "b23ee0f0-d531-4dc2-b125-fe3dca3cd6a5",
+      "content": "The Arbitrum sequencer initiates the process by generating a data batch for submission and setting an expiration time, typically three weeks ahead. This batch data is then sent to all Committee members simultaneously via an RPC (Remote Procedure Call) interface.",
+      "stepItems": []
+    },
+    {
+      "name": "Signing Data Batch",
+      "uuid": "d9b8fa6f-4ba8-4bab-a64d-2f5eb340c028",
+      "content": "Upon receipt, each Committee member stores the data in its own backing store, using the data’s hash as an index for future retrieval. They then sign the pair consisting of the data’s hash and the expiration time using their individual BLS cryptographic keys.",
+      "stepItems": []
+    },
+    {
+      "name": "Data Availability Certificate ",
+      "uuid": "0de0b30a-639a-4486-86dd-b753563d0e83",
+      "content": "Each Committee member returns a signature accompanied by an indicator of successful storage. Once the sequencer receives the required number of signatures, it aggregates them to form a Data Availability Certificate (DACert) for the data batch.",
+      "stepItems": []
+    },
+    {
+      "name": "Contingency Validation",
+      "uuid": "d764c7dd-9cee-4ff6-8797-1abc34529e65",
+      "content": "If the sequencer cannot obtain the necessary signatures within a specified time frame, it defaults to the traditional rollup method. This process ensures that the AnyTrust protocol can validate blocks efficiently while offering a contingency plan to maintain the chain's integrity and continuity.",
+      "stepItems": []
+    },
+    {
+      "name": "Posting on L1",
+      "uuid": "e161e9a3-47ce-4127-b7dc-c17c9f4bf739",
+      "content": "In such a case, the sequencer posts the full data directly to the L1 chain, bypassing the Committee. The L2 software is designed to recognize both data formats—either provided through a DACert or posted in full.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "6cf18c5b-070a-490c-8a84-48beb5932e06",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "bc829b26-419b-4bd1-8f8c-658793ab8bf8",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Generates a data batch for submission and sets an expiration time"
+            },
+            {
+              "key": "B",
+              "content": "Stores the data in its own backing store using the data's hash as an index"
+            },
+            {
+              "key": "C",
+              "content": "Aggregates the signatures to form a Data Availability Certificate (DACert)"
+            },
+            {
+              "key": "D",
+              "content": "Posts the full data directly to the L1 chain"
+            }
+          ],
+          "content": "What is the role of the Arbitrum sequencer in the block validation process?",
+          "answerKeys": [
+            "A"
+          ],
+          "explanation": "The Arbitrum sequencer initiates the process by generating a data batch for submission and setting an expiration time."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "d8bc9c7b-b159-4083-a58e-080944be9239",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "9135f712-3490-4ae8-90c4-e994a1fde998",
+          "choices": [
+            {
+              "key": "A",
+              "content": "The sequencer generates a data batch for submission and sets an expiration time"
+            },
+            {
+              "key": "B",
+              "content": "The sequencer stores the data in its own backing store using the data's hash as an index"
+            },
+            {
+              "key": "C",
+              "content": "The sequencer aggregates the signatures to form a Data Availability Certificate (DACert)"
+            },
+            {
+              "key": "D",
+              "content": "The sequencer defaults to the traditional rollup method"
+            }
+          ],
+          "content": "What happens if the sequencer cannot obtain the necessary signatures within a specified time frame?",
+          "answerKeys": [
+            "D"
+          ],
+          "explanation": "If the sequencer cannot obtain the necessary signatures within a specified time frame, it defaults to the traditional rollup method."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
