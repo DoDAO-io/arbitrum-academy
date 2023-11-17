@@ -1,0 +1,51 @@
+{
+  "uniqueId": "f46716b1-36b0-465b-ade7-e1f10f75bf30",
+  "id": "arbitrum-governance-arbitrum-university",
+  "name": "Arbitrum Governance",
+  "content": "Understanding the governance of Arbitrum in simple terms",
+  "created": "2023-11-17T12:35:01.899Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Governance",
+      "uuid": "c401b777-1880-4905-8117-1c5cc9657a3b",
+      "content": "Governance is the process by which decisions are made within an organization. In traditional setups, decisions are made by a small group chosen by the company's shareholders. These decisions may not always be transparent to the shareholders.",
+      "stepItems": []
+    },
+    {
+      "name": "Web3 Governance",
+      "uuid": "9e9673df-e2cb-4ce5-b9f0-5ca3b50d5f96",
+      "content": "Web3 technologies, like those in the Arbitrum ecosystem, start similarly but move towards a system where decision-making is spread out among its community. This aims to distribute power among stakeholders.",
+      "stepItems": []
+    },
+    {
+      "name": "Progressive Decentralization",
+      "uuid": "d40d64fe-45dc-4d45-99e2-1d0f7ca875df",
+      "content": "Progressive decentralization is a process where control of a project shifts from a  central group to its wider community. This involves setting up a Decentralized Autonomous Organization (DAO) and issuing governance tokens, empowering community members to make decisions.",
+      "stepItems": []
+    },
+    {
+      "name": "DAO Formation",
+      "uuid": "f53fbc6c-b91a-466a-83f3-cc7e372ad019",
+      "content": "Entities like the Arbitrum DAO are created, taking over the governance of the network. The DAO operates based on a set of rules outlined in the Arbitrum DAO Constitution, which acts as a blueprint for its operations.",
+      "stepItems": []
+    },
+    {
+      "name": "Governance Tokens",
+      "uuid": "63c04518-fe02-4a5c-a906-978f9a6af137",
+      "content": "Ownership of governance tokens indicates membership in the DAO. Token holders, such as those holding $ARB, are eligible to vote on proposals affecting the network's future.",
+      "stepItems": []
+    },
+    {
+      "name": "Smart Contracts",
+      "uuid": "d19123ce-e111-4c80-aee0-effb5e35dcbf",
+      "content": "DAO governance relies on transparent smart contracts instead of traditional legal contracts. These smart contracts execute the rules set out in the DAO Constitution and allow for trustless, decentralized decision-making.",
+      "stepItems": []
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
