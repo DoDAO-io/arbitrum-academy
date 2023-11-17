@@ -1,0 +1,123 @@
+uniqueId: 4b335e94-6ab9-400f-b61b-87b6b5b69033
+id: anytrust-security-arbitrum-university
+name: AnyTrust Security
+content: 'Understanding the strategic balance of trust '
+created: '2023-11-17T18:16:27.793Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: a7ac642d-1f39-4429-a075-cee94bdf403a
+    content: >-
+      AnyTrust security is a strategic balance between trust and
+      decentralization, enhancing the robustness of Arbitrum's rollup
+      infrastructure. It achieves this by establishing a Data Availability
+      Committee, which strengthens data integrity and accessibility.
+    stepItems: []
+  - name: Data Availability Committee
+    uuid: beb90a07-cdb4-4d7a-ab39-e603a96f7e1a
+    content: >-
+      The Data Availability Committee is a group within the AnyTrust protocol.
+      This group is responsible for storing and ensuring the accessibility of
+      Layer 2 transaction data for Arbitrum's rollup chain. It operates under
+      the assumption that at least two of its members are consistently honest.
+    stepItems: []
+  - name: Keysets Manager Contract
+    uuid: 590d51e2-88b8-4354-b911-66f3da993046
+    content: >-
+      The committee's operation is governed by a set of cryptographic public
+      keys, known as Keysets. These Keysets establish the identity and
+      authenticity of member signatures. They are managed via a smart contract
+      the KeysetManager, which authenticates the current valid set of committee
+      members.
+    stepItems: []
+  - name: Purpose of DAC
+    uuid: 47d61510-2d2e-4197-bd08-8a44784217f4
+    content: >-
+      This arrangement ensures the security and availability of transaction
+      data. It also introduces a mechanism for manageable trust, reducing the
+      dependency on Ethereum's mainnet and leading to a more efficient and
+      cost-effective rollup process.
+    stepItems: []
+  - name: Issuance of DACert
+    uuid: c47556c9-e409-43a0-b79a-f3f955eb8659
+    content: >-
+      The Data Availability Certificate (DACert) is a key component of the
+      AnyTrust protocol, ensuring data accessibility in the Arbitrum network. A
+      DACert includes a data block's hash, an expiration time, and cryptographic
+      evidence that N-1 Committee members have endorsed it.
+    stepItems: []
+  - name: Trust Model
+    uuid: c6cd0b8c-20ff-453d-8a50-e0ea34e53939
+    content: >-
+      Under AnyTrust’s trust model, a valid DACert guarantees that the data will
+      be available from at least one trustworthy Committee member until the
+      expiration time. This allows for a more gas-efficient alternative to the
+      standard Nitro practice of posting full data on Ethereum's Layer 1.
+    stepItems: []
+  - name: Validation Process
+    uuid: 0ce51a0b-b6ea-41ac-8aa9-b0b092f0b5a9
+    content: >-
+      The Layer 1 inbox contract validates the Keyset, while Layer 2 code
+      performs additional checks on the signature and expiration time to ensure
+      the DACert's validity. If the DACert passes these checks, the associated
+      data block is considered available, thereby reducing the on-chain
+      footprint and maintaining data availability.
+    stepItems: []
+  - name: Evaluation
+    uuid: 4ffd9055-79b0-44f5-a03e-8e5d225b344c
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 3f2ba031-5cff-4ba2-abaa-40ac19e1abbf
+        choices:
+          - key: A
+            content: To manage the Keysets for the committee members
+          - key: B
+            content: To validate the KeysetManager smart contract on Ethereum's Layer 1
+          - key: C
+            content: To store and ensure the accessibility of Layer 2 transaction data
+          - key: D
+            content: >-
+              To optimize the data posting process by reducing the on-chain
+              footprint
+        content: >-
+          What is the purpose of the Data Availability Committee in AnyTrust
+          security?
+        answerKeys:
+          - C
+        explanation: >-
+          The Data Availability Committee is responsible for storing and
+          ensuring the accessibility of Layer 2 transaction data for Arbitrum's
+          rollup chain.
+  - name: Evaluation
+    uuid: bf70144a-e979-466e-a6d3-b68d18d213e8
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 364ed539-20cc-4d55-a137-3f461a99bdc4
+        choices:
+          - key: A
+            content: To manage the Keysets for the committee members
+          - key: B
+            content: To validate the KeysetManager smart contract on Ethereum's Layer 1
+          - key: C
+            content: To store and ensure the accessibility of Layer 2 transaction data
+          - key: D
+            content: >-
+              To ensure data accessibility by including a data block's hash, an
+              expiration time, and cryptographic evidence from N-1 Committee
+              members
+        content: >-
+          What is the purpose of the Data Availability Certificate (DACert) in
+          AnyTrust security?
+        answerKeys:
+          - D
+        explanation: >-
+          The Data Availability Certificate ensures data accessibility in the
+          Arbitrum network by including a data block's hash, an expiration time,
+          and cryptographic evidence from N-1 Committee members.
+spaceId: arbitrum-university
