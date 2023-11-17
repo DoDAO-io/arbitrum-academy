@@ -1,4 +1,4 @@
-uniqueId: 99e1b227-5f39-423a-b941-d50d138ee32a
+uniqueId: 0c28de5f-d573-4fc0-8aa6-8c907e8090e6
 id: arbitrum-chains-arbitrum-university
 name: Arbitrum Chains
 content: Overview of Arbitrum chains and their unique features
@@ -12,8 +12,9 @@ steps:
   - name: Arbitrum Ecosystem
     uuid: ab9f40b8-056c-4389-a523-5656be29b5a5
     content: >-
-      Arbitrum ecosystem consists of various chains with distinct features that
-      utilise unique technologies that enable ethereum scalability.
+      Arbitrum ecosystem consists of 3 chains: Arbitrum one, Arbitrum Nova and
+      Arbitrum Orbit chains, each with distinct features that utilise unique
+      technologies that enable ethereum scalability.
     stepItems: []
   - name: Arbitrum One
     uuid: b04cc778-ee20-4993-bfaf-8910bc681435
