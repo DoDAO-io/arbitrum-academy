@@ -1,6 +1,6 @@
 categories: []
 content: A setp to ensure network integrity!
-created: '2023-11-16T12:50:26.619Z'
+created: '2023-11-17T16:17:03.621Z'
 guideType: onboarding
 key: security-council-arbitrum-university-100
 name: Security Council
@@ -229,7 +229,7 @@ steps:
     stepItems: []
     uuid: 5d86d06a-2bc1-4320-911d-694f01732d5d
 thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+  https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/security_council_arbitrum_university_100/1700237818906_rectangle_110.png
 uuid: security-council-arbitrum-university-100
 version: 1
 priority: 40
