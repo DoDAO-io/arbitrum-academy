@@ -1,0 +1,101 @@
+uniqueId: c77b898e-4a27-40a7-a9e2-be9ee5040def
+id: arbitrum-foundation-arbitrum-university
+name: Arbitrum Foundation
+content: The Arbitrum Foundation's role in Arbitrum ecosystem
+created: '2023-11-17T13:12:06.012Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: 463767b9-57ed-4fbe-8cf4-6966aa3ec928
+    content: >
+      The Arbitrum Foundation is a key player in the governance and development
+      of the Arbitrum ecosystem. The Arbitrum Foundation is the organization
+      that oversees the broader strategic vision for the Arbitrum ecosystem.
+    stepItems: []
+  - name: Responsibilities of Foundation
+    uuid: e978bd9c-f856-480a-a4ac-dfc4b3bf130c
+    content: >
+      The foundation manages and guides the evolution of the protocol to ensure
+      its security, stability, and expansion. It plays a key role in governance,
+      as well as in the development and support of the protocol.
+    stepItems: []
+  - name: Collaboration and Innovation
+    uuid: 70b0d8aa-f829-4170-972b-e68c9b5fa707
+    content: >-
+      The Arbitrum Foundation actively collaborates with developers, businesses,
+      and the wider community to foster innovation and the broader adoption of
+      Arbitrum technology. This includes facilitating partnerships and
+      collaborations that can enhance the Arbitrum ecosystem and its offerings.
+    stepItems: []
+  - name: Establishment of DAO
+    uuid: 9cea9fd8-d348-46ab-aa10-87f11d8d9393
+    content: >-
+      The foundation has established the Arbitrum DAO, which is made up of token
+      holders and their delegates. These members have the authority to propose
+      and vote on upgrades and amendments to the protocol and constitution. 
+    stepItems: []
+  - name: Evaluation
+    uuid: 78b6837f-1b83-4666-bd6f-4fbff4cad29b
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: a5999955-da89-485a-866e-d09056b06e99
+        choices:
+          - key: A
+            content: >-
+              Promoting partnerships and collaborations to enhance the Arbitrum
+              ecosystem
+          - key: B
+            content: >-
+              Managing and guiding the evolution of the protocol to ensure its
+              security, stability, and expansion
+          - key: C
+            content: Establishing the Arbitrum DAO for decentralized governance
+          - key: D
+            content: Forming the Arbitrum Security Council to ensure network security
+        content: >-
+          What is the role of the Arbitrum Foundation in the governance and
+          development of the Arbitrum ecosystem?
+        answerKeys:
+          - B
+        explanation: >-
+          The foundation is responsible for the overall governance and ongoing
+          development of the Arbitrum ecosystem. It manages and guides the
+          evolution of the protocol to ensure its security, stability, and
+          expansion.
+  - name: Evaluation
+    uuid: 45179459-4614-4521-8e7d-72be47e48151
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 4c9f87ba-550d-4fbc-9a8c-748af0e22b39
+        choices:
+          - key: A
+            content: >-
+              Promoting partnerships and collaborations to enhance the Arbitrum
+              ecosystem
+          - key: B
+            content: >-
+              Managing and guiding the evolution of the protocol to ensure its
+              security, stability, and expansion
+          - key: C
+            content: >-
+              Proposing and voting on upgrades and amendments to the protocol
+              and constitution
+          - key: D
+            content: >-
+              Ensuring the safety and integrity of the chains that make up the
+              Arbitrum ecosystem
+        content: What is the function of the Arbitrum DAO?
+        answerKeys:
+          - C
+        explanation: >-
+          The Arbitrum DAO, made up of token holders and their delegates, has
+          the authority to propose and vote on upgrades and amendments to the
+          protocol and constitution. It is a key part of decentralized
+          governance within the Arbitrum protocol.
+spaceId: arbitrum-university
