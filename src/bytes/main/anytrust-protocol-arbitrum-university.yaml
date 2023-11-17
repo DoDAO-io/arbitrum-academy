@@ -1,0 +1,98 @@
+uniqueId: 93c54ae0-6643-456d-a7af-499fe4eaaf58
+id: anytrust-protocol-arbitrum-university
+name: AnyTrust Protocol
+content: Understanding the AnyTrust protocol
+created: '2023-11-17T15:26:36.958Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: 808e6aa4-adfc-4d83-a3d9-8193d64518e2
+    content: >-
+      The AnyTrust protocol is a variant of the Arbitrum Nitro technology. It is
+      designed to cut costs by incorporating a slight trust assumption. Unlike
+      the requirement for every node in the Arbitrum to have all Layer 2
+      transaction data, AnyTrust delegates this responsibility to a Data
+      Availability Committee.
+    stepItems: []
+  - name: Data Availability Committee
+    uuid: 781ddf6f-48eb-40ca-887a-d7b7a8336e28
+    content: >-
+      The Data Availability Committee comprises multiple members. It operates
+      under the assumption that at least two members are honest. This allows the
+      protocol to function correctly and reduces reliance on Ethereum's more
+      costly data posting process.
+    stepItems: []
+  - name: Cost Reduction
+    uuid: 584495d4-241e-4c69-8d8b-60c3cdb61c21
+    content: >-
+      The AnyTrust protocol reduces costs on the Arbitrum system by entrusting a
+      Committee with data storage and distribution. This minimizes the data
+      posted to Ethereum's mainnet, reducing the costs associated with it.
+    stepItems: []
+  - name: Keysets
+    uuid: 5c1d41e5-225a-4324-8e1f-9a27993f1361
+    content: >-
+      The protocol uses a managed system of public keys and signatures, known as
+      Keysets, to ensure data integrity. This system lessens the gas fees
+      typically incurred for data posting.
+    stepItems: []
+  - name: Keyset Management
+    uuid: 121fd8c3-634f-4e86-ac0b-beffbcbcc6c4
+    content: >-
+      The KeysetManager contract on L1 manages Keysets to facilitate secure and
+      flexible operation of the Committee. This allows for easy updates to
+      membership and keys, ensuring data availability and supporting a
+      trust-minimized, efficient blockchain ecosystem.
+    stepItems: []
+  - name: Evaluation
+    uuid: 6d6a918d-995e-4b65-b85f-ccfbf3efd82f
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 8600336a-9bcf-4636-bc2a-d07adf422e3b
+        choices:
+          - key: A
+            content: Increase costs in the Arbitrum system
+          - key: B
+            content: Reduce costs in the Arbitrum system
+          - key: C
+            content: Increase reliance on Ethereum's data posting process
+          - key: D
+            content: Increase the gas fees incurred for data posting
+        content: What is the AnyTrust protocol designed to do?
+        answerKeys:
+          - B
+        explanation: >-
+          The AnyTrust protocol is designed to cut costs in the Arbitrum system
+          by delegating the responsibility of storing and distributing Layer 2
+          transaction data to a Data Availability Committee.
+  - name: Evaluation
+    uuid: 70635eb5-2372-43d8-8629-c9c19a8ca7e1
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 8c7fbe43-db8f-497d-9cbe-295f1e883b37
+        choices:
+          - key: A
+            content: To increase the gas fees incurred for data posting
+          - key: B
+            content: To reduce the costs associated with data posting
+          - key: C
+            content: To store and distribute Layer 2 transaction data
+          - key: D
+            content: To manage Keysets for the Committee
+        content: >-
+          What is the role of the Data Availability Committee in the AnyTrust
+          protocol?
+        answerKeys:
+          - C
+        explanation: >-
+          The Data Availability Committee in the AnyTrust protocol is
+          responsible for storing and distributing Layer 2 transaction data. It
+          operates under the assumption that at least two members are honest to
+          maintain the integrity of data availability.
+spaceId: arbitrum-university
