@@ -1,0 +1,125 @@
+{
+  "uniqueId": "575927f0-b50a-49b6-8c39-eb00f1533531",
+  "id": "rollup-security-arbitrum-university",
+  "name": "Rollup Security",
+  "content": "Understanding the security of Arbitrum Rollup",
+  "created": "2023-11-17T15:08:47.206Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Security Model",
+      "uuid": "f1f29d7b-70ab-4207-b1fb-79c1e3d8e6d3",
+      "content": "Arbitrum Rollup's security model leverages the robustness of Ethereum's Layer 1 to offer a Layer 2 scaling solution that doesn't compromise on trustlessness. It uses a unique combination of on-chain data availability and off-chain computation for security.",
+      "stepItems": []
+    },
+    {
+      "name": "Dispute Resolution",
+      "uuid": "9fc9c6f5-1e71-45fb-842e-4bb18ef5cc89",
+      "content": "The interactive dispute resolution process allows any honest participant to challenge incorrect claims by staking, thereby maintaining the overall security and reliability of the network. This process ensures that any false claims can be challenged and corrected.",
+      "stepItems": []
+    },
+    {
+      "name": "Role of Validators",
+      "uuid": "e51cb12d-c9c5-4a84-9219-35b6c53413ff",
+      "content": "Validators are essential participants in the Arbitrum Rollup protocol, responsible for proposing and ensuring the accuracy of RBlocks in the network. They play a crucial role in maintaining the accuracy and integrity of the network's transactions.",
+      "stepItems": []
+    },
+    {
+      "name": "Stakers",
+      "uuid": "f41d6078-70d0-4499-83c9-daad0535f5cd",
+      "content": "Some validators, known as stakers, back their commitments with an ETH deposit, which they lose if found cheating. This mechanism ensures that validators have a financial incentive to act honestly and accurately in their validation duties.",
+      "stepItems": []
+    },
+    {
+      "name": "Active Stakers",
+      "uuid": "2c6a5ca0-7c6b-43e1-b420-979c6be84d3a",
+      "content": "In most cases, only one staker is active to validate the current state unless disputes arise. This system ensures that the network is efficient, with multiple validators only becoming active when necessary to resolve disputes.",
+      "stepItems": []
+    },
+    {
+      "name": "Validator Allowlist",
+      "uuid": "eeac8b9a-72c2-466f-86ae-7badb555fc2b",
+      "content": "While the role is intended to be open to all, Arbitrum One currently uses an allowlist for validators. This measure is in place to ensure the reliability of the network.",
+      "stepItems": []
+    },
+    {
+      "name": "Enforcing Correctness",
+      "uuid": "55e40c91-9716-499d-af74-3ce409afb951",
+      "content": "Any honest validator is empowered to enforce the correct processing of transactions, maintaining the chain's trustlessness and security. This decentralization ensures that the network remains secure and trustworthy, until atleast one validator remains honest.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "4ba0c71f-3131-4128-8dfe-d82019cbb19b",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "3d180634-6124-4a27-aeb0-bb33fcab41f1",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Arbitrum Rollup uses a centralized security model"
+            },
+            {
+              "key": "B",
+              "content": "Arbitrum Rollup relies solely on off-chain computation for security"
+            },
+            {
+              "key": "C",
+              "content": "Arbitrum Rollup leverages Ethereum's Layer 1 for security"
+            },
+            {
+              "key": "D",
+              "content": "Arbitrum Rollup compromises on trustlessness and decentralization for security"
+            }
+          ],
+          "content": "What is the security model of Arbitrum Rollup?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "Arbitrum Rollup's security model leverages the robustness of Ethereum's Layer 1 to offer a Layer 2 scaling solution that doesn't compromise on trustlessness or decentralization. It uses a unique combination of on-chain data availability and off-chain computation, ensuring that even if all but one validator acts maliciously, the integrity of transactions is preserved."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "fa465fde-49bc-434a-911a-ecabb3b3b2c2",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "5c91daf7-6c1d-4860-8420-cfeb93d5a0f5",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Validators have no role in the Arbitrum Rollup protocol"
+            },
+            {
+              "key": "B",
+              "content": "Validators are responsible for off-chain computation in the network"
+            },
+            {
+              "key": "C",
+              "content": "Validators are responsible for enforcing correct processing of transactions"
+            },
+            {
+              "key": "D",
+              "content": "Validators propose and ensure the accuracy of RBlocks in the network"
+            }
+          ],
+          "content": "What is the role of validators in the Arbitrum Rollup protocol?",
+          "answerKeys": [
+            "D"
+          ],
+          "explanation": "Validators are essential participants in the Arbitrum Rollup protocol, responsible for proposing and ensuring the accuracy of RBlocks in the network. They play a crucial role in maintaining the accuracy and integrity of the network's transactions."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
