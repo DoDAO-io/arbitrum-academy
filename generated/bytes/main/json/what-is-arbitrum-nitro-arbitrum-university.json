@@ -1,0 +1,107 @@
+{
+  "uniqueId": "2a568539-e356-4605-a972-b850a0f122c1",
+  "id": "what-is-arbitrum-nitro-arbitrum-university",
+  "name": "What is Arbitrum Nitro?",
+  "content": "A step to improved efficiency and scalability",
+  "created": "2023-11-17T13:26:11.425Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Introduction",
+      "uuid": "b7d8bdaf-df5d-4e62-8d0f-68dbd5034150",
+      "content": "Arbitrum Nitro is a significant technical upgrade for Arbitrum, a Layer 2 scaling solution for Ethereum. It aims to lower transaction fees and increase the processing capacity of Ethereum by moving contract computation and storage from the primary chain.",
+      "stepItems": []
+    },
+    {
+      "name": "Purpose",
+      "uuid": "9ecac350-1c6d-47ac-a70f-190416ba10a5",
+      "content": "Nitro is designed to be more compatible with the Ethereum Virtual Machine (EVM) and provides a better user experience with lower fees and faster transactions. With Nitro, Arbitrum aims to push the boundaries of security, efficiency, and scalability, offering a promising solution for the future of Ethereum.",
+      "stepItems": []
+    },
+    {
+      "name": "Calldata Compression",
+      "uuid": "762948b2-e6de-48f3-9707-f4cb49c24f0c",
+      "content": "It introduces advanced calldata compression, reducing transaction costs even further. Nitro enhances the performance of Layer 1 (L1) nodes, aligns EVM operation pricing with Ethereum, and introduces additional synchronization with Ethereum L1 blocks.",
+      "stepItems": []
+    },
+    {
+      "name": "EVM Compatibility",
+      "uuid": "d23d4bd6-9032-4d5c-b96c-f2430b80ee0d",
+      "content": "As it seamlessly supports the Ethereum Virtual Machine (EVM), no hefty modifications are required.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "3f0288e0-cdab-4511-9a2d-095c302324fe",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "5dd2894f-b4c4-47b4-a0bc-c488049054ad",
+          "choices": [
+            {
+              "key": "A",
+              "content": "To lower transaction fees and increase the processing capacity of Ethereum"
+            },
+            {
+              "key": "B",
+              "content": "To compress calldata and enhance the performance of Layer 1 nodes"
+            },
+            {
+              "key": "C",
+              "content": "To introduce additional synchronization with Ethereum L1 blocks"
+            },
+            {
+              "key": "D",
+              "content": "To support the Ethereum Virtual Machine (EVM) without modifications"
+            }
+          ],
+          "content": "What is the purpose of Arbitrum Nitro?",
+          "answerKeys": [
+            "B"
+          ],
+          "explanation": "Arbitrum Nitro is an upgrade for Arbitrum, a Layer 2 scaling solution for Ethereum, aimed at improving efficiency and scalability."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "608f2de3-19a2-4a13-9deb-980a3912baa9",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "3ecdba58-c46a-4c5d-8822-fd02dd5ba4df",
+          "choices": [
+            {
+              "key": "A",
+              "content": "To lower transaction fees and increase the processing capacity of Ethereum"
+            },
+            {
+              "key": "B",
+              "content": "To compress calldata and enhance the performance of Layer 1 nodes"
+            },
+            {
+              "key": "C",
+              "content": "To push the boundaries of security, efficiency, and scalability"
+            },
+            {
+              "key": "D",
+              "content": "To support the Ethereum Virtual Machine (EVM) without modifications"
+            }
+          ],
+          "content": "What is an aim of Arbitrum Nitro?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "With Nitro, Arbitrum aims to push the boundaries of security, efficiency, and scalability, offering a promising solution for the future of Ethereum."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
