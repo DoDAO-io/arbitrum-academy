@@ -1,0 +1,39 @@
+uniqueId: 99e1b227-5f39-423a-b941-d50d138ee32a
+id: arbitrum-chains-arbitrum-university
+name: Arbitrum Chains
+content: Overview of Arbitrum chains and their unique features
+created: '2023-11-17T12:21:15.677Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Arbitrum Ecosystem
+    uuid: ab9f40b8-056c-4389-a523-5656be29b5a5
+    content: >-
+      Arbitrum ecosystem consists of various chains with distinct features that
+      utilise unique technologies that enable ethereum scalability.
+    stepItems: []
+  - name: Arbitrum One
+    uuid: b04cc778-ee20-4993-bfaf-8910bc681435
+    content: >-
+      Arbitrum One, a Layer 2 solution using Nitro technology, boosts Ethereum
+      efficiency with better data handling and transaction compression,
+      maintaining security without extra trust.
+    stepItems: []
+  - name: Arbitrum Nova
+    uuid: 0acf5e2b-d333-4a55-bd3a-28fee1ffdceb
+    content: >-
+      Arbitrum Nova uses the AnyTrust protocol with a Data Availability
+      Committee for fast, cost-effective Ethereum transactions, but less
+      trustless than Arbitrum One.
+    stepItems: []
+  - name: Arbitrum Orbit
+    uuid: 81dda31d-bb0e-4240-aab2-2a8035792884
+    content: >-
+      Arbitrum Orbit enables custom chains with controlled privacy, permissions,
+      and fees, settling transactions on Arbitrum's Layer 2 networks and
+      leveraging Nitro tech upgrades.
+    stepItems: []
+spaceId: arbitrum-university
