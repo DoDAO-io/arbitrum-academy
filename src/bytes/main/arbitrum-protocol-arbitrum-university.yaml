@@ -17,7 +17,15 @@ steps:
       transactions but instead confirms the results that are already determined
       by the sequence of messages in the chain's inbox.
     stepItems: []
-  - name: Transaction Finalization
+  - name: Features of Roll up
+    uuid: 5e469a8c-b9b1-497c-8e3f-2d02eed02ecd
+    content: >-
+      The protocol trustlessly verifies transactions and penalizes fraud,
+      ensuring result accuracy and dispute resolution, while offloading Ethereum
+      to scale operations beyond its native capacity thereby enhancing
+      scalability.
+    stepItems: []
+  - name: Working of Rollup
     uuid: 1f9de4d2-e9e2-4e13-8397-5871f6ae5d61
     content: >-
       Once a transaction is included in the chain’s inbox, its outcome is
@@ -26,22 +34,7 @@ steps:
       transactions are processed without constant awareness of the protocol's
       operation.
     stepItems: []
-  - name: Scalability
-    uuid: 637f6223-2c3c-492c-bcd5-2790bd09fe62
-    content: >-
-      The protocol relieves Ethereum from the burden of processing every
-      transaction, thereby allowing for scalable operations that Ethereum alone
-      could not efficiently monitor.
-    stepItems: []
-  - name: Trustless Verification
-    uuid: 5e469a8c-b9b1-497c-8e3f-2d02eed02ecd
-    content: >-
-      The protocol serves as a trustless method to verify transaction results
-      and penalize dishonest parties. This is crucial because although the
-      outcomes of transactions are known, without the protocol, there would be
-      no way to confirm their accuracy and resolve disputes definitively.
-    stepItems: []
-  - name: Integrity Assurance
+  - name: Security of Roll up
     uuid: a13481ee-0aa8-41c6-86dd-1df0a04d5047
     content: >-
       By only stepping in when a transaction is contested, Ethereum can ensure
