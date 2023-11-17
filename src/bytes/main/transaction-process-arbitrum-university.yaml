@@ -1,0 +1,114 @@
+uniqueId: dd5614d9-8342-4925-8fa2-478368bdf4ce
+id: transaction-process-arbitrum-university
+name: Transaction Process
+content: 'Understanding the transaction process '
+created: '2023-11-17T13:49:17.702Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Transaction Initiation
+    uuid: c6dd7b03-da7e-4b10-bd66-53f8d98d5ee2
+    content: >-
+      Arbitrum Nitro technology is designed to enhance efficiency and streamline
+      workflows in the Ethereum ecosystem. When a user sends a transaction on
+      the Nitro chain, it is signed with their wallet and given to the
+      Sequencer. The Sequencer then orders the transactions and publishes them.
+    stepItems: []
+  - name: Transaction Processing
+    uuid: cdf49c78-2ff2-4ed4-85de-4edf47c5f7fc
+    content: >-
+      After the transactions are published, they are processed to update the
+      Nitro chain state, producing Layer 2 blocks as needed. The Sequencer uses
+      a real-time alert system for immediate soft finality and batches
+      transactions on the Ethereum chain for hard finality.
+    stepItems: []
+  - name: Confirming Transactions
+    uuid: c4b31157-bba3-4c66-9df6-b2c6996fb607
+    content: >-
+      Hard finality involves compressing transactions using 'brotli' and posting
+      them to Ethereum. The finalization of these transactions on Ethereum
+      ensures the sequence's immutability on Nitro.
+    stepItems: []
+  - name: State Transition
+    uuid: e554ddf1-beb6-40fb-a5d0-5dc89578cf58
+    content: >-
+      In the Nitro transaction lifecycle, the State Transition Function (STF) is
+      crucial for updating the blockchain's state. Once a transaction is
+      submitted, the STF processes these transactions, taking the current state
+      and the transaction data to compute a new state.
+    stepItems: []
+  - name: State Alteration
+    uuid: eb67c128-7a30-4af9-b239-188fe1e8b7e7
+    content: >-
+      The STF performs necessary calculations and state alterations in a
+      deterministic manner, such as adjusting account balances and modifying
+      smart contract states. This transition is then reflected on the chain,
+      with the STF ensuring that the state progresses correctly after each
+      transaction.
+    stepItems: []
+  - name: Data Posting
+    uuid: 3fc988d1-6bc9-4630-bfae-a786918d52ad
+    content: >-
+      Data posting on Layer 1 is where transaction inputs are recorded as
+      calldata on the Ethereum blockchain. This process supports the network's
+      optimistic rollup approach, which assumes transactions as correct unless
+      challenged within a roughly one-week period.
+    stepItems: []
+  - name: Dispute Resolution
+    uuid: 217d5bc4-f56b-4468-a8cb-1bff93e58d6c
+    content: >-
+      If a block is unchallenged, it is confirmed, but disputed blocks trigger
+      Arbitrum's dispute resolution protocol to determine accuracy, penalizing
+      dishonest validators with deposit forfeiture. This design ensures the
+      integrity of posted data while minimizing fraud.
+    stepItems: []
+  - name: Evaluation
+    uuid: 2aa87417-c507-4e27-8e40-bd601ad7f653
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: c06022c2-3b12-41e0-921e-3922f33be871
+        choices:
+          - key: A
+            content: To process the transactions and update the Nitro chain state
+          - key: B
+            content: To compress transactions using 'brotli' and post them to Ethereum
+          - key: C
+            content: To order the transactions and publish them
+          - key: D
+            content: To perform necessary calculations and state alterations
+        content: What is the role of the Sequencer in the transaction process?
+        answerKeys:
+          - C
+        explanation: >-
+          The Sequencer orders the transactions and publishes them after they
+          are signed with the user's wallet.
+  - name: Evaluation
+    uuid: 736306ce-66a6-4706-aa0b-df9f7ffa5a18
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: d2790ea0-8a2d-43e2-a114-65b398d30a9d
+        choices:
+          - key: A
+            content: To process the transactions and update the Nitro chain state
+          - key: B
+            content: To compress transactions using 'brotli' and post them to Ethereum
+          - key: C
+            content: To order the transactions and publish them
+          - key: D
+            content: >-
+              To compute a new state based on the current state and transaction
+              data
+        content: >-
+          What is the purpose of the State Transition Function (STF) in the
+          transaction process?
+        answerKeys:
+          - D
+        explanation: >-
+          The STF processes the transactions, taking the current state and
+          transaction data to compute a new state.
+spaceId: arbitrum-university
