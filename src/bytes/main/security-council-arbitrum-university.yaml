@@ -1,0 +1,107 @@
+uniqueId: 648f09e2-5e2a-4bb1-89ad-01c50d200bec
+id: security-council-arbitrum-university
+name: Security Council
+content: 'Understanding the role of Security Council '
+created: '2023-11-17T13:01:14.708Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Introduction
+    uuid: e70e9efe-459c-4e8f-b93a-1c812cec192f
+    content: >-
+      The Security Council is a crucial entity within the Arbitrum governance,
+      established by its Constitution. Consisting of 12 members, this council is
+      democratically elected by the DAO's members. 
+    stepItems: []
+  - name: Responsibilities
+    uuid: 46848903-56ce-4017-b839-1f83995b5f14
+    content: >-
+      The Security Council is responsible for overseeing the health and
+      stability of the Arbitrum protocol and its broader ecosystem. Their
+      primary role is to mitigate risks, implementing both emergency and
+      non-emergency measures to maintain the network's integrity and security. 
+    stepItems: []
+  - name: Elections
+    uuid: d83c93b3-9cf8-4b20-b643-45b47dff72b2
+    content: >-
+      The election of the Security Council is a crucial part of the Arbitrum
+      DAO's governance framework. It allows community members to influence the
+      leadership that manages the protocol's security. 
+    stepItems: []
+  - name: Participation
+    uuid: 80de022a-b8ce-4b71-a932-8e1fff752ce7
+    content: >-
+      For DAO members, participating in Security Council elections is not just a
+      right but a responsibility. This participation is key for sustaining the
+      DAO and the technologies it oversees, while also managing expectations.
+    stepItems: []
+  - name: Significance
+    uuid: dcc9fe83-5057-46a5-ad8d-c22b634d8e7e
+    content: >-
+      The significance of the Security Council elections within the Arbitrum DAO
+      includes democratic representation, vigilance and integrity. These aspects
+      ensure that those responsible for the DAO’s security are chosen by the
+      community.
+    stepItems: []
+  - name: Evaluation
+    uuid: 47c951f4-217d-49be-a078-8b32ace24366
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: eee9af0d-ff0d-4974-9ec3-40b04feee317
+        choices:
+          - key: A
+            content: >-
+              To oversee the health and stability of the Arbitrum protocol and
+              its broader ecosystem
+          - key: B
+            content: >-
+              To manage and mitigate risks, implementing both emergency and
+              non-emergency measures to maintain the network's integrity and
+              security
+          - key: C
+            content: To participate in Security Council elections
+          - key: D
+            content: To influence the leadership that manages the protocol's security
+        content: What is the primary role of the Security Council in the Arbitrum DAO?
+        answerKeys:
+          - B
+        explanation: >-
+          The primary role of the Security Council is to manage and mitigate
+          risks, implementing both emergency and non-emergency measures to
+          maintain the network's integrity and security.
+  - name: Evaluation
+    uuid: f6fe96cb-e27f-4c86-91c0-70189d56bdb7
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: bd6683ba-77b7-4105-8615-93fcec2e4c84
+        choices:
+          - key: A
+            content: >-
+              Democratic representation, vigilance and integrity, alignment with
+              DAO values, accountability, and adaptive governance
+          - key: B
+            content: >-
+              To oversee the health and stability of the Arbitrum protocol and
+              its broader ecosystem
+          - key: C
+            content: >-
+              To manage and mitigate risks, implementing both emergency and
+              non-emergency measures to maintain the network's integrity and
+              security
+          - key: D
+            content: To participate in Security Council elections
+        content: >-
+          What is the significance of the Security Council elections within the
+          Arbitrum DAO?
+        answerKeys:
+          - A
+        explanation: >-
+          The significance of the Security Council elections includes democratic
+          representation, vigilance and integrity, alignment with DAO values,
+          accountability, and adaptive governance.
+spaceId: arbitrum-university
