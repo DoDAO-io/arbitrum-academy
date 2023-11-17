@@ -1,0 +1,125 @@
+uniqueId: f06297ff-5df2-47dd-9242-b6ca30d6e92f
+id: rollup-and-rblock-arbitrum-university
+name: Rollup and RBlock
+content: Deeper look into workings of Rollup chain
+created: '2023-11-17T14:53:12.733Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: RBlock Basics
+    uuid: 0f101b34-08ee-449b-a9c6-76875dab69ed
+    content: >-
+      An RBlock on the Arbitrum Rollup includes its ID, the last verified RBlock
+      number, the tally of L2 blocks, inbox message count, and a hash of
+      outputs. These details are proposer claims awaiting validation. A new
+      RBlock also confirms prior RBlocks’ validity and disputes older ones.
+    stepItems: []
+  - name: Validator's Role
+    uuid: 9e9add6f-e6b6-4896-bce0-72aae42736c7
+    content: >-
+      Validators can challenge an RBlock before a deadline by proposing an
+      alternative, which could lead to a staked conflict resolution. Validators
+      propose RBlocks, which form a chain managed by the rollup protocol,
+      distinct from Ethereum's Layer 1 and Nitro's Layer 2 blocks.
+    stepItems: []
+  - name: RBlock Status
+    uuid: 675771cd-376f-4764-b87f-dd1fe591919c
+    content: >-
+      When first proposed, RBlocks are 'unresolved' meaning their status as
+      either confirmed or rejected has not yet been determined. Confirmed
+      RBlocks are fully accepted and recorded by Ethereum's Layer 1 contracts.
+      The most recent confirmed RBlock is known as the 'latest confirmed
+      RBlock'.
+    stepItems: []
+  - name: 'Chain Expansion '
+    uuid: 12ba8bc9-712d-4e46-9332-a80508b6511a
+    content: >-
+      Newer RBlocks are proposed and remain unconfirmed until their resolution
+      deadlines pass. Validators can propose new RBlocks based on the latest
+      proposed (but not yet confirmed) RBlock, enabling the chain to grow
+      continuously without waiting for each RBlock's confirmation.
+    stepItems: []
+  - name: Conflict Resolution
+    uuid: e9adce5f-62ff-4546-8d57-69a431d7f825
+    content: >-
+      The proposed RBlocks are valid and thus are eventually confirmed. In cases
+      where validators act maliciously by proposing incorrect RBlocks, the
+      protocol can handle a  conflict by either confirming a fully accepted
+      RBlock or discarding a rejected RBlock for being incorrect.
+    stepItems: []
+  - name: RBlock Rejection
+    uuid: 04b6762f-3253-4667-acbd-79c5be5b05a6
+    content: >-
+      Subsequent RBlocks can be rejected due to incorrect claims or because they
+      are built on other rejected RBlocks. Conflicts between RBlocks which claim
+      the same predecessor, will be resolved by the protocol, with at least one
+      being rejected. 
+    stepItems: []
+  - name: Security Measures
+    uuid: fa36fe8b-edb8-401e-b76f-261158628c8b
+    content: >-
+      Despite potential conflicts, the security property of the rollup protocol
+      ensures that even if multiple parties act dishonestly, the correct chain
+      execution will be confirmed, safeguarding the integrity of the rollup
+      chain. If they propose a wrong RBlock, they will lose their stake,
+      incentivizing honest behavior.
+    stepItems: []
+  - name: Evaluation
+    uuid: 83b2d930-b4b1-46e2-ab32-96c669bf1e30
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 70fba5ef-d004-4162-8163-d243e15c2d10
+        choices:
+          - key: A
+            content: >-
+              Validators confirm the RBlocks and record them in Ethereum's Layer
+              1 contracts
+          - key: B
+            content: >-
+              Validators propose RBlocks and can challenge an RBlock before a
+              deadline by proposing an alternative
+          - key: C
+            content: >-
+              Validators reject the RBlocks that are proposed by other
+              validators
+          - key: D
+            content: Validators are responsible for resolving conflicts between RBlocks
+        content: What is the role of validators in the Arbitrum Rollup chain?
+        answerKeys:
+          - B
+        explanation: >-
+          Validators propose RBlocks and can challenge an RBlock before a
+          deadline by proposing an alternative, which could lead to a staked
+          conflict resolution.
+  - name: Evaluation
+    uuid: 88e7ef6a-a8b5-450c-9052-45a6d7656eb1
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 33293f22-2133-44f7-b6e7-48f9589e1c4f
+        choices:
+          - key: A
+            content: >-
+              Subsequent RBlocks are confirmed and recorded by Ethereum's Layer
+              1 contracts
+          - key: B
+            content: Subsequent RBlocks are discarded and not included in the chain
+          - key: C
+            content: >-
+              Subsequent RBlocks depending on the rejected RBlock are
+              automatically rejected
+          - key: D
+            content: >-
+              Subsequent RBlocks are resolved by the protocol and included in
+              the chain
+        content: What happens to subsequent RBlocks if an RBlock is rejected?
+        answerKeys:
+          - C
+        explanation: >-
+          If an RBlock is rejected, any subsequent RBlocks depending on it are
+          automatically rejected.
+spaceId: arbitrum-university
