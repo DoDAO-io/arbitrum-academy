@@ -1,0 +1,113 @@
+{
+  "uniqueId": "eae133fe-e2e3-40cc-8af5-f6851ea833d2",
+  "id": "arbitrum-protocol-arbitrum-university",
+  "name": "Arbitrum Protocol",
+  "content": "Understanding the Arbitrum Rollup Protocol and its benefits",
+  "created": "2023-11-17T14:20:03.431Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Rollup Protocol",
+      "uuid": "9b08b477-46ad-4eb5-986a-53950ba4b8cc",
+      "content": "The Arbitrum Rollup Protocol is a Layer 2 scaling solution that works in conjunction with Ethereum's Layer 1. It doesn't decide the outcomes of transactions but instead confirms the results that are already determined by the sequence of messages in the chain's inbox.",
+      "stepItems": []
+    },
+    {
+      "name": "Transaction Finalization",
+      "uuid": "1f9de4d2-e9e2-4e13-8397-5871f6ae5d61",
+      "content": "Once a transaction is included in the chain’s inbox, its outcome is considered finalized and can be reported as complete. Arbitrum nodes validate these transactions, providing users the confidence that their transactions are processed without constant awareness of the protocol's operation.",
+      "stepItems": []
+    },
+    {
+      "name": "Scalability",
+      "uuid": "637f6223-2c3c-492c-bcd5-2790bd09fe62",
+      "content": "The protocol relieves Ethereum from the burden of processing every transaction, thereby allowing for scalable operations that Ethereum alone could not efficiently monitor.",
+      "stepItems": []
+    },
+    {
+      "name": "Trustless Verification",
+      "uuid": "5e469a8c-b9b1-497c-8e3f-2d02eed02ecd",
+      "content": "The protocol serves as a trustless method to verify transaction results and penalize dishonest parties. This is crucial because although the outcomes of transactions are known, without the protocol, there would be no way to confirm their accuracy and resolve disputes definitively.",
+      "stepItems": []
+    },
+    {
+      "name": "Integrity Assurance",
+      "uuid": "a13481ee-0aa8-41c6-86dd-1df0a04d5047",
+      "content": "By only stepping in when a transaction is contested, Ethereum can ensure the integrity of the Arbitrum chain while enabling fast and cost-effective Layer 2 transactions.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "307add20-f445-4c0a-ac56-2d153469590f",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "8f316552-d653-4867-84aa-860db416375c",
+          "choices": [
+            {
+              "key": "A",
+              "content": "To decide the outcomes of transactions"
+            },
+            {
+              "key": "B",
+              "content": "To process every transaction on Ethereum"
+            },
+            {
+              "key": "C",
+              "content": "To verify transaction results and penalize dishonest parties"
+            },
+            {
+              "key": "D",
+              "content": "To confirm the accuracy of transaction outcomes"
+            }
+          ],
+          "content": "What is the role of the Arbitrum Rollup Protocol?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "The Arbitrum Rollup Protocol serves as a trustless method to verify transaction results and to identify and penalize dishonest parties. It ensures the integrity of the Arbitrum chain while enabling fast and cost-effective Layer 2 transactions."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "7bd1f2b4-bb6c-4558-af59-3ac8eaf1894a",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "4c708ded-5602-4b65-9d04-a64ff05b4121",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Increasing the value of assets over time"
+            },
+            {
+              "key": "B",
+              "content": "Enabling fast and cost-effective Layer 2 transactions"
+            },
+            {
+              "key": "C",
+              "content": "Decreasing the value of assets over time"
+            },
+            {
+              "key": "D",
+              "content": "Relieving Ethereum from the burden of processing every transaction and maintaining its security"
+            }
+          ],
+          "content": "What is the benefit of the Arbitrum Rollup Protocol?",
+          "answerKeys": [
+            "D"
+          ],
+          "explanation": "The benefit of the Arbitrum Rollup Protocol is that it enhances the scalability of Ethereum by relieving it from the burden of processing every transaction. It also maintains the security of Ethereum by enabling the confirmation of transactions and the processing of withdrawals back to Layer 1."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
