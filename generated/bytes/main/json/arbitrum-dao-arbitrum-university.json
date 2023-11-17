@@ -1,5 +1,5 @@
 {
-  "uniqueId": "1a335236-6add-4b83-ba76-ea624b82b61e",
+  "uniqueId": "1d862f37-6620-4034-8e0d-6101340d25cd",
   "id": "arbitrum-dao-arbitrum-university",
   "name": "Arbitrum DAO",
   "content": "Understanding the role and function of Arbitrum DAO",
@@ -19,13 +19,7 @@
     {
       "name": "DAO Structure",
       "uuid": "820b8f03-e0ff-4a6b-b699-04e9767f1840",
-      "content": "The DAO enables decentralized decisions and funds Arbitrum's upkeep. It also elects a Security Council every two years for urgent issues.",
-      "stepItems": []
-    },
-    {
-      "name": "Role of Arbitrum DAO",
-      "uuid": "5c4aea77-820a-4e17-b872-7beedf4f7dce",
-      "content": "The decentralised governance aligns the goals of the Arbitrum community with the broader Ethereum community, ensuring that decision-making processes are democratic and reflect the collective will.",
+      "content": "The Arbitrum DAO consists of token holders and their delegates. These participants have the power to propose and vote on upgrades and amendments to the Arbitrum protocol, as well as elect members of the Security Council.",
       "stepItems": []
     },
     {
@@ -35,7 +29,7 @@
       "stepItems": []
     },
     {
-      "name": "Power of Token Holders",
+      "name": "$ARB Token Holders",
       "uuid": "98abc237-d999-49e6-9eec-e4bdbfd9e1ee",
       "content": "Holding $ARB tokens signifies a vested interest in the decentralized progression of both Arbitrum and Ethereum. Being an $ARB token holder places you at the forefront of innovative governance models with significant societal implications.",
       "stepItems": []
