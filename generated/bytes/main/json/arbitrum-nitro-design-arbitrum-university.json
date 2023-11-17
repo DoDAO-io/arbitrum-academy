@@ -1,0 +1,113 @@
+{
+  "uniqueId": "b6d3cc35-c6fd-4bdb-bfa2-192342cc891a",
+  "id": "arbitrum-nitro-design-arbitrum-university",
+  "name": "Arbitrum Nitro Design",
+  "content": "Innovative design features of Arbitrum Nitro ",
+  "created": "2023-11-17T13:36:34.621Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Introduction",
+      "uuid": "b4ca399f-7633-475c-ab5f-d542b7341255",
+      "content": "Arbitrum Nitro's architecture is designed to enhance the execution of smart contracts and the verification process. The architecture's central element is 'geth at the core', which uses go-ethereum, a widely used Ethereum node software written in Go language.",
+      "stepItems": []
+    },
+    {
+      "name": "Performance Optimization",
+      "uuid": "5364e3c9-de48-4f97-abfb-659ff587eed7",
+      "content": "Nitro leverages this setup to optimize performance while ensuring robustness in security and verification processes. It uses the same source code for two different tasks: execution and proving, through the 'geth at the core' implementation.",
+      "stepItems": []
+    },
+    {
+      "name": "Software Structure",
+      "uuid": "5f37f759-9508-4738-9ef2-c1e2cc229042",
+      "content": "The Nitro node software consists of three layers—the base layer with core geth functionalities, the middle layer called ArbOS providing Layer 2 features, and the top layer handling node operations, also derived from geth. This structure forms the 'geth sandwich'",
+      "stepItems": []
+    },
+    {
+      "name": "Separate Execution and Proving",
+      "uuid": "3e008561-85e4-4bee-9bf8-82744cfa1cc4",
+      "content": "For execution, the source code is compiled into native code using the standard Go compiler, customized for the specific architecture of the node deployment. However, for proving, the same source code called the State Transition Function (STF), is compiled to WebAssembly (WASM), a portable machine code format.",
+      "stepItems": []
+    },
+    {
+      "name": "Dispute Resolution",
+      "uuid": "7138c9e6-205f-4dd0-80bc-6207ad93b86b",
+      "content": "This WASM code is then transformed into WAVM, a modified version for proof procedures. When a dispute occurs, the verification of the STF's results is conducted with reference to the WAVM code, ensuring that the same logic governs both normal operation and the verification process during disputes.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "1f04772d-25ff-4078-a9da-82421f1afb4c",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "9f810aa2-bc74-4c95-8bcf-59bc8add8f42",
+          "choices": [
+            {
+              "key": "A",
+              "content": "'geth at the core'"
+            },
+            {
+              "key": "B",
+              "content": "Nitro node software"
+            },
+            {
+              "key": "C",
+              "content": "ArbOS"
+            },
+            {
+              "key": "D",
+              "content": "WAVM"
+            }
+          ],
+          "content": "What is the central element of Arbitrum Nitro's architecture?",
+          "answerKeys": [
+            "A"
+          ],
+          "explanation": "'geth at the core' is the central element of Arbitrum Nitro's architecture. It uses go-ethereum, a widely used Ethereum node software written in Go language."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "8c5bf950-0fb9-4f9b-afed-c62952c45d1a",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "85131825-ab39-4da8-9be2-c9e02fcdbb07",
+          "choices": [
+            {
+              "key": "A",
+              "content": "To optimize performance"
+            },
+            {
+              "key": "B",
+              "content": "To enhance the execution of smart contracts"
+            },
+            {
+              "key": "C",
+              "content": "For proving purposes, particularly when disputes arise"
+            },
+            {
+              "key": "D",
+              "content": "To handle node operations"
+            }
+          ],
+          "content": "What is the purpose of compiling the source code to WebAssembly (WASM) in Arbitrum Nitro?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "The source code, especially the State Transition Function (STF), is compiled to WebAssembly (WASM) for proving purposes, particularly when disputes arise."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
