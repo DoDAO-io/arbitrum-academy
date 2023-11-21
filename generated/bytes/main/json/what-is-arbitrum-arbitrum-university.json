@@ -39,6 +39,74 @@
       "uuid": "8053b896-fead-47dc-bf1c-58e219cad904",
       "content": "By handling transactions off the main chain, Layer 2 can process many more transactions per second, reducing costs and improving speed. Despite off-chain processing, these typically inherit the strong security guarantees of the underlying main chain.",
       "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "a842f292-5d23-43b0-9ba7-8c2327f17f81",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "273c0eaa-d965-4ecd-ad66-282580a439bd",
+          "choices": [
+            {
+              "key": "33729b75",
+              "content": "A new blockchain system that replaces Layer 1"
+            },
+            {
+              "key": "88a52a0a",
+              "content": "The original blockchain framework like Ethereum or Bitcoin"
+            },
+            {
+              "key": "4f0aada3",
+              "content": "A secondary framework built on top of an existing blockchain to improve scalability and performance"
+            },
+            {
+              "key": "80844e2f",
+              "content": "A decentralized application running on the Ethereum network"
+            }
+          ],
+          "content": "What does \"Layer 2\" refer to in the context of blockchain technology?",
+          "answerKeys": [
+            "4f0aada3"
+          ],
+          "explanation": "Layer 2 refers to a secondary framework built on top of an existing blockchain system or Layer 1"
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "3b51be2d-a578-43be-a79a-381b63507edc",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "f14b9d80-a5e7-45e4-ab33-9dd79d6e4caa",
+          "choices": [
+            {
+              "key": "7ffeedcd",
+              "content": "To increase transaction fees on the Ethereum network"
+            },
+            {
+              "key": "e8b4daa3",
+              "content": "To bundle multiple transactions into one using Rollup technology for scalability and efficiency"
+            },
+            {
+              "key": "7bf4f709",
+              "content": "To replace the Ethereum mainnet with its own network"
+            },
+            {
+              "key": "3b6c508b",
+              "content": "To process transactions separately from the Ethereum blockchain"
+            }
+          ],
+          "content": "What is the primary purpose of Arbitrum as a Layer 2 solution for Ethereum?",
+          "answerKeys": [
+            "e8b4daa3"
+          ],
+          "explanation": "Arbitrum is a Layer 2 scaling solution that enhances the scalability and efficiency of the Ethereum blockchain. It processes transactions off the main Ethereum chain and uses Rollup technology to bundle multiple transactions into one."
+        }
+      ]
     }
   ],
   "spaceId": "arbitrum-university"
