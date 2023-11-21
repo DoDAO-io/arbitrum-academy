@@ -33,6 +33,74 @@
       "uuid": "81dda31d-bb0e-4240-aab2-2a8035792884",
       "content": "Arbitrum Orbit enables custom chains with controlled privacy, permissions, and fees, settling transactions on Arbitrum's Layer 2 networks and leveraging Nitro tech upgrades.",
       "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "9d5536ec-f304-4eb7-aefb-df6906081b23",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "96047a0b-0b80-41c6-a9f8-fbbae2d4a6d3",
+          "choices": [
+            {
+              "key": "c3784786",
+              "content": "It uses the AnyTrust protocol for transaction verification."
+            },
+            {
+              "key": "174c8da3",
+              "content": "It is less trustless than Arbitrum Nova."
+            },
+            {
+              "key": "5c7003ad",
+              "content": "It leverages Nitro technology for enhanced data handling and transaction compression."
+            },
+            {
+              "key": "61cc6865",
+              "content": "It enables custom chains with controlled privacy."
+            }
+          ],
+          "content": "What distinguishes Arbitrum One from other Arbitrum Chains?",
+          "answerKeys": [
+            "5c7003ad"
+          ],
+          "explanation": "Arbitrum One, a Layer 2 solution using Nitro technology, boosts Ethereum efficiency with better data handling and transaction compression, maintaining security without extra trust."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "8d59ec29-64c6-458d-983a-90ed5854a617",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "4e1ad84f-0cf5-43fa-9968-9765afaa7b8f",
+          "choices": [
+            {
+              "key": "28a2e537",
+              "content": "It provides a Data Availability Committee for transaction verification."
+            },
+            {
+              "key": "093f07cc",
+              "content": "It offers custom chains with options for privacy, permissions, and fee controls."
+            },
+            {
+              "key": "5b247c4a",
+              "content": "It uses a Layer 1 solution to process transactions."
+            },
+            {
+              "key": "f03be16d",
+              "content": "It focuses solely on transaction compression without additional features."
+            }
+          ],
+          "content": "What feature does Arbitrum Orbit offer within the Arbitrum ecosystem?",
+          "answerKeys": [
+            "093f07cc"
+          ],
+          "explanation": "Arbitrum Orbit enables custom chains with controlled privacy, permissions, and fees, settling transactions on Arbitrum's Layer 2 networks and leveraging Nitro tech upgrades."
+        }
+      ]
     }
   ],
   "spaceId": "arbitrum-university"
