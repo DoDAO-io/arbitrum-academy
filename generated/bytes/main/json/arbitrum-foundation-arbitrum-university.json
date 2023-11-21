@@ -1,5 +1,5 @@
 {
-  "uniqueId": "c77b898e-4a27-40a7-a9e2-be9ee5040def",
+  "uniqueId": "42a178ec-0202-410b-86d3-021dca805968",
   "id": "arbitrum-foundation-arbitrum-university",
   "name": "Arbitrum Foundation",
   "content": "The Arbitrum Foundation's role in Arbitrum ecosystem",
@@ -45,7 +45,7 @@
           "choices": [
             {
               "key": "A",
-              "content": "Promoting partnerships and collaborations to enhance the Arbitrum ecosystem"
+              "content": "Voting for the AIPs"
             },
             {
               "key": "B",
