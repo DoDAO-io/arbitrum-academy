@@ -1,5 +1,5 @@
 {
-  "uniqueId": "7d6c9a9e-59e9-4802-9cb3-cedc6aa24084",
+  "uniqueId": "4b2852f0-8dc8-4751-8f58-0ee18c41a5e2",
   "id": "dao-delegation-arbitrum-university",
   "name": "DAO Delegation",
   "content": "Understanding the role of delegation",
@@ -69,7 +69,7 @@
           "choices": [
             {
               "key": "A",
-              "content": "Delegates are responsible for buying assets for token holders"
+              "content": "Delegates are responsible for representing token holders' interests and participating in the governance process"
             },
             {
               "key": "B",
@@ -111,7 +111,7 @@
             },
             {
               "key": "C",
-              "content": "Delegation reduces the need for active participation in the governance process"
+              "content": "Delegation increases the need for active participation in the governance process"
             },
             {
               "key": "D",
