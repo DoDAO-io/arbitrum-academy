@@ -1,0 +1,117 @@
+uniqueId: 036602be-9e3f-4c1b-b84a-95e2900e7882
+id: dao-proposal-submission-arbitrum-university
+name: DAO Proposal Submission
+content: Submitting a proposal in DAO
+created: '2023-11-21T13:51:32.041Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Proposal Basics
+    uuid: 48a44357-b0ab-4d07-8956-a322923d64cd
+    content: >-
+      A DAO proposal is a formalized suggestion put forward by a member of DAO,
+      to make changes or take specific actions within the organization's
+      ecosystem. The need for such proposals arises from the democratic nature
+      of DAOs, where collective decision-making is fundamental.
+    stepItems: []
+  - name: Importance of Proposals
+    uuid: a23aa1bf-eb4e-4048-b60c-a3f015313e0a
+    content: >-
+      Proposals enable innovation, improvements, and community consensus on the
+      evolution of the protocol or organization. They are essential for the
+      transparent and equitable governance, allowing stakeholders to decide on
+      the deployment of shared resources and strategic directions.
+    stepItems: []
+  - name: Types of AIPS
+    uuid: 79773e7b-177f-4efb-898d-ee0ea0d3d51a
+    content: >-
+      There are two distinct categories of AIPs (Arbitrum Improvement Proposals)
+      within the Arbitrum DAO framework based on the types of changes they
+      initiate; Constitutional AIPs and Non-Constitutional AIPs.
+    stepItems: []
+  - name: Constitutional AIPs
+    uuid: ba224fde-873a-4b6b-811a-adb82873c82c
+    content: >-
+      These are significant proposals that have the potential to alter the
+      foundational rules and procedures of the Arbitrum ecosystem. They include
+      changes to the text of the Constitution or to AIP-1, which lays out the
+      initial rules for the governance process itself.
+    stepItems: []
+  - name: Constitutional AIPs Impact
+    uuid: 642849cd-4a06-499f-abc4-5285acabad42
+    content: >-
+      These can also involve installing or modifying software on any of the
+      chains or taking actions that necessitate 'chain owner' permissions, which
+      typically means they require a higher level of authority and scrutiny due
+      to their impact on the infrastructure and overall operation.
+    stepItems: []
+  - name: Non-Constitutional AIPs
+    uuid: e6d5b7ad-c178-416e-8f2d-13ab16fe8701
+    content: >-
+      The second type encompasses proposals that are less structural in nature
+      and do not involve amending the Constitution or AIP-1. They are usually
+      operational or administrative, such as requests for funds or grants, or
+      they may offer guidelines or disseminate information to the community.
+    stepItems: []
+  - name: Non-Constitutional AIPs Impact
+    uuid: 0f5a841a-9c54-4c38-95b3-f022d0b623ff
+    content: >-
+      Non-Constitutional AIPs are generally more straightforward and often deal
+      with the day-to-day governance and maintenance of the community's projects
+      and initiatives.
+    stepItems: []
+  - name: Evaluation
+    uuid: b99443a5-084a-44b7-9e9b-cc2195f13e87
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: d34ed6ee-89ee-4b25-b5af-ad506a7adc21
+        choices:
+          - key: A
+            content: To request funds or grants for the DAO
+          - key: B
+            content: To amend the Constitution or foundational governance document
+          - key: C
+            content: To enable innovation, improvements, and community consensus
+          - key: D
+            content: To disseminate information to the community
+        content: What is the purpose of a DAO proposal?
+        answerKeys:
+          - C
+        explanation: >-
+          DAO proposals enable innovation, improvements, and community consensus
+          on the evolution of the protocol or organization. They are essential
+          for the transparent and equitable governance of blockchain-based
+          projects, allowing stakeholders to vote and decide on the deployment
+          of shared resources and strategic directions.
+  - name: Evaluation
+    uuid: fa113932-5bbe-4952-91ad-a9122aa85336
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 9a7ce654-e5ab-4f31-a18a-6cc5f0ce5fd1
+        choices:
+          - key: A
+            content: >-
+              Proposals that involve installing or modifying software on the DAO
+              network
+          - key: B
+            content: >-
+              Proposals that alter the foundational rules and procedures of the
+              DAO ecosystem
+          - key: C
+            content: Proposals that request funds or grants for the DAO
+          - key: D
+            content: Proposals that disseminate information to the community
+        content: What are Constitutional AIPs in a DAO?
+        answerKeys:
+          - B
+        explanation: >-
+          Constitutional AIPs are significant proposals that have the potential
+          to alter the foundational rules and procedures of the DAO ecosystem.
+          They include changes to the text of the Constitution or to the initial
+          rules for the governance process itself.
+spaceId: arbitrum-university
