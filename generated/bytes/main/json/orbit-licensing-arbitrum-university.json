@@ -1,5 +1,5 @@
 {
-  "uniqueId": "109824e0-156e-4300-b366-42c21cccb8b6",
+  "uniqueId": "fbd37208-6215-40cb-8e4e-6cc8f5cdac71",
   "id": "orbit-licensing-arbitrum-university",
   "name": "Orbit Licensing",
   "content": "The process and terms of Orbit chain licensing",
@@ -79,11 +79,11 @@
           "choices": [
             {
               "key": "A",
-              "content": "Submit a proposal to the Arbitrum DAO"
+              "content": "Work with the previous license"
             },
             {
               "key": "B",
-              "content": "Request a custom license from Offchain Labs"
+              "content": "Work without License"
             },
             {
               "key": "C",
