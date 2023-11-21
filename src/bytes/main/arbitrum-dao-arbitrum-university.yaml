@@ -48,21 +48,52 @@ steps:
         uuid: ff185816-e6e6-40ff-9d78-f3baf73752b5
         choices:
           - key: A
-            content: >-
-              To oversee the development and maintenance of the Arbitrum
-              platform
+            content: ' It serves to manage the private keys of $ARB token holders.'
           - key: B
-            content: To propose and vote on Arbitrum Improvement Proposals (AIPs)
-          - key: C
             content: >-
-              To represent the interests of $ARB token holders and govern the
-              Arbitrum network
+              It acts as the governing collective, where token holders propose
+              and vote on AIPs.
+          - key: C
+            content: It controls the Ethereum blockchain's governance.
           - key: D
-            content: To address urgent security matters through the Security Council
-        content: What is the role of the Arbitrum DAO?
+            content: >-
+              It is a formal legal entity that manages Arbitrum's financial
+              assets.
+        content: >-
+          What is the function of the Arbitrum DAO in the context of the
+          Arbitrum ecosystem?
         answerKeys:
-          - C
+          - B
         explanation: >-
-          The Arbitrum DAO represents the interests of $ARB token holders and
-          governs the Arbitrum network through decentralized decision-making.
+          The Arbitrum DAO acts as the governing collective on the Ethereum
+          blockchain, representing $ARB token holders who can propose and vote
+          on Arbitrum Improvement Proposals (AIPs) and shape the ecosystem's
+          governance.
+  - name: 'Evaluation '
+    uuid: bf40573c-00e0-484d-94f8-8564f9a9ee62
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: bfc349a2-07fa-4b96-beda-288a0ee10166
+        choices:
+          - key: e5694660
+            content: They have no voting rights but can observe the governance process.
+          - key: 69d58aa1
+            content: They can only participate in the election of the Security Council.
+          - key: 99fc6a1d
+            content: >-
+              They are responsible for technical maintenance of the Arbitrum
+              protocol.
+          - key: 05bcec9e
+            content: >-
+              They can propose, vote on protocol changes, and elect the Security
+              Council.
+        content: What role do $ARB token holders play within the Arbitrum DAO?
+        answerKeys:
+          - 05bcec9e
+        explanation: >-
+          $ARB token holders are integral to the Arbitrum DAO's governance, with
+          the power to propose and vote on upgrades to the Arbitrum protocol and
+          amendments, as well as elect members of the Security Council, directly
+          influencing the decentralized governance of Arbitrum.
 spaceId: arbitrum-university
