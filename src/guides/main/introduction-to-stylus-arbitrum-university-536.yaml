@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-11-13T12:15:54.615Z'
+created: '2023-11-21T12:34:37.421Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -99,8 +99,7 @@ steps:
   - content: >-
       ## Working of Stylus 
 
-      Here's a step-by-step process explaining how Stylus works based on the
-      provided information:
+      Here's a step-by-step process explaining how Stylus works:
 
 
       ### Step 1: Coding
