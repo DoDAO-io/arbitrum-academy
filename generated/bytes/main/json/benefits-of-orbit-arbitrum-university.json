@@ -91,26 +91,26 @@
           "choices": [
             {
               "key": "A",
-              "content": "Launching decentralized applications"
+              "content": "It restricts developers to using a single security model."
             },
             {
               "key": "B",
-              "content": "Progressive decentralization"
+              "content": "It allows developers to explore different security models to suit their project's needs, including choices between Arbitrum One and Arbitrum Nova."
             },
             {
               "key": "C",
-              "content": "Creating customized execution environments"
+              "content": "Orbit eliminates the need for security in smart contract development."
             },
             {
               "key": "D",
-              "content": "Establishing governance mechanisms"
+              "content": "It provides a fixed security model that prioritizes expenses over security."
             }
           ],
-          "content": "What does Orbit lower barriers to within the blockchain space?",
+          "content": "How does Orbit benefit developers in terms of security models?",
           "answerKeys": [
             "B"
           ],
-          "explanation": "Orbit lowers barriers to progressive decentralization, making it more feasible for developers to launch decentralized applications."
+          "explanation": "Orbit allows developers to explore various security models to tailor their projects' needs effectively. It gives the option to choose between Arbitrum One or Arbitrum Nova, simplifying the process of balancing security and expenses."
         }
       ]
     }
