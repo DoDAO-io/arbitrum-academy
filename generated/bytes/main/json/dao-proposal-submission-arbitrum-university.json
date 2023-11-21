@@ -1,5 +1,5 @@
 {
-  "uniqueId": "036602be-9e3f-4c1b-b84a-95e2900e7882",
+  "uniqueId": "681f61e2-23d4-4d9b-ad33-fc927fc8dff3",
   "id": "dao-proposal-submission-arbitrum-university",
   "name": "DAO Proposal Submission",
   "content": "Submitting a proposal in DAO",
@@ -63,11 +63,11 @@
           "choices": [
             {
               "key": "A",
-              "content": "To request funds or grants for the DAO"
+              "content": "To appoint members of the security council"
             },
             {
               "key": "B",
-              "content": "To amend the Constitution or foundational governance document"
+              "content": "To increase the $ARB token assets "
             },
             {
               "key": "C",
@@ -101,7 +101,7 @@
             },
             {
               "key": "B",
-              "content": "Proposals that alter the foundational rules and procedures of the DAO ecosystem"
+              "content": "Proposals that alter the Constitution or foundational rules and procedures of the DAO ecosystem"
             },
             {
               "key": "C",
