@@ -42,4 +42,59 @@ steps:
       privacy since the actual transaction data is off-chain. This makes
       ZK-Rollups efficient and secure.
     stepItems: []
+  - name: Evaluation
+    uuid: 2b62964a-c3ac-4a56-aab5-2be9b005fe70
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: 1333f96f-f11a-481e-8538-342b7e6e94cd
+        choices:
+          - key: d844b12c
+            content: To execute all transactions on the main chain
+          - key: f7d902d6
+            content: >-
+              To execute transactions off-chain while recording the transaction
+              data on the main chain
+          - key: '5523e175'
+            content: To increase the amount of data stored on the main chain
+          - key: c0038d7c
+            content: To eliminate the need for transaction data
+        content: >-
+          What is the main purpose of using rollups as a Layer 2 scaling
+          solution?
+        answerKeys:
+          - f7d902d6
+        explanation: >-
+          Rollups are a type of Layer 2 scaling solution that execute
+          transactions off-chain but record transaction data on the main chain.
+  - name: Evaluation
+    uuid: ed603132-dfc4-424e-a793-2457706e3328
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: 098e2d58-ceb3-41bb-b2fd-ed42f94d2193
+        choices:
+          - key: 6a1b1ad0
+            content: >-
+              ZK-Rollups require a longer challenge period to finalize
+              transactions.
+          - key: c5ba2eef
+            content: >-
+              Optimistic Rollups use zero-knowledge proofs for immediate
+              finalization.
+          - key: 92f079b6
+            content: >-
+              ZK-Rollups use zero-knowledge proofs for quick on-chain
+              validation, unlike Optimistic Rollups which wait for a challenge
+              period.
+          - key: e4030533
+            content: >-
+              There is no difference in finalization time between ZK-Rollups and
+              Optimistic Rollups.
+        content: >-
+          How do ZK-Rollups differ from Optimistic Rollups in finalizing
+          transactions?
+        answerKeys:
+          - 92f079b6
+        explanation: ' Optimistic Rollups post transactions with a bond and wait for a challenge period; if undisputed with a fraud proof, transactions are deemed valid, offering scaling benefits despite a potential delay in finality. ZK-Rollups combine transactions and create a zero-knowledge proof to confirm their validity on-chain.'
 spaceId: arbitrum-university
