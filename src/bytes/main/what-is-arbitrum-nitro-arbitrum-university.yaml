@@ -55,23 +55,27 @@ steps:
         uuid: 5dd2894f-b4c4-47b4-a0bc-c488049054ad
         choices:
           - key: A
-            content: >-
-              To lower transaction fees and increase the processing capacity of
-              Ethereum
+            content: Increased transaction fees and reduced processing capacity.
           - key: B
-            content: To compress calldata and enhance the performance of Layer 1 nodes
+            content: >-
+              Lower transaction fees and enhanced processing capacity through
+              improved EVM compatibility.
           - key: C
-            content: To introduce additional synchronization with Ethereum L1 blocks
+            content: Exclusive support for non-EVM compatible chains.
           - key: D
             content: >-
-              To support the Ethereum Virtual Machine (EVM) without
-              modifications
-        content: What is the purpose of Arbitrum Nitro?
+              Replacement of the Ethereum Virtual Machine with a proprietary
+              system.
+        content: >-
+          What are the primary benefits that Arbitrum Nitro brings to Ethereum's
+          Layer 2 scaling?
         answerKeys:
           - B
         explanation: >-
-          Arbitrum Nitro is an upgrade for Arbitrum, a Layer 2 scaling solution
-          for Ethereum, aimed at improving efficiency and scalability.
+          Arbitrum Nitro reduces transaction fees and increases Ethereum's
+          processing capacity by enhancing EVM compatibility and calldata
+          compression, thereby improving the user experience with lower costs
+          and faster transactions.
   - name: Evaluation
     uuid: 608f2de3-19a2-4a13-9deb-980a3912baa9
     content: ''
@@ -80,22 +84,23 @@ steps:
         uuid: 3ecdba58-c46a-4c5d-8822-fd02dd5ba4df
         choices:
           - key: A
-            content: >-
-              To lower transaction fees and increase the processing capacity of
-              Ethereum
+            content: By removing EVM compatibility and increasing transaction fees.
           - key: B
-            content: To compress calldata and enhance the performance of Layer 1 nodes
+            content: ' By requiring hefty modifications for EVM support.'
           - key: C
-            content: To push the boundaries of security, efficiency, and scalability
-          - key: D
             content: >-
-              To support the Ethereum Virtual Machine (EVM) without
-              modifications
-        content: What is an aim of Arbitrum Nitro?
+              By introducing advanced calldata compression and aligning EVM
+              operation pricing with Ethereum.
+          - key: D
+            content: By discontinuing support for Ethereum's L1 blocks.
+        content: >-
+          How does Arbitrum Nitro improve upon the previous iteration of
+          Arbitrum?
         answerKeys:
           - C
         explanation: >-
-          With Nitro, Arbitrum aims to push the boundaries of security,
-          efficiency, and scalability, offering a promising solution for the
-          future of Ethereum.
+          Nitro upgrades Arbitrum by introducing advanced calldata compression,
+          better aligning EVM operation pricing with Ethereum, and improving
+          synchronization with Ethereum L1 blocks, without needing significant
+          changes to support the EVM.
 spaceId: arbitrum-university
