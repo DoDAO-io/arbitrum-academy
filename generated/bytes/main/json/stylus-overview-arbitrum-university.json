@@ -1,0 +1,119 @@
+{
+  "uniqueId": "609cc3c5-f472-4a25-961c-8e26d996b584",
+  "id": "stylus-overview-arbitrum-university",
+  "name": "Stylus Overview",
+  "content": "Understanding the functionality Stylus",
+  "created": "2023-11-21T11:44:54.960Z",
+  "visibility": "Public",
+  "publishStatus": "Live",
+  "admins": [],
+  "tags": [],
+  "priority": 0,
+  "steps": [
+    {
+      "name": "Stylus Introduction",
+      "uuid": "9584a589-a2ac-41d5-851d-14cdd9ab25f3",
+      "content": "Stylus is a tool designed to enhance the development of smart contracts on the Arbitrum platform. It broadens the scope of smart contract creation on the Arbitrum platform by enabling developers to use a variety of programming languages that compile into WebAssembly (WASM).",
+      "stepItems": []
+    },
+    {
+      "name": "Benefits of Stylus",
+      "uuid": "632dd32f-ed0b-4b80-ac2d-dacabf433d60",
+      "content": "Stylus has imporoved the quality and efficiency of the smart contracts. It offers benefits such as ones described next:",
+      "stepItems": []
+    },
+    {
+      "name": "Programming Language Support",
+      "uuid": "c2d572cb-b45e-4cd4-8e20-551eb6f4606a",
+      "content": "Programming languages such as Rust, C, and C++ can now be used to write EVM-compatible smart contracts. This is made possible through the Stylus Software Development Kit (SDK) and its accompanying command-line interface (CLI) tool.",
+      "stepItems": []
+    },
+    {
+      "name": "Efficiency",
+      "uuid": "2e78db04-afbd-4313-a550-2bc8133546db",
+      "content": "Stylus leverages Arbitrum's existing WASM infrastructure to ensure that these smart contracts benefit from the platform's efficient execution environment. This leads to faster performance and reduced gas costs.",
+      "stepItems": []
+    },
+    {
+      "name": "WASM ",
+      "uuid": "60d57116-aa23-473c-a5c7-37572d201c91",
+      "content": "The efficiency gain is attributed to WASM's modern binary format, which is known for speed, portability, and security. Stylus represents an upgrade to Arbitrum Nitro, a technology stack that powers various Arbitrum chains.",
+      "stepItems": []
+    },
+    {
+      "name": "Interoperability ",
+      "uuid": "3b3c7ab3-5ed1-4e1f-bd28-10cc31ed988c",
+      "content": "Stylus is part of the EVM+ paradigm, maintaining full interoperability with existing Solidity contracts. The innovation of Stylus lies in its ability to deterministically prove the correctness of any program that compiles to WASM.",
+      "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "0b4a921d-8fc9-49fa-bd8a-2583593c21f0",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "4c0106b1-74c2-45e2-9b48-e0cee9040ce1",
+          "choices": [
+            {
+              "key": "A",
+              "content": "A programming language used for smart contract development"
+            },
+            {
+              "key": "B",
+              "content": "A command-line interface tool for smart contract development"
+            },
+            {
+              "key": "C",
+              "content": "A tool designed to enhance smart contract development on the Arbitrum platform"
+            },
+            {
+              "key": "D",
+              "content": "A technology stack that powers various Arbitrum chains"
+            }
+          ],
+          "content": "What is Stylus?",
+          "answerKeys": [
+            "C"
+          ],
+          "explanation": "Stylus is a modern tool designed to enhance the development of smart contracts on the Arbitrum platform by enabling developers to use a variety of programming languages that compile into WebAssembly (WASM)."
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "c219e6d1-bffc-4bfe-a872-44ba73ae6138",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "SingleChoice",
+          "uuid": "3985e86b-e398-41b8-bbf8-5de4cd1fa10c",
+          "choices": [
+            {
+              "key": "A",
+              "content": "Faster performance and reduced gas costs"
+            },
+            {
+              "key": "B",
+              "content": "Ability to use a variety of programming languages to write EVM-compatible smart contracts"
+            },
+            {
+              "key": "C",
+              "content": "Enhanced security and reliability of smart contract development"
+            },
+            {
+              "key": "D",
+              "content": "Maintaining full interoperability with existing Solidity contracts"
+            }
+          ],
+          "content": "What is the benefit of using Stylus in smart contract development?",
+          "answerKeys": [
+            "B"
+          ],
+          "explanation": "Stylus enables developers to use a variety of programming languages, such as Rust, C, and C++, to write EVM-compatible smart contracts, expanding the scope of smart contract creation on the Arbitrum platform."
+        }
+      ]
+    }
+  ],
+  "spaceId": "arbitrum-university"
+}
