@@ -1,5 +1,5 @@
 {
-  "uniqueId": "70481683-5b28-4312-b5d1-04e6495ccd55",
+  "uniqueId": "53decf16-6952-4c58-bc23-60930cdaf414",
   "id": "arbitrum-bridge-arbitrum-university",
   "name": "Arbitrum Bridge",
   "content": "Understanding the Arbitrum Bridge and its functionality",
@@ -45,6 +45,74 @@
       "uuid": "49e71a8f-0156-4860-b5c1-80537ddd3088",
       "content": "The transaction is not immediate due to a 'dispute period,' a week-long delay that allows for challenges and verification of the transaction's legitimacy on Ethereum before the assets are unlocked. ",
       "stepItems": []
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "cce0c03c-8185-4e4c-8814-72825a8a5cbd",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "e441433e-397e-4af4-b757-d76504366578",
+          "choices": [
+            {
+              "key": "e1f839ec",
+              "content": "To facilitate direct trading between users on Ethereum's mainnet."
+            },
+            {
+              "key": "487e9179",
+              "content": "To lock user assets without the ability to transfer them back to Ethereum."
+            },
+            {
+              "key": "a91b8c19",
+              "content": "To create a new cryptocurrency independent of Ethereum and Arbitrum."
+            },
+            {
+              "key": "e2181476",
+              "content": "To allow secure and efficient asset transfer between Ethereum's mainnet (Layer-1) and Arbitrum chains (Layer-2)."
+            }
+          ],
+          "content": "What is the primary function of the Arbitrum Bridge in the Ethereum ecosystem?",
+          "answerKeys": [
+            "e2181476"
+          ],
+          "explanation": "The Arbitrum Bridge connects Ethereum's mainnet (Layer-1) with the Arbitrum chains (Layer-2). It allows for the secure and efficient transfer of assets. "
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "uuid": "453dc6d0-72fc-48e8-b7a3-02aaca1fb7c4",
+      "content": "",
+      "stepItems": [
+        {
+          "type": "MultipleChoice",
+          "uuid": "58d9adeb-e904-4090-ad40-36e38d2cad98",
+          "choices": [
+            {
+              "key": "dbb87d88",
+              "content": "By doubling the user's assets on the Ethereum network."
+            },
+            {
+              "key": "908a8ce1",
+              "content": "By allowing immediate transfer without any verification process."
+            },
+            {
+              "key": "b15aa954",
+              "content": "By burning the tokens on Arbitrum and initiating a dispute period before releasing the locked funds on Ethereum."
+            },
+            {
+              "key": "281e5b35",
+              "content": "By using a different blockchain's security model to oversee the transactions."
+            }
+          ],
+          "content": "How does the Arbitrum Bridge ensure the security of assets during withdrawals from Arbitrum to Ethereum?",
+          "answerKeys": [
+            "b15aa954"
+          ],
+          "explanation": "For withdrawals from Arbitrum back to Ethereum, the tokens on Arbitrum are burnt or destroyed to prevent double-spending. Correspondingly, the smart contract on Ethereum releases the initially locked funds."
+        }
+      ]
     }
   ],
   "spaceId": "arbitrum-university"
