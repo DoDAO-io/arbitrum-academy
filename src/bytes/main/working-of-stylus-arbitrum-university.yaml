@@ -1,0 +1,114 @@
+uniqueId: a5aa767c-a90c-4200-ab9e-88463c1add13
+id: working-of-stylus-arbitrum-university
+name: Working of Stylus
+content: Understanding the working of Stylus
+created: '2023-11-21T12:18:23.134Z'
+visibility: Public
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+steps:
+  - name: Working of Stulys
+    uuid: e66149ee-c793-4cb2-b2a8-c5e9764418cd
+    content: >-
+      Stylus has transformed the developement of smart constracts. Here is a
+      step by step guide about how Stylus works:
+    stepItems: []
+  - name: 'Step 1: Language Use'
+    uuid: a8798f86-f5ab-4e09-a691-868717720da3
+    content: >-
+      Stylus operates using languages like Rust, C/C++ which can be compiled
+      into efficient WebAssembly (WASM) code. Rust is the most supported on
+      launch, with a dedicated SDK to simplify smart contract development.
+      Developers can use familiar EVM functionalities within the Rust
+      environment.
+    stepItems: []
+  - name: 'Step 2: Compilation '
+    uuid: 505fc215-9e3b-454b-b90f-64af24d01783
+    content: >-
+      The written program is first compiled into WASM using appropriate tools
+      like the Stylus SDK for Rust or compilers like Clang for C/C++. After
+      compilation, the WASM code is uploaded to the blockchain, but it’s not yet
+      executable.
+    stepItems: []
+  - name: 'Step 3: Code Conversion'
+    uuid: efe45928-9f99-484d-adfb-79c6f3d17636
+    content: >-
+      The WASM code is converted into binary code using the ArbWasm precompile.
+      This conversion optimizes the code for the node’s architecture, ensuring
+      the program is safe and efficient for execution.
+    stepItems: []
+  - name: 'Step 4: Execution Process'
+    uuid: aaccfe71-0ac2-47de-af7e-235a30ca9a2b
+    content: >-
+      Stylus programs run on a modified version of Wasmer, a leading WebAssembly
+      runtime, which is optimized for blockchain applications. This allows
+      Stylus programs to execute much faster than traditional EVM bytecode.
+    stepItems: []
+  - name: 'Step 5: Interoperability'
+    uuid: 5ee24000-56c7-452d-89d5-5c66d442064b
+    content: >-
+      Despite the introduction of Stylus, existing EVM contracts operate as
+      usual. Both Solidity and WASM contracts are fully interoperable, allowing
+      cross-contract calls without language barriers.
+    stepItems: []
+  - name: 'Step 6: Dispute Resolution'
+    uuid: 4c5bbfef-dc07-4ea4-9f15-a6dad4ff1f0e
+    content: >-
+      In normal operations, Nitro compiles execution history to native code to
+      ensure efficiency. If a dispute arises (the 'sad case'), Nitro uses WASM
+      to perform interactive fraud proofs on Ethereum.
+    stepItems: []
+  - name: 'Step 7: Fraud-Proofing'
+    uuid: c981935e-24b5-4f1f-8d9b-ddb0bb1acbf7
+    content: >-
+      Stylus extends Nitro's fraud-proofing capability by enabling it to work
+      with any WASM program deployed by developers, maintaining the integrity
+      and trustworthiness of the blockchain.
+    stepItems: []
+  - name: Evaluation
+    uuid: 2aac2a1e-5fac-40a0-8aac-7fb0ef861ae9
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 1eb75bb2-5a1b-4889-8cef-e27b35f2df86
+        choices:
+          - key: A
+            content: Rust and C/C++
+          - key: B
+            content: Java and Python
+          - key: C
+            content: JavaScript and PHP
+          - key: D
+            content: HTML and CSS
+        content: What languages are used by Stylus for operation?
+        answerKeys:
+          - A
+        explanation: >-
+          Stylus operates using languages like Rust, C/C++ which can be compiled
+          into efficient WebAssembly (WASM) code.
+  - name: Evaluation
+    uuid: 6b1f343d-70d0-4440-9755-c6ca33bedaea
+    content: ''
+    stepItems:
+      - type: SingleChoice
+        uuid: 0ede7dc8-7fbe-4ba1-a5ec-11e4d8ab130e
+        choices:
+          - key: A
+            content: By using a dedicated SDK for Rust
+          - key: B
+            content: By uploading the code to the blockchain
+          - key: C
+            content: By converting the WASM code into binary code
+          - key: D
+            content: By running the code on a modified version of Wasmer
+        content: How does Stylus optimize the code for execution?
+        answerKeys:
+          - C
+        explanation: >-
+          The WASM code is converted into binary code using the ArbWasm
+          precompile. This conversion optimizes the code for the node’s
+          architecture, ensuring the program is safe and efficient for
+          execution.
+spaceId: arbitrum-university
