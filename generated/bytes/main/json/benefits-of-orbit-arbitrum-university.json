@@ -1,5 +1,5 @@
 {
-  "uniqueId": "b11e634f-f652-4010-a60d-e84c14e97e03",
+  "uniqueId": "798ad41c-07bf-4e82-8399-0781f80b9ed2",
   "id": "benefits-of-orbit-arbitrum-university",
   "name": "Benefits of Orbit",
   "content": "Understanding the usefulness Orbit Chains",
@@ -25,7 +25,7 @@
     {
       "name": "Flexible Security Models",
       "uuid": "36917e33-82d1-4739-b20f-c37616637ef2",
-      "content": "With Orbit, developers can implement and test different security models to find the right balance for their projects. For instance, while Arbitrum One offers a fully trustless environment, Arbitrum Nova provides an option to optimize for lower fees with a mild trust assumption. Orbit extends this flexibility, making experimentation with security tradeoffs more accessible.",
+      "content": "Orbit allows developers to explore various security models to tailor their projects' needs effectively. It gives the option to choose between Arbitrum One or Arbitrum Nova, simplifying the process of balancing security and expenses.",
       "stepItems": []
     },
     {
@@ -43,7 +43,7 @@
     {
       "name": "Increased Adoption of dApps",
       "uuid": "280b068d-fc73-4105-8c55-9f2cb9a85ef3",
-      "content": "Orbit lowers barriers to progressive decentralization, making it more feasible for developers to launch decentralized applications. It enables a new breed of dApps that benefit from being built in more autonomous, self-managed conditions, potentially increasing the adoption and diversity of dApps within the blockchain space.",
+      "content": "Orbit facilitates easier development and launch of decentralized applications (dApps), promoting greater autonomy and potentially broadening dApp variety and adoption in blockchain.",
       "stepItems": []
     },
     {
