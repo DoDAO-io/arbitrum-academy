@@ -1,4 +1,4 @@
-uniqueId: 263b40a0-bdd7-4768-9b1b-fcb7dfda6c19
+uniqueId: 1ea31332-3304-4dc7-8dd0-c400e350d22e
 id: working-of-optimistic-rollups-arbitrum-university
 name: Working of Optimistic Rollups
 content: Working process of Optimistic Rollups in blockchain technology
@@ -24,7 +24,7 @@ steps:
   - name: Sending RBlocks to Ethereum
     uuid: 4fffcbed-d38f-4feb-ba94-5daa1ff37819
     content: >-
-      Operators bundle off-chain transactions and submit them as 'calldata' to
+      Sequencers bundle off-chain transactions and submit them as 'calldata' to
       Ethereum, saving space and costs without altering the state. 'Calldata' in
       Solidity calls functions crucial for rollups' efficiency.
     stepItems: []
@@ -51,4 +51,56 @@ steps:
       outcome. This secures the rollup by catching fraud and penalizing
       wrongdoers.
     stepItems: []
+  - name: Evaluation
+    uuid: f71a781e-b411-4ea7-ba5b-316e17756ea4
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: c9048735-399a-4216-a13d-31d4171d2f30
+        choices:
+          - key: a0d5abf4
+            content: They decentralize transaction processing.
+          - key: 4aea4dce
+            content: They validate and execute all transactions on Ethereum.
+          - key: 1734cf69
+            content: They alter the state of Ethereum's main chain.
+          - key: 41bbefc2
+            content: >-
+              They bundle transactions and submit them as 'calldata' to
+              Ethereum, centralizing and speeding up the process.
+        content: What role do sequencers play in Optimistic Rollups?
+        answerKeys:
+          - 41bbefc2
+        explanation: >-
+          Sequencers centralize and expedite transaction processing. Sequencers
+          bundle off-chain transactions and submit them as 'calldata' to
+          Ethereum, saving space and costs without altering the state.
+  - name: Evaluation
+    uuid: ed15c6a5-9a46-45b2-b697-99b484ee019e
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: e4181fb1-b877-4f8b-8596-255921b11e99
+        choices:
+          - key: a70893d5
+            content: >-
+              By using Merkle trees to keep track of changes and only checking
+              transactions when flagged for potential fraud.
+          - key: 23c932c4
+            content: By immediately executing all transaction checks on-chain.
+          - key: 8d8a32cf
+            content: By imposing heavy fees on all transactions to prevent fraud.
+          - key: 9b0e92f3
+            content: >-
+              By having a verifier contract execute all transactions without any
+              dispute resolution process.
+        content: How do Optimistic Rollups secure transactions and maintain integrity?
+        answerKeys:
+          - a70893d5
+        explanation: >-
+          Operators use a special kind of digital tree called a Merkle tree to
+          keep track of all changes in a rollup. They update this tree with new
+          information and send a summary to the main Ethereum system. Optimistic
+          rollups save time by checking transactions later if someone flags
+          them.
 spaceId: arbitrum-university
