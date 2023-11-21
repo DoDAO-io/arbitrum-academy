@@ -1,4 +1,4 @@
-uniqueId: f46716b1-36b0-465b-ade7-e1f10f75bf30
+uniqueId: 5889b78f-b72a-4a1e-a37c-12f339af5370
 id: arbitrum-governance-arbitrum-university
 name: Arbitrum Governance
 content: Understanding the governance of Arbitrum in simple terms
@@ -54,4 +54,57 @@ steps:
       out in the DAO Constitution and allow for trustless, decentralized
       decision-making.
     stepItems: []
+  - name: Evaluation
+    uuid: b9a32f2f-a849-4320-bee8-ea31bb996380
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: adf4f46b-d81b-4bab-a6e1-087f8a7c04b2
+        choices:
+          - key: cb79a9e9
+            content: To keep decision-making within a central group.
+          - key: 7818c67f
+            content: >-
+              To distribute decision-making power among a small group of
+              shareholders.
+          - key: 4f486059
+            content: >-
+              To shift control from a central group to the wider community of
+              stakeholders.
+          - key: 208fba7f
+            content: To centralize governance through traditional legal contracts.
+        content: >-
+          What is the primary goal of progressive decentralization in the Web3
+          context?
+        answerKeys:
+          - 4f486059
+        explanation: >-
+          The primary goal of progressive decentralization is to shift control
+          from a central group to the wider community of stakeholders, thereby
+          distributing power among those who are invested in the project.
+  - name: Evaluation
+    uuid: 8ad06ca0-06dc-40da-b934-6b9c38290c91
+    content: ''
+    stepItems:
+      - type: MultipleChoice
+        uuid: 5ed99232-2ea3-4039-b08d-4d1ecd1d1ef2
+        choices:
+          - key: 885794fd
+            content: They are symbolic and have no real function.
+          - key: 5345be58
+            content: They represent a legal contract with the organization.
+          - key: a55f6f6b
+            content: >-
+              They grant the holder voting rights on proposals for the network's
+              future.
+          - key: 499f4efc
+            content: They are only used for trading and investment purposes.
+        content: How do governance tokens function within a DAO like the Arbitrum DAO?
+        answerKeys:
+          - a55f6f6b
+        explanation: >-
+          Governance tokens, such as $ARB, allow token holders to participate in
+          voting on proposals that affect the network's future, which is a key
+          aspect of DAO governance that relies on transparent smart contracts
+          for decentralized decision-making.
 spaceId: arbitrum-university
