@@ -1,4 +1,4 @@
-uniqueId: 648f09e2-5e2a-4bb1-89ad-01c50d200bec
+uniqueId: 8344512a-faf0-441a-be3f-7dc09ef7a611
 id: security-council-arbitrum-university
 name: Security Council
 content: 'Understanding the role of Security Council '
@@ -77,31 +77,31 @@ steps:
     uuid: f6fe96cb-e27f-4c86-91c0-70189d56bdb7
     content: ''
     stepItems:
-      - type: SingleChoice
-        uuid: bd6683ba-77b7-4105-8615-93fcec2e4c84
+      - type: MultipleChoice
+        uuid: dd86e1b9-e45f-4aa1-bd63-bebdfd36df70
         choices:
-          - key: A
+          - key: a1edc3f2
+            content: ' To select community members to manage the protocol''s marketing strategies.'
+          - key: 69d9d8b5
             content: >-
-              Democratic representation, vigilance and integrity, alignment with
-              DAO values, accountability, and adaptive governance
-          - key: B
+              To fulfill a ceremonial function without real impact on the
+              protocol's governance.
+          - key: aef8b261
             content: >-
-              To oversee the health and stability of the Arbitrum protocol and
-              its broader ecosystem
-          - key: C
+              To allow community members to elect leaders that manage the
+              protocol's security and uphold democratic principles.
+          - key: 3b84c15c
             content: >-
-              To manage and mitigate risks, implementing both emergency and
-              non-emergency measures to maintain the network's integrity and
-              security
-          - key: D
-            content: To participate in Security Council elections
+              To provide a platform for external investors to take control of
+              the DAO's direction.
         content: >-
-          What is the significance of the Security Council elections within the
-          Arbitrum DAO?
+          What is the significance of the Security Council elections in the
+          Arbitrum DAO's governance?
         answerKeys:
-          - A
+          - aef8b261
         explanation: >-
-          The significance of the Security Council elections includes democratic
-          representation, vigilance and integrity, alignment with DAO values,
-          accountability, and adaptive governance.
+          The Security Council elections are vital for enabling DAO members to
+          democratically elect leaders responsible for the protocol's security,
+          emphasizing the importance of community participation in maintaining
+          the integrity and effectiveness of the DAO's governance.
 spaceId: arbitrum-university
