@@ -45,11 +45,11 @@
           "choices": [
             {
               "key": "A",
-              "content": "To decide the outcomes of transactions"
+              "content": "To send the transactions to Data Availability committee "
             },
             {
               "key": "B",
-              "content": "To process every transaction on Ethereum"
+              "content": "To process every transaction on Ethereum "
             },
             {
               "key": "C",
@@ -57,7 +57,7 @@
             },
             {
               "key": "D",
-              "content": "To confirm the accuracy of transaction outcomes"
+              "content": "To calculate the outcomes of the transactions"
             }
           ],
           "content": "What is the role of the Arbitrum Rollup Protocol?",
@@ -83,7 +83,7 @@
             },
             {
               "key": "B",
-              "content": "Enabling fast and cost-effective Layer 2 transactions"
+              "content": "Enabling fast Layer 2 transactions at a higher cost"
             },
             {
               "key": "C",
@@ -91,7 +91,7 @@
             },
             {
               "key": "D",
-              "content": "Relieving Ethereum from the burden of processing every transaction and maintaining its security"
+              "content": "Relieving Ethereum from the burden of processing every transaction and reducing cost"
             }
           ],
           "content": "What is the benefit of the Arbitrum Rollup Protocol?",

@@ -49,13 +49,13 @@ steps:
         uuid: 8f316552-d653-4867-84aa-860db416375c
         choices:
           - key: A
-            content: To decide the outcomes of transactions
+            content: 'To send the transactions to Data Availability committee '
           - key: B
-            content: To process every transaction on Ethereum
+            content: 'To process every transaction on Ethereum '
           - key: C
             content: To verify transaction results and penalize dishonest parties
           - key: D
-            content: To confirm the accuracy of transaction outcomes
+            content: To calculate the outcomes of the transactions
         content: What is the role of the Arbitrum Rollup Protocol?
         answerKeys:
           - C
@@ -74,13 +74,13 @@ steps:
           - key: A
             content: Increasing the value of assets over time
           - key: B
-            content: Enabling fast and cost-effective Layer 2 transactions
+            content: Enabling fast Layer 2 transactions at a higher cost
           - key: C
             content: Decreasing the value of assets over time
           - key: D
             content: >-
               Relieving Ethereum from the burden of processing every transaction
-              and maintaining its security
+              and reducing cost
         content: What is the benefit of the Arbitrum Rollup Protocol?
         answerKeys:
           - D
