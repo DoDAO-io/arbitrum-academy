@@ -75,15 +75,15 @@ steps:
         uuid: 3f2ba031-5cff-4ba2-abaa-40ac19e1abbf
         choices:
           - key: A
-            content: To manage the Keysets for the committee members
+            content: To manage the distribution of new cryptocurrencies.
           - key: B
-            content: To validate the KeysetManager smart contract on Ethereum's Layer 1
+            content: To control the issuance of new cryptographic public keys.
           - key: C
-            content: To store and ensure the accessibility of Layer 2 transaction data
-          - key: D
             content: >-
-              To optimize the data posting process by reducing the on-chain
-              footprint
+              To store and ensure the accessibility of Layer 2 transaction data
+              for Nova chain.
+          - key: D
+            content: To authenticate users on the Ethereum network
         content: >-
           What is the purpose of the Data Availability Committee in AnyTrust
           security?
@@ -101,23 +101,23 @@ steps:
         uuid: 364ed539-20cc-4d55-a137-3f461a99bdc4
         choices:
           - key: A
-            content: To manage the Keysets for the committee members
-          - key: B
-            content: To validate the KeysetManager smart contract on Ethereum's Layer 1
-          - key: C
-            content: To store and ensure the accessibility of Layer 2 transaction data
-          - key: D
             content: >-
-              To ensure data accessibility by including a data block's hash, an
-              expiration time, and cryptographic evidence from N-1 Committee
-              members
+              It is used to validate the identity of users on the Ethereum
+              network.
+          - key: B
+            content: >-
+              It is a record of all transactions that have occurred on the
+              rollup chain.
+          - key: C
+            content: It serves as a cryptographic key for encrypting transaction data.
+          - key: D
+            content: ' It confirms that N-1 Committee members have endorsed a data block''s hash, ensuring its accessibility.'
         content: >-
-          What is the purpose of the Data Availability Certificate (DACert) in
-          AnyTrust security?
+          What is the significance of a Data Availability Certificate (DACert)
+          in the AnyTrust protocol?
         answerKeys:
           - D
         explanation: >-
-          The Data Availability Certificate ensures data accessibility in the
-          Arbitrum network by including a data block's hash, an expiration time,
-          and cryptographic evidence from N-1 Committee members.
+          It confirms that N-1 Committee members have endorsed a data block's
+          hash, ensuring its accessibility.
 spaceId: arbitrum-university
