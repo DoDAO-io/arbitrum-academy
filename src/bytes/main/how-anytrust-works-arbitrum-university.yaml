@@ -1,4 +1,4 @@
-uniqueId: ba91f7d2-4fdf-4f51-8251-5947c5684cc6
+uniqueId: 0383d6ef-8b5b-43c3-b444-f3b7aafdcd74
 id: how-anytrust-works-arbitrum-university
 name: How AnyTrust works?
 content: Sequencer-committee interaction in AnyTrust
@@ -59,9 +59,7 @@ steps:
           - key: A
             content: Generates a data batch for submission and sets an expiration time
           - key: B
-            content: >-
-              Stores the data in its own backing store using the data's hash as
-              an index
+            content: Verify the data outcomes
           - key: C
             content: >-
               Aggregates the signatures to form a Data Availability Certificate
