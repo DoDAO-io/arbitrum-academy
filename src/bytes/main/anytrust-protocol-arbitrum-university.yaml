@@ -1,4 +1,4 @@
-uniqueId: 93c54ae0-6643-456d-a7af-499fe4eaaf58
+uniqueId: 8a12b74f-a884-4572-9bc1-80b53d548cd4
 id: anytrust-protocol-arbitrum-university
 name: AnyTrust Protocol
 content: Understanding the AnyTrust protocol
@@ -62,7 +62,7 @@ steps:
           - key: C
             content: Increase reliance on Ethereum's data posting process
           - key: D
-            content: Increase the gas fees incurred for data posting
+            content: Increase dependance on Ethereum's security
         content: What is the AnyTrust protocol designed to do?
         answerKeys:
           - B
@@ -78,16 +78,14 @@ steps:
         uuid: 8c7fbe43-db8f-497d-9cbe-295f1e883b37
         choices:
           - key: A
-            content: To increase the gas fees incurred for data posting
+            content: All the member are honest
           - key: B
-            content: To reduce the costs associated with data posting
+            content: All the members are dishonest
           - key: C
-            content: To store and distribute Layer 2 transaction data
+            content: At least two members are honest
           - key: D
-            content: To manage Keysets for the Committee
-        content: >-
-          What is the role of the Data Availability Committee in the AnyTrust
-          protocol?
+            content: At least two members are dishonest
+        content: What assumption does Data Availability Committee operate under?
         answerKeys:
           - C
         explanation: >-
