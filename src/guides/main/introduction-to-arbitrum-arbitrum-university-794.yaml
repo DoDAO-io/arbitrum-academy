@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-22T12:27:57.182Z'
+created: '2023-11-22T12:39:15.563Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -79,7 +79,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 454ca522-ba97-4e1b-b09e-2b334ba36a5b
-  - content: >
+  - content: >-
       ## Roll Ups
 
       Rollups are a type of Layer 2 scaling solution that execute transactions
@@ -108,6 +108,11 @@ steps:
       something was wrong, the transactions are considered valid. This method
       allows for significant scaling benefits, but the challenge period can
       introduce a delay in finalizing transactions.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700656728386_tyoes_of%20roll%20ups.png"/>
+      </div>
 
 
       #### Zero-Knowledge Rollups (ZK-Rollups)
