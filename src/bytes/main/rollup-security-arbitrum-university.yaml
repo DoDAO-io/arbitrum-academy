@@ -81,9 +81,7 @@ steps:
           - key: C
             content: Arbitrum Rollup leverages Ethereum's Layer 1 for security
           - key: D
-            content: >-
-              Arbitrum Rollup compromises on trustlessness and decentralization
-              for security
+            content: Arbitrum Rollup compromises on trustlessness for security
         content: What is the security model of Arbitrum Rollup?
         answerKeys:
           - C
@@ -104,12 +102,10 @@ steps:
           - key: A
             content: Validators have no role in the Arbitrum Rollup protocol
           - key: B
-            content: >-
-              Validators are responsible for off-chain computation in the
-              network
+            content: 'Validators are responsible for rejecting all the RBlocks '
           - key: C
             content: >-
-              Validators are responsible for enforcing correct processing of
+              Validators are responsible for enforcing incorrect processing of
               transactions
           - key: D
             content: >-

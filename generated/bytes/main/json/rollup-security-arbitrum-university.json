@@ -75,7 +75,7 @@
             },
             {
               "key": "D",
-              "content": "Arbitrum Rollup compromises on trustlessness and decentralization for security"
+              "content": "Arbitrum Rollup compromises on trustlessness for security"
             }
           ],
           "content": "What is the security model of Arbitrum Rollup?",
@@ -101,11 +101,11 @@
             },
             {
               "key": "B",
-              "content": "Validators are responsible for off-chain computation in the network"
+              "content": "Validators are responsible for rejecting all the RBlocks "
             },
             {
               "key": "C",
-              "content": "Validators are responsible for enforcing correct processing of transactions"
+              "content": "Validators are responsible for enforcing incorrect processing of transactions"
             },
             {
               "key": "D",
