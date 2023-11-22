@@ -63,7 +63,7 @@
           "choices": [
             {
               "key": "A",
-              "content": "Validators confirm the RBlocks and record them in Ethereum's Layer 1 contracts"
+              "content": "Validators remove RBlocks from the chain"
             },
             {
               "key": "B",
@@ -101,7 +101,7 @@
             },
             {
               "key": "B",
-              "content": "Subsequent RBlocks are discarded and not included in the chain"
+              "content": "Subsequent RBlocks are altered and included in the chain"
             },
             {
               "key": "C",

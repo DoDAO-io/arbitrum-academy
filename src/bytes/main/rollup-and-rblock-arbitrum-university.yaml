@@ -75,9 +75,7 @@ steps:
         uuid: 70fba5ef-d004-4162-8163-d243e15c2d10
         choices:
           - key: A
-            content: >-
-              Validators confirm the RBlocks and record them in Ethereum's Layer
-              1 contracts
+            content: Validators remove RBlocks from the chain
           - key: B
             content: >-
               Validators propose RBlocks and can challenge an RBlock before a
@@ -107,7 +105,7 @@ steps:
               Subsequent RBlocks are confirmed and recorded by Ethereum's Layer
               1 contracts
           - key: B
-            content: Subsequent RBlocks are discarded and not included in the chain
+            content: Subsequent RBlocks are altered and included in the chain
           - key: C
             content: >-
               Subsequent RBlocks depending on the rejected RBlock are
