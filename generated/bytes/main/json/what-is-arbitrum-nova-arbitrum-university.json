@@ -1,5 +1,5 @@
 {
-  "uniqueId": "5c463c60-d61e-4cc6-b6e0-3a8d2c9f2e21",
+  "uniqueId": "eb4e8da6-2b6e-40f6-a690-2f17f1a56ed8",
   "id": "what-is-arbitrum-nova-arbitrum-university",
   "name": "What is Arbitrum Nova?",
   "content": "High-performance Arbitrum Chain",
@@ -45,7 +45,7 @@
           "choices": [
             {
               "key": "A",
-              "content": "A variant within the Arbitrum ecosystem that provides a high-performance blockchain solution"
+              "content": "A variant within the Arbitrum ecosystem that provides a low-performance blockchain solution"
             },
             {
               "key": "B",
