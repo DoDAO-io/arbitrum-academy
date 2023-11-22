@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-22T13:04:07.509Z'
+created: '2023-11-22T13:10:04.934Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -279,6 +279,11 @@ steps:
       to be rewritten to transition from the EVM to the AVM. This contrasts with
       Optimism's Virtual Machine (OVM), which has faced some compatibility
       issues with the EVM.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700658583373_differences.png"/>
+      </div>
 
 
       ### Transaction Finality and Fees
