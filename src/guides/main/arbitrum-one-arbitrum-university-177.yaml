@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-13T12:13:18.997Z'
+created: '2023-11-22T18:42:32.124Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -22,6 +22,11 @@ steps:
       the Ethereum mainnet, allowing challenges and efficient dispute resolution
       at low costs, while maintaining trustless protocol operation, EVM
       compatibility, and secure fund control for users.
+
+
+      <div align="center">
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1700678482803_arbitrum_one.png"/>
+      </div>
 
 
       ## What is Arbitrum roll up protocol?
@@ -48,6 +53,11 @@ steps:
       although the outcomes of transactions are known, without the protocol,
       there would be no way to confirm their accuracy and resolve disputes
       definitively. 
+
+
+      <div align="center">
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1700678526867_benefits_of%20rollup%20protocol.png"/>
+      </div>
 
 
       #### Ethereum Scalability
