@@ -1,12 +1,12 @@
 categories: []
 content: A deeper look into Arbitrum Nitro
-created: '2023-11-13T12:12:23.510Z'
+created: '2023-11-22T16:36:27.221Z'
 guideType: onboarding
 key: arbitrum-nitro-arbitrum-university-560
 name: 'Arbitrum Nitro '
 publishStatus: Live
 steps:
-  - content: >-
+  - content: >
       ## What is Arbitrum Nitro?
 
 
@@ -19,6 +19,11 @@ steps:
       transactions. With Nitro, Arbitrum aims to push the boundaries of
       security, efficiency, and scalability, offering a promising solution for
       the future of Ethereum. 
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1700670758106_nitro.png"/>
+      </div>
 
 
       It introduces advanced calldata compression, reducing transaction costs
@@ -41,6 +46,11 @@ steps:
       processed per second. Despite being a separate blockchain, Arbitrum Nitro
       maintains the security and privacy features of Ethereum's Layer 1 (L1) and
       relays all transaction information to the main Ethereum chain.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1700670832018_features.png"/>
+      </div>
 
 
       #### EVM Compatiblility
@@ -164,7 +174,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699460949954_screenshot_2023-11-08%20at%207.19.13%20pm.png"/>
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1700670880645_working_of%20transactions.png"/>
       </div>
 
 
@@ -227,7 +237,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699463922689_screenshot_2023-11-08%20at%208.54.36%20pm.png"/>
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1700670955083_layers_of%20nitro.png"/>
       </div>
 
 
