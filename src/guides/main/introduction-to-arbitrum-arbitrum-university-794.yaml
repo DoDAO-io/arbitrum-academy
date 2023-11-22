@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-22T14:24:06.283Z'
+created: '2023-11-22T14:25:28.779Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -211,7 +211,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 3cc2ab75-c65d-4157-b7d9-c475e3d481f0
-  - content: >-
+  - content: >
       Arbitrum ecosystem consists of various chains with distinct features that
       utilise unique technologies that enable ethereum scalability. The major
       arbitrum chains include.
@@ -240,7 +240,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662752291_chain.png"/>
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662752291_chain.png"/>
       </div>
 
 
@@ -272,6 +272,11 @@ steps:
       to decreased reliance on Layer 1 computations.
 
 
+      <div align="center">
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662779855_differences.png"/>
+      </div>
+
+
       ### Virtual Machine Compatibility
 
       The Arbitrum Virtual Machine (AVM) is more closely optimized for EVM
@@ -286,11 +291,6 @@ steps:
       Due to the multi-round fraud proof mechanism, transaction finality on
       Arbitrum can be slower compared to some other rollups, but this trade-off
       allows for lower fees because of reduced Layer 1 computation reliance​.
-
-
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662779855_differences.png"/>
-      </div>
     name: Arbitrum Chains
     stepItems: []
     uuid: 6aae4c48-10e0-494b-bd9e-a8404f42515d
@@ -352,7 +352,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662807294_ecosystem.png"/>
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1700662807294_ecosystem.png"/>
       </div>
 
 
