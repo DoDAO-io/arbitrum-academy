@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-27T15:53:36.820Z'
+created: '2023-11-27T15:56:47.825Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -190,6 +190,9 @@ steps:
     stepItems: []
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
   - content: >-
+      TODO: - explain staking - 3-4 lines
+
+
       ## The Roll up security
 
       Arbitrum Rollup's security model leverages the robustness of Ethereum's
