@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-13T12:14:10.311Z'
+created: '2023-11-27T18:39:23.488Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -19,6 +19,11 @@ steps:
       what allows Arbitrum Nova to offer enhanced performance and
       cost-effectiveness, making it suitable for use cases where these
       attributes are prioritized. 
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nova_arbitrum_university_144/1701110325137_arbitrum_nova.png"/>
+      </div>
 
 
       ## What is Anytrust Protocol 
