@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-27T16:34:48.764Z'
+created: '2023-11-27T17:47:52.240Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -56,7 +56,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1700678526867_benefits_of%20rollup%20protocol.png"/>
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1701107009421_benefits_of%20rollup.png"/>
       </div>
 
 
@@ -124,11 +124,6 @@ steps:
       step-by-step guide on how the rollup chain works to confirm the rBlocks
 
 
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699533758069_screenshot_2023-11-09%20at%205.41.43%20pm.png"/>
-      </div>
-
-
       ### Step 1: RBlocks Creation
 
       Validators propose RBlocks, which form a chain managed by the Arbitrum
@@ -156,6 +151,11 @@ steps:
       valid and thus are eventually confirmed.
 
 
+      <div align="center">
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1701106968706_working_or%20roll%20up.png"/>
+      </div>
+
+
       ### Step 4: Dealing with Malicious Validators
 
       In cases where validators act maliciously by proposing incorrect RBlocks,
@@ -165,11 +165,6 @@ steps:
       claims or because they build on other rejected RBlocks. Unresolved RBlocks
       are awaiting confirmation or rejection. If they are built on a rejected
       RBlock, they will also be rejected.
-
-
-      <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699533830310_screenshot_2023-11-09%20at%205.39.32%20pm.png"/>
-      </div>
 
 
       ### Step 5: Resolving Conflicts
@@ -211,6 +206,11 @@ steps:
       maintaining the overall security and reliability of the network. 
 
 
+      <div align="center">
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1701107044878_validator_network.png"/>
+      </div>
+
+
       ### Validators
 
       Validators are essential participants in the Arbitrum Rollup protocol,
@@ -226,7 +226,11 @@ steps:
 
       ## Staking
 
-      Here's a step-by-step process of staking within the Arbitrum network:
+      Staking the process of holding funds in a cryptocurrency wallet to support
+      the operations of a network. Participants lock or hold their tokens in a
+      wallet to perform various network functions such as validating
+      transactions, maintaining security, and governance. Here's a step-by-step
+      process of staking within the Arbitrum network:
 
 
       ### Step 1: Stake Deposit
@@ -252,7 +256,7 @@ steps:
 
 
       <div align="center">
-        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699543299054_screenshot_2023-11-09%20at%208.20.29%20pm.png"/>
+        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1701107173267_staking.png"/>
       </div>
 
 
