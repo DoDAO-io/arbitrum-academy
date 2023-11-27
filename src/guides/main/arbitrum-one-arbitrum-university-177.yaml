@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-22T18:47:02.006Z'
+created: '2023-11-27T15:53:36.820Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -99,6 +99,12 @@ steps:
         explanation: Explanation of the question
     uuid: 287bba79-de96-4fbe-addd-140a78c46939
   - content: >-
+      TODO - Explain RBlock
+
+
+      Diagram - explain Step 2 and Step 3
+
+
       ## How does Arbitrum Rollup Work?
 
       An RBlock in the Arbitrum Rollup chain carries its identifier, the number
