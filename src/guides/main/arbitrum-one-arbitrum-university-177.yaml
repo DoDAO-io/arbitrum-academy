@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-27T15:56:47.825Z'
+created: '2023-11-27T16:34:48.764Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -99,13 +99,19 @@ steps:
         explanation: Explanation of the question
     uuid: 287bba79-de96-4fbe-addd-140a78c46939
   - content: >-
-      TODO - Explain RBlock
-
-
-      Diagram - explain Step 2 and Step 3
-
-
       ## How does Arbitrum Rollup Work?
+
+
+      ### RBlocks
+
+      An RBlock within the Arbitrum Rollup protocol is a specialized type of
+      block that encapsulates the state and progress of the Layer 2 (L2)
+      Arbitrum network. Unlike traditional Ethereum Layer 1 blocks or the
+      typical blocks you might find in other Layer 2 solutions, RBlocks serve a
+      unique purpose in the Arbitrum ecosystem. They are part of a separate
+      chain that the Arbitrum rollup protocol manages, effectively acting as
+      checkpoints or snapshots of the L2 state at various points in time.
+
 
       An RBlock in the Arbitrum Rollup chain carries its identifier, the number
       of the last correct RBlock, the total of L2 blocks made, inbox messages
