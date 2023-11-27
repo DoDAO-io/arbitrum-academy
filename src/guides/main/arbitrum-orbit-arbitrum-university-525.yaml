@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-13T12:15:03.739Z'
+created: '2023-11-27T16:10:12.183Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -335,6 +335,11 @@ steps:
     stepItems: []
     uuid: d01a95c5-37c4-48db-89f0-2dd8d9b6f80b
   - content: >
+      ## TODO
+
+      Clean up this  step's content
+
+
       ## How to Customise Orbit Chain's Behaviour 
 
       Modifying your Orbit chain's State Transition Function (STF), responsible
