@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-28T17:15:59.788Z'
+created: '2023-11-28T17:29:45.650Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -310,6 +310,11 @@ steps:
       conceptual page.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1701192561429_how_to%20bridging%20tokens.png"/>
+      </div>
+
+
       #### Generic-Custom Gateway
 
 
@@ -333,18 +338,6 @@ steps:
       the L1 contract. For a detailed understanding of other types of gateways
       and their implementation, refer to the relevant section in the conceptual
       page.
-
-
-      #### Practical Implementation
-
-
-      To further assist you in bridging tokens, we provide examples and scripts
-      that demonstrate the deposit and withdrawal processes using the Arbitrum
-      SDK. These scripts showcase how to programmatically deposit tokens from L1
-      to L2 and vice versa. By following the step-by-step instructions outlined
-      in the "How to bridge tokens via Arbitrum's standard gateway" section, you
-      can easily initiate the bridging process and ensure a smooth transfer of
-      tokens between the two networks.
     name: Ways to Bridge Tokens
     stepItems: []
     uuid: df19894b-5fce-4857-b6a6-87e4e9fd3311
