@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-11-27T18:40:05.214Z'
+created: '2023-11-28T11:54:01.024Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -44,6 +44,11 @@ steps:
       ### Benefits of AnyTrust
 
       The benefits of AnyTrust are extensive including:
+
+
+      <div align="center">
+        <img style="max-height:500px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nova_arbitrum_university_144/1701172345123_benefits_of%20anytrust.png"/>
+      </div>
 
 
       #### 1. Cost Reduction 
@@ -120,6 +125,11 @@ steps:
       data but also introduces a mechanism for manageable trust, reducing the
       dependency on Ethereum's mainnet and leading to a more efficient and
       cost-effective rollup process.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nova_arbitrum_university_144/1701172394403_anytrust_security.png"/>
+      </div>
 
 
       ### Data Availibility Certificates
