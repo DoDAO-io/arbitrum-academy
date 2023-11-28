@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-11-21T12:34:37.421Z'
+created: '2023-11-28T15:50:50.106Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -22,6 +22,11 @@ steps:
       execution environment, which translates into faster performance and
       reduced gas costs. This efficiency gain is attributed to WASM's modern
       binary format, known for speed, portability, and security. 
+
+
+      <div align="center">
+        <img style="max-height:500px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_stylus_arbitrum_university_536/1701186611147_stylus.png"/>
+      </div>
 
 
       Stylus represents an upgrade to Arbitrum Nitro, a technology stack that
