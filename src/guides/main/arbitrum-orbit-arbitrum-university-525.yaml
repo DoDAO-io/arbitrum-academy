@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-11-27T16:10:12.183Z'
+created: '2023-11-28T13:14:55.725Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -22,6 +22,11 @@ steps:
       scalable, and secure platform for hosting a range of dApps or private
       EVM-compatible smart contracts, with the ability to incrementally adopt
       Ethereum's security features.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_orbit_arbitrum_university_525/1701177231413_orbit.png"/>
+      </div>
 
 
       ## Benefits of Orbit
@@ -49,6 +54,11 @@ steps:
       execution environments. While maintaining full EVM compatibility, Orbit
       chains can also limit smart contract functionalities to better serve
       specific project requirements, leading to optimized performance.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_orbit_arbitrum_university_525/1701177276212_benefits_of%20orbit.png"/>
+      </div>
 
 
       **4. Flexible Governance**: Developers have the autonomy to establish
