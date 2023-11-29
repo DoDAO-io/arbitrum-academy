@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into the Arbitrum Governance Sructure
-created: '2023-11-29T17:27:41.545Z'
+created: '2023-11-29T17:35:29.392Z'
 guideType: onboarding
 key: arbitrum-governance-arbitrum-university-791
 name: Arbitrum Governance
@@ -245,6 +245,11 @@ steps:
       and to provide transparency reports post-action. Members are elected by
       the DAO through semi-annual elections, ensuring that the council acts in
       the network's best interests.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1701279299538_features_of%20council.png"/>
+      </div>
 
 
       ### Routine Upgrades
