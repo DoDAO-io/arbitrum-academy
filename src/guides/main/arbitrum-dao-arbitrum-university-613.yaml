@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the workings of the Arbitrum DAO
-created: '2023-11-29T18:35:26.208Z'
+created: '2023-11-29T18:40:00.917Z'
 guideType: onboarding
 key: arbitrum-dao-arbitrum-university-613
 name: Arbitrum DAO
@@ -150,6 +150,11 @@ steps:
       is to maintain the security and performance of Arbitrum, which includes
       the authority to take urgent measures in extraordinary situations to
       protect the network.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_dao_arbitrum_university_613/1701283185392_structures.png"/>
+      </div>
 
 
       ### Arbitrum DAO
