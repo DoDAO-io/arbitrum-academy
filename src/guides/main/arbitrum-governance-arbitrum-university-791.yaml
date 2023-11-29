@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into the Arbitrum Governance Sructure
-created: '2023-11-29T17:26:48.923Z'
+created: '2023-11-29T17:27:41.545Z'
 guideType: onboarding
 key: arbitrum-governance-arbitrum-university-791
 name: Arbitrum Governance
@@ -159,11 +159,6 @@ steps:
       seriousness within Arbitrum's journey towards greater decentralization.
 
 
-      <div align="center">
-        <img style="max-height:600px;margin-bottom:40px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1701278771993_balancing_powers.png"/>
-      </div>
-
-
       ## On-Chain Governance 
 
       Layer 2 (L2) on-chain governance is essential due to the inherent
@@ -178,6 +173,11 @@ steps:
       Ethereum, must also be updated. This means that while Ethereum can evolve
       through an informal, community-driven process, Arbitrum requires a formal
       governance structure to authorize and enact changes.
+
+
+      <div align="center">
+        <img style="max-height:700px;margin-bottom:60px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1701278771993_balancing_powers.png"/>
+      </div>
 
 
       Theoretically, it's possible for Ethereum to adjust its consensus rules to
