@@ -1,6 +1,6 @@
 categories: []
 content: A deeper look into the Arbitrum Governance Sructure
-created: '2023-11-27T14:19:32.581Z'
+created: '2023-11-29T16:55:47.262Z'
 guideType: onboarding
 key: arbitrum-governance-arbitrum-university-791
 name: Arbitrum Governance
@@ -29,6 +29,11 @@ steps:
       setting up a DAO and issuing governance tokens, empowering community
       members to make decisions and guide the project's future democratically.
       This shift involves:
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1701276894949_progressive_decentralisation.png"/>
+      </div>
 
 
       **1. DAO Formation:** Entities like the Arbitrum DAO are created, taking
@@ -82,6 +87,11 @@ steps:
       the allow-list, which includes the power to add new validators, remove
       existing ones, or eliminate the allow-list altogether, thereby potentially
       opening up the validation process.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1701276925600_components.png"/>
+      </div>
 
 
       ### Sequencer ownership
