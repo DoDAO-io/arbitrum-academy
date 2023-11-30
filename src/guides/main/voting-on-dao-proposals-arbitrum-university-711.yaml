@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-30T15:38:29.319Z'
+created: '2023-11-30T15:41:49.841Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -153,6 +153,11 @@ steps:
       with other community members in the discussion to refine the proposal.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1701358842819_temperature_check.png"/>
+      </div>
+
+
       ### Step 2: Vote on Snapshot
 
       Follow the link to the associated Snapshot poll provided in the forum
@@ -190,6 +195,11 @@ steps:
       Choose between Constitutional or non-Constitutional AIPs (Arbitrum
       Improvement Proposals) on the Arbitrum DAO's page. Within the selected
       category, look for the proposal you wish to vote on.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1701358883417_on_chain%20voting.png"/>
+      </div>
 
 
       ### Step 3: Vote
