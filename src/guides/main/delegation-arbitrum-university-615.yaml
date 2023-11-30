@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-17T16:19:56.018Z'
+created: '2023-11-30T16:00:19.604Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -18,6 +18,11 @@ steps:
       position, delegates are expected to vote on proposals and engage actively
       in discussions, represent the interests of their constituents, and
       contribute to the strategic direction of Arbitrum.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/delegation_arbitrum_university_615/1701359963506_delegation.png"/>
+      </div>
 
 
       The role of a delegate is bound by the Constitution of the Arbitrum DAO,
@@ -48,6 +53,11 @@ steps:
       each representing different stakeholders.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/delegation_arbitrum_university_615/1701359995724_benefits_of%20delegate.png"/>
+      </div>
+
+
       **3. Active Participation:** As a delegate, you can actively participate
       in the governance of the technology, which can be rewarding both
       intellectually and in terms of the potential to shape the future of the
@@ -63,9 +73,6 @@ steps:
       **5. Community Building:** By becoming a delegate, you contribute to
       building a strong community. Active governance participation can foster a
       sense of ownership and collective effort among token holders.
-
-
-              
     name: Introduction to Delegates
     stepItems: []
     uuid: bd65300c-703e-439a-991d-d04a6720d7cb
