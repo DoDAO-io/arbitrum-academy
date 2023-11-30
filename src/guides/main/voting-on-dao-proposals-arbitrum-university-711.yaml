@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-17T16:19:19.892Z'
+created: '2023-11-30T14:45:15.461Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -17,6 +17,11 @@ steps:
       is fundamental to the decentralized ethos that underpins the Arbitrum
       ecosystem, ensuring that all decisions reflect the collective will of the
       community rather than the desires of a centralized authority.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1701355494876_voting_on%20dao.png"/>
+      </div>
 
 
       ## Importance of Voting
