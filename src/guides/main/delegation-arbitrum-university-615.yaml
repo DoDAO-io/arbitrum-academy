@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-30T16:18:38.066Z'
+created: '2023-11-30T16:34:58.604Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -156,7 +156,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: d5df51a7-bf7f-4f0e-8805-6c2bbeaba928
-  - content: >+
+  - content: >-
       ## How to build a Delegate platform?
 
       Here are condensed tips for creating a strong delegate platform for the
@@ -173,6 +173,11 @@ steps:
       communication channels, such as a website or social media, to keep token
       holders informed and involved. Regular updates and active responsiveness
       to their queries will build trust.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/delegation_arbitrum_university_615/1701362042533_build_platform.png"/>
+      </div>
 
 
       3. **Maintain Active Community Involvement**: Participate in Arbitrum DAO
@@ -207,11 +212,15 @@ steps:
       voting power.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/delegation_arbitrum_university_615/1701362076963_delegating_voting%20powers.png"/>
+      </div>
+
+
       3. **Confirm Delegation**: Follow the prompts on Tally to confirm your
       delegation. Remember, you can change or revoke your delegation at any time
       on Tally. If desired, you can proportionally delegate your voting power to
       multiple delegates.
-
     name: Delegate and Delegation
     stepItems: []
     uuid: 57e8111d-52f8-4bcc-9774-7a6e06b984c4
