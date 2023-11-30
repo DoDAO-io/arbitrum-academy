@@ -1,12 +1,12 @@
 categories: []
 content: A setp to ensure network integrity!
-created: '2023-11-17T16:17:03.621Z'
+created: '2023-11-30T13:45:00.179Z'
 guideType: onboarding
 key: security-council-arbitrum-university-100
 name: Security Council
 publishStatus: Live
 steps:
-  - content: >
+  - content: >-
       ## What is Security Council
 
       The Security Council, as established by the Constitution of the Arbitrum
@@ -21,6 +21,11 @@ steps:
       responsibility in the stewardship of the platform's safety protocols.
 
 
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/security_council_arbitrum_university_100/1701351840366_security_council.png"/>
+      </div>
+
+
       ## Role of Security Council 
 
       The Security Council plays a crucial role in overseeing the health and
@@ -32,6 +37,12 @@ steps:
 
       2. **Emergency Decision-Making:** Acting swiftly in urgent situations to
       safeguard the DAO's interests.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/security_council_arbitrum_university_100/1701351870095_community_roles.png"/>
+      </div>
+
 
       3. **Community Protection:** Ensuring the welfare of the DAO and the wider
       Arbitrum community.
