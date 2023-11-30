@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the workings of the Arbitrum DAO
-created: '2023-11-29T18:40:00.917Z'
+created: '2023-11-30T13:37:14.302Z'
 guideType: onboarding
 key: arbitrum-dao-arbitrum-university-613
 name: Arbitrum DAO
@@ -210,6 +210,12 @@ steps:
       community, node operators, sequencers, and companies like Offchain Labs,
       all working to advance Ethereum's rollup-based future.
 
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_dao_arbitrum_university_613/1701351368422_web3_layer.png"/>
+      </div>
+
+
       4. **Layer 1 (L1)**: Encompasses the base layers of Ethereum's blockchain.
 
       5. **Consensus Layer (CL)**: Teams like Prysm contribute here, maintaining
@@ -234,6 +240,12 @@ steps:
 
       2. **Vote Yourself**: If you prefer to have a direct say, you can vote on
       DAO proposals on your own. For the process, see "Vote on proposals."
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_dao_arbitrum_university_613/1701351400942_participation_options.png"/>
+      </div>
+
 
       3. **Represent Others**: If you're keen on representing the community, you
       can become someone who votes for others. To learn more, check out "Become
