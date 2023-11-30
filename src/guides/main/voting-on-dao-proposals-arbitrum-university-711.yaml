@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the importance of DAO Voting
-created: '2023-11-30T15:22:02.448Z'
+created: '2023-11-30T15:38:29.319Z'
 guideType: onboarding
 key: voting-on-dao-proposals-arbitrum-university-711
 name: Voting on DAO Proposals
@@ -85,7 +85,7 @@ steps:
         uuid: 81ad1b10-337e-4c66-8fea-0b58908ea31a
         explanation: Explanation of the question
     uuid: 205607f8-42bd-4452-9242-cc6483b29a41
-  - content: >
+  - content: >-
       The voting power of an individual is proportional to the number of $ARB
       tokens they possess. When casting votes, members are encouraged to assess
       proposals based on these values, ensuring that decisions align with the
@@ -107,6 +107,11 @@ steps:
       as a community pulse-taking measure, enabling the DAO to filter out
       proposals that lack substantial backing, thus streamlining the governance
       process to focus on initiatives with broader interest.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/voting_on_dao_proposals_arbitrum_university_711/1701358687643_voting_mechanism.png"/>
+      </div>
 
 
       ### On-chain Vote
