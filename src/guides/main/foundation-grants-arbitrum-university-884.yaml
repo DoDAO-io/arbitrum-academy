@@ -1,12 +1,12 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-11-17T16:21:24.996Z'
+created: '2023-12-01T11:01:37.239Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
 publishStatus: Live
 steps:
-  - content: >-
+  - content: >
       ## What are Foundation Grant Program?
 
       The Arbitrum Foundation's Grant Program is a strategic initiative designed
@@ -23,6 +23,11 @@ steps:
       with Arbitrum's technology. Projects not fitting the current phase's
       criteria are encouraged to apply through the DAO's proposal process or
       check back as the program's phases evolve.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1701428421611_foundation_programs.png"/>
+      </div>
 
 
       ### Length of Grant Programs
@@ -62,6 +67,12 @@ steps:
       2. Inclusion in the Builders group, which connects grant recipients to a
       community of motivated and enthusiastic contributors within the Arbitrum
       ecosystem.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1701428469190_benefits_of%20grants.png"/>
+      </div>
+
 
       3. Opportunities to highlight and promote projects within the broader
       Arbitrum ecosystem after meeting significant milestones or demonstrating
