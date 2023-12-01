@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-12-01T11:31:13.580Z'
+created: '2023-12-01T11:39:24.477Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -259,7 +259,7 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 0fb91feb-9669-4145-a260-42eea58fa557
-  - content: >
+  - content: >-
       Milestones and Key Performance Indicators (KPIs) are fundamental tools in
       measuring the progress and success of projects funded by the Arbitrum
       Foundation's Grant Program.
@@ -294,6 +294,11 @@ steps:
       periodically in the format specified upon approval, which may include a
       Github repository, a product demo, or a Dune Analytics dashboard,
       especially for milestones concerning user growth.
+
+
+      <div align="center">
+        <img style="max-height:400px;margin-bottom:30px" src="https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1701430733035_performance_measures.png"/>
+      </div>
 
 
       4. **Content of Milestone Submission**: For each milestone, related to
