@@ -1,12 +1,42 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-11-13T12:18:50.172Z'
+created: '2023-12-04T12:02:29.198Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Running Full Node (Nitro)
 publishStatus: Live
 steps:
   - content: >-
+      ## intro to full nodes
+
+      ### what are full nodes?
+
+      #### Considerations for Running Arbitrum Full Node
+
+      ### Types of full nodes
+
+
+      ## Prerequisites
+
+      (currently copy pasted but dont know how to do better)
+
+
+      ## Configurations
+
+      (currently copy pasted dont know how to put it together in a better form)
+
+
+
+
+
+
+
+
+
+
+
+
+
       Arbitrum full nodes are integral components of the network, mirroring the
       role of their Ethereum counterparts. They hold the complete and current
       state of the chain, offering a gateway for other entities to engage with
@@ -272,6 +302,8 @@ steps:
     stepItems: []
     uuid: e97ba39d-652f-4fb7-b5cc-0a35b1d7d014
   - content: >-
+      ## Purpose of Optional Parameters
+
       Optional parameters for running a full node in a blockchain network are
       used to customize the node's operation based on the user's preferences or
       specific needs. They are not necessary for the basic functioning of the
