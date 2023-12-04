@@ -1,6 +1,6 @@
 categories: []
 content: Bridging Blockchains with Seamless Communication
-created: '2023-11-14T12:13:21.673Z'
+created: '2023-12-04T11:29:53.125Z'
 guideType: onboarding
 key: cross-chain-messaging-arbitrum-university-977
 name: Cross Chain Messaging
@@ -363,7 +363,7 @@ steps:
       and keeps track of which messages have been processed.
 
 
-      ## Steps for Users
+      ### Steps for Users
 
       For users, sending a message from Layer 2 (L2) to Layer 1 (L1) starts with
       a command to the L2 ArbSys contract. The message gets included in a kind
