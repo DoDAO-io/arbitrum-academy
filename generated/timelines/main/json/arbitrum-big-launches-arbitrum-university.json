@@ -6,6 +6,38 @@
   "publishStatus": "",
   "events": [
     {
+      "title": "Launch of Stylus",
+      "uuid": "66e4a1a0-b7a4-4e13-bca1-9ba034f1d2de",
+      "date": "2023-08-31T17:33:51.000Z",
+      "summary": "Arbitrum Stylus enhances Arbitrum Nitro with EVM and WASM support, boosting efficiency and enabling diverse, resource-intensive blockchain applications",
+      "fullDetails": "Arbitrum Stylus, a newly released component for the Arbitrum Nitro chains, enables developers to create applications using both traditional EVM and WASM-compatible languages like Rust, C, and C++. This development significantly enhances computational, storage, and memory efficiency, leading to dramatically lower gas costs. It opens up new possibilities for resource-intensive blockchain applications, such as sophisticated cryptography, large-scale generative art, advanced gaming, and AI models, that were previously impractical due to high costs and technical limitations. Stylus offers a multi-language, fully composable environment that combines the security of Arbitrum with the flexibility of popular programming languages, fostering innovation and broadening the scope of potential blockchain applications.",
+      "moreLink": "https://medium.com/offchainlabs/stylus-now-live-one-chain-many-languages-eee56ad7266d"
+    },
+    {
+      "title": "Launch of Orbit",
+      "uuid": "04622c80-9403-4b7d-b560-8fde56a9c1e9",
+      "date": "2023-08-17T17:24:36.000Z",
+      "summary": "Arbitrum Orbit introduces a novel multi-chain framework, enabling seamless interoperability and enhanced scalability for diverse blockchain ecosystems.",
+      "fullDetails": "Arbitrum Orbit represents a groundbreaking development in the realm of blockchain technology, aimed at enhancing the interconnectivity and scalability of various blockchain networks. This platform introduces a multi-chain framework, which allows different blockchain systems to create new chains, communicate and operate seamlessly with each other. By facilitating this interoperability, Arbitrum Orbit enables the transfer of assets and data across diverse blockchain ecosystems more efficiently and securely. This innovation not only improves scalability by distributing load across multiple chains but also opens up new possibilities for decentralized applications (dApps) to function across different blockchains, thereby fostering a more integrated, versatile, and robust blockchain environment.",
+      "moreLink": "https://medium.com/offchainlabs/arbitrum-orbit-anytrust-chains-465ec2f1a5d8"
+    },
+    {
+      "title": "Announcement of Stylus",
+      "uuid": "9f178db7-f4ae-4887-9447-2a8003fe8ded",
+      "date": "2023-02-07T17:14:58.000Z",
+      "summary": "Stylus announces a groundbreaking leap in technology, promising to redefine user interaction with innovative features and enhanced performance.",
+      "fullDetails": "The announcement of Stylus represents a significant advancement in digital interaction technology. This new tool is designed to offer a seamless and intuitive user experience, bridging the gap between digital and physical creativity. Stylus boasts state-of-the-art features such as pressure sensitivity, tilt recognition, and palm rejection, ensuring precision and fluidity in tasks ranging from digital drawing to note-taking. Its compatibility with a wide range of devices and applications makes it a versatile tool for professionals and hobbyists alike. The launch of Stylus is set to revolutionize how users engage with their devices, offering a natural, responsive, and highly accurate method of input that enhances both productivity and creativity in the digital space.",
+      "moreLink": "https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22"
+    },
+    {
+      "title": "Arbitrum Nitro",
+      "uuid": "44d28d9c-0c7b-4a26-aff5-217b703926a9",
+      "date": "2022-08-31T16:52:57.000Z",
+      "summary": "Arbitrum Nitro's launch propels Ethereum scalability to new heights, delivering enhanced speed and efficiency with a state-of-the-art optimization engine.",
+      "fullDetails": "Arbitrum Nitro's launch event marks a pivotal moment in the evolution of Ethereum's layer-2 scaling solutions, introducing an advanced optimization engine designed to boost performance and efficiency dramatically. This upgrade to the Arbitrum platform significantly enhances transaction throughput, reduces latency, and lowers gas costs, all while maintaining the robust security and decentralization Ethereum is known for. Nitro achieves this by optimizing the execution of smart contracts and improving data compression techniques. The launch of Arbitrum Nitro is a critical step forward in addressing Ethereum's scalability challenges, making it more accessible and user-friendly for a broader range of decentralized applications and users, further solidifying Arbitrum's position as a leading solution in the blockchain scalability space.",
+      "moreLink": "https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450"
+    },
+    {
       "title": "Arbitrum Nova",
       "uuid": "a2807afb-30a9-4e75-ae47-2481703890b7",
       "date": "2022-08-09T16:42:19.000Z",
