@@ -1,12 +1,78 @@
 id: arbitrums-pathway-key-events-chronology-arbitrum-university
 name: 'Arbitrum''s Pathway: Key Events Chronology'
-excerpt: 'Arbitrum''s Pathway: Key Events Chronology'
-content: |-
-  Arbitrum's Pathway: Key Events Chronology
-  Arbitrum's Pathway: Key Events Chronology
-  Arbitrum's Pathway: Key Events Chronology
+excerpt: >-
+  "The Arbitrum ecosystem has evolved from initial concept to a leading Ethereum
+  scalability solution, marked by key milestones few of which are detailed in
+  this timeline.
+content: >-
+  The Arbitrum ecosystem represents a significant advancement in the realm of
+  blockchain technology, particularly in enhancing the scalability and
+  efficiency of Ethereum smart contracts. Since its inception, Arbitrum has
+  evolved through a series of pivotal developments, each marking a step forward
+  in its quest to optimize decentralized applications and services. This
+  timeline chronicles the key milestones in Arbitrum's journey. It highlights
+  the release of its grant programs, strategic partnerships, major protocol
+  upgrades, and the growing adoption within the blockchain community. This
+  chronology not only reflects the technical progress of the Arbitrum ecosystem
+  but also its growing impact and development of Arbitrum community.
 publishStatus: ''
-events: []
+events:
+  - title: Arbitrum Odyssey Ended
+    uuid: b1fe7919-a22e-4410-9e67-aca4539f1007
+    date: 2023-11-28T14:26:28.000Z
+    summary: i have to get back to the summary later on and ensure to rewrite it
+    fullDetails: i have to get back to the summary later on and ensure to rewrite it
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1178827661867491408
+  - title: Announcement of Grant Programs
+    uuid: 7b15f757-8867-46d3-bc37-8090b6bbc19d
+    date: 2023-11-10T14:27:45.000Z
+    summary: '- i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '- i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1172325424047603772
+  - title: Arbitrum Orbit is Mainnet Ready
+    uuid: e7fc3b49-1b76-4f49-98ee-68d838ed4ebf
+    date: 2023-10-27T14:28:30.000Z
+    summary: i have to get back to the summary later on and ensure to rewrite it-
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1167207019455991828
+  - title: Arbitrum Odyssey Reignited
+    uuid: 89edd22f-667d-48bc-9dbf-7de5509062c7
+    date: 2023-09-19T14:29:19.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1156265557868417065
+  - title: Nominee Selection for Security Council Elections
+    uuid: 19fb7048-6d92-43a9-b090-9942730f5e1e
+    date: 2023-09-18T14:30:15.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1153327234573144095
+  - title: Phase 1 of Arbitrum Grants Announced
+    uuid: ba402921-da1a-4ce5-b23f-da17b813d28b
+    date: 2023-07-19T14:32:01.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1131269843358863462
+  - title: Phase 1 of Arbitrum Ambassador Program
+    uuid: 702c44d4-0ae4-4c8c-8bd0-770d8fb85b52
+    date: 2023-07-13T14:40:07.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1128763400684589108
+  - title: Circle natively launches USDC
+    uuid: 1c588a99-99b1-4125-9404-afa22d2015d8
+    date: 2023-06-01T14:40:49.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1113814548365971539
 admins: []
 tags: []
 priority: 50
