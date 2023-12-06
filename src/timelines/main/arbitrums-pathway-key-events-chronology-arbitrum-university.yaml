@@ -114,21 +114,52 @@ events:
   - title: Phase 1 of Arbitrum Grants Announced
     uuid: ba402921-da1a-4ce5-b23f-da17b813d28b
     date: 2023-07-19T14:32:01.000Z
-    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    summary: >-
+      Phase 1 of the Arbitrum Foundation Grant Program is dedicated to
+      supporting builders in the Arbitrum ecosystem with milestone-based funding
+      aimed at fostering growth. This phase focuses on issuing grants that will
+      enhance the adoption of Arbitrum chains, strengthen their technical
+      frameworks, and contribute to the development of sustainable communities.
+      Through these grants, the program seeks to drive innovation and bolster
+      the overall health and capability of the Arbitrum ecosystem, aligning with
+      its strategic objectives of growth and technological advancement.
     fullDetails: ''
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1131269843358863462
   - title: Phase 1 of Arbitrum Ambassador Program
     uuid: 702c44d4-0ae4-4c8c-8bd0-770d8fb85b52
     date: 2023-07-13T14:40:07.000Z
-    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    summary: >-
+      Phase 1 of the Arbitrum Ambassador Program invites university-based
+      blockchain clubs and students to apply and become part of the "University
+      Fleet." This phase focuses on engaging these groups in activities like
+      creating content, hosting educational events, and learning about scaling
+      and Layer 2 technologies. Participants will represent Arbitrum in their
+      local communities, build professional networks, and contribute to the
+      Arbitrum ecosystem. This initial phase offers a platform for educational
+      and professional development within the blockchain space, setting the
+      stage for Phase 2, which will open to individual community members and
+      developers in Q3 2023. The program aims to expand Arbitrum's community
+      engagement and is an integral part of their strategy to grow their user
+      base.
     fullDetails: ''
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1128763400684589108
   - title: Circle natively launches USDC
     uuid: 1c588a99-99b1-4125-9404-afa22d2015d8
-    date: 2023-06-01T14:40:49.000Z
-    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    date: 2023-06-08T14:40:49.000Z
+    summary: >-
+      Circle is launching USDC natively on Arbitrum on June 8, 2023, replacing
+      the current bridged USDC from Ethereum. This native version will be fully
+      reserved, redeemable 1:1 for US dollars, and will support institutional
+      on/off-ramps and future enhancements via an upgradeable smart contract. To
+      distinguish between the versions, the Ethereum-bridged USDC will be
+      renamed as “USDC.e”. The transition from bridged to native USDC will be
+      gradual, with Arbitrum working with ecosystem apps for smooth liquidity
+      migration. Additionally, Circle plans to introduce the Cross-Chain
+      Transfer Protocol (CCTP) to Arbitrum post-launch, enabling faster USDC
+      transfers between Ethereum and other chains, significantly improving
+      transaction efficiency in the Arbitrum ecosystem.
     fullDetails: ''
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1113814548365971539
