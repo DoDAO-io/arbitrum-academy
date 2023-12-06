@@ -20,29 +20,81 @@ events:
   - title: Arbitrum Odyssey Ended
     uuid: b1fe7919-a22e-4410-9e67-aca4539f1007
     date: 2023-11-28T14:26:28.000Z
-    summary: i have to get back to the summary later on and ensure to rewrite it
-    fullDetails: i have to get back to the summary later on and ensure to rewrite it
+    summary: >-
+      The official closing of Arbitrum Odyssey, a platform that provides the
+      Arbitrum enthusiasts an opportunity to participate in 13 projects. 
+    fullDetails: >-
+      The conclusion of the Arbitrum Odyssey marked a significant moment in the
+      ecosystem's community engagement and education. As participants completed
+      their final missions, they not only gathered the last of the custom badges
+      but also solidified their understanding and experience with the diverse
+      projects within Arbitrum. This event, which blended learning with
+      interactive challenges, successfully fostered a deeper connection between
+      users and the ecosystem, highlighting the versatility and potential of
+      Arbitrum's technology. The finale of the Odyssey, celebrated by the
+      community, underscored the event's role in enhancing user interaction and
+      showcasing the capabilities of the Arbitrum network.
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1178827661867491408
   - title: Announcement of Grant Programs
     uuid: 7b15f757-8867-46d3-bc37-8090b6bbc19d
     date: 2023-11-10T14:27:45.000Z
-    summary: '- i have to get back to the summary later on and ensure to rewrite it'
-    fullDetails: '- i have to get back to the summary later on and ensure to rewrite it'
+    summary: >-
+      The Arbitrum ecosystem fosters innovation and growth through diverse grant
+      programs, offering tailored funding and support to developers and
+      community initiatives.
+    fullDetails: >-
+      The Arbitrum Foundation Grant Program is a key initiative offering
+      milestone-based funding to support growth and innovation within the
+      Arbitrum ecosystem. This includes enhancing Arbitrum chain adoption,
+      technical development, and community building. The Uniswap-Arbitrum Grant
+      Program (UAGP), a six-month plan, provides grants in ARB tokens, aiming to
+      accelerate adoption and collaboration within the Uniswap-Arbitrum space.
+      Additionally, community-led efforts like those by Plurarity Labs and
+      thankarb.com are distributing millions of ARB tokens to encourage
+      community participation. The Questbook Arbitrum Grants program supports
+      domain-specific projects, offering funding tailored to the unique needs of
+      each domain, with allocations decided by community-elected domain
+      allocators. These programs collectively aim to bolster active protocols
+      and drive forward the Arbitrum ecosystem's growth and innovation.
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1172325424047603772
   - title: Arbitrum Orbit is Mainnet Ready
     uuid: e7fc3b49-1b76-4f49-98ee-68d838ed4ebf
     date: 2023-10-27T14:28:30.000Z
-    summary: i have to get back to the summary later on and ensure to rewrite it-
-    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    summary: >-
+      Arbitrum's transition to mainnet readiness marks a crucial advancement in
+      Ethereum scalability, showcasing its preparedness for widespread adoption
+      and its potential to revolutionize the DeFi landscape.
+    fullDetails: >-
+      The transition of Arbitrum to mainnet readiness marked a watershed moment
+      in its development, signifying a major leap forward in the realm of
+      Ethereum scalability solutions. This milestone was celebrated as a
+      culmination of extensive research, development, and rigorous testing,
+      showcasing Arbitrum's readiness for widespread, real-world deployment. The
+      mainnet launch opened up new avenues for developers and users, offering a
+      more efficient, cost-effective, and scalable alternative to Ethereum's
+      main chain. It was not only a technical achievement but also a significant
+      boost to the confidence of the DeFi community and potential investors, as
+      Arbitrum positioned itself as a robust and reliable layer-2 solution,
+      ready to address some of the most pressing challenges faced by the
+      Ethereum network.
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1167207019455991828
   - title: Arbitrum Odyssey Reignited
     uuid: 89edd22f-667d-48bc-9dbf-7de5509062c7
-    date: 2023-09-19T14:29:19.000Z
-    summary: '-i have to get back to the summary later on and ensure to rewrite it'
-    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    date: 2023-09-26T14:29:19.000Z
+    summary: An opportunity to explore 13 projects within the Arbitrum Ecosystem.
+    fullDetails: >-
+      The Arbitrum Odyssey: Reignited, starting September 26th for 7 weeks,
+      invites participants to explore 13 projects within the Arbitrum ecosystem
+      through varied missions, ranging from using DeFi apps to playing games.
+      Completing these missions earns custom badges, with a total of 16
+      available, including rewards for past participation and special
+      achievements. This event, beginning with GMX in week 1, is part of a
+      broader enhancement of the Arbitrum Portal, which will serve as the
+      central information hub for the Odyssey, blending education and engagement
+      in the Arbitrum ecosystem.
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1156265557868417065
   - title: Nominee Selection for Security Council Elections
