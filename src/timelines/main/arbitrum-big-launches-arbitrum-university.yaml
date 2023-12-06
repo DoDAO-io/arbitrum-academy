@@ -18,10 +18,6 @@ events:
     uuid: 66e4a1a0-b7a4-4e13-bca1-9ba034f1d2de
     date: 2023-08-31T17:33:51.000Z
     summary: >-
-      Arbitrum Stylus enhances Arbitrum Nitro with EVM and WASM support,
-      boosting efficiency and enabling diverse, resource-intensive blockchain
-      applications
-    fullDetails: >-
       Arbitrum Stylus, a newly released component for the Arbitrum Nitro chains,
       enables developers to create applications using both traditional EVM and
       WASM-compatible languages like Rust, C, and C++. This development
@@ -34,16 +30,13 @@ events:
       that combines the security of Arbitrum with the flexibility of popular
       programming languages, fostering innovation and broadening the scope of
       potential blockchain applications.
+    fullDetails: ''
     moreLink: >-
       https://medium.com/offchainlabs/stylus-now-live-one-chain-many-languages-eee56ad7266d
   - title: Launch of Orbit
     uuid: 04622c80-9403-4b7d-b560-8fde56a9c1e9
     date: 2023-08-17T17:24:36.000Z
     summary: >-
-      Arbitrum Orbit introduces a novel multi-chain framework, enabling seamless
-      interoperability and enhanced scalability for diverse blockchain
-      ecosystems.
-    fullDetails: >-
       Arbitrum Orbit represents a groundbreaking development in the realm of
       blockchain technology, aimed at enhancing the interconnectivity and
       scalability of various blockchain networks. This platform introduces a
@@ -56,16 +49,13 @@ events:
       decentralized applications (dApps) to function across different
       blockchains, thereby fostering a more integrated, versatile, and robust
       blockchain environment.
+    fullDetails: ''
     moreLink: >-
       https://medium.com/offchainlabs/arbitrum-orbit-anytrust-chains-465ec2f1a5d8
   - title: Announcement of Stylus
     uuid: 9f178db7-f4ae-4887-9447-2a8003fe8ded
     date: 2023-02-07T17:14:58.000Z
     summary: >-
-      Stylus announces a groundbreaking leap in technology, promising to
-      redefine user interaction with innovative features and enhanced
-      performance.
-    fullDetails: >-
       The announcement of Stylus represents a significant advancement in digital
       interaction technology. This new tool is designed to offer a seamless and
       intuitive user experience, bridging the gap between digital and physical
@@ -77,15 +67,12 @@ events:
       is set to revolutionize how users engage with their devices, offering a
       natural, responsive, and highly accurate method of input that enhances
       both productivity and creativity in the digital space.
+    fullDetails: ''
     moreLink: https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22
   - title: Arbitrum Nitro
     uuid: 44d28d9c-0c7b-4a26-aff5-217b703926a9
     date: 2022-08-31T16:52:57.000Z
     summary: >-
-      Arbitrum Nitro's launch propels Ethereum scalability to new heights,
-      delivering enhanced speed and efficiency with a state-of-the-art
-      optimization engine.
-    fullDetails: >-
       Arbitrum Nitro's launch event marks a pivotal moment in the evolution of
       Ethereum's layer-2 scaling solutions, introducing an advanced optimization
       engine designed to boost performance and efficiency dramatically. This
@@ -98,15 +85,13 @@ events:
       more accessible and user-friendly for a broader range of decentralized
       applications and users, further solidifying Arbitrum's position as a
       leading solution in the blockchain scalability space.
+    fullDetails: ''
     moreLink: >-
       https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450
   - title: Arbitrum Nova
     uuid: a2807afb-30a9-4e75-ae47-2481703890b7
     date: 2022-08-09T16:42:19.000Z
     summary: >-
-      Arbitrum Nova's launch ushers in a new era of ultra-efficient, low-cost
-      blockchain transactions, tailored for gaming and social applications
-    fullDetails: >-
       Arbitrum Nova's launch event signifies a major advancement in the
       blockchain technology space, specifically targeting the gaming and social
       media sectors. As a specialized layer-2 solution on the Ethereum network,
@@ -119,15 +104,12 @@ events:
       addressing the specific needs of a rapidly growing segment in the
       blockchain industry and marking a key step towards widespread adoption of
       blockchain technology in mainstream applications.
+    fullDetails: ''
     moreLink: https://messari.io/project/arbitrum/profile
   - title: Arbitrum Anytrust
     uuid: c8855f08-2ac0-4e03-b5d6-5479d99cfe76
     date: 2022-07-11T16:37:57.000Z
     summary: >-
-      Arbitrum AnyTrust's launch elevates blockchain trust and efficiency,
-      offering a unique blend of speed, security, and reduced reliance on full
-      decentralization.
-    fullDetails: >-
       The launch of Arbitrum AnyTrust marks a notable innovation in the
       blockchain sphere, introducing a unique approach to scaling Ethereum.
       AnyTrust technology focuses on balancing trust and efficiency by allowing
@@ -140,16 +122,13 @@ events:
       This launch represents a strategic move in expanding the range of
       scalability solutions available for Ethereum, catering to a diverse set of
       needs and use cases in the blockchain ecosystem.
+    fullDetails: ''
     moreLink: >-
       https://medium.com/offchainlabs/introducing-nova-arbitrum-anytrust-mainnet-is-open-for-developers-9a54692f345e
   - title: Arbitrum One
     uuid: fa9f4d2c-7df4-41b5-a874-b8aee77dbf2c
     date: 2021-08-31T16:28:43.000Z
     summary: >-
-      Arbitrum One's launch heralds a new era in Ethereum scalability,
-      seamlessly blending enhanced transaction throughput with optimal security
-      and decentralization.
-    fullDetails: >-
       Arbitrum One's launch marks a significant leap forward in the Ethereum
       ecosystem. This is designed to greatly enhance the transaction capacity
       and speed of the Ethereum network while maintaining its robust security
@@ -161,15 +140,12 @@ events:
       environment for building and using Ethereum-based applications. Arbitrum
       One stands as a milestone in the quest for a more scalable and
       user-friendly blockchain experience.
+    fullDetails: ''
     moreLink: https://messari.io/project/arbitrum/profile
   - title: Arbitrum Roll up
     uuid: f12195e2-843d-4c1e-9cf8-a12ff21324d0
     date: 2020-02-11T15:32:19.000Z
     summary: >-
-      Arbitrum Rollup's launch revolutionizes Ethereum scalability, offering
-      unprecedented transaction speed and efficiency, while maintaining robust
-      security
-    fullDetails: >-
       Arbitrum Rollup's launch represents a groundbreaking advancement in
       blockchain technology, specifically addressing the scalability and
       efficiency challenges faced by the Ethereum network. As a layer-2
@@ -182,15 +158,12 @@ events:
       ensures a more scalable, efficient, and user-friendly platform, while
       maintaining the security and decentralization principles of the Ethereum
       blockchain.
+    fullDetails: ''
     moreLink: https://messari.io/project/arbitrum/profile
   - title: Launch of Arbitrum
     uuid: 1336fb8f-b948-4c95-9986-8a27a4206e34
     date: 2019-04-15T15:32:23.000Z
     summary: >-
-      Arbitrum's launch has revolutionized Ethereum's scalability, offering
-      lightning-fast transactions and reduced fees, reshaping the DeFi
-      landscape.
-    fullDetails: >-
       Arbitrum's launch marked a significant milestone in the Ethereum
       ecosystem, introducing a novel layer-2 scaling solution designed to
       enhance transaction efficiency and scalability. By employing a unique form
@@ -201,6 +174,7 @@ events:
       (dApps), thereby attracting a wide range of developers and users within
       the blockchain community. The implementation of Arbitrum aims to foster a
       more accessible and efficient decentralized finance (DeFi) environment.
+    fullDetails: ''
     moreLink: https://messari.io/project/arbitrum/profile
 admins: []
 tags: []
