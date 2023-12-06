@@ -100,8 +100,24 @@ events:
   - title: Nominee Selection for Security Council Elections
     uuid: 19fb7048-6d92-43a9-b090-9942730f5e1e
     date: 2023-09-18T14:30:15.000Z
-    summary: '-i have to get back to the summary later on and ensure to rewrite it'
-    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    summary: >-
+      The selection of nominees for Arbitrum's Security Council elections
+      emphasizes expertise in blockchain security and a commitment to
+      maintaining the ecosystem's integrity.
+    fullDetails: >-
+      In the Arbitrum governance framework, the selection of nominees for the
+      Security Council elections is a critical process, reflecting the
+      platform's commitment to robust and reliable security mechanisms. This
+      procedure involves a meticulous evaluation of candidates, prioritizing
+      individuals with a proven track record in blockchain security, technical
+      expertise, and a deep understanding of the Arbitrum ecosystem. The
+      emphasis is on choosing nominees who can contribute significantly to the
+      council's role in overseeing and safeguarding the network's integrity. The
+      community plays a vital role in this process, with opportunities to
+      suggest and endorse candidates, ensuring a transparent and inclusive
+      approach. The nominee selection for the Security Council is a testament to
+      Arbitrum's dedication to maintaining high security standards and fostering
+      a trustworthy and secure environment for its users.
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1153327234573144095
   - title: Phase 1 of Arbitrum Grants Announced
