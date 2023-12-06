@@ -73,6 +73,27 @@ events:
     fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
     moreLink: >-
       https://discord.com/channels/585084330037084172/585085189823266875/1113814548365971539
+  - title: Bridge Transaction History Upgrade
+    uuid: e0e76a98-0d1b-4621-b002-5449524cee7a
+    date: 2023-03-09T14:55:53.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1083414205207674963
+  - title: Arbitrum One processes more transactions than Ethereum
+    uuid: 1c93fdb4-c316-4782-bd6c-c9a42a007faa
+    date: 2023-02-22T14:56:43.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1077975372844499034
+  - title: Arbitrum Nova Block Explorer is Live
+    uuid: f11d7524-5a59-4777-a1ef-b1e9f64ad7b0
+    date: 2022-10-26T14:58:03.000Z
+    summary: '-i have to get back to the summary later on and ensure to rewrite it'
+    fullDetails: '-i have to get back to the summary later on and ensure to rewrite it'
+    moreLink: >-
+      https://discord.com/channels/585084330037084172/585085189823266875/1034879374924714075
 admins: []
 tags: []
 priority: 50
