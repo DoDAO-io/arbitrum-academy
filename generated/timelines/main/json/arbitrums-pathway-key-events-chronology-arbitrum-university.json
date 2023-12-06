@@ -73,7 +73,7 @@
       "title": "Bridge Transaction History Upgrade",
       "uuid": "e0e76a98-0d1b-4621-b002-5449524cee7a",
       "date": "2023-03-09T14:55:53.000Z",
-      "summary": "-i have to get back to the summary later on and ensure to rewrite it",
+      "summary": "The recent Bridge Transaction History Upgrade brings substantial improvements to the transaction tracking system. A key enhancement is the fully revamped transaction history dashboard, which has been redesigned for better user experience and is now conveniently located under the user drop-down menu. Additionally, the upgrade significantly enhances accessibility by connecting the transaction history to new subgraphs. This allows users to view their entire deposit and withdrawal history, dating back over a year, from any computer. To further streamline the user experience, a search feature has been integrated. This new search bar enables users to quickly and efficiently search all deposits and withdrawals by their transaction ID, simplifying the process of tracking and reviewing past transactions. These updates collectively make managing and reviewing transactions on the platform more user-friendly and efficient.",
       "fullDetails": "",
       "moreLink": "https://discord.com/channels/585084330037084172/585085189823266875/1083414205207674963"
     },
