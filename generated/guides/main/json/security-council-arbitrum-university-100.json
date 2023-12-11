@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A setp to ensure network integrity!",
-  "created": "2023-11-30T14:26:30.028Z",
+  "created": "2023-12-11T15:17:48.243Z",
   "guideType": "onboarding",
   "key": "security-council-arbitrum-university-100",
   "name": "Security Council",
@@ -18,39 +18,85 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "ebdd1a42-ef5b-4f29-ade0-54706d06c843"
-        },
-        {
           "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
+            "C"
           ],
           "choices": [
             {
-              "content": "Choice 1",
-              "key": "choice_1"
+              "content": "To manage the financial assets of the DAO",
+              "key": "A"
             },
             {
-              "content": "Choice 2",
-              "key": "choice_2"
+              "content": "To make decisions about the DAO's future projects",
+              "key": "B"
             },
             {
-              "content": "Choice 3",
-              "key": "choice_3"
+              "content": "To manage and mitigate risks, ensuring the security of the network",
+              "key": "C"
             },
             {
-              "content": "Choice 4",
-              "key": "choice_4"
+              "content": "To organize social events for the DAO's members",
+              "key": "D"
             }
           ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "615501f8-e6a8-41bb-9473-99b54e339c61",
-          "explanation": "Explanation of the question"
+          "content": "What is the main role of the Security Council in the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "3103bcd5-3c3d-4ed9-92b6-32fc9c46a269",
+          "explanation": "The Security Council is tasked with safeguarding the Arbitrum ecosystem. Their role encompasses enacting both emergency and non-emergency measures to maintain the integrity and security of the network, ensuring the ecosystem's resilience against threats and vulnerabilities."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "10",
+              "key": "A"
+            },
+            {
+              "content": "12",
+              "key": "B"
+            },
+            {
+              "content": "15",
+              "key": "C"
+            },
+            {
+              "content": "20",
+              "key": "D"
+            }
+          ],
+          "content": "How many members does the Security Council of the Arbitrum DAO consist of?",
+          "type": "SingleChoice",
+          "uuid": "81f83d65-65dc-4a59-9e64-4148310cd7f2",
+          "explanation": "The Security Council of the Arbitrum DAO is composed of 12 members."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "They are appointed by the DAO's founder",
+              "key": "A"
+            },
+            {
+              "content": "They are selected by a random draw",
+              "key": "B"
+            },
+            {
+              "content": "They are chosen by the previous Security Council",
+              "key": "C"
+            },
+            {
+              "content": "They are elected democratically by the DAO's members",
+              "key": "D"
+            }
+          ],
+          "content": "How are the members of the Security Council of the Arbitrum DAO selected?",
+          "type": "SingleChoice",
+          "uuid": "2ce437ee-9ef8-4ad8-b63e-afa867566574",
+          "explanation": "The members of the Security Council are elected democratically by the Arbitrum DAO's members."
         }
       ],
       "uuid": "5149ae32-44e9-4b95-99c8-0ac02982cf4c"
@@ -64,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To provide entertainment for community members",
+              "key": "A"
+            },
+            {
+              "content": "To create a sense of competition among community members",
+              "key": "B"
+            },
+            {
+              "content": "To allow community members to shape the leadership that manages the protocol's security",
+              "key": "C"
+            },
+            {
+              "content": "To generate revenue for the DAO",
+              "key": "D"
+            }
+          ],
+          "content": "What is the primary purpose of the Security Council elections within the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "3117576c-be40-4b69-812e-7f57a00cfea9",
+          "explanation": "The primary purpose of the Security Council elections within the Arbitrum DAO is to allow community members to shape the leadership that manages the protocol's security."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "The previous Security Council",
+              "key": "A"
+            },
+            {
+              "content": "The community",
+              "key": "B"
+            },
+            {
+              "content": "The founders of the DAO",
+              "key": "C"
+            },
+            {
+              "content": "External stakeholders",
+              "key": "D"
+            }
+          ],
+          "content": "Who are the members of the Security Council elected by?",
+          "type": "SingleChoice",
+          "uuid": "cd7b4b7c-ae1e-469e-bb96-1399fcf36a6c",
+          "explanation": "The members of the Security Council are elected by the community, upholding democratic principles."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To generate revenue for the DAO",
+              "key": "A"
+            },
+            {
+              "content": "To provide entertainment for community members",
+              "key": "B"
+            },
+            {
+              "content": "To create a sense of competition among community members",
+              "key": "C"
+            },
+            {
+              "content": "To maintain the security and integrity of the DAO",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of elected members in the Security Council?",
+          "type": "SingleChoice",
+          "uuid": "ba408aee-c35d-4812-b822-0fd097f2f385",
+          "explanation": "Elected members are tasked with the critical role of maintaining the security and integrity of the DAO, aligning with the community's trust."
+        }
+      ],
       "uuid": "416d33c0-8f0a-4756-b9b7-b29cbc4eded8"
     },
     {
@@ -76,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Annually",
+              "key": "A"
+            },
+            {
+              "content": "Biannually",
+              "key": "B"
+            },
+            {
+              "content": "Quarterly",
+              "key": "C"
+            },
+            {
+              "content": "Monthly",
+              "key": "D"
+            }
+          ],
+          "content": "How often do elections for the Security Council of the Arbitrum DAO occur?",
+          "type": "SingleChoice",
+          "uuid": "2d247d4f-caee-47b2-9d20-dba244425271",
+          "explanation": "Elections to appoint members to each half of the Security Council occur biannually."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "2",
+              "key": "A"
+            },
+            {
+              "content": "4",
+              "key": "B"
+            },
+            {
+              "content": "3",
+              "key": "C"
+            },
+            {
+              "content": "5",
+              "key": "D"
+            }
+          ],
+          "content": "What is the maximum number of members from the same organization that can be elected to the Security Council?",
+          "type": "SingleChoice",
+          "uuid": "03427d18-0073-4ca7-a942-b303d09003f2",
+          "explanation": "No more than 3 members from the same organization can be elected to the Security Council."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "If 20% of votable tokens participate in a vote favoring removal",
+              "key": "A"
+            },
+            {
+              "content": "If 5 Council members vote for the removal",
+              "key": "B"
+            },
+            {
+              "content": "If the member fails to attend three consecutive meetings",
+              "key": "C"
+            },
+            {
+              "content": "If 10% of votable tokens participate in a vote with 5/6 majority favoring removal, or if 9 Council members vote for the removal",
+              "key": "D"
+            }
+          ],
+          "content": "Under what conditions can a Security Council member be removed?",
+          "type": "SingleChoice",
+          "uuid": "56b6a5b1-d5b7-4b80-88e1-22c696bbf461",
+          "explanation": "A Security Council member can be removed if 10% of votable tokens participate in a vote with 5/6 majority favoring removal, or if 9 Council members vote for the removal."
+        }
+      ],
       "uuid": "2d2dde50-c492-4a4e-928a-fc30fe082600"
     },
     {
