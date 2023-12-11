@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2023-11-22T18:22:17.767Z'
+created: '2023-12-11T12:25:47.645Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -77,7 +77,69 @@ steps:
     uuid: 1177dd85-a206-4d4e-99fb-46549ce30bd0
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: A type of cryptocurrency
+            key: A
+          - content: A blockchain network
+            key: B
+          - content: A Layer 2 scaling solution for Ethereum
+            key: C
+          - content: A type of smart contract
+            key: D
+        content: What is Arbitrum?
+        type: SingleChoice
+        uuid: 940c7764-e2d9-4808-9ff7-f0d7c9985c5e
+        explanation: >-
+          Arbitrum is a Layer 2 scaling solution designed to enhance the
+          Ethereum blockchain's scalability and efficiency. It processes
+          transactions separately from Ethereum's main chain and utilizes Rollup
+          technology to combine multiple transactions into one, increasing
+          throughput and reducing costs.
+      - answerKeys:
+          - B
+        choices:
+          - content: To create a new blockchain
+            key: A
+          - content: >-
+              To address scalability and performance issues of the main
+              blockchain
+            key: B
+          - content: To increase transaction fees
+            key: C
+          - content: To replace the main blockchain
+            key: D
+        content: What is the primary purpose of Layer 2 solutions?
+        type: SingleChoice
+        uuid: 8b6ad97f-a68f-4a11-81df-763676e8ad4d
+        explanation: >-
+          The primary purpose of Layer 2 solutions is to address the scalability
+          and performance issues of the main blockchain by handling transactions
+          off the main chain. This allows for faster processing times and
+          reduced transaction costs, without compromising the decentralized
+          security model of the underlying blockchain.
+      - answerKeys:
+          - D
+        choices:
+          - content: Increased transaction fees
+            key: A
+          - content: Slower transaction times
+            key: B
+          - content: Decreased scalability
+            key: C
+          - content: >-
+              Increased transaction throughput, reduced costs, improved speed,
+              enhanced scalability, and maintained security
+            key: D
+        content: What are the benefits of Layer 2 solutions?
+        type: SingleChoice
+        uuid: 298cf5dd-223e-4e54-a7a2-ecf3439b56db
+        explanation: >-
+          Layer 2 solutions offer several benefits including increased
+          transaction throughput, reduced costs, improved speed, enhanced
+          scalability, and maintained security.
     uuid: 454ca522-ba97-4e1b-b09e-2b334ba36a5b
   - content: >-
       ## Roll Ups
@@ -209,7 +271,81 @@ steps:
     uuid: 9e3b90a5-66a9-406e-baa7-b24726e5ab83
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: To execute all transactions on-chain
+            key: A
+          - content: To reject all transactions off-chain
+            key: B
+          - content: >-
+              To batch many transactions into a single one and post it to the
+              main chain
+            key: C
+          - content: To execute transactions individually on the main chain
+            key: D
+        content: What is the core idea of rollups in Ethereum?
+        type: SingleChoice
+        uuid: 90b8905d-5c45-4083-b31d-b528fb9fce1c
+        explanation: >-
+          The core idea of rollups is to 'roll up' or batch many transactions
+          into a single one, which is then posted to the main chain. This
+          reduces the amount of data that needs to be stored and processed on
+          the main chain, significantly increasing throughput and reducing
+          transaction fees.
+      - answerKeys:
+          - B
+        choices:
+          - content: >-
+              Optimistic Rollups generate a cryptographic proof for each
+              transaction
+            key: A
+          - content: >-
+              Optimistic Rollups assume transactions to be valid by default,
+              while ZK-Rollups generate a cryptographic proof for their validity
+            key: B
+          - content: ZK-Rollups assume transactions to be valid by default
+            key: C
+          - content: >-
+              There is no difference between Optimistic Rollups and
+              Zero-Knowledge Rollups
+            key: D
+        content: >-
+          What is the difference between Optimistic Rollups and Zero-Knowledge
+          Rollups?
+        type: SingleChoice
+        uuid: 38189a4a-42e9-410c-82bf-95ef24f3a6db
+        explanation: >-
+          Optimistic Rollups operate on the principle that all transactions are
+          assumed to be valid by default and only execute transaction
+          computations on-chain in the event of a challenge. On the other hand,
+          ZK-Rollups bundle transactions and generate a cryptographic proof,
+          known as a zero-knowledge proof, attesting to their validity. This
+          proof is then posted to the main chain, where it can be quickly
+          verified.
+      - answerKeys:
+          - D
+        choices:
+          - content: It is used to store the state of the rollup
+            key: A
+          - content: It is used to generate a cryptographic proof for each transaction
+            key: B
+          - content: It is used to challenge invalid transactions
+            key: C
+          - content: >-
+              It is used to submit the batch of transactions to Ethereum as a
+              temporary and immutable form of data
+            key: D
+        content: What is the role of 'calldata' in Optimistic Rollups?
+        type: SingleChoice
+        uuid: 3944d3a8-91ee-4937-aefb-22d7303cbcfb
+        explanation: >-
+          'Calldata' is used in Optimistic Rollups to submit the batch of
+          transactions to Ethereum as a temporary and immutable form of data
+          used by smart contracts to execute functions. While 'calldata' remains
+          in the blockchain's history, it does not become part of the Ethereum
+          state, thereby conserving space and reducing costs.
     uuid: 3cc2ab75-c65d-4157-b7d9-c475e3d481f0
   - content: >-
       Arbitrum ecosystem consists of various chains with distinct features that
@@ -296,7 +432,72 @@ steps:
     uuid: 6aae4c48-10e0-494b-bd9e-a8404f42515d
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content: It relies on a Data Security Committee to manage transaction data
+            key: A
+          - content: >-
+              It relies on a Data Availability Committee to manage transaction
+              data
+            key: B
+          - content: It relies on a Data Integrity Committee to manage transaction data
+            key: C
+          - content: It relies on a Data Privacy Committee to manage transaction data
+            key: D
+        content: What is the primary distinction of Arbitrum Nova's AnyTrust protocol?
+        type: SingleChoice
+        uuid: df7a6085-04f1-4587-ad5f-23cbed9e63c1
+        explanation: >-
+          The primary distinction of Arbitrum Nova's AnyTrust protocol lies in
+          its reliance on a Data Availability Committee (DAC) to manage
+          transaction data.
+      - answerKeys:
+          - C
+        choices:
+          - content: Arbitrum uses a single-round fraud proof system
+            key: A
+          - content: Arbitrum uses a double-round fraud proof system
+            key: B
+          - content: Arbitrum uses a multi-round fraud proof system
+            key: C
+          - content: Arbitrum uses a triple-round fraud proof system
+            key: D
+        content: What sets Arbitrum apart from other Optimistic L2 Rollups?
+        type: SingleChoice
+        uuid: 753f28f4-e956-4bcd-b512-21dc3d36f004
+        explanation: >-
+          Arbitrum sets itself apart from other Optimistic L2 Rollups primarily
+          through its multi-round fraud proof system.
+      - answerKeys:
+          - D
+        choices:
+          - content: >-
+              To create public chains that settle transactions to Ethereum's
+              Layer 1
+            key: A
+          - content: >-
+              To create private chains that settle transactions to Ethereum's
+              Layer 1
+            key: B
+          - content: >-
+              To create public chains that settle transactions to Arbitrum's
+              Layer 1
+            key: C
+          - content: >-
+              To create personalized chains that settle transactions to
+              Arbitrum's Layer 2 chains
+            key: D
+        content: What is the purpose of Arbitrum Orbit?
+        type: SingleChoice
+        uuid: 9e915f78-b0a5-4c2b-a323-777d058496b4
+        explanation: >-
+          Arbitrum Orbit allows the creation of personalized chains that settle
+          transactions to Arbitrum's Layer 2 chains. You have full control over
+          your Orbit chain, with the ability to tailor its privacy settings,
+          permissions, governance structure, and fee token according to your
+          specific requirements.
     uuid: 35076c67-6a2a-4dfe-bfb4-c5b9565ed0f4
   - content: >-
       The Arbitrum ecosystem boasts a vibrant network of decentralized
@@ -388,7 +589,61 @@ steps:
     uuid: 44ce8c60-de16-42f2-abb6-a12bcbb75d00
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: It allows developers to write smart contracts in Python
+            key: A
+          - content: It reduces the transaction speed
+            key: B
+          - content: It allows developers to write smart contracts in Rust, C, and C++
+            key: C
+          - content: It increases the transaction costs
+            key: D
+        content: What is the main advantage of Stylus in the Arbitrum ecosystem?
+        type: SingleChoice
+        uuid: 475f9ea6-123a-4a0a-bb10-cab2771b3ec2
+        explanation: >-
+          Stylus enhances the Arbitrum ecosystem by allowing developers to write
+          smart contracts in Rust, C, and C++ and introducing significant
+          performance enhancements for decentralized applications.
+      - answerKeys:
+          - B
+        choices:
+          - content: To increase the transaction costs
+            key: A
+          - content: To allow stakeholders to vote on key decisions
+            key: B
+          - content: To reduce the transaction speed
+            key: C
+          - content: To discourage community participation
+            key: D
+        content: What is the purpose of the Arbitrum DAO?
+        type: SingleChoice
+        uuid: d1467e5b-6aac-4891-9c14-79395dc3b1f5
+        explanation: >-
+          Arbitrum's decentralized governance is orchestrated through the
+          Arbitrum DAO, which allows stakeholders to vote on key decisions
+          affecting both the Arbitrum One and Arbitrum Nova chains.
+      - answerKeys:
+          - D
+        choices:
+          - content: To increase the transaction costs
+            key: A
+          - content: To reduce the transaction speed
+            key: B
+          - content: To discourage community participation
+            key: C
+          - content: To make urgent or minor changes
+            key: D
+        content: What is the role of the Security Council in the Arbitrum ecosystem?
+        type: SingleChoice
+        uuid: de8a11fa-ebfc-44c5-a262-d0118ce29cc6
+        explanation: >-
+          The governance structure includes a Security Council that can make
+          urgent or minor changes, as well as a set of allow-listed validators
+          who confirm the chains' states.
     uuid: f77544c4-4e06-4dc0-adfc-6562e656ef2e
   - content: >+
       ### Step 1
