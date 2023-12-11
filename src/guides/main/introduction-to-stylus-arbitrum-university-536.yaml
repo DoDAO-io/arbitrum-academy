@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-11-28T16:38:03.601Z'
+created: '2023-12-11T14:01:06.318Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -84,27 +84,64 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 6060ea71-ae02-4033-add5-265b2701d796
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - B
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: e36dee50-4d76-482a-829e-2a402fcac604
-        explanation: Explanation of the question
+          - content: To enhance the development of mobile applications
+            key: A
+          - content: >-
+              To enhance the development of smart contracts on the Arbitrum
+              platform
+            key: B
+          - content: To enhance the development of desktop applications
+            key: C
+          - content: To enhance the development of web applications
+            key: D
+        content: What is Stylus primarily designed for?
+        type: SingleChoice
+        uuid: 869c2117-b766-4a14-992d-1d0301527cfc
+        explanation: >-
+          Stylus is designed to enhance the development of smart contracts on
+          the Arbitrum platform, which is part of the Ethereum ecosystem.
+      - answerKeys:
+          - D
+        choices:
+          - content: Python, Java, and Ruby
+            key: A
+          - content: JavaScript, TypeScript, and Go
+            key: B
+          - content: Swift, Kotlin, and PHP
+            key: C
+          - content: Rust, C, and C++
+            key: D
+        content: >-
+          What languages can be used to write EVM-compatible smart contracts
+          with Stylus?
+        type: SingleChoice
+        uuid: 993ac898-b18a-4d25-b712-dc125f736ba0
+        explanation: >-
+          Languages such as Rust, C, and C++ can now be employed to write
+          EVM-compatible smart contracts with the help of Stylus.
+      - answerKeys:
+          - C
+        choices:
+          - content: It allows developers to write code in any language
+            key: A
+          - content: It reduces the need for testing
+            key: B
+          - content: >-
+              It broadens access to Arbitrum's blockchain development by
+              accommodating a variety of programming languages
+            key: C
+          - content: It automates the deployment process
+            key: D
+        content: What is one of the key advantages of Stylus?
+        type: SingleChoice
+        uuid: 1acaf46b-2443-468f-add5-115c19ca0c6f
+        explanation: >-
+          One of the key advantages of Stylus is its multi-language support. It
+          broadens access to Arbitrum's blockchain development by accommodating
+          a variety of programming languages.
     uuid: 0b874314-5f3a-442f-a7f8-0cd1c1558009
   - content: >-
       ## Working of Stylus 
@@ -160,7 +197,45 @@ steps:
     uuid: 2c531825-b9c2-488f-a24b-c0991f2972ca
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: To upload the WASM code to the blockchain
+            key: A
+          - content: To compile the written program into WASM
+            key: B
+          - content: >-
+              To convert WASM into binary code that’s optimized for the node’s
+              architecture
+            key: C
+          - content: To run the Stylus programs on a modified version of Wasmer
+            key: D
+        content: What is the purpose of the 'activation' process in Stylus?
+        type: SingleChoice
+        uuid: d4b8bfff-3334-41b7-b433-efa2ea1e5d83
+        explanation: >-
+          The 'activation' process involves using the ArbWasm precompile to
+          convert WASM into binary code that’s optimized for the node’s
+          architecture, ensuring the program is safe and efficient for
+          execution.
+      - answerKeys:
+          - B
+        choices:
+          - content: Binary code
+            key: A
+          - content: WASM
+            key: B
+          - content: Rust
+            key: C
+          - content: Wasmer
+            key: D
+        content: What does Stylus use to perform interactive fraud proofs on Ethereum?
+        type: SingleChoice
+        uuid: 74560977-307f-463d-86b2-e0f71015d369
+        explanation: >-
+          If a dispute arises (the 'sad case'), Nitro uses WASM to perform
+          interactive fraud proofs on Ethereum.
     uuid: 6ffd959e-56e9-41a1-8844-eeb5374a8441
   - content: ''
     name: Smart Contracts
