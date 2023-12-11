@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into the Arbitrum Governance Sructure",
-  "created": "2023-12-11T15:03:11.893Z",
+  "created": "2023-12-11T17:59:16.164Z",
   "guideType": "onboarding",
   "key": "arbitrum-governance-arbitrum-university-791",
   "name": "Arbitrum Governance",
@@ -250,7 +250,7 @@
               "key": "C"
             },
             {
-              "content": "They are appointed by the Arbitrum community",
+              "content": "They are appointed by the President ",
               "key": "D"
             }
           ],
@@ -281,7 +281,7 @@
               "key": "D"
             }
           ],
-          "content": "What is the role of the Security Council in routine upgrades?",
+          "content": "What is the role of the Security Council in case of non-critical upgrades?",
           "type": "SingleChoice",
           "uuid": "6225a16e-6763-4ee7-9420-7d0d61808a96",
           "explanation": "In case of non-critical updates such as software maintenance and minor improvements, these upgrades are subject to a delay period, allowing users the choice to withdraw if they disagree with the changes."
