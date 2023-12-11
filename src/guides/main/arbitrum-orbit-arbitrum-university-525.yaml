@@ -1,6 +1,6 @@
 categories: []
 content: 'Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions'
-created: '2023-12-11T13:55:08.544Z'
+created: '2023-12-11T16:28:19.838Z'
 guideType: onboarding
 key: arbitrum-orbit-arbitrum-university-525
 name: Arbitrum Orbit
@@ -120,13 +120,13 @@ steps:
       - answerKeys:
           - C
         choices:
-          - content: They allow for public execution environments
+          - content: They allow for insecure chain environments
             key: A
           - content: They do not maintain full EVM compatibility
             key: B
           - content: They allow for customized execution environments
             key: C
-          - content: They do not limit smart contract functionalities
+          - content: Ewduce smart contract functionalities
             key: D
         content: What does Orbit chains allow for?
         type: SingleChoice
@@ -865,7 +865,7 @@ steps:
               It re-executes the State Transition Function against input
               messages to determine the correct output block
             key: C
-          - content: It is used to replay the state transitions in the blockchain
+          - content: It is used to reply the state transitions in the blockchain
             key: D
         content: What is the purpose of the 'replay binary' in the Orbit chain?
         type: SingleChoice
