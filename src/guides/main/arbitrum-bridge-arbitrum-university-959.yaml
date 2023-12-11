@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-11-28T17:29:45.650Z'
+created: '2023-12-11T14:07:06.358Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -73,27 +73,74 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: a7610243-ed0f-4a9b-a5a2-f2d9d410d155
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - C
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: ba884930-760e-425c-9a57-c7706f464444
-        explanation: Explanation of the question
+          - content: To connect different blockchains
+            key: A
+          - content: To create new cryptocurrencies
+            key: B
+          - content: To connect Ethereum's mainnet with the Arbitrum chains
+            key: C
+          - content: To mine new Ethereum tokens
+            key: D
+        content: What is the main function of the Arbitrum Bridge?
+        type: SingleChoice
+        uuid: 83ddaec3-ade0-40fb-90bf-ab14374feebb
+        explanation: >-
+          The Arbitrum Bridge connects Ethereum's mainnet (Layer-1) with the
+          Arbitrum chains (Layer-2), allowing for the secure and efficient
+          transfer of assets like ETH and ERC-20 tokens.
+      - answerKeys:
+          - B
+        choices:
+          - content: The assets are duplicated on both networks
+            key: A
+          - content: >-
+              The assets are locked on Ethereum and minted on the Arbitrum
+              network
+            key: B
+          - content: >-
+              The assets are destroyed on Ethereum and recreated on the Arbitrum
+              network
+            key: C
+          - content: The assets are transferred without any changes
+            key: D
+        content: >-
+          What happens to the assets when they are moved from Ethereum to the
+          Arbitrum network?
+        type: SingleChoice
+        uuid: 28547ed5-e280-4a6a-9fca-7f786671d663
+        explanation: >-
+          When users want to move their assets to Layer 2, they interact with
+          the Arbitrum bridge. The bridge locks the user's assets into a smart
+          contract on Ethereum, and an equivalent amount of these assets is
+          created or 'minted' on the Arbitrum network.
+      - answerKeys:
+          - D
+        choices:
+          - content: To allow time for the assets to be transferred
+            key: A
+          - content: To allow time for the transaction fees to be processed
+            key: B
+          - content: >-
+              To allow time for the assets to be converted back to their
+              original form
+            key: C
+          - content: >-
+              To allow for challenges and verification of the transaction's
+              legitimacy
+            key: D
+        content: >-
+          What is the purpose of the 'dispute period' during the withdrawal
+          process from Arbitrum back to Ethereum?
+        type: SingleChoice
+        uuid: 63694aa7-4f62-4060-bf54-545f7d1a2a57
+        explanation: >-
+          The 'dispute period' is a week-long delay that allows for challenges
+          and verification of the transaction's legitimacy on Ethereum before
+          the assets are unlocked. This delay ensures the integrity and security
+          of the withdrawal process.
     uuid: 059345d4-d9d4-4b9f-b0fd-2b72e8812a73
   - content: >-
       Layer 1 (L1) and Layer 2 (L2) bridging enables the movement of assets from
