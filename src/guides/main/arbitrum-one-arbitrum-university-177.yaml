@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-11-28T11:00:32.930Z'
+created: '2023-12-11T13:17:39.325Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -76,27 +76,67 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 8f3de2ec-9615-4352-98c4-b2b61a738717
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - C
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: 3c0a1bd5-a0ec-4929-9614-2702b739cdd7
-        explanation: Explanation of the question
+          - content: A blockchain developed by Offchain Labs
+            key: A
+          - content: A cryptocurrency similar to Bitcoin
+            key: B
+          - content: A Layer 2 optimistic rollup solution developed by Offchain Labs
+            key: C
+          - content: A type of digital wallet for storing cryptocurrencies
+            key: D
+        content: What is Arbitrum One?
+        type: SingleChoice
+        uuid: 81f018af-300e-4de8-8ba1-ac7ac4f65d3b
+        explanation: >-
+          Arbitrum One is a Layer 2 optimistic rollup solution developed by
+          Offchain Labs, designed to enhance Ethereum's performance and user
+          experience by handling transactions off the Ethereum Mainnet (Layer
+          1).
+      - answerKeys:
+          - D
+        choices:
+          - content: To replace Ethereum's Layer 1
+            key: A
+          - content: To create NFTs
+            key: B
+          - content: To create a new cryptocurrency
+            key: C
+          - content: >-
+              To verify transaction results and enable scalable operations on
+              Ethereum
+            key: D
+        content: What is the purpose of the Arbitrum Rollup Protocol?
+        type: SingleChoice
+        uuid: 32dcb2f9-6008-4309-a9ee-0800861d27a4
+        explanation: >-
+          The Arbitrum Rollup Protocol serves as a trustless method to verify
+          transaction results and to identify and penalize dishonest parties. It
+          also relieves Ethereum from the burden of processing every
+          transaction, thereby allowing for scalable operations.
+      - answerKeys:
+          - B
+        choices:
+          - content: It increases the value of Ethereum
+            key: A
+          - content: >-
+              It confirms the accuracy of transactions and allows for scalable
+              operations on Ethereum
+            key: B
+          - content: It allows users to make transactions anonymously
+            key: C
+          - content: It reduces the cost of transactions on Ethereum
+            key: D
+        content: What are the benefits of the Rollup Protocol?
+        type: SingleChoice
+        uuid: 6ee49f6d-fe76-44fb-9dca-ca4c1968efb5
+        explanation: >-
+          The Rollup Protocol confirms the accuracy of transactions and relieves
+          Ethereum from the burden of processing every transaction, thereby
+          allowing for scalable operations that Ethereum alone could not
+          efficiently monitor.
     uuid: 287bba79-de96-4fbe-addd-140a78c46939
   - content: >-
       ## How does Arbitrum Rollup Work?
@@ -188,12 +228,73 @@ steps:
     uuid: a622a2f6-e742-455b-9455-c724cbefae40
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content: A block that contains only transaction data
+            key: A
+          - content: >-
+              A specialized type of block that encapsulates the state and
+              progress of the Layer 2 (L2) Arbitrum network
+            key: B
+          - content: A block that contains only smart contract data
+            key: C
+          - content: A block that contains only user account data
+            key: D
+        content: What is an RBlock within the Arbitrum Rollup protocol?
+        type: SingleChoice
+        uuid: b19fa704-16d9-46a5-8023-5abb6626dd32
+        explanation: >-
+          An RBlock within the Arbitrum Rollup protocol is a specialized type of
+          block that encapsulates the state and progress of the Layer 2 (L2)
+          Arbitrum network. They are part of a separate chain that the Arbitrum
+          rollup protocol manages, effectively acting as checkpoints or
+          snapshots of the L2 state at various points in time.
+      - answerKeys:
+          - C
+        choices:
+          - content: The incorrect RBlocks are automatically accepted
+            key: A
+          - content: The incorrect RBlocks are ignored
+            key: B
+          - content: >-
+              The incorrect RBlocks are handled by the protocol and can be
+              rejected
+            key: C
+          - content: The incorrect RBlocks are manually corrected by the validators
+            key: D
+        content: What happens when validators propose incorrect RBlocks?
+        type: SingleChoice
+        uuid: 69fdae22-5f5e-4059-a2ba-e0c339df1bc9
+        explanation: >-
+          In cases where validators act maliciously by proposing incorrect
+          RBlocks, the protocol can handle a variety of conflict scenarios such
+          as a confirmed RBlock is fully accepted, a rejected RBlock is
+          discarded for being incorrect. Subsequent RBlocks can be rejected due
+          to incorrect claims or because they build on other rejected RBlocks.
+      - answerKeys:
+          - D
+        choices:
+          - content: To increase the value of the proposed RBlocks
+            key: A
+          - content: To speed up the confirmation of the proposed RBlocks
+            key: B
+          - content: To increase the number of proposed RBlocks
+            key: C
+          - content: >-
+              To incentivize honest behavior by risking the loss of stake for
+              proposing wrong RBlocks
+            key: D
+        content: What is the purpose of staking ETH as a bond for proposing RBlocks?
+        type: SingleChoice
+        uuid: d75116e3-7dc4-47b3-8318-b15ff3aaa331
+        explanation: >-
+          Validators may stake ETH as a bond for proposing RBlocks. If they
+          propose a wrong RBlock, they will lose their stake, incentivizing
+          honest behavior.
     uuid: 1aa5dfb6-6c34-43a5-b9ae-9f45f513b50e
   - content: >-
-      TODO: - explain staking - 3-4 lines
-
-
       ## The Roll up security
 
       Arbitrum Rollup's security model leverages the robustness of Ethereum's
@@ -291,7 +392,75 @@ steps:
     uuid: 41ee7801-5700-4906-bb10-4d8d7e87e9bb
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: They are responsible for creating new cryptocurrencies
+            key: A
+          - content: >-
+              They are responsible for managing the financial transactions of
+              the network
+            key: B
+          - content: >-
+              They are responsible for proposing and ensuring the accuracy of
+              RBlocks in the network
+            key: C
+          - content: >-
+              They are responsible for maintaining the physical infrastructure
+              of the network
+            key: D
+        content: What is the role of validators in the Arbitrum Rollup protocol?
+        type: SingleChoice
+        uuid: 7d6d0639-3130-4281-89b5-6ba6897b29e8
+        explanation: >-
+          Validators are responsible for proposing and ensuring the accuracy of
+          RBlocks in the network. They back their commitments with an ETH
+          deposit, which they lose if found cheating.
+      - answerKeys:
+          - B
+        choices:
+          - content: It is the process of creating new cryptocurrencies
+            key: A
+          - content: >-
+              It is the process of holding funds in a cryptocurrency wallet to
+              support the operations of a network
+            key: B
+          - content: It is the process of selling cryptocurrencies
+            key: C
+          - content: It is the process of buying cryptocurrencies
+            key: D
+        content: What is staking in the context of the Arbitrum network?
+        type: SingleChoice
+        uuid: 31ced282-8a0e-454c-a6f6-7c4265dfeeac
+        explanation: >-
+          Staking is the process of holding funds in a cryptocurrency wallet to
+          support the operations of a network. Participants lock or hold their
+          tokens in a wallet to perform various network functions such as
+          validating transactions, maintaining security, and governance.
+      - answerKeys:
+          - D
+        choices:
+          - content: The validator is rewarded with additional cryptocurrencies
+            key: A
+          - content: >-
+              The validator is given a second chance to validate the
+              transactions
+            key: B
+          - content: The validator is promoted to a higher level
+            key: C
+          - content: >-
+              The stake is removed from all RBlocks and the staked funds are
+              forfeited
+            key: D
+        content: >-
+          What happens when a validator loses a challenge in the Arbitrum
+          network?
+        type: SingleChoice
+        uuid: 7505aeec-6942-441f-a5b4-997343fc5b54
+        explanation: >-
+          If a validator loses a challenge, the stake is removed from all
+          RBlocks and the staked funds are forfeited.
     uuid: dc1888d0-1e86-43c3-a49e-06899a54b60e
   - content: >-
       ## Dispute Resolution
@@ -376,7 +545,70 @@ steps:
     uuid: 4eea708f-4c60-45b1-8109-a2a64e003b41
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: It evaluates the merits of the execution
+            key: A
+          - content: It resolves the dispute
+            key: B
+          - content: It ensures that the protocol's rules are followed
+            key: C
+          - content: It initiates the dispute
+            key: D
+        content: >-
+          What is the role of the L1 contract during the iterative halving
+          process in the dispute resolution?
+        type: SingleChoice
+        uuid: 09a48d11-dced-4068-b69c-c2fb7f46fccb
+        explanation: >-
+          During the iterative halving process, the L1 contract does not
+          evaluate the merits of the execution; it only ensures that the
+          protocol's rules are followed.
+      - answerKeys:
+          - B
+        choices:
+          - content: When the RBlock's predecessor has been rejected
+            key: A
+          - content: >-
+              When the RBlock's predecessor is the latest confirmed RBlock, and
+              the RBlock's deadline has passed, and there is at least one
+              staker, and all stakers are staked on the RBlock
+            key: B
+          - content: When there is no staker staked on the RBlock
+            key: C
+          - content: When the RBlock's deadline has not passed
+            key: D
+        content: When can the first unresolved RBlock be confirmed?
+        type: SingleChoice
+        uuid: 07d2a9c8-28d8-4795-b855-a671d34925b4
+        explanation: >-
+          The first unresolved RBlock can be confirmed if: The RBlock's
+          predecessor is the latest confirmed RBlock, and The RBlock's deadline
+          has passed, and There is at least one staker, and All stakers are
+          staked on the RBlock.
+      - answerKeys:
+          - D
+        choices:
+          - content: The L1 contract initiates a new dispute
+            key: A
+          - content: The dispute is automatically resolved
+            key: B
+          - content: The dispute is dismissed
+            key: C
+          - content: >-
+              The L1 contract evaluates the execution to determine the
+              correctness of the claim
+            key: D
+        content: >-
+          What happens when the dispute is narrowed down to a disagreement about
+          a single step of execution?
+        type: SingleChoice
+        uuid: 9e4536b3-3f35-4178-b35b-7deb78f19812
+        explanation: >-
+          Only when the dispute is about a single step does the L1 contract
+          evaluate the execution to determine the correctness of the claim.
     uuid: 955c8d11-2337-4d99-8b73-c07e348d5167
   - content: >
       ## Differences between Arbitrum One (Rollup) and Arbitrum Nova (AnyTrust) 
@@ -418,6 +650,72 @@ steps:
     name: Arbitrum One vs Arbitrum Nova
     stepItems: []
     uuid: f6537833-a078-4afc-a156-ac54ae68b284
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: They both use the Ethereum blockchain for data authenticity.
+            key: A
+          - content: They both use AnyTrust technology for data authenticity.
+            key: B
+          - content: >-
+              Arbitrum One posts Layer 2 transaction data on Ethereum, while
+              Arbitrum Nova uses AnyTrust technology with a Data Availability
+              Committee (DAC).
+            key: C
+          - content: >-
+              There is no difference in data authenticity between Arbitrum One
+              and Arbitrum Nova.
+            key: D
+        content: >-
+          What is the main difference in data authenticity between Arbitrum One
+          (Rollup) and Arbitrum Nova (AnyTrust)?
+        type: SingleChoice
+        uuid: 40713c73-7e38-42a9-be4d-4adc744a119c
+        explanation: >-
+          Arbitrum One posts Layer 2 transaction data on the Ethereum
+          blockchain, while Arbitrum Nova uses AnyTrust technology with a Data
+          Availability Committee (DAC).
+      - answerKeys:
+          - B
+        choices:
+          - content: Arbitrum One
+            key: A
+          - content: Arbitrum Nova
+            key: B
+          - content: Both have the same minimum gas price
+            key: C
+          - content: The minimum gas price varies depending on the transaction
+            key: D
+        content: Which chain has a lower minimum gas price?
+        type: SingleChoice
+        uuid: 9437abe8-b41a-4bb0-8603-2828e3995c48
+        explanation: >-
+          The minimum gas price for Arbitrum Nova is 0.01 gwei, which is
+          potentially 10 times cheaper than Arbitrum One's minimum gas price of
+          0.1 gwei.
+      - answerKeys:
+          - D
+        choices:
+          - content: Both are equally suitable
+            key: A
+          - content: Neither is suitable
+            key: B
+          - content: Arbitrum One
+            key: C
+          - content: Arbitrum Nova
+            key: D
+        content: >-
+          Which chain is more suitable for high-load dApps like NFTs and social
+          networks?
+        type: SingleChoice
+        uuid: 31b54f12-2517-40da-8f61-60e455d98d79
+        explanation: >-
+          Arbitrum Nova is more scalable and designed for high-load dApps like
+          NFTs and social networks.
+    uuid: 424231c8-2079-4196-8393-d4b8f7ffc802
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699877592179_rectangle_96.png
 uuid: arbitrum-one-arbitrum-university-177
