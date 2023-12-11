@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-12-11T14:18:09.742Z'
+created: '2023-12-11T16:36:41.920Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -357,7 +357,7 @@ steps:
         choices:
           - content: Initiate the deposit
             key: A
-          - content: Add preferred network to wallet
+          - content: Add preferred currency
             key: B
           - content: Obtain native currency
             key: C
