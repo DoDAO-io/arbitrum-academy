@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-12-11T14:07:06.358Z'
+created: '2023-12-11T14:18:09.742Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -212,7 +212,76 @@ steps:
     uuid: e57a1b9d-454b-49bf-a296-8e6a40ff692e
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: To increase the transaction fees on Ethereum
+            key: A
+          - content: To create congestion on the Ethereum blockchain
+            key: B
+          - content: >-
+              To move assets from the main Ethereum blockchain to secondary
+              frameworks, reducing congestion and fees
+            key: C
+          - content: To lock tokens in the L1 inbox contract
+            key: D
+        content: What is the primary purpose of L1 and L2 bridging?
+        type: SingleChoice
+        uuid: c0219769-94e6-4202-abea-37bf266b2ed4
+        explanation: >-
+          L1 and L2 bridging primarily enables the movement of assets from the
+          main Ethereum blockchain to secondary frameworks, which helps in
+          reducing congestion and fees.
+      - answerKeys:
+          - B
+        choices:
+          - content: The L1 contract cannot initiate a transaction on L2
+            key: A
+          - content: >-
+              The L2 transaction may fail if the initiating L1 contract does not
+              accurately set the L2 gas price and maximum gas limit
+            key: B
+          - content: >-
+              The L1 contract can view all the resulting actions of the L2
+              transaction
+            key: C
+          - content: The L1 contract has full control over the L2 transaction
+            key: D
+        content: What is the major drawback of L1 contracts submitting L2 transactions?
+        type: SingleChoice
+        uuid: 3a9d51b5-b69a-45a0-9a83-4191cdac4fc3
+        explanation: >-
+          The major drawback is that the L2 transaction may fail if the
+          initiating L1 contract does not accurately set the L2 gas price and
+          maximum gas limit. The lack of visibility for the L1 initiator means
+          there's no certainty that the L2 transaction will complete without
+          issues.
+      - answerKeys:
+          - D
+        choices:
+          - content: They increase the chances of gas-related failures
+            key: A
+          - content: They do not allow for future redemption attempts
+            key: B
+          - content: They do not store transaction details
+            key: C
+          - content: >-
+              They provide a more reliable alternative by mitigating gas-related
+              failures
+            key: D
+        content: >-
+          What is the advantage of L1 to L2 ticket-based transactions over
+          standard calls?
+        type: SingleChoice
+        uuid: a05257e1-76e3-476a-83c8-0042d37edc5b
+        explanation: >-
+          The ticket-based system for L1 to L2 transactions provides a more
+          reliable alternative to standard calls by mitigating gas-related
+          failures. This method ensures that the transaction has a chance to
+          succeed eventually, provided someone is willing to redeem the ticket,
+          with costs known upfront and determined by the data size of the
+          transaction.
     uuid: ddbd05bd-70c2-44c6-b2aa-bf4617f4d94e
   - content: >+
       The Arbitrum bridge allows users to transfer their funds between different
@@ -282,7 +351,64 @@ steps:
     uuid: ce8891fc-c91f-4d37-bf36-7eb5d6f9adfb
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: Initiate the deposit
+            key: A
+          - content: Add preferred network to wallet
+            key: B
+          - content: Obtain native currency
+            key: C
+          - content: Switch your wallet to the destination chain
+            key: D
+        content: >-
+          What is the first step in depositing funds from a parent chain to a
+          child chain?
+        type: SingleChoice
+        uuid: cdef3889-193f-4244-8144-5a33988b4766
+        explanation: >-
+          The first step in depositing funds from a parent chain to a child
+          chain is obtaining the native currency of the parent chain.
+      - answerKeys:
+          - B
+        choices:
+          - content: To increase the transaction speed
+            key: A
+          - content: To bridge assets using the wallet
+            key: B
+          - content: To decrease the transaction fee
+            key: C
+          - content: To add more security to the transaction
+            key: D
+        content: >-
+          What is the purpose of adding your target chain's RPC endpoint to your
+          wallet?
+        type: SingleChoice
+        uuid: f83ebe2a-89f7-4a0b-ae1b-b3aeb9feb874
+        explanation: >-
+          Adding your target chain's RPC endpoint to your wallet allows you to
+          bridge assets using that wallet.
+      - answerKeys:
+          - D
+        choices:
+          - content: 5-10 minutes
+            key: A
+          - content: 10-15 minutes
+            key: B
+          - content: 30-45 minutes
+            key: C
+          - content: 15-30 minutes
+            key: D
+        content: >-
+          How long does it typically take for funds to transfer when using the
+          Arbitrum bridge?
+        type: SingleChoice
+        uuid: b8acb86e-6818-4309-b3e4-f155bd0adef9
+        explanation: >-
+          When using the Arbitrum bridge, funds should typically transfer within
+          15-30 minutes, depending on network traffic.
     uuid: 69bb080d-7af7-4261-b5e5-52ea3feb5d31
   - content: >+
 
@@ -335,7 +461,63 @@ steps:
     uuid: 06491485-bc66-48d4-8cde-1402be4a4aa1
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: Enter the amount you want to withdraw
+            key: A
+          - content: Wait for the withdrawal period
+            key: B
+          - content: Log in to the Arbitrum bridge with your web3 wallet
+            key: C
+          - content: Press the 'Claim' button
+            key: D
+        content: What is the first step to withdraw funds from the Arbitrum bridge?
+        type: SingleChoice
+        uuid: 1db90d10-2ea2-4359-8b6a-c9a7174a4af9
+        explanation: >-
+          The first step to withdraw funds from the Arbitrum bridge is to log in
+          with your web3 wallet and connect to the source network.
+      - answerKeys:
+          - B
+        choices:
+          - content: 3 days
+            key: A
+          - content: 7 days
+            key: B
+          - content: 10 days
+            key: C
+          - content: 14 days
+            key: D
+        content: >-
+          What is the minimum withdrawal period for networks like Arbitrum One
+          and Nova?
+        type: SingleChoice
+        uuid: 57232e46-63e6-4743-9f82-2689fbb30800
+        explanation: >-
+          The minimum withdrawal period for networks like Arbitrum One and Nova
+          is 7 days.
+      - answerKeys:
+          - D
+        choices:
+          - content: Wait for another withdrawal period
+            key: A
+          - content: Log out from the Arbitrum bridge
+            key: B
+          - content: Enter the amount you want to withdraw again
+            key: C
+          - content: >-
+              Switch to the destination network on your wallet and press the
+              'Claim' button
+            key: D
+        content: What should you do after the withdrawal period is over?
+        type: SingleChoice
+        uuid: 36569d10-68d5-41e5-81ac-419ce61e1357
+        explanation: >-
+          After the withdrawal period is over, you should switch to the
+          destination network on your wallet and press the 'Claim' button to
+          receive your funds.
     uuid: 5f0d9535-a144-4950-bd96-dfcff6be14d4
   - content: >-
       Token bridging allows projects to seamlessly connect their existing Layer
@@ -390,7 +572,66 @@ steps:
     uuid: df19894b-5fce-4857-b6a6-87e4e9fd3311
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Standard Gateway
+            key: A
+          - content: Generic-Custom Gateway
+            key: B
+          - content: Custom Gateway
+            key: C
+          - content: None of the above
+            key: D
+        content: What is the simplest method for bridging tokens?
+        type: SingleChoice
+        uuid: 89f0a54f-82d4-414a-85ac-7ca03419ffd3
+        explanation: >-
+          The standard gateway is the simplest method for bridging tokens. An
+          ERC-20 token will be automatically deployed on the Arbitrum network,
+          acting as the L2 counterpart to your L1 token.
+      - answerKeys:
+          - C
+        choices:
+          - content: Standard Gateway
+            key: A
+          - content: Generic-Custom Gateway
+            key: B
+          - content: Custom Gateway
+            key: C
+          - content: None of the above
+            key: D
+        content: >-
+          Which gateway method offers an additional layer of flexibility and is
+          suitable when you need more control over the gateway?
+        type: SingleChoice
+        uuid: e15b8930-2b94-4c4e-a15a-b286c90b9098
+        explanation: >-
+          The custom gateway offers an additional layer of flexibility. This
+          method is suitable when you need more control over the gateway, such
+          as when your token has the ability to increase its supply on L2.
+      - answerKeys:
+          - B
+        choices:
+          - content: Automatically deploy an ERC-20 token on the Arbitrum network
+            key: A
+          - content: >-
+              Deploy your counterpart token on Arbitrum with unique features
+              tailored to your needs
+            key: B
+          - content: Increase the supply of your token on L2
+            key: C
+          - content: None of the above
+            key: D
+        content: What does the Generic-Custom Gateway allow you to do?
+        type: SingleChoice
+        uuid: f4b79262-e05e-48d3-84be-299f373df31d
+        explanation: >-
+          With the Generic-Custom Gateway, you can deploy your counterpart token
+          on Arbitrum with unique features tailored to your needs. Whether it's
+          implementing specific rules or adding additional functionalities, the
+          generic-custom gateway provides the flexibility you require.
     uuid: 095de5d0-5e63-480e-9e09-2e4c4e5e57e9
   - content: >-
       ## Step 1 
