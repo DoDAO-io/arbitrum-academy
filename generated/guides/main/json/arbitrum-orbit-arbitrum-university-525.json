@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
-  "created": "2023-11-28T15:04:59.901Z",
+  "created": "2023-12-11T13:55:08.544Z",
   "guideType": "onboarding",
   "key": "arbitrum-orbit-arbitrum-university-525",
   "name": "Arbitrum Orbit",
@@ -18,39 +18,85 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "8057ffff-5953-4d13-be00-1a462febb9d1"
-        },
-        {
           "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
+            "B"
           ],
           "choices": [
             {
-              "content": "Choice 1",
-              "key": "choice_1"
+              "content": "Creation of public blockchain chains",
+              "key": "A"
             },
             {
-              "content": "Choice 2",
-              "key": "choice_2"
+              "content": "Creation of private blockchain chains with customizable features",
+              "key": "B"
             },
             {
-              "content": "Choice 3",
-              "key": "choice_3"
+              "content": "Settlement of transactions on Layer 1 ecosystems",
+              "key": "C"
             },
             {
-              "content": "Choice 4",
-              "key": "choice_4"
+              "content": "Disabling ongoing upgrades from the Nitro stack developments",
+              "key": "D"
             }
           ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "a34afef3-148a-4e79-8f14-fe0aae2c90f7",
-          "explanation": "Explanation of the question"
+          "content": "What does Arbitrum Orbit enable?",
+          "type": "SingleChoice",
+          "uuid": "46708f5b-3912-4afa-b056-cd4ae5aeff2c",
+          "explanation": "Arbitrum Orbit enables the creation of private blockchain chains with customizable features, which settle transactions on Arbitrum's Layer 2 ecosystems."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "It limits the creation of multiple chains",
+              "key": "A"
+            },
+            {
+              "content": "It restricts the implementation and testing of different security models",
+              "key": "B"
+            },
+            {
+              "content": "It does not allow for customized execution environments",
+              "key": "C"
+            },
+            {
+              "content": "It facilitates scalability by allowing the creation of multiple chains",
+              "key": "D"
+            }
+          ],
+          "content": "What is one of the key benefits of Arbitrum Orbit?",
+          "type": "SingleChoice",
+          "uuid": "b22e2535-c422-47d3-bd0b-c41b58e84db1",
+          "explanation": "One of the key benefits of Arbitrum Orbit is scalability. It facilitates scalability by allowing the creation of multiple chains."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "They allow for public execution environments",
+              "key": "A"
+            },
+            {
+              "content": "They do not maintain full EVM compatibility",
+              "key": "B"
+            },
+            {
+              "content": "They allow for customized execution environments",
+              "key": "C"
+            },
+            {
+              "content": "They do not limit smart contract functionalities",
+              "key": "D"
+            }
+          ],
+          "content": "What does Orbit chains allow for?",
+          "type": "SingleChoice",
+          "uuid": "019942bb-3645-44cd-bf76-42bdff8fa411",
+          "explanation": "Orbit chains allow for customized execution environments. While maintaining full EVM compatibility, Orbit chains can also limit smart contract functionalities to better serve specific project requirements."
         }
       ],
       "uuid": "62a5e58f-54fa-45d3-ba27-92d8ab5f9a40"
@@ -64,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Only security",
+              "key": "A"
+            },
+            {
+              "content": "Only flexibility",
+              "key": "B"
+            },
+            {
+              "content": "Both security and flexibility",
+              "key": "C"
+            },
+            {
+              "content": "Neither security nor flexibility",
+              "key": "D"
+            }
+          ],
+          "content": "What does the license for an Arbitrum Orbit chain provide?",
+          "type": "SingleChoice",
+          "uuid": "6e1db1b7-5a5b-4b75-9fea-d897b224d7ad",
+          "explanation": "The license for an Arbitrum Orbit chain provides both security and flexibility for developers. It is perpetual and recursive, allowing the Orbit chain to host further chains under the same licensing terms."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "By directly requesting from Ethereum",
+              "key": "A"
+            },
+            {
+              "content": "By submitting a proposal to Offchain Labs",
+              "key": "B"
+            },
+            {
+              "content": "By directly requesting from Arbitrum DAO",
+              "key": "C"
+            },
+            {
+              "content": "By directly requesting from Offchain Labs or by submitting a proposal to the Arbitrum DAO",
+              "key": "D"
+            }
+          ],
+          "content": "How can you obtain a separate license for an independent Layer 2 chain on Ethereum?",
+          "type": "SingleChoice",
+          "uuid": "1ae65bf6-53d3-4144-ac11-70db96cc0206",
+          "explanation": "You can obtain a separate license for an independent Layer 2 chain on Ethereum either by directly requesting a custom license from Offchain Labs or by submitting a proposal to the Arbitrum DAO."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To make the Orbit chain look unique",
+              "key": "A"
+            },
+            {
+              "content": "To tailor the Orbit chain to the specific requirements of your application",
+              "key": "B"
+            },
+            {
+              "content": "To make the Orbit chain more complex",
+              "key": "C"
+            },
+            {
+              "content": "To make the Orbit chain less secure",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of customizing your Orbit chain's deployment configuration?",
+          "type": "SingleChoice",
+          "uuid": "93d99e77-0ace-44d6-b3c8-ca06f3e3567f",
+          "explanation": "By customizing your Orbit chain's deployment configuration, you can tailor your Orbit chain to the specific requirements of your application, balancing security, participation, and administrative control according to your project's needs."
+        }
+      ],
       "uuid": "3f7ccfec-7f60-48c2-a0dd-4a1df45eb790"
     },
     {
@@ -76,7 +204,62 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "0.5 testnet ETH",
+              "key": "A"
+            },
+            {
+              "content": "1 testnet ETH",
+              "key": "B"
+            },
+            {
+              "content": "1.5 testnet ETH",
+              "key": "C"
+            },
+            {
+              "content": "2 testnet ETH",
+              "key": "D"
+            }
+          ],
+          "content": "What is the minimum amount of testnet ETH required to initiate an Orbit chain?",
+          "type": "SingleChoice",
+          "uuid": "f8558c23-ea56-4062-ac85-099fb082a8e0",
+          "explanation": "To initiate your Orbit chain, a minimum of 1.5 testnet ETH is required to fund the deployment of the foundational contracts to the chosen base chain."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum Rollup and Arbitrum Rollup Plus",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum AnyTrust and Arbitrum AnyTrust Plus",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum Rollup Plus and Arbitrum AnyTrust Plus",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum Rollup and Arbitrum AnyTrust",
+              "key": "D"
+            }
+          ],
+          "content": "What are the two types of Orbit chains you can choose from?",
+          "type": "SingleChoice",
+          "uuid": "337f2f17-7ffd-499f-9013-677f991802fc",
+          "explanation": "You can choose between Arbitrum Rollup and Arbitrum AnyTrust. Rollup chains are recommended for highly secure applications such as DeFi platforms, while AnyTrust is better suited for transaction-intensive applications like games and social dApps that prioritize lower fees."
+        }
+      ],
       "uuid": "d01a95c5-37c4-48db-89f0-2dd8d9b6f80b"
     },
     {
@@ -88,7 +271,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Responsible for transaction validation",
+              "key": "A"
+            },
+            {
+              "content": "Responsible for block generation",
+              "key": "B"
+            },
+            {
+              "content": "Responsible for node synchronization",
+              "key": "C"
+            },
+            {
+              "content": "Responsible for maintaining the blockchain network",
+              "key": "D"
+            }
+          ],
+          "content": "What is the State Transition Function (STF) in Orbit chain responsible for?",
+          "type": "SingleChoice",
+          "uuid": "252012a7-a54c-4d18-bb8f-8a59a95961d7",
+          "explanation": "The State Transition Function (STF) in Orbit chain is responsible for block generation."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "It is used to replay the transactions in the blockchain",
+              "key": "A"
+            },
+            {
+              "content": "It is used to replay the blocks in the blockchain",
+              "key": "B"
+            },
+            {
+              "content": "It re-executes the State Transition Function against input messages to determine the correct output block",
+              "key": "C"
+            },
+            {
+              "content": "It is used to replay the state transitions in the blockchain",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the 'replay binary' in the Orbit chain?",
+          "type": "SingleChoice",
+          "uuid": "06e5518a-3573-4528-a562-6fc020313c6c",
+          "explanation": "The replay binary re-executes the State Transition Function against input messages to determine the correct output block."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "It is used to validate the blocks in the blockchain",
+              "key": "A"
+            },
+            {
+              "content": "It is used to validate the transactions in the blockchain",
+              "key": "B"
+            },
+            {
+              "content": "It is used to validate the state transitions in the blockchain",
+              "key": "C"
+            },
+            {
+              "content": "It is set in the L1 rollup contract to determine the correct replay binary during fraud proofs",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the WASM module root in the Orbit chain?",
+          "type": "SingleChoice",
+          "uuid": "f6f1bd5e-b2b2-4f3e-ae0d-ddf853feabb9",
+          "explanation": "The WASM module root is a 32 byte hash usually expressed in hexadecimal which is a merkelization of machine.wavm.br. This hash is set in the L1 rollup contract to determine the correct replay binary during fraud proofs."
+        }
+      ],
       "uuid": "3ecc45ec-080d-4df9-893c-e6b4654cc324"
     }
   ],
