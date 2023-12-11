@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into Arbitrum Nitro",
-  "created": "2023-11-22T18:25:43.057Z",
+  "created": "2023-12-11T12:45:13.294Z",
   "guideType": "onboarding",
   "key": "arbitrum-nitro-arbitrum-university-560",
   "name": "Arbitrum Nitro ",
@@ -18,39 +18,85 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "c3f60710-b204-4c63-bd7c-809389c6735f"
-        },
-        {
           "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
+            "C"
           ],
           "choices": [
             {
-              "content": "Choice 1",
-              "key": "choice_1"
+              "content": "To increase transaction fees on Ethereum",
+              "key": "A"
             },
             {
-              "content": "Choice 2",
-              "key": "choice_2"
+              "content": "To decrease the processing capacity of Ethereum",
+              "key": "B"
             },
             {
-              "content": "Choice 3",
-              "key": "choice_3"
+              "content": "To lower transaction fees and increase the processing capacity of Ethereum",
+              "key": "C"
             },
             {
-              "content": "Choice 4",
-              "key": "choice_4"
+              "content": "To move contract computation and storage to the primary chain",
+              "key": "D"
             }
           ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "4f6183f2-289d-45f2-bebd-8f1661846cf5",
-          "explanation": "Explanation of the question"
+          "content": "What is the main purpose of Arbitrum Nitro?",
+          "type": "SingleChoice",
+          "uuid": "48a2c68f-2555-4e98-92ef-036cf7a12079",
+          "explanation": "Arbitrum Nitro is a significant technical upgrade for Arbitrum, a Layer 2 scaling solution for Ethereum. It aims to lower transaction fees and increase the processing capacity of Ethereum by moving contract computation and storage from the primary chain."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "It requires developers to make modifications to integrate it",
+              "key": "A"
+            },
+            {
+              "content": "Existing Ethereum contracts and transactions can run on Arbitrum without any changes",
+              "key": "B"
+            },
+            {
+              "content": "It is not compatible with other layer 2 solutions",
+              "key": "C"
+            },
+            {
+              "content": "It does not support Ethereum contracts and transactions",
+              "key": "D"
+            }
+          ],
+          "content": "What is the advantage of Arbitrum Nitro's compatibility with the Ethereum Virtual Machine (EVM)?",
+          "type": "SingleChoice",
+          "uuid": "db2d69df-8a88-4f47-8f0d-0e9c8587aedc",
+          "explanation": "Because Arbitrum Nitro supports the EVM, developers can easily integrate it without making any modifications. This means that existing Ethereum contracts and transactions can run on Arbitrum without any changes."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Python code",
+              "key": "A"
+            },
+            {
+              "content": "Java code",
+              "key": "B"
+            },
+            {
+              "content": "C++ code",
+              "key": "C"
+            },
+            {
+              "content": "WebAssembly (WASM) code",
+              "key": "D"
+            }
+          ],
+          "content": "What does Arbitrum Nitro use to perform Arbitrum's interactive fraud proofs?",
+          "type": "SingleChoice",
+          "uuid": "c240c761-7968-4893-b7ea-36c994f04a01",
+          "explanation": "Nitro introduces a new prover that uses WebAssembly (WASM) code to perform Arbitrum's interactive fraud proofs. This upgrade enhances the scalability and efficiency of the system, allowing for thousands of transactions to be processed per second."
         }
       ],
       "uuid": "40dd8254-e6e1-4dd7-9e68-34f14bf45792"
@@ -64,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "Execution environment resembling EVM as second layer to Ethereum",
+              "key": "A"
+            },
+            {
+              "content": "To replace Ethereum with a more efficient blockchain",
+              "key": "B"
+            },
+            {
+              "content": "To create a new cryptocurrency",
+              "key": "C"
+            },
+            {
+              "content": "To compete with Bitcoin",
+              "key": "D"
+            }
+          ],
+          "content": "What is the goal of both Arbitrum Classic and Arbitrum Nitro?",
+          "type": "SingleChoice",
+          "uuid": "1be94b16-85fb-4eac-8f7e-e187dfd355d2",
+          "explanation": "The goal of both Arbitrum Classic and Arbitrum Nitro is to provide an execution environment that resembles EVM as a second layer to Ethereum."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum Classic",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum Nitro",
+              "key": "B"
+            },
+            {
+              "content": "Both",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ],
+          "content": "Which version of Arbitrum uses WebAssembly (Wasm) for low-level instructions?",
+          "type": "SingleChoice",
+          "uuid": "5d993ba8-3684-4abf-a571-4f0f4d67e00f",
+          "explanation": "Arbitrum Nitro uses WebAssembly (Wasm) for low-level instructions, while Arbitrum Classic uses Arbitrum Virtual Machine (AVM)."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum Classic",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum Nitro",
+              "key": "B"
+            },
+            {
+              "content": "Both",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ],
+          "content": "Which version of Arbitrum came earlier?",
+          "type": "SingleChoice",
+          "uuid": "21e4433e-adbb-4a83-a113-9eed571d1197",
+          "explanation": "Arbitrum Nitro has lower fees and better Ethereum compatibility due to native execution of Go code."
+        }
+      ],
       "uuid": "ca041520-b639-4eab-b2c7-37b09560b6ea"
     },
     {
@@ -76,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "It is responsible for creating new transactions",
+              "key": "A"
+            },
+            {
+              "content": "It is responsible for verifying the authenticity of transactions",
+              "key": "B"
+            },
+            {
+              "content": "It orders transactions and publishes them",
+              "key": "C"
+            },
+            {
+              "content": "It is responsible for dispute resolution",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of the Sequencer in the Arbitrum Nitro's transaction process?",
+          "type": "SingleChoice",
+          "uuid": "ee4f4b07-9891-46eb-b763-69ef39023747",
+          "explanation": "The Sequencer in Arbitrum Nitro's transaction process is responsible for ordering transactions and publishing them. It uses a real-time alert system for immediate soft finality and batches transactions on the Ethereum chain for hard finality."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "It is responsible for creating new transactions",
+              "key": "A"
+            },
+            {
+              "content": "It processes transactions and updates the blockchain's state",
+              "key": "B"
+            },
+            {
+              "content": "It verifies the authenticity of transactions",
+              "key": "C"
+            },
+            {
+              "content": "It is responsible for dispute resolution",
+              "key": "D"
+            }
+          ],
+          "content": "What is the function of the State Transition Function (STF) in Arbitrum Nitro's transaction lifecycle?",
+          "type": "SingleChoice",
+          "uuid": "f4e849f5-549b-4b31-a774-d0ece2a49425",
+          "explanation": "In Arbitrum Nitro's transaction lifecycle, the State Transition Function (STF) is crucial for updating the blockchain's state. It processes transactions, taking the current state and the transaction data to compute a new state."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To create new transactions",
+              "key": "A"
+            },
+            {
+              "content": "To verify the authenticity of transactions",
+              "key": "B"
+            },
+            {
+              "content": "To order transactions",
+              "key": "C"
+            },
+            {
+              "content": "To record transaction inputs as calldata on the Ethereum blockchain",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of posting data on Layer 1 in Arbitrum Nitro's transaction lifecycle?",
+          "type": "SingleChoice",
+          "uuid": "d95b6b72-8ae0-4d96-b4a3-1440c1a374aa",
+          "explanation": "In Arbitrum Nitro's transaction lifecycle, data posting on Layer 1 is where transaction inputs are recorded as calldata on the Ethereum blockchain, allowing for full transparency and enabling anyone to reconstruct the chain's state."
+        }
+      ],
       "uuid": "e49c619f-5960-4060-9b89-cdd09521cf36"
     },
     {
