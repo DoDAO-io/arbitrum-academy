@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Nova: Enhanced scalability with AnyTrust verification.'
-created: '2023-12-11T13:42:39.325Z'
+created: '2023-12-11T16:22:03.176Z'
 guideType: onboarding
 key: arbitrum-nova-arbitrum-university-144
 name: Arbitrum Nova
@@ -102,11 +102,11 @@ steps:
       - answerKeys:
           - C
         choices:
-          - content: To manage the public keys and signatures
+          - content: To collect the public keys and signatures
             key: A
           - content: To reduce the cost of the Arbitrum system
             key: B
-          - content: To handle Layer 2 transaction data
+          - content: To store data, batch it and then post it to Ethereum's Layer 1
             key: C
           - content: To facilitate secure and flexible operation of the Committee
             key: D
@@ -124,11 +124,11 @@ steps:
         choices:
           - content: Cost reduction
             key: A
-          - content: Operational efficiency
+          - content: Roll up technology
             key: B
-          - content: Data security
+          - content: No requirement for Data Availability Committee
             key: C
-          - content: Data availability
+          - content: Reliance on Ethereum's security
             key: D
         content: What is the main benefit of the AnyTrust protocol?
         type: SingleChoice
@@ -265,17 +265,17 @@ steps:
       - answerKeys:
           - D
         choices:
-          - content: To provide a user-friendly interface for the AnyTrust protocol
+          - content: A data block's hash
             key: A
-          - content: To manage the financial transactions of the AnyTrust protocol
+          - content: An expiration time
             key: B
-          - content: To handle the marketing and promotion of the AnyTrust protocol
+          - content: >-
+              Cryptographic evidence that N-1 Committee members have endorsed
+              it.
             key: C
-          - content: To ensure data accessibility in the Arbitrum network
+          - content: All of these
             key: D
-        content: >-
-          What is the purpose of the Data Availability Certificate (DACert) in
-          the AnyTrust protocol?
+        content: What does the Data Availability Certificate (DACert) include?
         type: SingleChoice
         uuid: 898e3db1-a789-434f-a890-b922c2290de5
         explanation: >-
@@ -414,7 +414,7 @@ steps:
       - answerKeys:
           - C
         choices:
-          - content: To store the data in the Committee members' backing store
+          - content: To store the names of Committee's members
             key: A
           - content: To generate a data batch for submission
             key: B
