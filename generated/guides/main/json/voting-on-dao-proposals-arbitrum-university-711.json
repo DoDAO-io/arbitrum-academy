@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the importance of DAO Voting",
-  "created": "2023-11-30T15:41:49.841Z",
+  "created": "2023-12-11T15:26:06.405Z",
   "guideType": "onboarding",
   "key": "voting-on-dao-proposals-arbitrum-university-711",
   "name": "Voting on DAO Proposals",
@@ -18,39 +18,85 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "63e4b6f9-24a1-4d32-af48-7573fbf94218"
-        },
-        {
           "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
+            "B"
           ],
           "choices": [
             {
-              "content": "Choice 1",
-              "key": "choice_1"
+              "content": "A method for centralized authorities to make decisions",
+              "key": "A"
             },
             {
-              "content": "Choice 2",
-              "key": "choice_2"
+              "content": "A critical function in the decentralized decision-making process",
+              "key": "B"
             },
             {
-              "content": "Choice 3",
-              "key": "choice_3"
+              "content": "A way to distribute tokens to members",
+              "key": "C"
             },
             {
-              "content": "Choice 4",
-              "key": "choice_4"
+              "content": "A tool for creating new tokens",
+              "key": "D"
             }
           ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "81ad1b10-337e-4c66-8fea-0b58908ea31a",
-          "explanation": "Explanation of the question"
+          "content": "What does voting in the Arbitrum DAO represent?",
+          "type": "SingleChoice",
+          "uuid": "71a7df35-33b6-4b94-8101-04f61d6e2a5d",
+          "explanation": "Voting in the Arbitrum DAO represents a critical function in the decentralized decision-making process. It is the means by which governance token holders can have their say in the direction of the DAO's actions."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "It helps in token distribution",
+              "key": "A"
+            },
+            {
+              "content": "It assists in creating new tokens",
+              "key": "B"
+            },
+            {
+              "content": "It aids in increasing the value of tokens",
+              "key": "C"
+            },
+            {
+              "content": "It ensures decentralization, consensus building, responsiveness, and fosters engagement and ownership",
+              "key": "D"
+            }
+          ],
+          "content": "Why is voting considered important in the context of a DAO?",
+          "type": "SingleChoice",
+          "uuid": "a0d3434b-0dcd-4420-b2ef-2bd69bb3d281",
+          "explanation": "Voting is important in a DAO as it ensures decentralization, facilitates consensus building, allows for responsiveness to new developments, and fosters engagement and ownership among members."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Centralization of power",
+              "key": "A"
+            },
+            {
+              "content": "Creation of new tokens",
+              "key": "B"
+            },
+            {
+              "content": "A fair and transparent method for reaching consensus on important issues",
+              "key": "C"
+            },
+            {
+              "content": "Increase in the value of tokens",
+              "key": "D"
+            }
+          ],
+          "content": "What does voting in a DAO facilitate?",
+          "type": "SingleChoice",
+          "uuid": "2d9b190a-6306-4ac6-baec-2ccec5f9164d",
+          "explanation": "The voting process in a DAO facilitates a fair and transparent method for reaching consensus on important issues. It allows for diverse opinions to be heard and considered, leading to decisions that are in the best interest of the entire DAO."
         }
       ],
       "uuid": "205607f8-42bd-4452-9242-cc6483b29a41"
@@ -64,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To determine the temperature of the community members",
+              "key": "A"
+            },
+            {
+              "content": "To check the physical health of the members",
+              "key": "B"
+            },
+            {
+              "content": "To measure community interest in a proposed idea or action",
+              "key": "C"
+            },
+            {
+              "content": "To calculate the number of $ARB tokens each member has",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of a temperature check in the Arbitrum DAO voting process?",
+          "type": "SingleChoice",
+          "uuid": "52b173ea-3226-418b-8547-787682920399",
+          "explanation": "A temperature check is an initial voting step within the Arbitrum DAO designed to measure community interest in a proposed idea or action before it advances through the governance process. It acts as a community pulse-taking measure, enabling the DAO to filter out proposals that lack substantial backing."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "It must receive negative votes from more than 50% of the voting participants",
+              "key": "A"
+            },
+            {
+              "content": "It must receive affirmative votes from more than 50% of the voting participants",
+              "key": "B"
+            },
+            {
+              "content": "It must receive affirmative votes from less than 50% of the voting participants",
+              "key": "C"
+            },
+            {
+              "content": "It must receive negative votes from less than 50% of the voting participants",
+              "key": "D"
+            }
+          ],
+          "content": "What is required for a proposal to pass in an on-chain vote in the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "1034b1a6-3d8b-4175-ada5-87579230b012",
+          "explanation": "For a proposal to pass, it must receive affirmative votes from more than 50% of the voting participants. Additionally, constitutional changes require support from at least 5% of all tokens, while non-constitutional changes need 3%."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "100,000 tokens",
+              "key": "A"
+            },
+            {
+              "content": "500,000 tokens",
+              "key": "B"
+            },
+            {
+              "content": "750,000 tokens",
+              "key": "C"
+            },
+            {
+              "content": "1,000,000 tokens",
+              "key": "D"
+            }
+          ],
+          "content": "What is the minimum number of votable tokens required to initiate an on-chain vote in the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "cb12f088-b599-4c4a-b6e0-e6987a72fa8b",
+          "explanation": "An on-chain vote in the Arbitrum DAO can only be initiated by $ARB token holders with at least 1,000,000 votable tokens."
+        }
+      ],
       "uuid": "26534fff-e7b8-45ee-9c2a-a163215be083"
     },
     {
@@ -76,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Vote on Snapshot",
+              "key": "A"
+            },
+            {
+              "content": "Review Proposals",
+              "key": "B"
+            },
+            {
+              "content": "Cast Your Vote",
+              "key": "C"
+            },
+            {
+              "content": "Navigate to DAOs",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step to vote for proposals in the 'temperature check' stage in the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "ffb6a36a-47fe-467e-88b1-e508f7838c50",
+          "explanation": "The first step is to review the proposals. This includes accessing the Arbitrum DAO governance forum online, finding and selecting the proposal you are interested in, reading the proposal details and the community discussion thread thoroughly, and providing your feedback."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "It must garner more negative votes than affirmative ones",
+              "key": "A"
+            },
+            {
+              "content": "Constitutional AIPs require at least 3% of all votable tokens to vote in favor",
+              "key": "B"
+            },
+            {
+              "content": "Non-Constitutional AIPs require at least 5% of votable tokens to be cast in favor for approval",
+              "key": "C"
+            },
+            {
+              "content": "It must garner more affirmative votes than negative ones and Constitutional AIPs require at least 5% of all votable tokens to vote in favor, while non-Constitutional AIPs need at least 3% of votable tokens to be cast in favor for approval",
+              "key": "D"
+            }
+          ],
+          "content": "What is required for a proposal to pass the 'on-chain vote' stage?",
+          "type": "SingleChoice",
+          "uuid": "b6f52536-4fdc-454e-ad3e-976156ee5ad0",
+          "explanation": "For a proposal to pass the on-chain vote stage, it must garner more affirmative votes than negative ones. Additionally, Constitutional AIPs require at least 5% of all votable tokens to vote in favor, while non-Constitutional AIPs need at least 3% of votable tokens to be cast in favor for approval."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Navigate to DAOs",
+              "key": "A"
+            },
+            {
+              "content": "Vote",
+              "key": "B"
+            },
+            {
+              "content": "Find the Proposal",
+              "key": "C"
+            },
+            {
+              "content": "Review Proposals",
+              "key": "D"
+            }
+          ],
+          "content": "What is the second step to vote for proposals in the 'on-chain vote' stage in the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "26283f9c-3498-4c0d-a0b1-5ac2c929148f",
+          "explanation": "The second step is to find the proposal. This includes choosing between Constitutional or non-Constitutional AIPs (Arbitrum Improvement Proposals) on the Arbitrum DAO's page and looking for the proposal you wish to vote on within the selected category."
+        }
+      ],
       "uuid": "b4c2fe50-0b66-4980-bca5-5813d33a4899"
     },
     {
@@ -88,7 +298,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Choose a delegate",
+              "key": "A"
+            },
+            {
+              "content": "Confirm the transaction",
+              "key": "B"
+            },
+            {
+              "content": "Assess potential delegates",
+              "key": "C"
+            },
+            {
+              "content": "Check the 'Votes' tab on Tally",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step in delegating your voting power within the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "df188c47-df8a-420b-80dc-45f1f8258877",
+          "explanation": "The first step is to assess potential delegates. This includes considering the delegate's alignment with the DAO's values, their track record, community engagement, responsiveness, and technical expertise."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "MetaMask",
+              "key": "A"
+            },
+            {
+              "content": "Tally",
+              "key": "B"
+            },
+            {
+              "content": "Ethereum",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum One",
+              "key": "D"
+            }
+          ],
+          "content": "What platform is used by Arbitrum DAO for governance?",
+          "type": "SingleChoice",
+          "uuid": "139e3c22-1d62-45e3-bab0-bf5fc2ada0b8",
+          "explanation": "Arbitrum DAO uses the Tally platform for governance."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Check your wallet",
+              "key": "A"
+            },
+            {
+              "content": "Wait for a confirmation email",
+              "key": "B"
+            },
+            {
+              "content": "Ask the chosen delegate",
+              "key": "C"
+            },
+            {
+              "content": "Check the 'Votes' tab on Tally",
+              "key": "D"
+            }
+          ],
+          "content": "How can you confirm that your delegation was successful?",
+          "type": "SingleChoice",
+          "uuid": "62c48431-b238-498f-a2fa-6f2a03a4b372",
+          "explanation": "You can confirm your delegation was successful by checking the 'Votes' tab on Tally to ensure your delegation to the chosen delegate is listed."
+        }
+      ],
       "uuid": "874e5e33-a37e-4ced-b50b-97f68546ff07"
     },
     {
