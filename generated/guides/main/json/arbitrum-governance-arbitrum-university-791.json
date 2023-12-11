@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into the Arbitrum Governance Sructure",
-  "created": "2023-11-29T17:36:07.487Z",
+  "created": "2023-12-11T15:03:11.893Z",
   "guideType": "onboarding",
   "key": "arbitrum-governance-arbitrum-university-791",
   "name": "Arbitrum Governance",
@@ -16,7 +16,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "It is the process of centralizing all decision-making power to a single entity",
+              "key": "A"
+            },
+            {
+              "content": "It is the process of making all decisions through a board of directors",
+              "key": "B"
+            },
+            {
+              "content": "It is the process where control of a project shifts from a small, central group to its wider community",
+              "key": "C"
+            },
+            {
+              "content": "It is the process of making all decisions through a single individual",
+              "key": "D"
+            }
+          ],
+          "content": "What is progressive decentralization in the context of Arbitrum Governance?",
+          "type": "SingleChoice",
+          "uuid": "d1f87d0a-260a-4b35-bdb4-9018762c7801",
+          "explanation": "Progressive decentralization is a process where control of a project shifts from a small, central group to its wider community. It involves setting up a DAO and issuing governance tokens, empowering community members to make decisions and guide the project's future democratically."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "The Sequencer is responsible for the creation of new tokens",
+              "key": "A"
+            },
+            {
+              "content": "The Sequencer is tasked with gathering and sequencing users' transactions",
+              "key": "B"
+            },
+            {
+              "content": "The Sequencer is responsible for the validation of transactions",
+              "key": "C"
+            },
+            {
+              "content": "The Sequencer is responsible for the distribution of tokens",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of the Sequencer in Arbitrum Governance?",
+          "type": "SingleChoice",
+          "uuid": "2fa22ae6-4b3d-49cb-8a9e-48c5d57d146f",
+          "explanation": "In the context of Arbitrum, the Sequencer is tasked with gathering and sequencing users' transactions. It is currently centralized, with the Sequencers for both Arbitrum One and Arbitrum Nova operated by the Arbitrum Foundation. The governance system has the authority to appoint new Sequencers as needed."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "The DAC is responsible for the creation of new tokens",
+              "key": "A"
+            },
+            {
+              "content": "The DAC is responsible for the validation of transactions",
+              "key": "B"
+            },
+            {
+              "content": "The DAC is responsible for the distribution of tokens",
+              "key": "C"
+            },
+            {
+              "content": "The DAC is responsible for storing and providing data when needed",
+              "key": "D"
+            }
+          ],
+          "content": "What is the function of the Data Availability Committee (DAC) in Arbitrum Governance?",
+          "type": "SingleChoice",
+          "uuid": "545c12ca-e446-4f9b-81b0-f7f93b7f5662",
+          "explanation": "The Data Availability Committee (DAC) is essential for Arbitrum Nova, which is an 'AnyTrust' chain that depends on a selected group to store and provide its data when needed. The members of this committee are publicly listed and can be updated by the governance system."
+        }
+      ],
       "uuid": "c3f3254d-7e3c-4716-a7bf-ff29fe93a57f"
     },
     {
@@ -28,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To monitor the transactions and ensure they are valid",
+              "key": "A"
+            },
+            {
+              "content": "To oversee updates and modifications, adjust key parameters, and upgrade the contracts that underpin the protocol",
+              "key": "B"
+            },
+            {
+              "content": "To generate new tokens for the network",
+              "key": "C"
+            },
+            {
+              "content": "To vote on proposals for changes to the protocol",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of a 'chain owner' in an Arbitrum network?",
+          "type": "SingleChoice",
+          "uuid": "f426e01e-7062-454a-b7d7-f13f7546e1d0",
+          "explanation": "In an Arbitrum network, the 'chain owner' functions as the system administrator, overseeing updates and modifications. They have the authority to adjust key parameters, halt transaction processing, and upgrade the contracts that underpin the protocol."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Because it allows for faster transaction processing",
+              "key": "A"
+            },
+            {
+              "content": "Because it reduces the cost of transactions",
+              "key": "B"
+            },
+            {
+              "content": "Because it provides a structured pathway for upgrades and ensures that the power to modify the protocol is distributed across the community",
+              "key": "C"
+            },
+            {
+              "content": "Because it allows for the creation of new tokens",
+              "key": "D"
+            }
+          ],
+          "content": "Why is Layer 2 (L2) on-chain governance essential?",
+          "type": "SingleChoice",
+          "uuid": "ad7a4b86-ea2a-4ad5-9531-402c82f49db3",
+          "explanation": "L2 protocols like Arbitrum are directly governed by smart contracts on the Ethereum blockchain. For Arbitrum to implement upgrades, it's not enough to merely update the node software; the underlying Ethereum smart contracts must also be updated. This requires a formal governance structure to authorize and enact changes."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "By providing a source of funding for the network",
+              "key": "A"
+            },
+            {
+              "content": "By acting as a form of currency within the network",
+              "key": "B"
+            },
+            {
+              "content": "By rewarding users for their participation in the network",
+              "key": "C"
+            },
+            {
+              "content": "By distributing these tokens broadly, sharing ownership and governance powers across a diverse group of stakeholders worldwide",
+              "key": "D"
+            }
+          ],
+          "content": "How does the $ARB governance token facilitate decentralized decision-making within the Arbitrum ecosystem?",
+          "type": "SingleChoice",
+          "uuid": "f5db4cf7-15f4-4b73-90f9-eb373a80c895",
+          "explanation": "The $ARB governance token facilitates decentralized decision-making by distributing these tokens broadly, often through a process called an airdrop. Ownership and governance powers are shared across a diverse group of stakeholders worldwide, forming the Arbitrum DAO. This group of token holders, and those they designate to vote on their behalf, has the collective authority to propose, discuss, vote on, and implement changes to the protocol."
+        }
+      ],
       "uuid": "d7a04223-527f-4c9f-b8df-02956a1e0eba"
     },
     {
@@ -40,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To publicize sensitive information in the DAO's governance forum",
+              "key": "A"
+            },
+            {
+              "content": "To swiftly implement protocol upgrades",
+              "key": "B"
+            },
+            {
+              "content": "To delay the implementation of protocol upgrades",
+              "key": "C"
+            },
+            {
+              "content": "To conduct semi-annual elections",
+              "key": "D"
+            }
+          ],
+          "content": "What is the primary role of the Security Council in case of emergencies?",
+          "type": "SingleChoice",
+          "uuid": "6b955fab-a639-47b3-97d5-3a5e293efcac",
+          "explanation": "In case of emergencies, the Security Council can swiftly implement protocol upgrades, bypassing the standard governance process. They can take immediate action in case of critical vulnerabilities without publicizing sensitive information in the DAO's governance forum."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "They are self-appointed",
+              "key": "A"
+            },
+            {
+              "content": "They are elected by the Security Council itself",
+              "key": "B"
+            },
+            {
+              "content": "They are elected by the DAO",
+              "key": "C"
+            },
+            {
+              "content": "They are appointed by the Arbitrum community",
+              "key": "D"
+            }
+          ],
+          "content": "Who elects the members of the Security Council?",
+          "type": "SingleChoice",
+          "uuid": "5113ccf4-9c5c-456a-bb81-ae84b57c831d",
+          "explanation": "Members of the Security Council are elected by the DAO through semi-annual elections, ensuring that the council acts in the network's best interests."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To implement them immediately without any delay",
+              "key": "A"
+            },
+            {
+              "content": "To bypass the standard governance process",
+              "key": "B"
+            },
+            {
+              "content": "To publicize sensitive information in the DAO's governance forum",
+              "key": "C"
+            },
+            {
+              "content": "To subject them to a delay period, allowing users the choice to withdraw if they disagree",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of the Security Council in routine upgrades?",
+          "type": "SingleChoice",
+          "uuid": "6225a16e-6763-4ee7-9420-7d0d61808a96",
+          "explanation": "In case of non-critical updates such as software maintenance and minor improvements, these upgrades are subject to a delay period, allowing users the choice to withdraw if they disagree with the changes."
+        }
+      ],
       "uuid": "220fb1cb-5390-4fdd-a15a-dfbdf1f283be"
     }
   ],
