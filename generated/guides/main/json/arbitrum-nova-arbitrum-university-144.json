@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum Nova: Enhanced scalability with AnyTrust verification.",
-  "created": "2023-11-28T12:47:09.810Z",
+  "created": "2023-12-11T13:42:39.325Z",
   "guideType": "onboarding",
   "key": "arbitrum-nova-arbitrum-university-144",
   "name": "Arbitrum Nova",
@@ -18,39 +18,85 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "c2bf1043-ab0d-42e5-ae7f-7a2ea0dda0a3"
-        },
-        {
           "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
+            "B"
           ],
           "choices": [
             {
-              "content": "Choice 1",
-              "key": "choice_1"
+              "content": "A high-performance blockchain solution within the Bitcoin ecosystem",
+              "key": "A"
             },
             {
-              "content": "Choice 2",
-              "key": "choice_2"
+              "content": "A high-performance blockchain solution within the Arbitrum ecosystem",
+              "key": "B"
             },
             {
-              "content": "Choice 3",
-              "key": "choice_3"
+              "content": "A low-performance blockchain solution within the Ethereum ecosystem",
+              "key": "C"
             },
             {
-              "content": "Choice 4",
-              "key": "choice_4"
+              "content": "A low-performance blockchain solution within the Arbitrum ecosystem",
+              "key": "D"
             }
           ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "d6fc5f36-3c2c-4a66-9a17-abbff017d633",
-          "explanation": "Explanation of the question"
+          "content": "What is Arbitrum Nova?",
+          "type": "SingleChoice",
+          "uuid": "79c2cf65-2778-4b9b-8899-ae208531bd04",
+          "explanation": "Arbitrum Nova is a variant within the Arbitrum ecosystem that provides a high-performance blockchain solution. It operates on the AnyTrust protocol and introduces a new element of trust through the Data Availability Committee (DAC)."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To manage the public keys and signatures",
+              "key": "A"
+            },
+            {
+              "content": "To reduce the cost of the Arbitrum system",
+              "key": "B"
+            },
+            {
+              "content": "To handle Layer 2 transaction data",
+              "key": "C"
+            },
+            {
+              "content": "To facilitate secure and flexible operation of the Committee",
+              "key": "D"
+            }
+          ],
+          "content": "What is the main role of the Data Availability Committee in the AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "59e3843a-d768-4e93-b168-ec9d3ba9f56d",
+          "explanation": "The Data Availability Committee (DAC) in the AnyTrust protocol is responsible for efficiently handling Layer 2 transaction data—storing it, batching it, and then posting it to Ethereum's Layer 1."
+        },
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "Cost reduction",
+              "key": "A"
+            },
+            {
+              "content": "Operational efficiency",
+              "key": "B"
+            },
+            {
+              "content": "Data security",
+              "key": "C"
+            },
+            {
+              "content": "Data availability",
+              "key": "D"
+            }
+          ],
+          "content": "What is the main benefit of the AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "aa86d85a-e4dc-47c1-88d0-aa604dd1dc3c",
+          "explanation": "The main benefit of the AnyTrust protocol is cost reduction. It reduces costs on the Arbitrum system by entrusting a Committee with data storage and distribution, thus minimizing the data posted to Ethereum's mainnet."
         }
       ],
       "uuid": "33bf1c78-8529-42b0-8ff8-3c55952709c9"
@@ -64,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To manage the financial transactions of the AnyTrust protocol",
+              "key": "A"
+            },
+            {
+              "content": "To store and ensure the accessibility of Layer 2 transaction data for Arbitrum's rollup chain",
+              "key": "B"
+            },
+            {
+              "content": "To handle the marketing and promotion of the AnyTrust protocol",
+              "key": "C"
+            },
+            {
+              "content": "To design and develop the user interface of the AnyTrust protocol",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of the Data Availability Committee in the AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "31e73db8-34fe-4c06-944a-f85e6e68f09d",
+          "explanation": "The Data Availability Committee is a specialized group within the AnyTrust protocol framework, tasked with the crucial role of storing and ensuring the accessibility of Layer 2 transaction data for Arbitrum's rollup chain."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To provide a user-friendly interface for the AnyTrust protocol",
+              "key": "A"
+            },
+            {
+              "content": "To manage the financial transactions of the AnyTrust protocol",
+              "key": "B"
+            },
+            {
+              "content": "To handle the marketing and promotion of the AnyTrust protocol",
+              "key": "C"
+            },
+            {
+              "content": "To ensure data accessibility in the Arbitrum network",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the Data Availability Certificate (DACert) in the AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "898e3db1-a789-434f-a890-b922c2290de5",
+          "explanation": "The Data Availability Certificate (DACert) is an essential component of the AnyTrust protocol, ensuring data accessibility in the Arbitrum network. A DACert includes a data block's hash, an expiration time, and cryptographic evidence that N-1 Committee members have endorsed it."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To manage the financial transactions of the AnyTrust protocol",
+              "key": "A"
+            },
+            {
+              "content": "To handle the marketing and promotion of the AnyTrust protocol",
+              "key": "B"
+            },
+            {
+              "content": "To provide crucial infrastructure for data storage and retrieval",
+              "key": "C"
+            },
+            {
+              "content": "To design and develop the user interface of the AnyTrust protocol",
+              "key": "D"
+            }
+          ],
+          "content": "What is the function of the Data Availability Servers (DAS) in the AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "c6e2f401-76cc-4e70-8dfe-08a330b86892",
+          "explanation": "Committee members in the AnyTrust protocol operate Data Availability Servers (DAS), which provide crucial infrastructure for data storage and retrieval."
+        }
+      ],
       "uuid": "7f2b25cc-5ddc-4386-a8bf-82e8ee18f826"
     },
     {
@@ -76,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "DACert Creation",
+              "key": "A"
+            },
+            {
+              "content": "Batch Creation",
+              "key": "B"
+            },
+            {
+              "content": "Data Storage by Committee Members",
+              "key": "C"
+            },
+            {
+              "content": "DACert Posting",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step in the interaction between the Arbitrum sequencer and the Data Availability Committee during block validation in the Arbitrum AnyTrust protocol?",
+          "type": "SingleChoice",
+          "uuid": "86e6102d-281c-4f87-9163-2dc36c3b41cd",
+          "explanation": "The first step is the Batch Creation. The Arbitrum sequencer generates a data batch for submission and sets an expiration time, typically three weeks ahead. The sequencer sends this batch data along with the expiration time to all Committee members simultaneously via an RPC (Remote Procedure Call) interface."
+        },
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "It defaults to the traditional rollup method and posts the full data directly to the L1 chain, bypassing the Committee",
+              "key": "A"
+            },
+            {
+              "content": "It stops the process and restarts it",
+              "key": "B"
+            },
+            {
+              "content": "It waits until it obtains the necessary signatures",
+              "key": "C"
+            },
+            {
+              "content": "It discards the data batch",
+              "key": "D"
+            }
+          ],
+          "content": "What happens if the sequencer cannot obtain the necessary signatures within a specified time frame?",
+          "type": "SingleChoice",
+          "uuid": "f1046bb4-e84d-43d9-8838-559d193ba9a4",
+          "explanation": "If the sequencer cannot obtain the necessary signatures within a specified time frame, it defaults to the traditional rollup method. It then posts the full data directly to the L1 chain, bypassing the Committee."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To store the data in the Committee members' backing store",
+              "key": "A"
+            },
+            {
+              "content": "To generate a data batch for submission",
+              "key": "B"
+            },
+            {
+              "content": "To validate the data's availability for the AnyTrust Layer 2 (L2) chain software",
+              "key": "C"
+            },
+            {
+              "content": "To set an expiration time for the data batch",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the Data Availability Certificate (DACert)?",
+          "type": "SingleChoice",
+          "uuid": "1e5dbeb5-c1ca-4c6a-9ece-89225da13fbd",
+          "explanation": "The purpose of the Data Availability Certificate (DACert) is to validate the data's availability for the AnyTrust Layer 2 (L2) chain software. It is posted to the Layer 1 (L1) inbox contract by the sequencer."
+        }
+      ],
       "uuid": "c7e781c8-65cb-4190-bd76-26c6ef3756c1"
     },
     {
@@ -88,7 +298,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Both use the same data authenticity mechanism.",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum One posts Layer 2 transaction data on the Ethereum blockchain, while Arbitrum Nova uses AnyTrust technology with a Data Availability Committee (DAC).",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum One uses AnyTrust technology, while Arbitrum Nova posts data on the Ethereum blockchain.",
+              "key": "C"
+            },
+            {
+              "content": "Both post data on the Ethereum blockchain.",
+              "key": "D"
+            }
+          ],
+          "content": "What is the main difference in data authenticity between Arbitrum One and Arbitrum Nova?",
+          "type": "SingleChoice",
+          "uuid": "cbe50105-36cd-4dec-a0b8-ab83e67c3a1b",
+          "explanation": "Arbitrum One posts Layer 2 transaction data on the Ethereum blockchain, while Arbitrum Nova uses AnyTrust technology with a Data Availability Committee (DAC)."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Both have the same gas price.",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum One has a lower gas price.",
+              "key": "B"
+            },
+            {
+              "content": "The gas price varies and cannot be compared.",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum Nova has a lower gas price.",
+              "key": "D"
+            }
+          ],
+          "content": "Which chain, Arbitrum One or Arbitrum Nova, has a lower gas price?",
+          "type": "SingleChoice",
+          "uuid": "f2e0a97a-e850-4b46-b038-a28d4e3d6541",
+          "explanation": "Arbitrum Nova has a lower minimum gas price of 0.01 gwei, potentially making it 10x cheaper than Arbitrum One."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Both are equally suitable for high-load dApps.",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum One is more suitable for high-load dApps.",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum Nova is more suitable for high-load dApps.",
+              "key": "C"
+            },
+            {
+              "content": "Neither is suitable for high-load dApps.",
+              "key": "D"
+            }
+          ],
+          "content": "Which chain, Arbitrum One or Arbitrum Nova, is more suitable for high-load dApps like NFTs and social networks?",
+          "type": "SingleChoice",
+          "uuid": "31c6ed43-cd81-46ee-b566-7dba27042d8a",
+          "explanation": "Arbitrum Nova is more scalable and designed for high-load dApps like NFTs and social networks."
+        }
+      ],
       "uuid": "34b03539-d2e8-4489-b118-af2b06dca0d1"
     }
   ],
