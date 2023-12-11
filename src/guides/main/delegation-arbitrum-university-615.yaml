@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-11-30T16:35:33.301Z'
+created: '2023-12-11T15:29:08.010Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -79,27 +79,67 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: bfd9bd42-5019-4129-99d4-fa9951f453c0
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - C
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: b9ea048a-8cac-40e0-a072-735bc7d3959f
-        explanation: Explanation of the question
+          - content: To hold tokens for other members
+            key: A
+          - content: To make all decisions for the DAO
+            key: B
+          - content: To act as a proxy for token holders in decision-making processes
+            key: C
+          - content: To oversee the actions of other delegates
+            key: D
+        content: What is the primary role of a delegate within the Arbitrum DAO?
+        type: SingleChoice
+        uuid: 86725f16-6df1-4d63-999c-b9c7deacb1fb
+        explanation: >-
+          A delegate acts as a proxy for token holders who may not have the time
+          or inclination to participate in the frequent and often complex
+          decision-making processes. They are entrusted by token holders who
+          willingly transfer their voting rights, empowering the delegate to act
+          on their behalf in the governance of the Arbitrum ecosystem.
+      - answerKeys:
+          - B
+        choices:
+          - content: The Constitution of the Arbitrum DAO
+            key: A
+          - content: >-
+              The ability of token holders to withdraw their delegation at any
+              point
+            key: B
+          - content: The requirement for delegates to hold a certain amount of tokens
+            key: C
+          - content: The requirement for delegates to vote on all proposals
+            key: D
+        content: What ensures that delegates remain accountable to their constituents?
+        type: SingleChoice
+        uuid: c4c91672-c970-4be2-a7b5-ef14d4576273
+        explanation: >-
+          Token holders who delegate their votes maintain the right to oversee
+          their delegate's decisions and can withdraw their delegation at any
+          point. This mechanism ensures that delegates remain accountable to
+          their constituents.
+      - answerKeys:
+          - D
+        choices:
+          - content: You can make all decisions for the protocol
+            key: A
+          - content: You can hold more tokens than other members
+            key: B
+          - content: You can oversee the actions of other delegates
+            key: C
+          - content: You can actively participate in the governance of the technology
+            key: D
+        content: >-
+          What is one of the benefits of being a delegate within a decentralized
+          protocol like Arbitrum?
+        type: SingleChoice
+        uuid: 2a779c0e-11ba-4fd0-af47-27d7a49285be
+        explanation: >-
+          As a delegate, you can actively participate in the governance of the
+          technology, which can be rewarding both intellectually and in terms of
+          the potential to shape the future of the protocol.
     uuid: c6007096-3c41-4b14-a191-4ff982d9bddf
   - content: >-
       ## How to become a Delegate?
