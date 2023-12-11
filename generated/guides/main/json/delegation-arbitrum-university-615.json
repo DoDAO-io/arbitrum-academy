@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Representatives for token holders in Arbitrum DAO",
-  "created": "2023-12-11T15:29:08.010Z",
+  "created": "2023-12-11T15:38:03.258Z",
   "guideType": "onboarding",
   "key": "delegation-arbitrum-university-615",
   "name": "Delegation",
@@ -110,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Submit your application",
+              "key": "A"
+            },
+            {
+              "content": "Understand the Role and Responsibilities",
+              "key": "B"
+            },
+            {
+              "content": "Engage with the Community",
+              "key": "C"
+            },
+            {
+              "content": "Build Your Delegate Platform",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step to become a delegate for the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "fb7e29a5-38c5-46d3-88f7-e3dc0d039fd1",
+          "explanation": "The first step to become a delegate for the Arbitrum DAO is to understand the role and responsibilities. This includes familiarizing oneself with what being a delegate entails, including the expectations and responsibilities."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Creating a physical office",
+              "key": "A"
+            },
+            {
+              "content": "Buying a domain name",
+              "key": "B"
+            },
+            {
+              "content": "Hiring a team",
+              "key": "C"
+            },
+            {
+              "content": "Completing a comprehension check and creating an online presence",
+              "key": "D"
+            }
+          ],
+          "content": "What does building your delegate platform involve?",
+          "type": "SingleChoice",
+          "uuid": "9907027c-6e33-48a4-8863-44ce4d1fdd14",
+          "explanation": "Building your delegate platform involves completing a comprehension check to evaluate your understanding of the Arbitrum DAO governance protocol and creating an online presence where you can share your qualifications, experience, and vision for the Arbitrum DAO."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Having a large social media following",
+              "key": "A"
+            },
+            {
+              "content": "Being a good public speaker",
+              "key": "B"
+            },
+            {
+              "content": "Continuous engagement with the community",
+              "key": "C"
+            },
+            {
+              "content": "Having a lot of money",
+              "key": "D"
+            }
+          ],
+          "content": "What is important for an effective delegate in the Arbitrum DAO community?",
+          "type": "SingleChoice",
+          "uuid": "a78cb0aa-0a1b-4094-927f-2f979bd6a9ed",
+          "explanation": "Continuous engagement is key to being an effective delegate. This includes joining the Arbitrum DAO governance forum or Discord to ask questions, express concerns, and connect with the community."
+        }
+      ],
       "uuid": "d5df51a7-bf7f-4f0e-8805-6c2bbeaba928"
     },
     {
@@ -122,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "Deeply Understand the DAO Constitution",
+              "key": "A"
+            },
+            {
+              "content": "Engage with Token Holders",
+              "key": "B"
+            },
+            {
+              "content": "Maintain Active Community Involvement",
+              "key": "C"
+            },
+            {
+              "content": "Emphasize Transparency and Accountability",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step in building a strong delegate platform for the Arbitrum DAO?",
+          "type": "SingleChoice",
+          "uuid": "64e2fc24-f033-43dd-a044-290bd8370de7",
+          "explanation": "The first step in building a strong delegate platform for the Arbitrum DAO is to deeply understand the DAO Constitution."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Delegate Voting Power",
+              "key": "A"
+            },
+            {
+              "content": "Connect Wallet",
+              "key": "B"
+            },
+            {
+              "content": "Confirm Delegation",
+              "key": "C"
+            },
+            {
+              "content": "Create a Supportive Network",
+              "key": "D"
+            }
+          ],
+          "content": "What is the first step in delegating your voting power in the Arbitrum DAO using Tally?",
+          "type": "SingleChoice",
+          "uuid": "377537ad-1da5-4f13-960b-40080ad63701",
+          "explanation": "The first step in delegating your voting power in the Arbitrum DAO using Tally is to connect your Ethereum wallet."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To increase the number of token holders",
+              "key": "A"
+            },
+            {
+              "content": "To gain more voting power",
+              "key": "B"
+            },
+            {
+              "content": "To make more profit",
+              "key": "C"
+            },
+            {
+              "content": "To foster connection and community trust",
+              "key": "D"
+            }
+          ],
+          "content": "What is the importance of maintaining active community involvement in building a delegate platform?",
+          "type": "SingleChoice",
+          "uuid": "1bea3713-fb30-42c6-bf2d-bdca49b3fa5f",
+          "explanation": "Maintaining active community involvement fosters connection and community trust, which is crucial in building a delegate platform."
+        }
+      ],
       "uuid": "273220b6-9656-4c99-99cf-acb291ae1a1e"
     },
     {
