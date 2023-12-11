@@ -1,6 +1,6 @@
 categories: []
 content: Understanding the workings of the Arbitrum DAO
-created: '2023-11-30T13:37:14.302Z'
+created: '2023-12-11T15:10:41.012Z'
 guideType: onboarding
 key: arbitrum-dao-arbitrum-university-613
 name: Arbitrum DAO
@@ -114,27 +114,69 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 6bf2a194-9c0e-425f-97bc-ee314685cfec
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - C
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: 7acea72e-ed02-4cf6-b335-6ad0a4920cd5
-        explanation: Explanation of the question
+          - content: It is a digital asset based on the ERC-20 standard
+            key: A
+          - content: It is a transactional token
+            key: B
+          - content: >-
+              It governs the Arbitrum ecosystem and represents the interests of
+              $ARB token holders
+            key: C
+          - content: It is a cryptocurrency wallet that supports $ETH
+            key: D
+        content: What is the function of the Arbitrum DAO?
+        type: SingleChoice
+        uuid: c5a2f224-71ff-4952-ba1f-b4614caa24f1
+        explanation: >-
+          The Arbitrum DAO is a collective that governs the Arbitrum ecosystem,
+          which operates on top of the Ethereum blockchain. It represents the
+          interests of $ARB token holders, enabling them to shape the ecosystem
+          by proposing and voting on Arbitrum Improvement Proposals (AIPs).
+      - answerKeys:
+          - B
+        choices:
+          - content: They are responsible for paying transaction fees
+            key: A
+          - content: >-
+              They oversee the management of the governance protocols and vote
+              on proposals
+            key: B
+          - content: >-
+              They are responsible for the day-to-day operations of the Arbitrum
+              ecosystem
+            key: C
+          - content: They are responsible for creating new $ARB tokens
+            key: D
+        content: What is the role of $ARB token holders in the Arbitrum DAO?
+        type: SingleChoice
+        uuid: 8215d6ff-9541-403f-a593-d5fa07eb2f51
+        explanation: >-
+          $ARB token holders play an integral part to oversee the management of
+          the governance protocols and the technological infrastructure of the
+          Arbitrum One and Arbitrum Nova chains. Token holders use their $ARB to
+          vote on proposals that dictate the networks' upgrades and the
+          allocation of the DAO's funds.
+      - answerKeys:
+          - D
+        choices:
+          - content: Both are powered by decentralized blockchain technology
+            key: A
+          - content: Both can be owned by any cryptocurrency wallet that supports $ETH
+            key: B
+          - content: Both can be bought, sold, and traded
+            key: C
+          - content: $ETH is a transactional token, while $ARB is a governance token
+            key: D
+        content: What is a key difference between $ARB and $ETH tokens?
+        type: SingleChoice
+        uuid: 2e007b10-be8f-4724-85b5-6b7d046ed13c
+        explanation: >-
+          $ETH is a transactional token, while $ARB is a governance token.
+          Holding $ARB gives you the ability to govern Arbitrum, while holding
+          $ETH doesn't impact your ability to govern Ethereum's protocol.
     uuid: 6cc8edfb-d101-4053-bac3-419b9352d568
   - content: >-
       ## Governance Structure
@@ -191,7 +233,67 @@ steps:
     uuid: d8b0974d-a6cb-4e25-92fa-4451b1726041
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content: To elect the members of the Arbitrum DAO
+            key: A
+          - content: To maintain the security and performance of Arbitrum
+            key: B
+          - content: To authorize the creation of new L2 chains
+            key: C
+          - content: To decide on upgrades to the core contracts of Arbitrum chains
+            key: D
+        content: >-
+          What is the primary responsibility of the Security Council in the
+          Arbitrum Rollup protocol governance framework?
+        type: SingleChoice
+        uuid: 0045524f-fe74-45cf-92b5-59d2d751d0d9
+        explanation: >-
+          The Security Council's primary responsibility is to maintain the
+          security and performance of Arbitrum, which includes the authority to
+          take urgent measures in extraordinary situations to protect the
+          network.
+      - answerKeys:
+          - C
+        choices:
+          - content: The Security Council
+            key: A
+          - content: The $ARB token holders
+            key: B
+          - content: The Arbitrum DAO
+            key: C
+          - content: The appointed delegates
+            key: D
+        content: >-
+          Who holds the overarching governance responsibilities for the Arbitrum
+          ecosystem?
+        type: SingleChoice
+        uuid: 16ae207e-6f7c-4718-b94a-d09a33663ac4
+        explanation: >-
+          The Arbitrum DAO, which represents the collective of $ARB token
+          holders across the globe, along with their appointed delegates, holds
+          the overarching governance responsibilities for the Arbitrum
+          ecosystem.
+      - answerKeys:
+          - D
+        choices:
+          - content: To elect the members of the Security Council
+            key: A
+          - content: To maintain the security and performance of Arbitrum
+            key: B
+          - content: To represent the collective of $ARB token holders across the globe
+            key: C
+          - content: To decide on upgrades to the core contracts of Arbitrum chains
+            key: D
+        content: What is one of the roles of the Arbitrum governance system?
+        type: SingleChoice
+        uuid: d93aa712-1055-4e8a-a738-b0988e904ecf
+        explanation: >-
+          The Arbitrum governance system holds the crucial role of deciding on
+          upgrades to the core contracts of Arbitrum chains that govern the
+          network's protocols.
     uuid: 227d10ac-a52f-4b51-bd19-beac530b6dfd
   - content: >-
       ## Web3 Layers
@@ -261,7 +363,64 @@ steps:
     uuid: 1263d5bb-7002-4667-af03-4178c78a603e
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: To develop the software that executes blockchain transactions
+            key: A
+          - content: To maintain the agreement protocol of Ethereum's beacon chain
+            key: B
+          - content: To interact with decentralized applications (dApps)
+            key: C
+          - content: >-
+              To focus on the latest developments in cryptography, economic
+              system design, and governance models
+            key: D
+        content: What is the purpose of the Web3 User Layer?
+        type: SingleChoice
+        uuid: 483cff83-fca2-4c20-86b5-8a4b2557c0a2
+        explanation: >-
+          The Web3 User Layer is where users interact with decentralized
+          applications (dApps).
+      - answerKeys:
+          - B
+        choices:
+          - content: To interact with decentralized applications (dApps)
+            key: A
+          - content: To develop the software that executes blockchain transactions
+            key: B
+          - content: To maintain the agreement protocol of Ethereum's beacon chain
+            key: C
+          - content: >-
+              To focus on the latest developments in cryptography, economic
+              system design, and governance models
+            key: D
+        content: What is the role of the Execution Layer (EL) in Web3 Layers?
+        type: SingleChoice
+        uuid: f678f720-6c1b-4738-ad23-b0dd37cebcdb
+        explanation: >-
+          The Execution Layer (EL) involves groups like Geth who develop the
+          software that executes blockchain transactions.
+      - answerKeys:
+          - D
+        choices:
+          - content: To interact with decentralized applications (dApps)
+            key: A
+          - content: To develop the software that executes blockchain transactions
+            key: B
+          - content: To maintain the agreement protocol of Ethereum's beacon chain
+            key: C
+          - content: >-
+              To focus on the latest developments in cryptography, economic
+              system design, and governance models
+            key: D
+        content: What is the function of the Research Layer in Web3 Layers?
+        type: SingleChoice
+        uuid: e4bc4b3c-2d16-4f77-bdd2-21ace7555a54
+        explanation: >-
+          The Research Layer includes experts focused on the latest developments
+          in cryptography, economic system design, and governance models.
     uuid: dab4315a-ba2f-4a65-a493-2f94f96606b7
   - content: >
       The users can refer to the additional knowledge and resrouce support
