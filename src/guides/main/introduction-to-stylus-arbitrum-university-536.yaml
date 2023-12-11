@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-12-11T14:01:06.318Z'
+created: '2023-12-11T16:32:41.719Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -125,7 +125,7 @@ steps:
       - answerKeys:
           - C
         choices:
-          - content: It allows developers to write code in any language
+          - content: It allows developers to create apps
             key: A
           - content: It reduces the need for testing
             key: B
@@ -201,15 +201,15 @@ steps:
       - answerKeys:
           - C
         choices:
-          - content: To upload the WASM code to the blockchain
+          - content: To upload the WASM code to Ethereum
             key: A
-          - content: To compile the written program into WASM
+          - content: To compile the written program into Arbitrum
             key: B
           - content: >-
               To convert WASM into binary code that’s optimized for the node’s
               architecture
             key: C
-          - content: To run the Stylus programs on a modified version of Wasmer
+          - content: 'To run the Stylus programs '
             key: D
         content: What is the purpose of the 'activation' process in Stylus?
         type: SingleChoice
