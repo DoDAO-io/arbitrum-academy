@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to submit proposals in Arbitrum DAO
-created: '2023-11-30T18:51:05.313Z'
+created: '2023-12-11T15:51:28.676Z'
 guideType: onboarding
 key: submitting-a-dao-proposal-arbitrum-university-385
 name: Submitting a DAO proposal
@@ -93,27 +93,85 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: d6835cc2-5a08-4467-ab6a-f4cc91a87675
       - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
+          - C
         choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: f0469887-d474-4fe2-b286-ec9154284894
-        explanation: Explanation of the question
+          - content: They are required for the organization's annual audit
+            key: A
+          - content: They are necessary for the organization's legal compliance
+            key: B
+          - content: >-
+              They enable innovation, improvements, and community consensus on
+              the evolution of the protocol or organization
+            key: C
+          - content: They are needed for the organization's financial reporting
+            key: D
+        content: >-
+          Why are proposals essential in a Decentralized Autonomous Organization
+          (DAO)?
+        type: SingleChoice
+        uuid: 6b215205-3b1a-440c-b977-5a66415b256c
+        explanation: >-
+          Proposals are essential for the transparent and equitable governance
+          of blockchain-based projects, allowing stakeholders to vote and decide
+          on the deployment of shared resources and strategic directions.
+      - answerKeys:
+          - B
+        choices:
+          - content: >-
+              Constitutional AIPs are less important than Non-Constitutional
+              AIPs
+            key: A
+          - content: >-
+              Constitutional AIPs can alter foundational rules and procedures,
+              while Non-Constitutional AIPs deal with day-to-day governance and
+              maintenance
+            key: B
+          - content: >-
+              Non-Constitutional AIPs can alter foundational rules and
+              procedures, while Constitutional AIPs deal with day-to-day
+              governance and maintenance
+            key: C
+          - content: >-
+              There is no difference between Constitutional AIPs and
+              Non-Constitutional AIPs
+            key: D
+        content: >-
+          What is the difference between Constitutional AIPs and
+          Non-Constitutional AIPs?
+        type: SingleChoice
+        uuid: bfa12e59-19e9-4ad1-a7ea-d72a28bcf1e4
+        explanation: >-
+          Constitutional AIPs are significant proposals that have the potential
+          to alter the foundational rules and procedures of the ecosystem, while
+          Non-Constitutional AIPs are less structural in nature and usually deal
+          with the day-to-day governance and maintenance of the community's
+          projects and initiatives.
+      - answerKeys:
+          - D
+        choices:
+          - content: Possession of a Bitcoin wallet address
+            key: A
+          - content: >-
+              The Ethereum wallet must represent at least 0.01% of votable
+              tokens within the DAO's ecosystem
+            key: B
+          - content: Possession of a physical office space
+            key: C
+          - content: >-
+              The Ethereum wallet must represent at least 1,000,000 tokens,
+              which equates to approximately 0.1% of votable tokens within the
+              DAO's ecosystem
+            key: D
+        content: >-
+          What is a prerequisite for submitting a proposal on-chain using Tally
+          in a DAO?
+        type: SingleChoice
+        uuid: 07bbf98a-48dc-4391-ab55-852cb58cc951
+        explanation: >-
+          To submit a proposal on-chain using Tally in a DAO, the Ethereum
+          wallet must represent at least 1,000,000 tokens, which equates to
+          approximately 0.1% of votable tokens within the DAO's ecosystem.
     uuid: 4a07e553-f4d5-4735-8aa9-b2a07f967c5a
   - content: >-
       ## How to Structure the Proposal?
@@ -194,7 +252,77 @@ steps:
     uuid: e874df3d-4d99-43fd-a236-1d9e72ec54c1
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: To detail the actionable steps required to execute the AIP
+            key: A
+          - content: To present a comprehensive cost analysis for implementing the AIP
+            key: B
+          - content: To provide a concise summary of the AIP
+            key: C
+          - content: >-
+              To specify the modifications made to the AIP in response to the
+              community's feedback
+            key: D
+        content: >-
+          What is the purpose of the 'Abstract' section in an Arbitrum
+          Improvement Proposal (AIP)?
+        type: SingleChoice
+        uuid: febfcb6f-91c0-4431-96c1-1b1c2e750e2b
+        explanation: >-
+          The 'Abstract' section in an AIP provides a concise summary of the
+          proposal in two or three sentences.
+      - answerKeys:
+          - B
+        choices:
+          - content: >-
+              To provide more details on the intentions, specifics, and
+              implications of the AIP
+            key: A
+          - content: >-
+              To articulate the reasons for proposing the AIP and why it is
+              beneficial for the Arbitrum community
+            key: B
+          - content: >-
+              To outline key dates, including the start date, milestones, and
+              expected completion date
+            key: C
+          - content: >-
+              To explain how the AIP is in line with the mission and values of
+              the Arbitrum community
+            key: D
+        content: What is the function of the 'Motivation' section in an AIP?
+        type: SingleChoice
+        uuid: 5011a09b-56d7-4e6a-9ae2-011f97f8c45d
+        explanation: >-
+          The 'Motivation' section articulates the reasons for proposing the AIP
+          and why it is beneficial for the Arbitrum community.
+      - answerKeys:
+          - D
+        choices:
+          - content: To provide a concise summary of the AIP
+            key: A
+          - content: >-
+              To articulate the reasons for proposing the AIP and why it is
+              beneficial for the Arbitrum community
+            key: B
+          - content: To detail the actionable steps required to execute the AIP
+            key: C
+          - content: >-
+              To offer an in-depth description of the platforms and technologies
+              that will be utilized and discuss the reasoning behind design
+              choices
+            key: D
+        content: What is the purpose of the 'Specifications' section in an AIP?
+        type: SingleChoice
+        uuid: fb1a7b5e-4135-4d03-ba39-d2c6465d61e0
+        explanation: >-
+          The 'Specifications' section offers an in-depth description of the
+          platforms and technologies that will be utilized. It also discusses
+          the reasoning behind design choices, including alternative designs and
+          precedents in other projects.
     uuid: 205472c5-46cf-40b6-a8dc-8c47aef16c3a
   - content: >-
       Follow along this step to understand how to submit the DAO proposals.
@@ -306,7 +434,71 @@ steps:
     uuid: a661e58d-8d66-4606-b545-3037c3675a9b
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Post on the DAO Governance Forum
+            key: A
+          - content: Create a Snapshot Poll
+            key: B
+          - content: Engage in Discussion
+            key: C
+          - content: Review the Results
+            key: D
+        content: >-
+          What is the first step in conducting a formal temperature check with a
+          Snapshot poll for the Arbitrum DAO?
+        type: SingleChoice
+        uuid: f555123d-51f4-4ef3-bdf2-2320bd2bfc91
+        explanation: >-
+          The first step in conducting a formal temperature check with a
+          Snapshot poll for the Arbitrum DAO is to post on the DAO Governance
+          Forum. This involves drafting a proposal that aligns with the DAO's
+          goals and format guidelines.
+      - answerKeys:
+          - B
+        choices:
+          - content: 500,000 $ARB tokens
+            key: A
+          - content: 1,000,000 $ARB tokens
+            key: B
+          - content: 2,000,000 $ARB tokens
+            key: C
+          - content: No token requirement
+            key: D
+        content: >-
+          What is the token requirement to submit an on-chain proposal using
+          Tally for the Arbitrum DAO?
+        type: SingleChoice
+        uuid: 017612d0-fec1-4aba-a368-6969b3a42623
+        explanation: >-
+          To submit an on-chain proposal using Tally for the Arbitrum DAO, your
+          wallet should contain at least 1,000,000 $ARB tokens, which is
+          approximately 0.1% of votable tokens.
+      - answerKeys:
+          - D
+        choices:
+          - content: It receives more votes in favor than against
+            key: A
+          - content: >-
+              It achieves a minimum favorable vote percentage of the total
+              votable tokens
+            key: B
+          - content: It receives unanimous votes
+            key: C
+          - content: >-
+              It receives more votes in favor than against and achieves a
+              minimum favorable vote percentage of the total votable tokens
+            key: D
+        content: What are the conditions for a proposal to be considered successful?
+        type: SingleChoice
+        uuid: ee41ee5d-5783-4781-afa7-9197c5abf493
+        explanation: >-
+          A proposal is considered successful if it receives more votes in favor
+          than against and it achieves a minimum favorable vote percentage of
+          the total votable tokens: 5% for a Constitutional AIP and 3% for a
+          non-Constitutional AIP.
     uuid: c821f543-03a5-40c5-8407-7a128dc2353f
   - content: >+
       ## How to resubmit a DAO proposal?
@@ -346,7 +538,62 @@ steps:
     uuid: de89e6dd-8634-4a00-b3a0-53be9f9f34dd
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Revise Proposal
+            key: A
+          - content: Resubmit as New
+            key: B
+          - content: Reconsider if Rejected
+            key: C
+          - content: Conduct a fresh temperature check
+            key: D
+        content: What is the first step in resubmitting a DAO proposal?
+        type: SingleChoice
+        uuid: eb330679-5042-4f68-b2a3-99e3dd4a6e03
+        explanation: >-
+          The first step in resubmitting a DAO proposal is to revise the
+          proposal based on the community's feedback and any new information.
+      - answerKeys:
+          - C
+        choices:
+          - content: Ignore the feedback and keep resubmitting the same proposal
+            key: A
+          - content: Stop submitting proposals
+            key: B
+          - content: >-
+              Fundamentally revise the proposal or conduct more extensive
+              community engagement
+            key: C
+          - content: Submit the proposal to a different DAO
+            key: D
+        content: What should you do if your DAO proposal is rejected multiple times?
+        type: SingleChoice
+        uuid: 5c86eb51-b314-4ba8-99c4-45acddf170d4
+        explanation: >-
+          If your DAO proposal is rejected multiple times, you should consider
+          fundamentally revising the proposal or conducting more extensive
+          community engagement.
+      - answerKeys:
+          - B
+        choices:
+          - content: As a revision of the old proposal
+            key: A
+          - content: As a new proposal
+            key: B
+          - content: As a continuation of the old proposal
+            key: C
+          - content: As a response to the rejection of the old proposal
+            key: D
+        content: How should you approach the resubmission of a DAO proposal?
+        type: SingleChoice
+        uuid: 093d6139-f568-4ba7-b399-9ac56921d74d
+        explanation: >-
+          You should approach the resubmission of a DAO proposal as if it's a
+          new proposal, starting with a fresh temperature check on the
+          governance forum.
     uuid: 3ab9244f-d520-475e-ac74-1b50af01cc37
   - content: >
       ## The lifecycle of an Arbitrum Improvement Proposal (AIP)
@@ -416,6 +663,72 @@ steps:
     name: Lifecycle of Proposal
     stepItems: []
     uuid: 6f3154b9-4daf-499a-b801-29de328bc13f
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Temperature Check
+            key: A
+          - content: Formal AIP and Call for Voting
+            key: B
+          - content: On-chain DAO Vote
+            key: C
+          - content: L2 Waiting Period
+            key: D
+        content: >-
+          What is the first phase in the lifecycle of an Arbitrum Improvement
+          Proposal (AIP)?
+        type: SingleChoice
+        uuid: 6a33ca4e-b901-4130-9301-f84145ea1b83
+        explanation: >-
+          The first phase in the lifecycle of an AIP is the Temperature Check.
+          During this phase, the AIP is submitted for initial feedback on the
+          Arbitrum DAO governance forum.
+      - answerKeys:
+          - B
+        choices:
+          - content: 3%
+            key: A
+          - content: 5%
+            key: B
+          - content: 7%
+            key: C
+          - content: 10%
+            key: D
+        content: >-
+          What is the vote percentage threshold for a Constitutional AIP during
+          the On-chain DAO Vote phase?
+        type: SingleChoice
+        uuid: 522dad18-671a-4f1a-aca3-41bae4ddd25d
+        explanation: >-
+          During the On-chain DAO Vote phase, a Constitutional AIP must receive
+          more favorable votes and meet a vote percentage threshold of 5%.
+      - answerKeys:
+          - D
+        choices:
+          - content: The AIP is submitted for initial feedback
+            key: A
+          - content: A 3-day discussion period follows the submission of the AIP
+            key: B
+          - content: >-
+              A 3-day waiting period post-vote allows for objections and fund
+              withdrawals
+            key: C
+          - content: A message from L2 to L1 confirms the AIP's approval
+            key: D
+        content: >-
+          What happens during the L2-to-L1 Message phase in the lifecycle of an
+          AIP?
+        type: SingleChoice
+        uuid: 57e6b4b6-7154-42e6-8e69-d4fa6f72754b
+        explanation: >-
+          During the L2-to-L1 Message phase, a message from L2 to L1 confirms
+          the AIP's approval, taking at least 1 week to finalize. This phase
+          links L2 decisions to L1, ensuring immutable record and trust in the
+          DAO's choices.
+    uuid: 857a84b6-dff5-49a4-880e-8ebfb8c9896b
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/submitting_a_dao_proposal_arbitrum_university_385/1700237890562_rectangle_111.png
 uuid: submitting-a-dao-proposal-arbitrum-university-385
