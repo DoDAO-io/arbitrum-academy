@@ -1,19 +1,58 @@
 categories: []
 content: 'Understanding the differences between Arbitrum and Ethereum '
-created: '2023-11-13T17:45:49.563Z'
+created: '2023-12-13T21:49:58.657Z'
 guideType: onboarding
 key: arbitrum-vs-ethereum-arbitrum-university-172
 name: Arbitrum vs Ethereum
 publishStatus: Live
 steps:
-  - content: |+
-      ## What is Ethereum?
-
-      ## What is Arbitrum?
-
-      ### Understanding the differences
+  - content: >-
+      Arbitrum and Ethereum are quite similar in many ways, but they also have
+      some important differences. Here's a simpler explanation of what sets them
+      apart:
 
 
+      1. **Ease of Use for Developers**: If you already know how to build apps
+      on Ethereum, you'll find Arbitrum very familiar. It's designed to be very
+      much like Ethereum, so there's not much new stuff to learn.
+
+
+      2. **How They Handle Time and Blocks**: The way Arbitrum deals with time
+      and block numbers is different from Ethereum. This is important for
+      developers because it affects how and when transactions happen.
+
+
+      3. **Different Results with Some Commands**: Most of the commands (called
+      RPC methods) you use in Arbitrum will work just like in Ethereum. However,
+      some of them might give different results or extra information. It's good
+      for developers to know this when they use these commands in Arbitrum.
+
+
+      4. **Small Changes in Contract Deployment**: You can put your Solidity
+      contracts onto Arbitrum just like you do in Ethereum, but there are a few
+      small differences in how things work.
+
+
+      5. **Fees**: Paying fees in Arbitrum is a bit like Ethereum. But, in
+      Arbitrum, you also pay for something called calldata, which is the cost of
+      connecting with the Ethereum chain. This two-part fee is a key difference.
+
+
+      6. **Sending Messages Between Chains**: Arbitrum lets you send messages
+      from Ethereum to Arbitrum and back. This is really useful for apps that
+      need to work on both chains.
+
+
+      7. **Extra Features for Contracts**: Arbitrum has all the features
+      (precompiles) that Ethereum has, plus some extra ones just for Arbitrum.
+      These extra features give developers more options for their smart
+      contracts.
+
+
+      8. **Special NodeInterface**: Arbitrum has a unique feature called
+      NodeInterface. It's a special contract that you can use with commands, but
+      it's not actually part of the blockchain like other contracts. It gives
+      you some special abilities that regular contracts don't have.
     name: Arbitrum vs Ethereum
     stepItems: []
     uuid: 0d0e922e-6f2d-4e3a-97d4-afe4e527ee61
@@ -42,7 +81,75 @@ steps:
         uuid: b42acf17-4335-4f8a-8eb5-8986c6b12c81
         explanation: Explanation of the question
     uuid: 5068b4d1-722e-47fd-8e7e-0281507ef189
-  - content: ''
+  - content: >-
+      Arbitrum and Ethereum handle block numbers and time differently:
+
+
+      ### Block Numbers
+
+      - **Arbitrum Blocks vs. Ethereum Blocks**: In Arbitrum, each block gets
+      its own L2 block number, which is different from Ethereum's block numbers.
+      A single Ethereum block might contain several Arbitrum blocks, but each
+      Arbitrum block is linked to just one Ethereum block.
+
+
+      - **Block Numbers Inside Arbitrum Contracts**: If you check the block
+      number inside an Arbitrum contract (like using `block.number` in
+      Solidity), you'll get a number that's close to the Ethereum block number
+      when the transaction was received. But it's not an exact match – it's more
+      of an approximate.
+
+
+      - **Arbitrum Block Number Creation**: Arbitrum creates blocks based on the
+      number of transactions. If lots of people are using Arbitrum, you'll see
+      blocks being made regularly. But if it's quieter, the blocks might come
+      less frequently. These blocks start at 0 at Arbitrum's beginning and go up
+      one by one.
+
+
+      - **Accessing Block Numbers**: On the technical side, when you ask an
+      Arbitrum node for transaction details, you'll get both the Arbitrum block
+      number and the approximate Ethereum block number. And within an Arbitrum
+      contract, you can use a special command (`ArbSys(100).arbBlockNumber()`)
+      to find out the Arbitrum block number.
+
+
+      ### Block Time
+
+      - **Timing Not Tied to Ethereum**: In Arbitrum, the timing of each block
+      isn't directly connected to Ethereum's block times. Instead, it's based on
+      the sequencer's clock and updates with each new L2 block.
+
+
+      - **Rules for Timestamps**: These timestamps have to follow two rules:
+        1. Each new block's timestamp must be the same or later than the last block's timestamp.
+        2. The timestamp should be within a certain range – no more than 24 hours behind the current time and not more than 1 hour ahead.
+
+      - **Special Case for Transactions**: For certain transactions that come
+      directly from Ethereum (bypassing the usual process), the block timestamp
+      in Arbitrum will be either the time the transaction was added to Ethereum,
+      or the timestamp of the last Arbitrum block, whichever is later.
+
+
+      - **Adjustments by Sequencer**: The sequencer, which manages the timing,
+      has some wiggle room to adjust timestamps. This is to prevent problems if
+      it can't post batches to Ethereum on time. But there's a limit to how much
+      it can adjust to keep things in order.
+
+
+      ### Key Takeaways
+
+      - Arbitrum uses its own system for block numbers and times, separate from
+      Ethereum.
+
+      - Block numbers in Arbitrum contracts are close to Ethereum's but not
+      exact.
+
+      - Arbitrum's block times are based on its own clock, not directly tied to
+      Ethereum's.
+
+      - There are specific rules and limits to how Arbitrum handles timestamps
+      to keep everything running smoothly.
     name: Block Numbers and Time
     stepItems: []
     uuid: 6c3a5926-2a51-47bb-8993-7ee42a4026b2
