@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide to run a Validator
-created: '2023-12-14T14:45:23.488Z'
+created: '2023-12-14T14:46:53.431Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Running a Validator
@@ -8,8 +8,7 @@ publishStatus: Live
 steps:
   - content: >
       Validators play a crucial role in the Arbitrum Rollup Protocol. Here's a
-      concise explanation of what validators are and the functions they play
-      within this system:
+      concise explanation of what are validators:
 
 
       ### What are Validators?
@@ -21,8 +20,6 @@ steps:
       executed correctly. Validators on the Arbitrum network can choose to be
       stakers, meaning they commit a deposit in ETH, which they can recover if
       they adhere to the rules and don't engage in malicious activities.
-
-
 
 
 
@@ -40,7 +37,6 @@ steps:
 
 
       ### Who Can Be a Validator?
-
 
       - **Open to All**: In principle, anyone can become a validator, though in
       practice, it's expected that parties with significant stakes in the chain
