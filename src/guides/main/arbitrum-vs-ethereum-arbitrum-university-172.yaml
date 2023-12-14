@@ -1,6 +1,6 @@
 categories: []
 content: 'Understanding the differences between Arbitrum and Ethereum '
-created: '2023-12-14T10:47:39.535Z'
+created: '2023-12-14T11:07:12.594Z'
 guideType: onboarding
 key: arbitrum-vs-ethereum-arbitrum-university-172
 name: Arbitrum vs Ethereum
@@ -58,7 +58,67 @@ steps:
     uuid: 0d0e922e-6f2d-4e3a-97d4-afe4e527ee61
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: >-
+              Arbitrum charges fees only for transactions, while Ethereum
+              charges for data storage
+            key: A
+          - content: Ethereum has higher fees than Arbitrum
+            key: B
+          - content: >-
+              In Arbitrum, fee is paid for calldata to connect connect with
+              Ethereum chain
+            key: C
+          - content: Arbitrum does not charge any fees
+            key: D
+        content: What is a key difference in how Arbitrum and Ethereum handle fees?
+        type: SingleChoice
+        uuid: e34a552d-bd02-4545-a923-2ea48f44461d
+        explanation: >-
+          In Arbitrum, you pay for something called calldata, which is the cost
+          of connecting with the Ethereum chain. This two-part fee is a key
+          difference between Arbitrum and Ethereum.
+      - answerKeys:
+          - B
+        choices:
+          - content: It is a special type of node in the Arbitrum network
+            key: A
+          - content: It's a special contract that you can use with commands
+            key: B
+          - content: It is a unique feature of Ethereum that Arbitrum does not have
+            key: C
+          - content: It is a type of smart contract in Ethereum
+            key: D
+        content: What is the NodeInterface in Arbitrum?
+        type: SingleChoice
+        uuid: a7c7ab33-6f4b-43ad-9bdf-d2c509656be0
+        explanation: >-
+          NodeInterface is a unique feature in Arbitrum. It's a special contract
+          that you can use with commands, but it's not actually part of the
+          blockchain like other contracts. It gives you some special abilities
+          that regular contracts don't have.
+      - answerKeys:
+          - D
+        choices:
+          - content: Arbitrum does not support contract deployment
+            key: A
+          - content: Arbitrum supports only a specific type of contract deployment
+            key: B
+          - content: Arbitrum requires a special type of contract for deployment
+            key: C
+          - content: >-
+              Solidity contracts can be put onto Arbitrum just like in Ethereum,
+              but with a few differences
+            key: D
+        content: What is a unique feature of Arbitrum in terms of contract deployment?
+        type: SingleChoice
+        uuid: 6e12b5c6-8c0c-4c2d-abd2-cbea84150c86
+        explanation: >-
+          You can put your Solidity contracts onto Arbitrum just like you do in
+          Ethereum, but there are a few small differences in how things work.
     uuid: 5068b4d1-722e-47fd-8e7e-0281507ef189
   - content: >-
       Arbitrum and Ethereum handle block numbers and time differently:
@@ -134,7 +194,73 @@ steps:
     uuid: 6c3a5926-2a51-47bb-8993-7ee42a4026b2
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: The exact Ethereum block number when the transaction was received
+            key: A
+          - content: The number of transactions in the block
+            key: B
+          - content: >-
+              An approximate number that's close to the Ethereum block number
+              when the transaction was received
+            key: C
+          - content: The number of Arbitrum blocks in an Ethereum block
+            key: D
+        content: What does the block number inside an Arbitrum contract represent?
+        type: SingleChoice
+        uuid: 4c21006f-6770-4bd1-a464-60d0f27afc9d
+        explanation: >-
+          The block number inside an Arbitrum contract represents an approximate
+          number that's close to the Ethereum block number when the transaction
+          was received.
+      - answerKeys:
+          - D
+        choices:
+          - content: >-
+              Each new block's timestamp must be earlier than the last block's
+              timestamp
+            key: A
+          - content: >-
+              The timestamp should be within a certain range – no more than 12
+              hours behind the current time and not more than 30 minutes ahead
+            key: B
+          - content: >-
+              Each new block's timestamp must be the same or later than the
+              Ethereum block's timestamp
+            key: C
+          - content: >-
+              Each new block's timestamp must be the same or later than the last
+              block's timestamp 
+            key: D
+        content: Which of these is the rule for timestamps in Arbitrum?
+        type: SingleChoice
+        uuid: ad11eedf-83ee-4def-8bf8-a163d6c3348f
+        explanation: >-
+          In Arbitrum, each new block's timestamp must be the same or later than
+          the last block's timestamp. Additionally, the timestamp should be
+          within a certain range – no more than 24 hours behind the current time
+          and not more than 1 hour ahead.
+      - answerKeys:
+          - B
+        choices:
+          - content: Arbitrum creates block numbers based on Ethereum's block numbers
+            key: A
+          - content: Arbitrum creates block numbers based on the number of transactions
+            key: B
+          - content: Arbitrum creates block numbers based on the timestamp of the block
+            key: C
+          - content: Arbitrum creates block numbers randomly
+            key: D
+        content: How does Arbitrum create block numbers?
+        type: SingleChoice
+        uuid: c15e1dfd-507d-43e0-8047-a0b5a259e64e
+        explanation: >-
+          Arbitrum creates blocks based on the number of transactions. If lots
+          of people are using Arbitrum, you'll see blocks being made regularly.
+          But if it's quieter, the blocks might come less frequently. These
+          blocks start at 0 at Arbitrum's beginning and go up one by one.
     uuid: d7e1c842-3dd8-4431-84f7-756db0efcda9
   - content: |-
       The RPC methods in Arbitrum and Ethereum have some key differences:
