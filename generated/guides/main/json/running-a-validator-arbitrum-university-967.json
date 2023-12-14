@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A comprehensive guide about Validators",
-  "created": "2023-12-14T15:26:49.105Z",
+  "created": "2023-12-14T15:29:54.954Z",
   "guideType": "onboarding",
   "key": "running-a-validator-arbitrum-university-967",
   "name": "Intro to Validator",
@@ -81,16 +81,98 @@
       "uuid": "792c3404-3c17-4f53-8951-a7e5e9a665ac"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To monitor the rollup protocol and act only when necessary",
+              "key": "A"
+            },
+            {
+              "content": "To advance the state of the chain by proposing new rollups",
+              "key": "B"
+            },
+            {
+              "content": "To perform a passive monitoring role",
+              "key": "C"
+            },
+            {
+              "content": "To manage their stakes by staking on RBlocks and their successors",
+              "key": "D"
+            }
+          ],
+          "content": "What is the main goal of an active validator?",
+          "type": "SingleChoice",
+          "uuid": "9721ce22-fd67-45d6-85f5-0b24b34a9113",
+          "explanation": "The main goal of an active validator is to advance the state of the chain by proposing new rollup blocks and maintaining a constant stake in the network."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To propose new rollup blocks",
+              "key": "A"
+            },
+            {
+              "content": "To stake on an existing correct block",
+              "key": "B"
+            },
+            {
+              "content": "To advance the state of the chain",
+              "key": "C"
+            },
+            {
+              "content": "To perform a passive monitoring role and alert other parties if they spot an incorrect block",
+              "key": "D"
+            }
+          ],
+          "content": "What is the role of a watchtower validator?",
+          "type": "SingleChoice",
+          "uuid": "f7048af2-c93c-4ad7-a821-170ae64f387f",
+          "explanation": "Watchtower validators perform a passive monitoring role, where they do not stake but keep an eye on the rollup protocol. If they spot an incorrect block, they alert other parties so they can take action."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "They are promoted to active validator",
+              "key": "A"
+            },
+            {
+              "content": "They are demoted to watchtower validator",
+              "key": "B"
+            },
+            {
+              "content": "They forfeit their staked funds",
+              "key": "C"
+            },
+            {
+              "content": "They are removed from the network",
+              "key": "D"
+            }
+          ],
+          "content": "What happens if a validator loses a challenge?",
+          "type": "SingleChoice",
+          "uuid": "5892b922-fc05-44ee-9d3d-15553136d68b",
+          "explanation": "If a validator loses a challenge, they forfeit their staked funds."
+        }
+      ],
+      "uuid": "7838a21b-dedb-4c3c-85d7-5387e31f9010"
+    },
+    {
       "content": "Validators in the Arbitrum network can adopt several strategies, depending on their roles and permissions. These strategies include:\n\n#### Defensive (allowlist required):\nValidators post stakes and initiate challenges if their local state conflicts with the on-chain assertion. This strategy requires a wallet to post stakes and will only incur costs if a discrepancy is detected. \n\n#### StakeLatest (allowlist required):\nValidators remain staked on the latest assertion, ready to challenge any incorrect assertions. This proactive approach requires a wallet and incurs some gas expenditure with each new assertion.\n\n#### ResolveNodes (allowlist required):\nIn addition to staying staked on the latest assertion, validators resolve any unconfirmed assertions and challenge incorrect ones. This method requires a wallet and consumes gas for resolving unconfirmed assertions or when a new assertion is created.\n\n#### MakeNodes (allowlist required):\nValidators continuously generate new assertions and challenge any incorrect ones found. This is the most gas-intensive strategy as it requires a wallet, consistent staking, and may incur costs from gas spent on reverted calls when multiple validators attempt to make a new assertion simultaneously. \n\n#### Watchtower (no allowlist required):\nThis strategy is accessible to all nodes and operates in a monitoring capacity. A Watchtower node will log an error if it detects an on-chain assertion that diverges from the local computation of the chain state. It is a passive strategy that does not engage with the chain directly and, therefore, does not require a wallet or incur on-chain expenses. By default, all nodes (full and archive) have Watchtower mode enabled. ",
       "name": "Validation Strategies",
       "stepItems": [],
       "uuid": "d5c43d16-0c09-42e2-8526-b494c7ffa349"
-    },
-    {
-      "content": "",
-      "name": "Evaluation",
-      "stepItems": [],
-      "uuid": "7838a21b-dedb-4c3c-85d7-5387e31f9010"
     },
     {
       "content": "",
