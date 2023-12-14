@@ -3,7 +3,7 @@ id: transfer-tokens-from-arbitrum-arbitrum-university
 name: 'Transfer Tokens from Arbitrum '
 steps:
   - content: |-
-      ## ✅ Learn how to transfer tokens from Ethereum Mainnet to Arbitrum 
+      ## ✅ Learn how to transfer tokens from Arbitrum to Ethereum Mainnet 
       ## ✅ Go To - [https://bridge.arbitrum.io](https://bridge.arbitrum.io)
     name: Introduction
     uuid: 4c0e5b2f-b559-47c4-8b40-d7e6ca51dc2b
