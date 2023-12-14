@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-12-11T18:45:09.731Z'
+created: '2023-12-14T15:30:53.469Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -237,14 +237,6 @@ steps:
           If a dispute arises (the 'sad case'), Nitro uses WASM to perform
           interactive fraud proofs on Ethereum.
     uuid: 6ffd959e-56e9-41a1-8844-eeb5374a8441
-  - content: ''
-    name: Smart Contracts
-    stepItems: []
-    uuid: 06c60302-2c7f-4951-88e4-44318ccd0507
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: 86f2ddbd-3798-4123-a17a-9eb2c3a70015
   - content: >-
       https://docs.arbitrum.io/stylus/stylus-gentle-introduction
 

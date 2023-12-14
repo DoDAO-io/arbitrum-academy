@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Delving deeper into stylus blockchain",
-  "created": "2023-12-11T18:45:09.731Z",
+  "created": "2023-12-14T15:30:53.469Z",
   "guideType": "onboarding",
   "key": "introduction-to-stylus-arbitrum-university-536",
   "name": "Introduction to Stylus ",
@@ -167,18 +167,6 @@
         }
       ],
       "uuid": "6ffd959e-56e9-41a1-8844-eeb5374a8441"
-    },
-    {
-      "content": "",
-      "name": "Smart Contracts",
-      "stepItems": [],
-      "uuid": "06c60302-2c7f-4951-88e4-44318ccd0507"
-    },
-    {
-      "content": "",
-      "name": "Evaluation",
-      "stepItems": [],
-      "uuid": "86f2ddbd-3798-4123-a17a-9eb2c3a70015"
     },
     {
       "content": "https://docs.arbitrum.io/stylus/stylus-gentle-introduction\n\nhttps://tradedog.io/arbitrum-stylus-the-future-of-ethereum-development/\n\nhttps://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node\n\nhttps://docs.arbitrum.io/stylus/how-tos/optimizing-binaries\n\nhttps://blockworks.co/news/arbitrum-stylus-testnet\n\nhttps://medium.com/offchainlabs/hello-stylus-6b18fecc3a22\n\nhttps://medium.com/offchainlabs/stylus-in-action-lifecycle-of-a-stylus-contract-630f492ff85c",
