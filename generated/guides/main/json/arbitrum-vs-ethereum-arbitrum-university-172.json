@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the differences between Arbitrum and Ethereum ",
-  "created": "2023-12-14T11:07:12.594Z",
+  "created": "2023-12-14T11:12:02.710Z",
   "guideType": "onboarding",
   "key": "arbitrum-vs-ethereum-arbitrum-university-172",
   "name": "Arbitrum vs Ethereum",
@@ -204,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum removes some fields from the transaction methods",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum and Ethereum use the transaction methods in the same way",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum adds new fields and introduces additional transaction types",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum does not use transaction methods",
+              "key": "D"
+            }
+          ],
+          "content": "What is a key difference in the transaction methods between Arbitrum and Ethereum?",
+          "type": "SingleChoice",
+          "uuid": "5b992272-832a-4b80-8989-d873b85006e2",
+          "explanation": "Arbitrum adds new fields and uses some existing fields differently in methods like `eth_getTransactionByHash`. It also introduces additional transaction types with custom type codes."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum provides less information when syncing",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum provides more detailed information with custom fields",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum and Ethereum provide the same information when syncing",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum does not provide any information when syncing",
+              "key": "D"
+            }
+          ],
+          "content": "What additional information does Arbitrum provide when syncing compared to Ethereum?",
+          "type": "SingleChoice",
+          "uuid": "5d761fbf-1164-461e-b735-a0ed635d87e9",
+          "explanation": "Arbitrum provides more detailed information when syncing, with custom fields like `batchSeen`, `batchProcessed`, `messageOfProcessedBatch`, etc."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum removes the `from` field in transactions",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum does not alter any fields in transactions",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrum and Ethereum use the `from` field in the same way",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum shows the aliased version of L1's `msg.sender` in the `from` field",
+              "key": "D"
+            }
+          ],
+          "content": "What is one way that Arbitrum alters the fields in transaction methods compared to Ethereum?",
+          "type": "SingleChoice",
+          "uuid": "c5637dbf-2e2a-43c9-9bd4-8e667155c966",
+          "explanation": "The `from` field in L1 to L2 transactions in Arbitrum shows the aliased version of L1's `msg.sender`."
+        }
+      ],
       "uuid": "460179d1-32e7-48dd-9881-4fbb3bfc6a89"
     },
     {
