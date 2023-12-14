@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide about Validators
-created: '2023-12-14T15:29:54.954Z'
+created: '2023-12-14T15:47:54.753Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Intro to Validator
@@ -269,7 +269,66 @@ steps:
     uuid: d5c43d16-0c09-42e2-8526-b494c7ffa349
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - D
+        choices:
+          - content: Defensive
+            key: A
+          - content: StakeLatest
+            key: B
+          - content: ResolveNodes
+            key: C
+          - content: Watchtower
+            key: D
+        content: >-
+          Which validation strategy in the Arbitrum network does not require a
+          wallet or incur on-chain expenses?
+        type: SingleChoice
+        uuid: cbdc18b4-56d3-4dec-8fa1-8d34ae827163
+        explanation: >-
+          Watchtower strategy does not engage with the chain directly and,
+          therefore, does not require a wallet or incur on-chain expenses.
+      - answerKeys:
+          - C
+        choices:
+          - content: Defensive
+            key: A
+          - content: StakeLatest
+            key: B
+          - content: MakeNodes
+            key: C
+          - content: ResolveNodes
+            key: D
+        content: >-
+          Which validation strategy in the Arbitrum network is the most
+          gas-intensive?
+        type: SingleChoice
+        uuid: d4619118-ee7b-4309-8c7e-c266fa2db039
+        explanation: >-
+          MakeNodes strategy is the most gas-intensive as it requires a wallet,
+          consistent staking, and may incur costs from gas spent on reverted
+          calls when multiple validators attempt to make a new assertion
+          simultaneously.
+      - answerKeys:
+          - B
+        choices:
+          - content: Defensive
+            key: A
+          - content: StakeLatest
+            key: B
+          - content: ResolveNodes
+            key: C
+          - content: MakeNodes
+            key: D
+        content: >-
+          Which validation strategy in the Arbitrum network requires validators
+          to remain staked on the latest assertion?
+        type: SingleChoice
+        uuid: b02a26c0-b3cb-4c65-bc67-70179190336c
+        explanation: >-
+          StakeLatest strategy requires validators to remain staked on the
+          latest assertion, ready to challenge any incorrect assertions.
     uuid: 868ae771-9d47-43b0-8d7e-f6ef6b2180b7
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/running_a_validator_arbitrum_university_967/1699875911417_rectangle_104.png
