@@ -1,0 +1,18 @@
+content: How to transfer tokens from Ethereum mainnet to Arbitrum
+id: transfer-tokens-to-arbitrum-arbitrum-university
+name: Transfer tokens to Arbitrum
+steps:
+  - content: |-
+      ## ✅ Learn how to transfer tokens from Ethereum Mainnet to Arbitrum 
+      ## [https://bridge.arbitrum.io](https://bridge.arbitrum.io)
+    name: Introduction
+    uuid: 9a1add8b-b2da-4952-bc9b-ace58ae33283
+  - content: ''
+    name: Introduction Evaluation
+    uuid: 5a83ddff-865e-4bf4-92f3-ea9662ad90df
+    iframeUrl: https://dodao.navattic.com/zca0a6d
+publishStatus: Live
+admins: []
+tags: []
+priority: 0
+created: '2023-12-14T19:23:17.032Z'
