@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the differences between Arbitrum and Ethereum ",
-  "created": "2023-12-13T21:49:58.657Z",
+  "created": "2023-12-14T10:39:45.349Z",
   "guideType": "onboarding",
   "key": "arbitrum-vs-ethereum-arbitrum-university-172",
   "name": "Arbitrum vs Ethereum",
@@ -68,7 +68,7 @@
       "uuid": "d7e1c842-3dd8-4431-84f7-756db0efcda9"
     },
     {
-      "content": "",
+      "content": "The RPC methods in Arbitrum and Ethereum have some key differences:\n\n1. **Transactions**: \n   - Arbitrum adds new fields and uses some existing fields differently in methods like `eth_getTransactionByHash`.\n   - It introduces additional transaction types (e.g., `ArbitrumDepositTxType`, `ArbitrumUnsignedTxType`, etc.) with custom type codes (100-106).\n\n2. **Transaction Fields**:\n   - New fields in Arbitrum: `requestId` for L1 to L2 transactions.\n   - Altered fields: The `from` field in L1 to L2 transactions shows the aliased version of L1's `msg.sender`.\n\n3. **Transaction Receipts**:\n   - Additional fields in Arbitrum include `l1BlockNumber` and `gasUsedForL1`.\n\n4. **Blocks**:\n   - In methods like `eth_getBlockByHash`, Arbitrum adds fields such as `l1BlockNumber`, `sendCount`, and `sendRoot`.\n   - It alters fields like `extraData`, `mixHash`, `difficulty`, and `gasLimit` differently from Ethereum.\n\n5. **eth_syncing**:\n   - Arbitrum provides more detailed information when syncing, with custom fields like `batchSeen`, `batchProcessed`, `messageOfProcessedBatch`, etc.\n\n6. **Understanding Messages, Batches, and Blocks**:\n   - Nitro nodes in Arbitrum receive and process transactions differently, impacting the relationship between message numbers and block numbers.",
       "name": "RPC Methods",
       "stepItems": [],
       "uuid": "052ae7a5-c972-4dd7-badb-fe51e0b8be9e"
