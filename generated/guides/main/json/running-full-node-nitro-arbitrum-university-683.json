@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to run a full node (Nitro)?",
-  "created": "2023-12-14T12:11:40.645Z",
+  "created": "2023-12-14T12:15:34.571Z",
   "guideType": "onboarding",
   "key": "running-full-node-nitro-arbitrum-university-683",
   "name": "Arbitrum Node (Nitro)",
@@ -14,6 +14,12 @@
       "uuid": "81d2a799-c5b0-4881-b355-fd8a73b98556"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [],
+      "uuid": "e97ba39d-652f-4fb7-b5cc-0a35b1d7d014"
+    },
+    {
       "content": "Full nodes on the Arbitrum network are essential components for interacting with or building applications on its chains. Here are key aspects of full nodes:\n\n1. **Independent Transaction Validation and Security**: Running a full node allows users to independently validate transactions and verify the state of the Arbitrum blockchain, ensuring the authenticity and integrity of transactions.\n\n2. **Reduced Trust Requirements**: Operating a full node reduces dependency on third-party services, mitigating the risk of centralized failures and enhancing trust in the network's operations.\n\n3. **Resource Efficiency**: Compared to archive nodes, full nodes generally require fewer resources, such as storage and computational power, making them more accessible for users with limited hardware or in resource-constrained environments.\n\nFull nodes play a crucial role in maintaining the robustness and decentralization of the Arbitrum network by allowing users to independently interact with the blockchain and validate its transactions.",
       "name": "Full Nodes",
       "stepItems": [],
@@ -22,86 +28,26 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "7902163c-997a-4a4b-a867-aed5802f8f24"
-        },
-        {
-          "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
-          ],
-          "choices": [
-            {
-              "content": "Choice 1",
-              "key": "choice_1"
-            },
-            {
-              "content": "Choice 2",
-              "key": "choice_2"
-            },
-            {
-              "content": "Choice 3",
-              "key": "choice_3"
-            },
-            {
-              "content": "Choice 4",
-              "key": "choice_4"
-            }
-          ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "b449f310-1f41-4842-a192-7283a918edc2",
-          "explanation": "Explanation of the question"
-        }
-      ],
-      "uuid": "5e0af96a-3e39-48ff-a474-b227e7eec2f2"
+      "stepItems": [],
+      "uuid": "9ecfcb2f-6de7-4bf6-bc2e-4f25d2795895"
     },
     {
-      "content": "## Requirements for Running a Full Node \nThe following hardware and software are required to run a full node:\n\n### Minimum hardware configuration\nTo set up a Nitro full node (no archival), you would require:\n- RAM: 8-16 GB\n- CPU: 2-4 core CPU (For AWS: t3 xLarge)\n- Storage: Minimum 1.2TB SSD (make sure it is extendable)\n- Estimated Growth Rate: around 3 GB per day\n \n### Software Prerequisites\n- Latest Docker Image: `offchainlabs/nitro-node:v2.1.1-e9d8842`\n- Database snapshot (required for Arbitrum One, optional for other chains):\n1. Use the parameter `--init.url` on first startup to initialize the Nitro database (you can find a list of snapshots here). Example: `--init.url=\"https://snapshot.arbitrum.foundation/arb1/nitro-pruned.tar\"`.\n2. When running more than one node, it's easier to manually download the image of the snapshot and host it locally for your nodes. You can then use `--init.url=\"file:///path/to/snapshot/in/container/snapshot-file.tar\"` to use it. \nWhen initializing an Arbitrum One node, this parameter is mandatory due to the presence of classic blocks in the chain. For other chains, the use of this parameter is not necessary. If the database is pre-existing, the parameter will be disregarded.\n\n### Required Parameters \nL1 RPC URL\n- Specify using `--parent-chain.connection.url=<Layer 1 Ethereum RPC URL>`.\n- This must link to an L1 node RPC endpoint, either self-hosted or provided by a third-party service.\n- Prior to v2.1.0, this was referred to as `--l1.url`.\n\nL2 chain id or name\n- Define the L2 chain by its ID with `--chain.id=<L2 chain ID>`. Refer to the RPC endpoints and providers documentation for a list of Arbitrum chains and corresponding L2 chain IDs.\n- To set the L2 chain by name, use `--chain.name=<L2 chain name>` with options including 'arb1', 'nova', 'goerli-rollup', and 'sepolia-rollup'.\n- Before v2.1.0, this was `--l2.chain-id` and accepted only chain IDs.",
-      "name": "Prerequisites",
+      "content": "Archive nodes in the Arbitrum network are specialized types of nodes that store the complete history of the network. They are essential for several reasons:\n\n1. **Historical Data Access**: Archive nodes provide access to extensive historical data on the Arbitrum network. This is crucial for users who require detailed historical information for research, analysis, or for developing certain types of applications that need to reference past states of the blockchain.\n\n2. **Advanced Analytical Purposes**: For those conducting in-depth blockchain analysis or developing complex systems that need to interact with historical data, archive nodes offer the necessary comprehensive view of the blockchain's history.\n\n3. **Running Classic and Nitro Nodes**: In the case of Arbitrum, running an archive node involves operating both Classic and Nitro nodes together. This is particularly significant for accessing both pre-Nitro and post-Nitro data, which is vital for users who need a complete view of the blockchain that includes data from its inception.\n\nHowever, it's important to note that archive nodes are resource-intensive, requiring substantial storage capacity and computational power due to the vast amount of data they maintain. Despite these requirements, they are indispensable for users who need complete historical data from the Arbitrum network.",
+      "name": "Archive Nodes",
       "stepItems": [],
-      "uuid": "0df251af-2a35-4b4f-9a5a-be837167cf4e"
-    },
-    {
-      "content": "",
-      "name": "Evaluation",
-      "stepItems": [],
-      "uuid": "25052d51-696c-4f1e-a6e2-7d4b5832e412"
-    },
-    {
-      "content": "When comparing a full node and an archive node in the Arbitrum network, the key differences are:\n\n1. **Purpose and Functionality**:\n   - **Full Node**: Primarily for transaction validation and security. It enables users to independently validate transactions and verify the current state of the Arbitrum blockchain.\n   - **Archive Node**: Stores the complete historical record of the Arbitrum network. It's suitable for users needing access to extensive historical data for analysis or other advanced purposes.\n\n2. **Resource Requirements**:\n   - **Full Node**: Requires fewer resources compared to archive nodes, making it more accessible for users with limited hardware capabilities.\n   - **Archive Node**: More resource-intensive due to the need to store the entire history of the network, demanding significant storage capacity and computational power.\n\n3. **Trust and Independence**:\n   - **Full Node**: Reduces reliance on third-party services, offering greater independence and mitigating risks associated with centralized failures.\n   - **Archive Node**: While providing comprehensive data, it may require more trust in external infrastructure due to its intensive resource demands.\n\nThese differences highlight that full nodes are more suitable for everyday users interested in transaction validation and blockchain integrity, while archive nodes are tailored for specialized uses requiring deep historical data access.",
-      "name": "Full vs Archive Nodes",
-      "stepItems": [],
-      "uuid": "6fd1a8fb-42ff-4228-bf23-7e43d21d74cb"
-    },
-    {
-      "content": "### Important Ports \n- RPC: 8547\n- Sequencer Feed: 9642\n- WebSocket: 8548\n- WS port 8548 needs extra args to be opened. Please use these flags:\n1. --ws.port=8548\n2. --ws.addr=0.0.0.0\n3. --ws.origins=* \n\n### Putting it Together \nWhen running docker image, an external volume should be mounted to persist the database across restarts. The mount point inside the docker image should be /home/user/.arbitrum\n\nHere is an example of how to run nitro-node:\n\nNote that is important that /some/local/dir/arbitrum already exists, otherwise the directory might be created with root as owner, and the docker container won't be able to write to it\n`docker run --rm -it  -v /some/local/dir/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.1.1-e9d8842 --parent-chain.connection.url https://l1-node:8545 --chain.id=<L2ChainId> --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=*`\n\nNote that if you are running L1 node on localhost, you may need to add --network host right after docker run to use docker host-based networking\n\nWhen shutting down docker image, it is important to allow for a graceful shutdown so that the current state can be saved to disk. Here is an example of how to do a graceful shutdown of all docker images currently running\n\ndocker stop `--time=300 $(docker ps -aq)`\n\n### Permissions \nThe Docker image is configured to run as non-root UID 1000. This means if you are running in Linux or OSX and you are getting permission errors when trying to run the docker image, run this command to allow all users to update the persistent folders\n`mkdir /data/arbitrum\nchmod -fR 777 /data/arbitrum`\n\n### Watchtower Mode\nBy default, the full node will run in Watchtower mode. This means that the node watches the on-chain assertions and if it disagrees with them, it will log an error containing the string found incorrect assertion in watchtower mode.\nWatchtower mode adds a small amount of execution and memory overhead. You can deactivate this mode by using the parameter `--node.staker.enable=false`.\n\n### Pruning\nPruning a full node refers to the process of removing older, unnecessary data from the local copy of the blockchain that the node maintains, in order to save disk space and slightly improve the efficiency of the node. Pruning will remove all states from blocks older than the latest 128.\nYou can activate pruning by using the parameter `--init.prune` and using \"full\" or \"validator\" as the value (depending on the type of node you are running). Keep in mind that this process will happen upon starting the node and it will not serve RPC requests while pruning.\n",
-      "name": "Configurations",
-      "stepItems": [],
-      "uuid": "6b399e10-ae42-4832-a0a9-3c783ac1fdb2"
-    },
-    {
-      "content": "",
-      "name": "Evaluation",
-      "stepItems": [],
-      "uuid": "e97ba39d-652f-4fb7-b5cc-0a35b1d7d014"
-    },
-    {
-      "content": "## Purpose of Optional Parameters\nOptional parameters for running a full node in a blockchain network are used to customize the node's operation based on the user's preferences or specific needs. They are not necessary for the basic functioning of the node but can enhance its performance, security, or usability. Such parameters may control aspects like logging verbosity, database cache size, network bandwidth usage, or enable additional features like metrics reporting or API extensions. These parameters offer flexibility to users who wish to fine-tune their nodes beyond the default configuration, allowing for a more tailored experience depending on the individual's system capabilities, security needs, and the role of the node within the network. \n\n| Flag                              | Description                                                                                                                           |\n|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|\n| --node.rpc.classic-redirect=<RPC> | Redirects archive requests for pre-nitro blocks to this RPC of an Arbitrum Classic node with archive database. Only for Arbitrum One. |\n| --http.api                        | Offered APIs over the HTTP-RPC interface. Default: net,web3,eth,arb. Add debug for tracing.                                           |\n| --http.corsdomain                 | Accepts cross origin requests from these comma-separated domains (browser enforced).                                                  |\n| --http.vhosts                     | Accepts requests from these comma-separated virtual hostnames (server enforced). Default: localhost. Accepts *.                       |\n\nFor more details on optional parameters visit https://docs.arbitrum.io/node-running/how-tos/running-a-full-node#optional-parameters ",
-      "name": "Optional Parameters",
-      "stepItems": [],
-      "uuid": "80f904d8-1e5a-4748-aa82-4d6960184fba"
+      "uuid": "d251c618-5ef0-429a-9669-045222746b83"
     },
     {
       "content": "",
       "name": "Evaluation",
       "stepItems": [],
       "uuid": "aab07c67-7989-4e87-94c5-fc2f7a71186d"
+    },
+    {
+      "content": "When comparing a full node and an archive node in the Arbitrum network, the key differences are:\n\n1. **Purpose and Functionality**:\n   - **Full Node**: Primarily for transaction validation and security. It enables users to independently validate transactions and verify the current state of the Arbitrum blockchain.\n   - **Archive Node**: Stores the complete historical record of the Arbitrum network. It's suitable for users needing access to extensive historical data for analysis or other advanced purposes.\n\n2. **Resource Requirements**:\n   - **Full Node**: Requires fewer resources compared to archive nodes, making it more accessible for users with limited hardware capabilities.\n   - **Archive Node**: More resource-intensive due to the need to store the entire history of the network, demanding significant storage capacity and computational power.\n\n3. **Trust and Independence**:\n   - **Full Node**: Reduces reliance on third-party services, offering greater independence and mitigating risks associated with centralized failures.\n   - **Archive Node**: While providing comprehensive data, it may require more trust in external infrastructure due to its intensive resource demands.\n\nThese differences highlight that full nodes are more suitable for everyday users interested in transaction validation and blockchain integrity, while archive nodes are tailored for specialized uses requiring deep historical data access.",
+      "name": "Full vs Archive Nodes",
+      "stepItems": [],
+      "uuid": "6fd1a8fb-42ff-4228-bf23-7e43d21d74cb"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/running_full_node_nitro_arbitrum_university_683/1699877923885_rectangle_102.png",
