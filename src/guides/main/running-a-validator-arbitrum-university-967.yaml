@@ -1,6 +1,6 @@
 categories: []
 content: A comprehensive guide about Validators
-created: '2023-12-14T15:21:23.575Z'
+created: '2023-12-14T15:26:49.105Z'
 guideType: onboarding
 key: running-a-validator-arbitrum-university-967
 name: Intro to Validator
@@ -47,6 +47,46 @@ steps:
     name: What is a Validator?
     stepItems: []
     uuid: 7bf74786-0745-43cf-8170-39f2c8f663cc
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: They are responsible for creating new blocks in the blockchain
+            key: A
+          - content: They are responsible for mining new coins
+            key: B
+          - content: They ensure the integrity and proper functioning of the network
+            key: C
+          - content: They are responsible for setting the price of the coin
+            key: D
+        content: What is the role of validators in the Arbitrum Rollup Protocol?
+        type: SingleChoice
+        uuid: ef501f9c-9986-471c-b935-816020675715
+        explanation: >-
+          In the context of the Arbitrum Rollup Protocol, validators are
+          entities responsible for participating in the protocol to ensure the
+          integrity and proper functioning of the network.
+      - answerKeys:
+          - A
+        choices:
+          - content: Anyone, but usually parties with significant stakes in the chain
+            key: A
+          - content: Only developers, who have coding expereince
+            key: B
+          - content: Only token holders having 0.1% tokens
+            key: C
+          - content: Only power users
+            key: D
+        content: Who can become a validator in the Arbitrum Rollup Protocol?
+        type: SingleChoice
+        uuid: 6ccea49e-d692-4f1c-a713-25445ea28401
+        explanation: >-
+          In principle, anyone can become a validator, though in practice, it's
+          expected that parties with significant stakes in the chain will take
+          up this role.
+    uuid: cba9faea-8dae-4085-abe7-674963fb0f8d
   - content: >+
       ### Types of Validators 
 
@@ -170,10 +210,6 @@ steps:
     name: Validation Strategies
     stepItems: []
     uuid: d5c43d16-0c09-42e2-8526-b494c7ffa349
-  - content: ''
-    name: Evaluation
-    stepItems: []
-    uuid: cba9faea-8dae-4085-abe7-674963fb0f8d
   - content: ''
     name: Evaluation
     stepItems: []
