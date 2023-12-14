@@ -1,6 +1,6 @@
 categories: []
 content: 'Introduction to different types of nodes in Arbitrum '
-created: '2023-12-14T12:18:49.957Z'
+created: '2023-12-14T12:39:28.072Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: 'Types of Arbitrum Nodes '
@@ -75,7 +75,75 @@ steps:
     uuid: 81d2a799-c5b0-4881-b355-fd8a73b98556
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: It stores the complete history of the Arbitrum network
+            key: A
+          - content: >-
+              It participates in the consensus mechanism of Arbitrum's Layer 2
+              protocol
+            key: B
+          - content: >-
+              It validates transactions and verifies the state of the Arbitrum
+              blockchain
+            key: C
+          - content: >-
+              It bridges $Arb tokens between the Arbitrum Layer 2 network and
+              the Ethereum mainnet
+            key: D
+        content: What is the main purpose of a Full Node in the Arbitrum network?
+        type: SingleChoice
+        uuid: 5266e8ea-bf7c-4ee4-ad34-15185ec28e52
+        explanation: >-
+          A Full Node validates transactions and verifies the state of the
+          Arbitrum blockchain, offering independent transaction validation and
+          security with reduced trust requirements.
+      - answerKeys:
+          - B
+        choices:
+          - content: Full Node
+            key: A
+          - content: Validator Node
+            key: B
+          - content: Sequencer Node
+            key: C
+          - content: Bridge Node
+            key: D
+        content: >-
+          Which node type is responsible for asserting the correct state of the
+          rollup chain in the Arbitrum network?
+        type: SingleChoice
+        uuid: eb5fbb2e-cc0a-4066-bee2-18b20e9697d6
+        explanation: >-
+          A Validator Node participates in the consensus mechanism of Arbitrum's
+          Layer 2 protocol. Validators can post bonds and are responsible for
+          asserting the correct state of the rollup chain.
+      - answerKeys:
+          - D
+        choices:
+          - content: >-
+              It validates transactions and verifies the state of the Arbitrum
+              blockchain
+            key: A
+          - content: It stores the complete history of the Arbitrum network
+            key: B
+          - content: >-
+              It participates in the consensus mechanism of Arbitrum's Layer 2
+              protocol
+            key: C
+          - content: >-
+              It manages the communication between the Arbitrum Layer 2 network
+              and the Ethereum mainnet
+            key: D
+        content: What is the primary function of a Bridge Node in the Arbitrum network?
+        type: SingleChoice
+        uuid: b111d64e-9603-4720-9b03-731b2858ea1e
+        explanation: >-
+          A Bridge Node manages the communication between the Arbitrum Layer 2
+          network and the Ethereum mainnet, facilitating the transfer of assets
+          between the two chains.
     uuid: e97ba39d-652f-4fb7-b5cc-0a35b1d7d014
   - content: >-
       Full nodes are essential components in blockchain networks, including
@@ -113,7 +181,49 @@ steps:
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: It increases the need to trust external entities
+            key: A
+          - content: It increases the resource requirements
+            key: B
+          - content: >-
+              It reduces the need to depend on third-party services to interact
+              with the Arbitrum network
+            key: C
+          - content: It depends on third-party services or infrastructure
+            key: D
+        content: >-
+          What is the advantage of operating a full node in the Arbitrum
+          network?
+        type: SingleChoice
+        uuid: c853504c-1158-4bdf-be05-57e10e7a4fd6
+        explanation: >-
+          Operating a full node allows users to interact directly with the
+          Arbitrum network without depending on third-party services or
+          infrastructure, reducing the need to trust external entities.
+      - answerKeys:
+          - A
+        choices:
+          - content: Full nodes require fewer resources, making them more accessible
+            key: A
+          - content: Full nodes require more resources
+            key: B
+          - content: Full nodes and archive nodes require the same amount of resources
+            key: C
+          - content: >-
+              The resource requirement of archive nodes is extremely low and
+              accesible
+            key: D
+        content: What is the difference between full nodes compared to archive nodes?
+        type: SingleChoice
+        uuid: 494704bd-d0a7-4bee-80dc-e3e3271904bd
+        explanation: >-
+          Full nodes generally require fewer resources compared to archive
+          nodes, making them more accessible for users with limited hardware
+          capabilities.
     uuid: 9ecfcb2f-6de7-4bf6-bc2e-4f25d2795895
   - content: >-
       Archive nodes in the Arbitrum network are specialized types of nodes that
@@ -151,7 +261,68 @@ steps:
     uuid: d251c618-5ef0-429a-9669-045222746b83
   - content: ''
     name: Evaluation
-    stepItems: []
+    stepItems:
+      - answerKeys:
+          - C
+        choices:
+          - content: They provide real-time updates of the network
+            key: A
+          - content: They control the transaction process in the network
+            key: B
+          - content: They store the complete history of the network
+            key: C
+          - content: They generate new blocks for the blockchain
+            key: D
+        content: What is the primary function of Archive nodes in the Arbitrum network?
+        type: SingleChoice
+        uuid: 818a3f20-43ad-4f44-bba9-d635701f4a89
+        explanation: >-
+          Archive nodes in the Arbitrum network store the complete history of
+          the network and provide access to extensive historical data. This is
+          crucial for users who require detailed historical information for
+          research, analysis, or for developing certain types of applications
+          that need to reference past states of the blockchain.
+      - answerKeys:
+          - B
+        choices:
+          - content: They provide real-time data for analysis
+            key: A
+          - content: They offer a comprehensive view of the blockchain's history
+            key: B
+          - content: They control the transaction process in the network
+            key: C
+          - content: They generate new blocks for the blockchain
+            key: D
+        content: Why are Archive nodes essential for advanced analytical purposes?
+        type: SingleChoice
+        uuid: 3b2387d8-6526-4369-a90e-c5ed1dea92e5
+        explanation: >-
+          For those conducting in-depth blockchain analysis or developing
+          complex systems that need to interact with historical data, archive
+          nodes offer the necessary comprehensive view of the blockchain's
+          history.
+      - answerKeys:
+          - D
+        choices:
+          - content: It requires minimal storage capacity
+            key: A
+          - content: It involves operating only Nitro nodes
+            key: B
+          - content: It generates new blocks for the blockchain
+            key: C
+          - content: It involves operating both Classic and Nitro nodes together
+            key: D
+        content: >-
+          What is a significant aspect of running an Archive node in the
+          Arbitrum network?
+        type: SingleChoice
+        uuid: 632bd254-f233-4893-86a7-f3e227a03ab0
+        explanation: >-
+          In the case of Arbitrum, running an archive node involves operating
+          both Classic and Nitro nodes together. This is particularly
+          significant for accessing both pre-Nitro and post-Nitro data, which is
+          vital for users who need a complete view of the blockchain that
+          includes data from its inception.
     uuid: aab07c67-7989-4e87-94c5-fc2f7a71186d
   - content: >-
       When comparing a full node and an archive node in the Arbitrum network,
@@ -177,6 +348,67 @@ steps:
     name: Full vs Archive Nodes
     stepItems: []
     uuid: 6fd1a8fb-42ff-4228-bf23-7e43d21d74cb
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Transaction validation and security
+            key: A
+          - content: Storing the complete historical record of the network
+            key: B
+          - content: Accessing extensive historical data for analysis
+            key: C
+          - content: Reliance on third-party services
+            key: D
+        content: What is the primary purpose of a Full Node in the Arbitrum network?
+        type: SingleChoice
+        uuid: 87626752-5609-4c83-94b5-7b933a93b7d5
+        explanation: >-
+          A Full Node is primarily used for transaction validation and security.
+          It enables users to independently validate transactions and verify the
+          current state of the Arbitrum blockchain.
+      - answerKeys:
+          - C
+        choices:
+          - content: They require more transaction validation
+            key: A
+          - content: They rely more on third-party services
+            key: B
+          - content: They need to store the entire history of the network
+            key: C
+          - content: They are used for everyday transactions
+            key: D
+        content: Why are Archive Nodes more resource-intensive compared to Full Nodes?
+        type: SingleChoice
+        uuid: b1f09012-1d71-455e-a31e-03324ce39921
+        explanation: >-
+          Archive Nodes are more resource-intensive due to the need to store the
+          entire history of the network, which demands significant storage
+          capacity and computational power.
+      - answerKeys:
+          - B
+        choices:
+          - content: >-
+              Users interested in transaction validation and blockchain
+              integrity
+            key: A
+          - content: >-
+              Users needing access to extensive historical data for analysis or
+              other advanced purposes
+            key: B
+          - content: Users with limited hardware capabilities
+            key: C
+          - content: Users who rely on third-party services
+            key: D
+        content: Who are the ideal users for Archive Nodes in the Arbitrum network?
+        type: SingleChoice
+        uuid: 7e428295-e3da-4b31-b4f6-fb1179639f69
+        explanation: >-
+          Archive Nodes are suitable for users needing access to extensive
+          historical data for analysis or other advanced purposes.
+    uuid: fabe5dcc-0258-4da0-a32b-f4a023676215
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/running_full_node_nitro_arbitrum_university_683/1699877923885_rectangle_102.png
 uuid: running-full-node-nitro-arbitrum-university-683
