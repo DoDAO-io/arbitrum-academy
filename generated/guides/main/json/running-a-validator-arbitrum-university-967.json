@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A comprehensive guide to run a Validator",
-  "created": "2023-12-14T14:46:53.431Z",
+  "created": "2023-12-14T15:18:10.914Z",
   "guideType": "onboarding",
   "key": "running-a-validator-arbitrum-university-967",
   "name": "Running a Validator",
@@ -14,45 +14,9 @@
       "uuid": "7bf74786-0745-43cf-8170-39f2c8f663cc"
     },
     {
-      "content": "### Types of Validators \n\n**Active Validator**\nThis strategy involves validators proactively participating in the network by proposing new rollup blocks and maintaining a constant stake in the network to do so. Their main goal is to advance the state of the chain. There is typically no need for more than one honest active validator, as having more than one can be resource-intensive.\n\n**Defensive Validator**\nDefensive validators monitor the rollup protocol and only act if they detect an incorrect block being proposed. They will then either propose a correct block or stake on an existing correct block. This strategy is more resource-efficient, as it stakes only when necessary to correct or prevent potential dishonest actions.\n\n**Watchtower Validator**\nWatchtower validators perform a passive monitoring role, where they do not stake but keep an eye on the rollup protocol. If they spot an incorrect block, they alert other parties so they can take action. It relies on other staking parties to intervene before the deadline for the incorrect block expires, allowing for a response window of several days.\n\n\n### Role and Functions of Validators in the Arbitrum Rollup Protocol\n\n1. **Staking**: Validators can choose to be stakers by depositing ETH as a stake. This stake can be recovered if they are not found to be cheating. The stake acts as a security deposit, ensuring validators act honestly.\n\n2. **Proposing and Confirming RBlocks**: Validators are responsible for proposing new rollup blocks (RBlocks) and confirming the correctness of existing ones. Each RBlock contains various information like the RBlock number, predecessor RBlock number, number of L2 blocks created, and a hash of outputs produced.\n\n3. **Security Enforcement**: A key feature of the rollup protocol is that any single honest validator can force the correct execution of the chain to be confirmed. This means validators play a crucial role in ensuring the security and trustlessness of the Arbitrum chain.\n\n4. **Handling Disputes**: In cases where there's a disagreement over an RBlock, validators may engage in challenges. If a validator disagrees with an RBlock, they can post another RBlock with a different result, potentially leading to a challenge against the first RBlock's staker.\n\n5. **Stake Management**: Validators manage their stakes by staking on RBlocks and their successors. They have to maintain their stake on the latest confirmed RBlock and can extend it to successors. If they lose a challenge, they forfeit their staked funds.\n\n",
+      "content": "### Types of Validators \n\n#### **Active Validator**\nThis strategy involves validators proactively participating in the network by proposing new rollup blocks and maintaining a constant stake in the network to do so. Their main goal is to advance the state of the chain. There is typically no need for more than one honest active validator, as having more than one can be resource-intensive.\n\n#### **Defensive Validator**\nDefensive validators monitor the rollup protocol and only act if they detect an incorrect block being proposed. They will then either propose a correct block or stake on an existing correct block. This strategy is more resource-efficient, as it stakes only when necessary to correct or prevent potential dishonest actions.\n\n#### **Watchtower Validator**\nWatchtower validators perform a passive monitoring role, where they do not stake but keep an eye on the rollup protocol. If they spot an incorrect block, they alert other parties so they can take action. It relies on other staking parties to intervene before the deadline for the incorrect block expires, allowing for a response window of several days.\n\n\n### Role and Functions of Validators in the Arbitrum Rollup Protocol\n\n#### 1. **Staking**: \nValidators can choose to be stakers by depositing ETH as a stake. This stake can be recovered if they are not found to be cheating. The stake acts as a security deposit, ensuring validators act honestly.\n\n#### 2. **Proposing and Confirming RBlocks**: \nValidators are responsible for proposing new rollup blocks (RBlocks) and confirming the correctness of existing ones. Each RBlock contains various information like the RBlock number, predecessor RBlock number, number of L2 blocks created, and a hash of outputs produced.\n\n#### 3. **Security Enforcement**: \nA key feature of the rollup protocol is that any single honest validator can force the correct execution of the chain to be confirmed. This means validators play a crucial role in ensuring the security and trustlessness of the Arbitrum chain.\n\n#### 4. **Handling Disputes**: \nIn cases where there's a disagreement over an RBlock, validators may engage in challenges. If a validator disagrees with an RBlock, they can post another RBlock with a different result, potentially leading to a challenge against the first RBlock's staker.\n\n#### 5. **Stake Management**: \nValidators manage their stakes by staking on RBlocks and their successors. They have to maintain their stake on the latest confirmed RBlock and can extend it to successors. If they lose a challenge, they forfeit their staked funds.\n\n",
       "name": "Types and Roles",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "73e117ec-13ea-4a25-bafd-66b2104e4865"
-        },
-        {
-          "answerKeys": [
-            "choice_1",
-            "choice_2",
-            "choice_3"
-          ],
-          "choices": [
-            {
-              "content": "Choice 1",
-              "key": "choice_1"
-            },
-            {
-              "content": "Choice 2",
-              "key": "choice_2"
-            },
-            {
-              "content": "Choice 3",
-              "key": "choice_3"
-            },
-            {
-              "content": "Choice 4",
-              "key": "choice_4"
-            }
-          ],
-          "content": "Contents of the question",
-          "type": "MultipleChoice",
-          "uuid": "f05c3999-b7ca-48e8-b63d-4cae6b3a9171",
-          "explanation": "Explanation of the question"
-        }
-      ],
+      "stepItems": [],
       "uuid": "792c3404-3c17-4f53-8951-a7e5e9a665ac"
     },
     {
