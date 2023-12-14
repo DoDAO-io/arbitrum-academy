@@ -1,9 +1,9 @@
 categories: []
-content: How to run a full node (Nitro)?
-created: '2023-12-14T12:17:43.455Z'
+content: 'Introduction to different types of nodes in Arbitrum '
+created: '2023-12-14T12:18:49.957Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
-name: Arbitrum Node (Nitro)
+name: 'Types of Arbitrum Nodes '
 publishStatus: Live
 steps:
   - content: >-
