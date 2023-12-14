@@ -1,6 +1,6 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-12-14T12:10:10.637Z'
+created: '2023-12-14T12:11:40.645Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
 name: Arbitrum Node (Nitro)
@@ -99,53 +99,6 @@ steps:
       Full nodes play a crucial role in maintaining the robustness and
       decentralization of the Arbitrum network by allowing users to
       independently interact with the blockchain and validate its transactions.
-
-
-
-
-      Arbitrum full nodes are integral components of the network, mirroring the
-      role of their Ethereum counterparts. They hold the complete and current
-      state of the chain, offering a gateway for other entities to engage with
-      the network through a provided API. These nodes primarily operate at the
-      Layer 2 level, focusing on the chain's immediate state and transactions,
-      unrelated with the complexities of Layer1. They process the incoming
-      stream of inbox messages, utilizing the State Transition Function (STF) to
-      update the Layer 2 chain state and generate the corresponding outputs,
-      thereby facilitating the chain's evolution and functionality.
-
-
-      ## Types of Nodes
-
-      In the Arbitrum network, there are several other types of nodes that each
-      play a specific role in the operation and security of the network:
-
-
-
-      ## Considerations for Running Arbitrum Full Node
-
-
-      ### Transaction Validation and Security
-
-      Operating a full node on the Arbitrum blockchain allows users to
-      autonomously validate transactions, enhancing network security and
-      enabling them to confirm transaction authenticity and integrity without
-      depending on external services.
-
-
-      ### Reduced Trust Requirements
-
-      Running a full node on the Arbitrum network allows users to transact with
-      greater autonomy and security, diminishing reliance on third parties and
-      reducing exposure to centralized points of failure. This self-reliance
-      grants users enhanced control and assurance of transaction integrity.
-
-
-      ### Lower Resource Requirements
-
-      Full nodes on the Arbitrum network are less resource-intensive than
-      archive nodes, making them suitable for users with modest hardware,
-      allowing for transaction validation and increased security without the
-      need for powerful equipment.
     name: Full Nodes
     stepItems: []
     uuid: c62a372f-7b31-4de5-a179-ac0449b07374
