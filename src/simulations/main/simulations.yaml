@@ -1,2 +1,3 @@
 simulations:
   - transfer-tokens-to-arbitrum-arbitrum-university.yaml
+  - transfer-tokens-from-arbitrum-arbitrum-university.yaml
