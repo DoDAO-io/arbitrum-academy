@@ -1,38 +1,104 @@
 categories: []
 content: How to run a full node (Nitro)?
-created: '2023-12-04T12:02:29.198Z'
+created: '2023-12-14T12:10:10.637Z'
 guideType: onboarding
 key: running-full-node-nitro-arbitrum-university-683
-name: Running Full Node (Nitro)
+name: Arbitrum Node (Nitro)
 publishStatus: Live
 steps:
   - content: >-
-      ## intro to full nodes
-
-      ### what are full nodes?
-
-      #### Considerations for Running Arbitrum Full Node
-
-      ### Types of full nodes
+      Nodes in the Arbitrum network are essential for interacting with or
+      building applications on Arbitrum chains. They come in several types:
 
 
-      ## Prerequisites
+      ### 1. Full Node 
 
-      (currently copy pasted but dont know how to do better)
-
-
-      ## Configurations
-
-      (currently copy pasted dont know how to put it together in a better form)
-
+      It validates transactions and verifies the state of the Arbitrum
+      blockchain, offering independent transaction validation and security with
+      reduced trust requirements. Full nodes require fewer resources compared to
+      archive nodes, making them more accessible for users with limited
+      hardware.
 
 
+      ### 2. Archive Node
+
+      This node stores the complete history of the Arbitrum network. It's
+      suitable for users needing extensive historical data access for advanced
+      analytical purposes but requires significant storage and computational
+      power.
+
+
+      ### 3. Classic Node
+
+      Classic nodes are relevant for those needing access to archive node
+      features and classic-related commands, typically catering to more
+      specific, historical data needs.
+
+
+      ### 4. Validator Node
+
+      Participates in the consensus mechanism of Arbitrum's Layer 2 protocol.
+      Validators can post bonds and are responsible for asserting the correct
+      state of the rollup chain. They are also involved in challenging incorrect
+      assertions made by other validators.
+
+
+      ### 5. Sequencer Node
+
+      A specialized type of node that batches and orders transactions before
+      they are confirmed by the validators. The sequencer provides faster
+      transaction throughput by temporarily acting as a central point before
+      decentralization through the validators' consensus.
+
+
+      ### 6. Bridge Node
+
+      Manages the communication between the Arbitrum Layer 2 network and the
+      Ethereum mainnet, facilitating the transfer of assets between the two
+      chains.
+
+
+      ### 7. Feed Relay 
+
+      Useful in setups with multiple nodes, a feed relay reduces ingress fees
+      and enhances network stability. It's recommended to have one feed relay
+      per datacenter, especially as future feed endpoints will require
+      compression using a custom dictionary.
 
 
 
+      Each node type serves different purposes and requirements, ranging from
+      transaction validation to accessing extensive historical data and network
+      efficiency enhancements.
+    name: Intro to Nodes
+    stepItems: []
+    uuid: 81d2a799-c5b0-4881-b355-fd8a73b98556
+  - content: >-
+      Full nodes on the Arbitrum network are essential components for
+      interacting with or building applications on its chains. Here are key
+      aspects of full nodes:
 
 
+      1. **Independent Transaction Validation and Security**: Running a full
+      node allows users to independently validate transactions and verify the
+      state of the Arbitrum blockchain, ensuring the authenticity and integrity
+      of transactions.
 
+
+      2. **Reduced Trust Requirements**: Operating a full node reduces
+      dependency on third-party services, mitigating the risk of centralized
+      failures and enhancing trust in the network's operations.
+
+
+      3. **Resource Efficiency**: Compared to archive nodes, full nodes
+      generally require fewer resources, such as storage and computational
+      power, making them more accessible for users with limited hardware or in
+      resource-constrained environments.
+
+
+      Full nodes play a crucial role in maintaining the robustness and
+      decentralization of the Arbitrum network by allowing users to
+      independently interact with the blockchain and validate its transactions.
 
 
 
@@ -53,35 +119,6 @@ steps:
       In the Arbitrum network, there are several other types of nodes that each
       play a specific role in the operation and security of the network:
 
-
-      ### Validator Node
-
-      Participates in the consensus mechanism of Arbitrum's Layer 2 protocol.
-      Validators can post bonds and are responsible for asserting the correct
-      state of the rollup chain. They are also involved in challenging incorrect
-      assertions made by other validators.
-
-
-      ### Sequencer Node
-
-      A specialized type of node that batches and orders transactions before
-      they are confirmed by the validators. The sequencer provides faster
-      transaction throughput by temporarily acting as a central point before
-      decentralization through the validators' consensus.
-
-
-      ### Archivel Node
-
-      Stores the entire history of the network's transactions and states. While
-      not necessary for the operation of the network, they are useful for
-      services that need to query historical data.
-
-
-      ### Bridge Node
-
-      Manages the communication between the Arbitrum Layer 2 network and the
-      Ethereum mainnet, facilitating the transfer of assets between the two
-      chains.
 
 
       ## Considerations for Running Arbitrum Full Node
@@ -207,6 +244,30 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 25052d51-696c-4f1e-a6e2-7d4b5832e412
+  - content: >-
+      When comparing a full node and an archive node in the Arbitrum network,
+      the key differences are:
+
+
+      1. **Purpose and Functionality**:
+         - **Full Node**: Primarily for transaction validation and security. It enables users to independently validate transactions and verify the current state of the Arbitrum blockchain.
+         - **Archive Node**: Stores the complete historical record of the Arbitrum network. It's suitable for users needing access to extensive historical data for analysis or other advanced purposes.
+
+      2. **Resource Requirements**:
+         - **Full Node**: Requires fewer resources compared to archive nodes, making it more accessible for users with limited hardware capabilities.
+         - **Archive Node**: More resource-intensive due to the need to store the entire history of the network, demanding significant storage capacity and computational power.
+
+      3. **Trust and Independence**:
+         - **Full Node**: Reduces reliance on third-party services, offering greater independence and mitigating risks associated with centralized failures.
+         - **Archive Node**: While providing comprehensive data, it may require more trust in external infrastructure due to its intensive resource demands.
+
+      These differences highlight that full nodes are more suitable for everyday
+      users interested in transaction validation and blockchain integrity, while
+      archive nodes are tailored for specialized uses requiring deep historical
+      data access.
+    name: Full vs Archive Nodes
+    stepItems: []
+    uuid: 6fd1a8fb-42ff-4228-bf23-7e43d21d74cb
   - content: >
       ### Important Ports 
 
