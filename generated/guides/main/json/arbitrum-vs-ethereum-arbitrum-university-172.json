@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the differences between Arbitrum and Ethereum ",
-  "created": "2023-12-14T11:12:02.710Z",
+  "created": "2023-12-14T11:15:42.044Z",
   "guideType": "onboarding",
   "key": "arbitrum-vs-ethereum-arbitrum-university-172",
   "name": "Arbitrum vs Ethereum",
@@ -298,7 +298,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "A secure source of randomness",
+              "key": "A"
+            },
+            {
+              "content": "A pseudo-random hash within a specific range",
+              "key": "B"
+            },
+            {
+              "content": "The address of the poster",
+              "key": "C"
+            },
+            {
+              "content": "A constant value of 1",
+              "key": "D"
+            }
+          ],
+          "content": "What does the `blockhash(x)` function return in Arbitrum?",
+          "type": "SingleChoice",
+          "uuid": "6d392d79-e278-4d9f-9cc4-e99cf3e4274f",
+          "explanation": "In Arbitrum, the `blockhash(x)` function returns a pseudo-random hash within a specific range. However, it should not be considered a secure source of randomness, as the hashes do not come from Ethereum's Layer 1 (L1)."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "A pseudo-random hash within a specific range",
+              "key": "A"
+            },
+            {
+              "content": "A constant value of 1",
+              "key": "B"
+            },
+            {
+              "content": "A designated internal address for messages posted by the sequencer",
+              "key": "C"
+            },
+            {
+              "content": "An estimated L1 block number correlating with the transaction's reception",
+              "key": "D"
+            }
+          ],
+          "content": "What does the `block.coinbase` function return in Arbitrum?",
+          "type": "SingleChoice",
+          "uuid": "9280ca02-4941-426a-8a21-3fb3c8e5d38c",
+          "explanation": "The `block.coinbase` function in Arbitrum returns a designated internal address for messages posted by the sequencer, and for delayed messages, it returns the address of the poster."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "A pseudo-random hash within a specific range",
+              "key": "A"
+            },
+            {
+              "content": "The address of the poster",
+              "key": "B"
+            },
+            {
+              "content": "An estimated L1 block number correlating with the transaction's reception",
+              "key": "C"
+            },
+            {
+              "content": "A constant value of 1",
+              "key": "D"
+            }
+          ],
+          "content": "What values does Arbitrum set for the `block.difficulty` and `block.prevrandao` properties?",
+          "type": "SingleChoice",
+          "uuid": "2eeb5705-8ba4-41e7-9c49-c66816f62a34",
+          "explanation": "Arbitrum sets the `block.difficulty` and `block.prevrandao` properties to a constant value of 1, unlike Ethereum where these values can vary."
+        }
+      ],
       "uuid": "9459241f-1fd9-490d-83f8-fc2aeb7e8c30"
     }
   ],
