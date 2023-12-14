@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "How to run a full node (Nitro)?",
-  "created": "2023-12-14T12:15:34.571Z",
+  "created": "2023-12-14T12:17:43.455Z",
   "guideType": "onboarding",
   "key": "running-full-node-nitro-arbitrum-university-683",
   "name": "Arbitrum Node (Nitro)",
@@ -20,7 +20,7 @@
       "uuid": "e97ba39d-652f-4fb7-b5cc-0a35b1d7d014"
     },
     {
-      "content": "Full nodes on the Arbitrum network are essential components for interacting with or building applications on its chains. Here are key aspects of full nodes:\n\n1. **Independent Transaction Validation and Security**: Running a full node allows users to independently validate transactions and verify the state of the Arbitrum blockchain, ensuring the authenticity and integrity of transactions.\n\n2. **Reduced Trust Requirements**: Operating a full node reduces dependency on third-party services, mitigating the risk of centralized failures and enhancing trust in the network's operations.\n\n3. **Resource Efficiency**: Compared to archive nodes, full nodes generally require fewer resources, such as storage and computational power, making them more accessible for users with limited hardware or in resource-constrained environments.\n\nFull nodes play a crucial role in maintaining the robustness and decentralization of the Arbitrum network by allowing users to independently interact with the blockchain and validate its transactions.",
+      "content": "Full nodes are essential components in blockchain networks, including Arbitrum, for several key reasons:\n\n1. **Transaction Validation and Security**: Full nodes independently validate transactions and verify the state of the blockchain. This allows users to have full confidence in the authenticity and integrity of the transactions they interact with, ensuring the security and stability of the network.\n\n2. **Reduced Trust Requirements**: Operating a full node allows users to interact directly with the Arbitrum network without depending on third-party services or infrastructure. This reduces the need to trust external entities, mitigating risks associated with centralized failures or vulnerabilities.\n\n3. **Lower Resource Requirements**: Full nodes generally require fewer resources compared to archive nodes, making them more accessible for users with limited hardware capabilities. This accessibility is crucial for maintaining a decentralized and robust network.\n\nFull nodes play a critical role in maintaining the decentralization and integrity of blockchain networks. By validating transactions and blocks, they help in keeping the network secure and trustworthy. Furthermore, by running a full node, users contribute to the network's resilience and decentralization, enhancing the overall health and reliability of the system.",
       "name": "Full Nodes",
       "stepItems": [],
       "uuid": "c62a372f-7b31-4de5-a179-ac0449b07374"
