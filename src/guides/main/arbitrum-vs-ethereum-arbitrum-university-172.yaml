@@ -1,6 +1,6 @@
 categories: []
 content: 'Understanding the differences between Arbitrum and Ethereum '
-created: '2023-12-14T10:39:45.349Z'
+created: '2023-12-14T10:47:39.535Z'
 guideType: onboarding
 key: arbitrum-vs-ethereum-arbitrum-university-172
 name: Arbitrum vs Ethereum
@@ -58,28 +58,7 @@ steps:
     uuid: 0d0e922e-6f2d-4e3a-97d4-afe4e527ee61
   - content: ''
     name: Evaluation
-    stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: d6491b6a-2a44-4c44-9ec5-b596d650b234
-      - answerKeys:
-          - choice_1
-          - choice_2
-          - choice_3
-        choices:
-          - content: Choice 1
-            key: choice_1
-          - content: Choice 2
-            key: choice_2
-          - content: Choice 3
-            key: choice_3
-          - content: Choice 4
-            key: choice_4
-        content: Contents of the question
-        type: MultipleChoice
-        uuid: b42acf17-4335-4f8a-8eb5-8986c6b12c81
-        explanation: Explanation of the question
+    stepItems: []
     uuid: 5068b4d1-722e-47fd-8e7e-0281507ef189
   - content: >-
       Arbitrum and Ethereum handle block numbers and time differently:
@@ -187,26 +166,38 @@ steps:
     name: Evaluation
     stepItems: []
     uuid: 460179d1-32e7-48dd-9881-4fbb3bfc6a89
-  - content: ''
-    name: Solidity Support
+  - content: >-
+      Arbitrum allows for seamless deployment of Solidity and Vyper smart
+      contracts compatible with Ethereum, but certain properties and functions
+      may yield different results compared to their Ethereum counterparts.
+
+
+      1. In Arbitrum, the `blockhash(x)` function returns a pseudo-random hash
+      within a specific range, but it should not be considered a secure source
+      of randomness, as the hashes do not come from Ethereum's Layer 1 (L1).
+
+
+      2. The `block.coinbase` function in Arbitrum differs in that it returns a
+      designated internal address for messages posted by the sequencer, and for
+      delayed messages, it returns the address of the poster. However, changes
+      are expected in future updates.
+
+
+      3. Arbitrum sets the `block.difficulty` and `block.prevrandao` properties
+      to a constant value of 1, unlike Ethereum where these values can vary.
+
+
+      4. The `block.number` function in Arbitrum gives an estimated L1 block
+      number correlating with the transaction's reception, while the
+      `msg.sender` behaves similarly to Ethereum for regular transactions but
+      differs for transactions submitted via the delayed inbox.
+    name: Solidity
     stepItems: []
-    uuid: 79d819b5-ef3b-486c-b2d4-2dc0a320f2ae
+    uuid: 5b4f4c0b-06f0-4c89-9e4d-6509347d0127
   - content: ''
     name: Evaluation
     stepItems: []
-    uuid: d273b538-9550-45c0-85e2-56361cd7c5df
-  - content: >-
-      ### step 1
-
-
-      - https://coindcx.com/blog/cryptocurrency/arbitrum-vs-polygon-vs-ethereum/
-
-
-      -
-      https://blog.mexc.com/arbitrum-vs-ethereum-how-the-layer-2-solution-boosts-crypto-scalability-and-innovation-creator-rogers/#:~:text=Ethereum%20is%20the%20most%20popular,what%20they%20mean%20for%20crypto.
-    name: References
-    stepItems: []
-    uuid: 59bf63c8-22ec-438a-b08f-ae13e9d236a8
+    uuid: 9459241f-1fd9-490d-83f8-fc2aeb7e8c30
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_vs_ethereum_arbitrum_university_172/1699897539609_rectangle_105.png
 uuid: arbitrum-vs-ethereum-arbitrum-university-172
