@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Bridging Blockchains with Seamless Communication",
-  "created": "2023-12-04T11:29:53.125Z",
+  "created": "2023-12-15T11:17:09.437Z",
   "guideType": "onboarding",
   "key": "cross-chain-messaging-arbitrum-university-977",
   "name": "Cross Chain Messaging",
@@ -16,7 +16,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To increase the value of a particular blockchain",
+              "key": "A"
+            },
+            {
+              "content": "To create a new blockchain network",
+              "key": "B"
+            },
+            {
+              "content": "To transfer data and assets between different blockchain networks",
+              "key": "C"
+            },
+            {
+              "content": "To decrease the value of a particular blockchain",
+              "key": "D"
+            }
+          ],
+          "content": "What is the primary function of Cross-chain messaging?",
+          "type": "SingleChoice",
+          "uuid": "b9de42b0-beb7-4a75-8139-3ddfb76624bd",
+          "explanation": "Cross-chain messaging primarily facilitates the transfer of data, tokens, and other types of assets between different blockchain networks, allowing for interoperability."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "By increasing reliance on centralized entities",
+              "key": "A"
+            },
+            {
+              "content": "By supporting the decentralized movement of funds",
+              "key": "B"
+            },
+            {
+              "content": "By creating a centralized database",
+              "key": "C"
+            },
+            {
+              "content": "By promoting a centralized financial ecosystem",
+              "key": "D"
+            }
+          ],
+          "content": "How does Cross-chain messaging contribute to decentralization?",
+          "type": "SingleChoice",
+          "uuid": "ce908868-83d0-4072-8ce2-a171f8114d74",
+          "explanation": "Cross-chain technology supports the decentralized movement of funds, reducing reliance on centralized entities or custodians."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "It increases the need for separate deployments",
+              "key": "A"
+            },
+            {
+              "content": "It has no impact on resource utilization",
+              "key": "B"
+            },
+            {
+              "content": "It makes the deployment process more complex",
+              "key": "C"
+            },
+            {
+              "content": "It enables applications to interact across chains without the need for separate deployments",
+              "key": "D"
+            }
+          ],
+          "content": "What is the benefit of Cross-chain messaging in terms of resource utilization?",
+          "type": "SingleChoice",
+          "uuid": "8ac0aa2b-d228-42e0-b0db-f22319eeb520",
+          "explanation": "Cross-chain messaging streamlines the process of deploying applications on multiple chains, enabling applications to interact across chains without the need for separate deployments."
+        }
+      ],
       "uuid": "0b537aa5-d7f1-41bf-88e1-f0b38af513dc"
     },
     {
@@ -28,7 +110,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "`createRetryableTicket` method of the Inbox contract",
+              "key": "A"
+            },
+            {
+              "content": "`sendTxToL1` function on the ArbSys precompiled contract",
+              "key": "B"
+            },
+            {
+              "content": "`redeem` function of the ArbRetryableTx precompiled contract",
+              "key": "C"
+            },
+            {
+              "content": "`constructOutboxProof` method of the NodeInterface contract",
+              "key": "D"
+            }
+          ],
+          "content": "Which method is used to initiate contract calls from Ethereum's Layer 1 to Arbitrum's Layer 2?",
+          "type": "SingleChoice",
+          "uuid": "0d063e23-197c-459d-8e9e-a587deec4c4c",
+          "explanation": "The `createRetryableTicket` method of the Inbox contract is used to initiate contract calls from Ethereum's Layer 1 to Arbitrum's Layer 2."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Using the `createRetryableTicket` method of the Inbox contract",
+              "key": "A"
+            },
+            {
+              "content": "By invoking the `redeem` function of the ArbRetryableTx precompiled contract",
+              "key": "B"
+            },
+            {
+              "content": "By calling the `constructOutboxProof` method of the NodeInterface contract",
+              "key": "C"
+            },
+            {
+              "content": "Through the Outbox contract's `executeTransaction` method",
+              "key": "D"
+            }
+          ],
+          "content": "How are messages from Arbitrum's Layer 2 executed on Ethereum's Layer 1?",
+          "type": "SingleChoice",
+          "uuid": "2aa4a4c7-6ebc-4d94-b3dd-da5de03de6f5",
+          "explanation": "Messages from Arbitrum's Layer 2 are executed on Ethereum's Layer 1 through the Outbox contract's `executeTransaction` method."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "The transaction is cancelled",
+              "key": "A"
+            },
+            {
+              "content": "The transaction is automatically retried",
+              "key": "B"
+            },
+            {
+              "content": "It can be attempted again by invoking the `redeem` function of the ArbRetryableTx precompiled contract",
+              "key": "C"
+            },
+            {
+              "content": "The transaction is sent to Ethereum's Layer 1 for execution",
+              "key": "D"
+            }
+          ],
+          "content": "What happens if the execution on Layer 2 does not complete successfully?",
+          "type": "SingleChoice",
+          "uuid": "db07ecad-a1ea-4cb4-8e66-948134a00d34",
+          "explanation": "If the execution on Layer 2 does not complete successfully and a reversal occurs, it can be attempted again by invoking the `redeem` function of the ArbRetryableTx precompiled contract."
+        }
+      ],
       "uuid": "1682ade3-97a3-4d83-bdfb-e75758c2edf4"
     },
     {
@@ -40,7 +204,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "They are used for sending messages from L2 to L1",
+              "key": "A"
+            },
+            {
+              "content": "They are used for initiating L2 transactions that will trigger executions on L1",
+              "key": "B"
+            },
+            {
+              "content": "They are used for initiating L1 transactions that will trigger executions on L2",
+              "key": "C"
+            },
+            {
+              "content": "They are used for sending messages from L1 to L1",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of retryable tickets in the Arbitrum system?",
+          "type": "SingleChoice",
+          "uuid": "36091fb6-e859-4b35-8fcd-b6b4e7a04bd6",
+          "explanation": "Retryable tickets are designed for sending messages from Ethereum's Layer 1 (L1) to Arbitrum's Layer 2 (L2). They allow for the initiation of L1 transactions that will trigger executions on L2. The key feature of retryable tickets is that they ensure atomicity across the L1 and L2 operations."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "The ticket is automatically discarded",
+              "key": "A"
+            },
+            {
+              "content": "The ticket is stored in memory for a week and must be redeemed manually",
+              "key": "B"
+            },
+            {
+              "content": "The ticket is automatically redeemed after a certain period",
+              "key": "C"
+            },
+            {
+              "content": "The ticket is sent back to the sender",
+              "key": "D"
+            }
+          ],
+          "content": "What happens if the retryable ticket is not redeemed at submission or the first redeem attempt fails?",
+          "type": "SingleChoice",
+          "uuid": "23440a72-b8a9-47a6-934c-0c126744af50",
+          "explanation": "If the ticket isn't redeemed at submission or the first redeem attempt fails, the submission fee is used to store the ticket in memory for a week. Under these circumstances, the ticket must be redeemed manually."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "The funds are automatically discarded",
+              "key": "A"
+            },
+            {
+              "content": "The funds are returned to the system's gas pools",
+              "key": "B"
+            },
+            {
+              "content": "The funds are sent back to the sender",
+              "key": "C"
+            },
+            {
+              "content": "The funds are sent to a specified refund address from the original submission",
+              "key": "D"
+            }
+          ],
+          "content": "What happens to the escrowed funds if a ticket with funds is ultimately not used?",
+          "type": "SingleChoice",
+          "uuid": "6cba36d3-171d-4ec9-af69-0211b8ede3fd",
+          "explanation": "If a ticket with funds is ultimately not used (either cancelled or expired), the escrowed funds will be sent to a specified refund address from the original submission."
+        }
+      ],
       "uuid": "45ccd21e-4685-41e2-b6f7-18d3c9f606fd"
     },
     {
@@ -52,7 +298,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To indicate the successful redemption of a ticket",
+              "key": "A"
+            },
+            {
+              "content": "To indicate the successful creation of a ticket",
+              "key": "B"
+            },
+            {
+              "content": "To indicate the failure of a ticket redemption",
+              "key": "C"
+            },
+            {
+              "content": "To indicate the failure of a ticket creation",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the 'Ticket Creation Receipt' in the life of a retryable ticket?",
+          "type": "SingleChoice",
+          "uuid": "6c59bcc3-9b8d-4aa9-b723-942dceaa07d6",
+          "explanation": "The 'Ticket Creation Receipt' is emitted when a ticket is created successfully via the Inbox's createRetryableTicket method. It includes a TicketCreated event with a ticketId, which can be calculated using RLP encoding and hashing."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To ensure that the sender's address remains the same across different layers",
+              "key": "A"
+            },
+            {
+              "content": "To provide a unique identifier for each transaction",
+              "key": "B"
+            },
+            {
+              "content": "To mask the sender's address for privacy",
+              "key": "C"
+            },
+            {
+              "content": "To differentiate the sender's identity on different layers and counteract cross-chain threats",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of 'Address Aliasing' in the Arbitrum protocol?",
+          "type": "SingleChoice",
+          "uuid": "796fa540-3ea7-4778-bffe-b78b45ef8734",
+          "explanation": "Address Aliasing is used to avoid potential security issues that could arise if L1 addresses were used directly on L2. It differentiates the sender's identity on L2 to counteract cross-chain threats."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To deposit Eth into a user's account on L1",
+              "key": "A"
+            },
+            {
+              "content": "To convert Eth into another cryptocurrency",
+              "key": "B"
+            },
+            {
+              "content": "To transfer Eth from L1 to L2",
+              "key": "C"
+            },
+            {
+              "content": "To withdraw Eth from a user's account on L2",
+              "key": "D"
+            }
+          ],
+          "content": "What is the function of the 'depositEth' method in the Inbox?",
+          "type": "SingleChoice",
+          "uuid": "3bdfee6f-d8f9-4b0d-b0d6-5d3620ae816d",
+          "explanation": "The 'depositEth' method is used to transfer Eth from Layer 1 (L1) to Layer 2 (L2). When someone sends Eth this way, it will be credited to their same address on L2."
+        }
+      ],
       "uuid": "895f2692-d815-4d2a-9fec-59ae56ce5179"
     },
     {
@@ -64,7 +392,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To send messages from Layer 1 to Layer 2",
+              "key": "A"
+            },
+            {
+              "content": "To store messages for future use",
+              "key": "B"
+            },
+            {
+              "content": "To allow contracts on Layer 2 to send messages that result in actions on Layer 1",
+              "key": "C"
+            },
+            {
+              "content": "To process transactions on Layer 2",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the Outbox in Arbitrum's system?",
+          "type": "SingleChoice",
+          "uuid": "901cb35b-4a17-499e-be4f-30acbfa8c203",
+          "explanation": "The Outbox in Arbitrum's system allows contracts on Layer 2 (L2) to send messages that result in actions on Layer 1 (L1). It also checks the messages' fingerprints to make sure they're valid and keeps track of which messages have been processed."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Outgoing messages can include Ether for automatic execution on L2",
+              "key": "A"
+            },
+            {
+              "content": "Outgoing messages don't have a built-in way to automatically execute on L1 and last indefinitely without a deadline for execution",
+              "key": "B"
+            },
+            {
+              "content": "Retryable tickets don't have a built-in way to automatically execute on L1",
+              "key": "C"
+            },
+            {
+              "content": "Retryable tickets last indefinitely without a deadline for execution",
+              "key": "D"
+            }
+          ],
+          "content": "What is the difference between outgoing messages and retryable tickets in Arbitrum's system?",
+          "type": "SingleChoice",
+          "uuid": "7dbc71d1-00f4-4fb1-bade-120571dd88d3",
+          "explanation": "Outgoing messages, unlike retryable tickets which can include Ether for automatic execution on L2, don't have a built-in way to automatically execute on L1. That's because Ethereum doesn't have a feature for scheduling automatic actions. Outgoing messages also differ from retryable tickets in their lifespan. Retryable tickets expire unless they're redeemed or extended, while outgoing messages are recorded on L1 and last indefinitely without a deadline for execution."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To allow time for the messages to be processed",
+              "key": "A"
+            },
+            {
+              "content": "To allow time for the messages to be confirmed",
+              "key": "B"
+            },
+            {
+              "content": "To allow time for the messages to be sent",
+              "key": "C"
+            },
+            {
+              "content": "To allow time for validators to challenge the results if there are any issues",
+              "key": "D"
+            }
+          ],
+          "content": "Why is there a delay of about a week before outgoing messages can be executed in Arbitrum's system?",
+          "type": "SingleChoice",
+          "uuid": "1cbce060-dae8-4ae3-99f7-33b1d8f69990",
+          "explanation": "The delay of about a week before outgoing messages can be executed is a built-in part of how Arbitrum's system works. This waiting period allows time for validators to challenge the results if there are any issues."
+        }
+      ],
       "uuid": "a8ed5c86-cc78-469c-ab98-aac3701cf5d5"
     },
     {
