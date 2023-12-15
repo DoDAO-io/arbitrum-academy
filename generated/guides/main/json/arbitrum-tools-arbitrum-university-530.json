@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the Useful Tools in Arbitrum",
-  "created": "2023-11-13T12:19:40.967Z",
+  "created": "2023-12-15T10:53:48.973Z",
   "guideType": "onboarding",
   "key": "arbitrum-tools-arbitrum-university-530",
   "name": "Arbitrum Tools",
@@ -14,6 +14,94 @@
       "uuid": "31647716-f241-4750-8695-d13d713e858c"
     },
     {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "They are used to debug code issues in blockchain applications.",
+              "key": "A"
+            },
+            {
+              "content": "They facilitate interaction with various blockchain chains.",
+              "key": "B"
+            },
+            {
+              "content": "They are used to monitor blockchain transactions and states.",
+              "key": "C"
+            },
+            {
+              "content": "They are used to create new blockchain networks.",
+              "key": "D"
+            }
+          ],
+          "content": "What is the primary function of RPC endpoints in the context of blockchain technology?",
+          "type": "SingleChoice",
+          "uuid": "b381a474-a518-4611-a188-0b0ae2402535",
+          "explanation": "In the context of blockchain technology, RPC endpoints primarily facilitate interaction with various chains, such as Arbitrum chains."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "`eth_getBalance` and `eth_getTransactionCount` operations.",
+              "key": "A"
+            },
+            {
+              "content": "`eth_call` and `eth_estimateGas` operations.",
+              "key": "B"
+            },
+            {
+              "content": "`eth_getCode` and `eth_getStorageAt` operations.",
+              "key": "C"
+            },
+            {
+              "content": "`eth_sendRawTransaction` and `eth_sendRawTransactionConditional` operations.",
+              "key": "D"
+            }
+          ],
+          "content": "What operations are sequencer endpoints limited to?",
+          "type": "SingleChoice",
+          "uuid": "24a4a1e9-dbce-41b2-9022-e9e58f5908ca",
+          "explanation": "Sequencer endpoints are limited to `eth_sendRawTransaction` and `eth_sendRawTransactionConditional` operations."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Arbitrum Nova",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrum Goerli",
+              "key": "B"
+            },
+            {
+              "content": "Ethereum",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrum Sepolia",
+              "key": "D"
+            }
+          ],
+          "content": "What is the underlying chain for Arbitrum One?",
+          "type": "SingleChoice",
+          "uuid": "d9530331-48fc-43aa-9d47-4d78947eca63",
+          "explanation": "The underlying chain for Arbitrum One is Ethereum."
+        }
+      ],
+      "uuid": "3508b58d-90cd-4fdf-8037-c61a9012a538"
+    },
+    {
       "content": "To engage with public Arbitrum chains, you can utilize the same esteemed node providers that serve the Ethereum ecosystem.\n\n| Provider   | Arb One? | Arb Nova? | Arb Goerli? | Arb Sepolia? |\n|------------|----------|-----------|-------------|--------------|\n| Allnodes   | ✅        | ✅         | ✅           |              |\n| Chainstack | ✅        |           | ✅           |              |\n| DataHub    | ✅        |           |             |              |\n| DRPC       | ✅        | ✅         |             |              |\n| GetBlock   | ✅        |           | ✅           |              |\n| Infura     | ✅        |           | ✅           | ✅            |\n| Lava       | ✅        | ✅         |\n",
       "name": "RPC Endpoint Providers",
       "stepItems": [],
@@ -23,12 +111,6 @@
       "content": "",
       "name": "Evaluation",
       "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "2292a3e7-cbb8-4db0-a11f-de01b584ffe7"
-        },
         {
           "answerKeys": [
             "choice_1",
@@ -57,6 +139,87 @@
           "type": "MultipleChoice",
           "uuid": "bf0f4670-f1f5-4490-adeb-0210d99776cf",
           "explanation": "Explanation of the question"
+        },
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "Allnodes",
+              "key": "A"
+            },
+            {
+              "content": "Chainstack",
+              "key": "B"
+            },
+            {
+              "content": "DataHub",
+              "key": "C"
+            },
+            {
+              "content": "Lava",
+              "key": "D"
+            }
+          ],
+          "content": "Which provider supports all public Arbitrum chains?",
+          "type": "SingleChoice",
+          "uuid": "19756cf5-3957-4200-b980-4fc742b80b71",
+          "explanation": "Allnodes is the only provider that supports all public Arbitrum chains."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Allnodes",
+              "key": "A"
+            },
+            {
+              "content": "Chainstack",
+              "key": "B"
+            },
+            {
+              "content": "DataHub",
+              "key": "C"
+            },
+            {
+              "content": "Infura",
+              "key": "D"
+            }
+          ],
+          "content": "Which provider does not support Arb Sepolia?",
+          "type": "SingleChoice",
+          "uuid": "f5017c61-c2ad-483d-8f08-a723b8ce2b25",
+          "explanation": "Chainstack does not support Arb Sepolia."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Allnodes",
+              "key": "A"
+            },
+            {
+              "content": "Chainstack",
+              "key": "B"
+            },
+            {
+              "content": "DataHub",
+              "key": "C"
+            },
+            {
+              "content": "DRPC",
+              "key": "D"
+            }
+          ],
+          "content": "Which provider supports both Arb One and Arb Nova?",
+          "type": "SingleChoice",
+          "uuid": "b3e134ca-f6cc-4b34-be97-b743e0cb4b07",
+          "explanation": "DRPC supports both Arb One and Arb Nova."
         }
       ],
       "uuid": "c8d961e8-4287-4911-a40d-7cc087ea5e20"
@@ -70,7 +233,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "To design the user interface of a software",
+              "key": "A"
+            },
+            {
+              "content": "To enhance the speed of the software",
+              "key": "B"
+            },
+            {
+              "content": "To identify and fix bugs or defects within software or systems",
+              "key": "C"
+            },
+            {
+              "content": "To market the software",
+              "key": "D"
+            }
+          ],
+          "content": "What is the main purpose of debugging tools?",
+          "type": "SingleChoice",
+          "uuid": "a2c79091-f151-4cd5-9135-1577483a801e",
+          "explanation": "Debugging tools are used to test and debug code. They help programmers identify and fix bugs or defects within software or systems."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "To design the user interface of a software",
+              "key": "A"
+            },
+            {
+              "content": "To provide a step-by-step visualization of the EVM execution",
+              "key": "B"
+            },
+            {
+              "content": "To market the software",
+              "key": "C"
+            },
+            {
+              "content": "To enhance the speed of the software",
+              "key": "D"
+            }
+          ],
+          "content": "What is the function of the VMTrace tool offered by Arbiscan?",
+          "type": "SingleChoice",
+          "uuid": "c6acaeb6-2eb1-426d-8c85-bbdaac0a721f",
+          "explanation": "The VMTrace tool offered by Arbiscan provides a step-by-step visualization of the EVM (Ethereum Virtual Machine) execution. This allows developers to trace the processing of transactions and identify any potential issues that may arise."
+        },
+        {
+          "answerKeys": [
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "To design the user interface of a software",
+              "key": "A"
+            },
+            {
+              "content": "To enhance the speed of the software",
+              "key": "B"
+            },
+            {
+              "content": "To market the software",
+              "key": "C"
+            },
+            {
+              "content": "To assist developers and users in understanding the execution of transactions on the Ethereum network",
+              "key": "D"
+            }
+          ],
+          "content": "What is the primary function of Arbiscan?",
+          "type": "SingleChoice",
+          "uuid": "8e4e103a-2e53-49e7-839e-b30c2478e831",
+          "explanation": "Arbiscan is a blockchain explorer and analytics platform that specializes in the Arbitrum network. It provides VMTrace and Debug tools that assist developers and users in understanding the execution of transactions on the Ethereum network."
+        }
+      ],
       "uuid": "8110bc69-c6ac-4b03-a6e9-8ff02ac7459e"
     },
     {
@@ -82,7 +327,89 @@
     {
       "content": "",
       "name": "Evaluation",
-      "stepItems": [],
+      "stepItems": [
+        {
+          "answerKeys": [
+            "A"
+          ],
+          "choices": [
+            {
+              "content": "Track/trace transactions and examine addresses on Arbitrum networks",
+              "key": "A"
+            },
+            {
+              "content": "Visualize and analyze Arbitrum network data",
+              "key": "B"
+            },
+            {
+              "content": "Monitor and inspect smart contracts",
+              "key": "C"
+            },
+            {
+              "content": "Design and develop decentralized applications",
+              "key": "D"
+            }
+          ],
+          "content": "What is the purpose of the tool Arbiscan?",
+          "type": "SingleChoice",
+          "uuid": "f4ae5d17-b8b5-4600-a067-e1d7ae2ba3c8",
+          "explanation": "Arbiscan is used to track/trace transactions and examine addresses on Arbitrum networks."
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Track/trace transactions and examine addresses on Arbitrum networks",
+              "key": "A"
+            },
+            {
+              "content": "Visualize and analyze Arbitrum network data",
+              "key": "B"
+            },
+            {
+              "content": "Monitor and inspect smart contracts",
+              "key": "C"
+            },
+            {
+              "content": "Design and develop decentralized applications",
+              "key": "D"
+            }
+          ],
+          "content": "What is the use-case of the tool Dune?",
+          "type": "SingleChoice",
+          "uuid": "2414e3be-9637-45c5-8e16-bad0118e62f4",
+          "explanation": "Dune is used to visualize and analyze Arbitrum network data."
+        },
+        {
+          "answerKeys": [
+            "C"
+          ],
+          "choices": [
+            {
+              "content": "Visualize and analyze Arbitrum network data",
+              "key": "A"
+            },
+            {
+              "content": "Monitor and inspect smart contracts",
+              "key": "B"
+            },
+            {
+              "content": "Track/trace transactions and examine addresses on Arbitrum networks",
+              "key": "C"
+            },
+            {
+              "content": "Design and develop decentralized applications",
+              "key": "D"
+            }
+          ],
+          "content": "What is the common use-case of the tools Arbiscan, DexGuru and Blockscout?",
+          "type": "SingleChoice",
+          "uuid": "79ef1e5d-bb9a-4dc7-9642-e9428b6b6889",
+          "explanation": "Arbiscan, DexGuru and Blockscout are all used to track/trace transactions and examine addresses on Arbitrum networks."
+        }
+      ],
       "uuid": "968d3293-b498-4068-8f60-b4685435c8ad"
     }
   ],
