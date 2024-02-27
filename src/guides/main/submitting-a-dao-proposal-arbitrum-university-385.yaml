@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to submit proposals in Arbitrum DAO
-created: '2023-12-12T11:47:18.294Z'
+created: '2024-02-27T18:06:17.690Z'
 guideType: onboarding
 key: submitting-a-dao-proposal-arbitrum-university-385
 name: Submitting a DAO proposal
@@ -729,6 +729,18 @@ steps:
           links L2 decisions to L1, ensuring immutable record and trust in the
           DAO's choices.
     uuid: 857a84b6-dff5-49a4-880e-8ebfb8c9896b
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: b1ac6fad-da66-40bd-b646-995ce37a0842
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: f57d4cd8-3b57-4cf3-a3d4-60d4ee5d650a
+    uuid: ec57c2fa-aef7-4a4f-bac2-2473bc1bb5d8
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/submitting_a_dao_proposal_arbitrum_university_385/1700237890562_rectangle_111.png
 uuid: submitting-a-dao-proposal-arbitrum-university-385
