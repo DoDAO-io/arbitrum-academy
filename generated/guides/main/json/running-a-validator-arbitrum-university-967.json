@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A comprehensive guide about Validators",
-  "created": "2023-12-14T15:47:54.753Z",
+  "created": "2024-02-27T17:37:19.513Z",
   "guideType": "onboarding",
   "key": "running-a-validator-arbitrum-university-967",
   "name": "Intro to Validator",
@@ -261,6 +261,25 @@
         }
       ],
       "uuid": "868ae771-9d47-43b0-8d7e-f6ef6b2180b7"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "5979c69c-d7d9-480b-ab35-2a6300d4cbfd"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "7b811bcf-434e-4501-b71f-fe63927ddc5e"
+        }
+      ],
+      "uuid": "d59251e4-f1e3-42f7-b971-e6b3b1080550"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/running_a_validator_arbitrum_university_967/1699875911417_rectangle_104.png",
