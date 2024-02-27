@@ -1,6 +1,6 @@
 categories: []
 content: Representatives for token holders in Arbitrum DAO
-created: '2023-12-12T11:38:24.505Z'
+created: '2024-02-27T18:04:01.804Z'
 guideType: onboarding
 key: delegation-arbitrum-university-615
 name: Delegation
@@ -408,6 +408,18 @@ steps:
     name: References
     stepItems: []
     uuid: e55cfe23-fde1-4ebb-a75b-475a1c95d62c
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: dfcb9826-2040-4678-a1bb-7f818299049f
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: 35455253-a248-40fb-af59-4ced1a0e8d55
+    uuid: 7f8c6a51-ef06-43dd-92d8-54e26b967865
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/delegation_arbitrum_university_615/1700237991987_rectangle_107.png
 uuid: delegation-arbitrum-university-615
