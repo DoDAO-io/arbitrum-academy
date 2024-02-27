@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into the Arbitrum Governance Sructure",
-  "created": "2023-12-12T11:20:37.573Z",
+  "created": "2024-02-27T17:42:18.677Z",
   "guideType": "onboarding",
   "key": "arbitrum-governance-arbitrum-university-791",
   "name": "Arbitrum Governance",
@@ -288,6 +288,25 @@
         }
       ],
       "uuid": "220fb1cb-5390-4fdd-a15a-dfbdf1f283be"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "890e82af-aed0-494a-941d-38291426c419"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "a85e61a7-bbba-42c0-9806-1ace2ed1cb59"
+        }
+      ],
+      "uuid": "443172b8-92b2-4e3f-8f32-e51376c0c048"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_governance_arbitrum_university_791/1700237753637_rectangle_108.png",
