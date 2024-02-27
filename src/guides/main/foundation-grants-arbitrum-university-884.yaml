@@ -1,6 +1,6 @@
 categories: []
 content: Learn how to apply for foundation grants!
-created: '2023-12-12T12:10:05.691Z'
+created: '2024-02-27T18:06:57.015Z'
 guideType: onboarding
 key: foundation-grants-arbitrum-university-884
 name: Foundation Grants
@@ -673,6 +673,18 @@ steps:
           arises. The project may continue as is or pivot towards new
           innovations and goals.
     uuid: 4a6e6d9c-0061-44ef-99dc-82c999bc86e7
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: 2b9f431a-fd19-4be1-93f6-522bfff9a8fe
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: 6134c516-b7e5-4296-99b4-a759512ca9a0
+    uuid: 687c3135-eddb-4f13-b868-311ab41c8734
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/foundation_grants_arbitrum_university_884/1700238075625_rectangle_109.png
 uuid: foundation-grants-arbitrum-university-884
