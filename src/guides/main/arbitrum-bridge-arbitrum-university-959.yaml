@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum Bridge: Seamless L1 to L2 Asset Transfer'
-created: '2023-12-11T16:36:41.920Z'
+created: '2024-02-27T17:15:07.286Z'
 guideType: onboarding
 key: arbitrum-bridge-arbitrum-university-959
 name: 'Arbitrum Bridge '
@@ -645,6 +645,18 @@ steps:
     name: 'Reference '
     stepItems: []
     uuid: e3add110-f5dd-4446-aec4-1766109c4464
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: 7312821e-8fb0-4c37-847a-df915ca55016
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: cd4c95b5-45cd-4bd1-b977-dbc85faa5e66
+    uuid: 1142a46f-9004-4627-83dd-da91b83f8665
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_bridge_arbitrum_university_959/1699877827641_rectangle_100.png
 uuid: arbitrum-bridge-arbitrum-university-959
