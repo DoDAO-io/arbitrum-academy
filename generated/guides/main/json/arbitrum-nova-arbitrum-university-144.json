@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Arbitrum Nova: Enhanced scalability with AnyTrust verification.",
-  "created": "2023-12-11T18:33:52.295Z",
+  "created": "2024-02-27T17:02:51.781Z",
   "guideType": "onboarding",
   "key": "arbitrum-nova-arbitrum-university-144",
   "name": "Arbitrum Nova",
@@ -382,6 +382,25 @@
         }
       ],
       "uuid": "34b03539-d2e8-4489-b118-af2b06dca0d1"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "6865dd7e-2ecf-4515-b2a5-00557ac97d8a"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "91e799da-bd61-4339-9338-f81e4ea76a9a"
+        }
+      ],
+      "uuid": "48f19031-dca2-4c53-b347-e0e0504f28ea"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nova_arbitrum_university_144/1699877642222_rectangle_97.png",
