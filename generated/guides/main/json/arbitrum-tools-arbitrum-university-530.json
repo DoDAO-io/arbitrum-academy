@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Understanding the Useful Tools in Arbitrum",
-  "created": "2023-12-15T10:53:48.973Z",
+  "created": "2024-02-27T17:38:54.888Z",
   "guideType": "onboarding",
   "key": "arbitrum-tools-arbitrum-university-530",
   "name": "Arbitrum Tools",
@@ -411,6 +411,25 @@
         }
       ],
       "uuid": "968d3293-b498-4068-8f60-b4685435c8ad"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "978944e8-8f57-4650-b826-8f6ced8e37ce"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "29d26590-1751-4c30-a45f-82e34fc0cbfd"
+        }
+      ],
+      "uuid": "eaf2b7b6-7de4-44ba-845e-97cd9f0329d3"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_tools_arbitrum_university_530/1699877974088_rectangle_103.png",
