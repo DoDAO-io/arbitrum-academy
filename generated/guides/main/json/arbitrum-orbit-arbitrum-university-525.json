@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring Arbitrum Orbit: The Next Frontier in Layer-2 Solutions",
-  "created": "2023-12-14T16:27:16.935Z",
+  "created": "2024-02-27T17:09:24.792Z",
   "guideType": "onboarding",
   "key": "arbitrum-orbit-arbitrum-university-525",
   "name": "Arbitrum Orbit",
@@ -355,6 +355,25 @@
         }
       ],
       "uuid": "3ecc45ec-080d-4df9-893c-e6b4654cc324"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "9a336741-2660-45d4-8677-edb9f74d8e9e"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "244da2d3-bbee-422b-987a-bb3219643f7b"
+        }
+      ],
+      "uuid": "8802f1a2-877a-451c-a87d-4a5922258c58"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_orbit_arbitrum_university_525/1699877698340_rectangle_98.png",
