@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring the number one Layer 2 solution!",
-  "created": "2023-12-11T18:26:50.616Z",
+  "created": "2024-02-27T16:34:12.997Z",
   "guideType": "onboarding",
   "key": "introduction-to-arbitrum-arbitrum-university-794",
   "name": "Introduction to Arbitrum",
@@ -388,6 +388,25 @@
       "name": "References",
       "stepItems": [],
       "uuid": "49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8"
+    },
+    {
+      "content": "",
+      "name": "Your Information",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "5a0715a1-a948-4d09-88fd-25732f171b84"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PrivateShortInput",
+          "uuid": "dd8eddbd-3387-476e-a0ed-ac9156438127"
+        }
+      ],
+      "uuid": "af347efa-de94-4fc1-a46b-aa6604e72d1c"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1699877486707_rectangle_89.png",
