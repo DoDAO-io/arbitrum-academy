@@ -1,6 +1,6 @@
 categories: []
 content: Delving deeper into stylus blockchain
-created: '2023-12-14T15:30:53.469Z'
+created: '2024-02-27T17:10:47.399Z'
 guideType: onboarding
 key: introduction-to-stylus-arbitrum-university-536
 name: 'Introduction to Stylus '
@@ -260,6 +260,18 @@ steps:
     name: References
     stepItems: []
     uuid: 35bd6d26-0080-4857-8e38-85296952e5d6
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: b1c1e92d-f6a2-48fc-9a43-67037a251027
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: 98dbd957-c22a-4ced-97e3-502bcb5ebfe8
+    uuid: 540e64d5-f5a1-4d7f-afa7-e502ca7b7cae
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_stylus_arbitrum_university_536/1699877748301_rectangle_99.png
 uuid: introduction-to-stylus-arbitrum-university-536
