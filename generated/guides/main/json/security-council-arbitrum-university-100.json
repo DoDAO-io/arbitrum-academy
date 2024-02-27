@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A setp to ensure network integrity!",
-  "created": "2023-12-12T11:32:02.465Z",
+  "created": "2024-02-27T18:02:19.022Z",
   "guideType": "onboarding",
   "key": "security-council-arbitrum-university-100",
   "name": "Security Council",
@@ -294,6 +294,25 @@
       "name": "Reference",
       "stepItems": [],
       "uuid": "5d86d06a-2bc1-4320-911d-694f01732d5d"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "a705dfac-4425-4fb4-ae17-cd2dd6ae586d"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "c3b9c1de-c305-48f1-be10-dd88e84659b5"
+        }
+      ],
+      "uuid": "9c123ebd-a24a-488c-b5e0-70b030d811a1"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/security_council_arbitrum_university_100/1700237818906_rectangle_110.png",
