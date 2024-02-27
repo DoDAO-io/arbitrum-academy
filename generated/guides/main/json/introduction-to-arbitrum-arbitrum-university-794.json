@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Exploring the number one Layer 2 solution!",
-  "created": "2024-02-27T16:34:12.997Z",
+  "created": "2024-02-27T16:34:55.816Z",
   "guideType": "onboarding",
   "key": "introduction-to-arbitrum-arbitrum-university-794",
   "name": "Introduction to Arbitrum",
@@ -400,7 +400,7 @@
           "uuid": "5a0715a1-a948-4d09-88fd-25732f171b84"
         },
         {
-          "label": "Wallet Address",
+          "label": "Wallet Address (Optional)",
           "required": false,
           "type": "PrivateShortInput",
           "uuid": "dd8eddbd-3387-476e-a0ed-ac9156438127"
