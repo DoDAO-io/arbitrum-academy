@@ -1,6 +1,6 @@
 categories: []
 content: 'Arbitrum One: Unraveling the intricacies of Arbitrum Rollup'
-created: '2023-12-11T18:31:18.574Z'
+created: '2024-02-27T16:58:49.007Z'
 guideType: onboarding
 key: arbitrum-one-arbitrum-university-177
 name: Arbitrum One
@@ -716,6 +716,18 @@ steps:
           Arbitrum Nova is more scalable and designed for high-load dApps like
           NFTs and social networks.
     uuid: 424231c8-2079-4196-8393-d4b8f7ffc802
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: f90d7d4c-a0cc-48a4-bd58-4d2636272bdc
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: 7f9eeda1-d8fa-429f-b61b-9a036090598d
+    uuid: 49a31ab9-dd46-454a-b4b1-315c748668f2
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_one_arbitrum_university_177/1699877592179_rectangle_96.png
 uuid: arbitrum-one-arbitrum-university-177
