@@ -1,6 +1,6 @@
 categories: []
 content: 'Understanding the differences between Arbitrum and Ethereum '
-created: '2023-12-14T11:15:42.044Z'
+created: '2024-02-27T17:41:01.259Z'
 guideType: onboarding
 key: arbitrum-vs-ethereum-arbitrum-university-172
 name: Arbitrum vs Ethereum
@@ -447,6 +447,18 @@ steps:
           Arbitrum sets the `block.difficulty` and `block.prevrandao` properties
           to a constant value of 1, unlike Ethereum where these values can vary.
     uuid: 9459241f-1fd9-490d-83f8-fc2aeb7e8c30
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: b8618add-ad29-4d69-8dc2-96f44dbfa5b5
+      - label: Wallet Address
+        required: false
+        type: PublicShortInput
+        uuid: 521a6762-45ac-4dd4-bd96-8d684d281a54
+    uuid: 6492b7a7-4860-447c-8cc4-dfeadd655cba
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_vs_ethereum_arbitrum_university_172/1699897539609_rectangle_105.png
 uuid: arbitrum-vs-ethereum-arbitrum-university-172
