@@ -1,6 +1,6 @@
 categories: []
 content: Exploring the number one Layer 2 solution!
-created: '2024-02-27T16:34:55.816Z'
+created: '2024-02-27T16:35:47.984Z'
 guideType: onboarding
 key: introduction-to-arbitrum-arbitrum-university-794
 name: Introduction to Arbitrum
@@ -700,17 +700,21 @@ steps:
     stepItems: []
     uuid: 49ebf9d8-c9ae-482f-a3d0-b5538f2d2ca8
   - content: ''
-    name: Your Information
+    name: Step 10
     stepItems:
-      - label: Nickname
-        required: true
-        type: PublicShortInput
-        uuid: 5a0715a1-a948-4d09-88fd-25732f171b84
-      - label: Wallet Address (Optional)
+      - label: Label
         required: false
         type: PrivateShortInput
-        uuid: dd8eddbd-3387-476e-a0ed-ac9156438127
-    uuid: af347efa-de94-4fc1-a46b-aa6604e72d1c
+        uuid: c302cc60-02be-4126-833d-85aff41cfc0e
+      - label: Nickname
+        required: false
+        type: PublicShortInput
+        uuid: 17561df8-5d67-457d-aeb7-70b0cc4d6095
+      - label: Wallet address
+        required: false
+        type: PrivateShortInput
+        uuid: 52338d53-e88d-4442-a94a-bb591768aafb
+    uuid: bbd1fe85-db83-4775-ace3-9c29aac2a925
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/introduction_to_arbitrum_arbitrum_university_794/1699877486707_rectangle_89.png
 uuid: introduction-to-arbitrum-arbitrum-university-794
