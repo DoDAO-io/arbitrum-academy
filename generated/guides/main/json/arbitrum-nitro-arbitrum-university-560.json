@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "A deeper look into Arbitrum Nitro",
-  "created": "2023-12-11T18:28:32.447Z",
+  "created": "2024-02-27T16:50:02.485Z",
   "guideType": "onboarding",
   "key": "arbitrum-nitro-arbitrum-university-560",
   "name": "Arbitrum Nitro ",
@@ -294,6 +294,25 @@
       "name": "References",
       "stepItems": [],
       "uuid": "d10846b3-3be8-43e0-9e3b-c8a48b29b98a"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Nickname",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "e72a050f-ab08-4a6f-aa49-2428592852a1"
+        },
+        {
+          "label": "Wallet Address",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "ee07312f-a8b1-4f4a-84bd-ed9715794ea4"
+        }
+      ],
+      "uuid": "cdd1e593-3a06-4d5c-8ae6-418f1d86a9be"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Guide/arbitrum_nitro_arbitrum_university_560/1699877538895_rectangle_95.png",
