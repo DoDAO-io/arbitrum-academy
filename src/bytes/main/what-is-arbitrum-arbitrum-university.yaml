@@ -1,10 +1,7 @@
-uniqueId: eaa49e39-c53e-4402-b2ce-7cd24fe76133
 id: what-is-arbitrum-arbitrum-university
 name: What is Arbitrum
 content: Understanding Arbitrum, a Layer 2 scaling solution for Ethereum
 created: '2023-11-16T18:33:24.134Z'
-visibility: Public
-publishStatus: Live
 admins: []
 tags: []
 priority: 0
@@ -53,7 +50,7 @@ steps:
     uuid: a842f292-5d23-43b0-9ba7-8c2327f17f81
     content: ''
     stepItems:
-      - type: MultipleChoice
+      - type: SingleChoice
         uuid: 273c0eaa-d965-4ecd-ad66-282580a439bd
         choices:
           - key: 33729b75
@@ -76,7 +73,7 @@ steps:
     uuid: 3b51be2d-a578-43be-a79a-381b63507edc
     content: ''
     stepItems:
-      - type: MultipleChoice
+      - type: SingleChoice
         uuid: f14b9d80-a5e7-45e4-ab33-9dd79d6e4caa
         choices:
           - key: 7ffeedcd
@@ -100,3 +97,5 @@ steps:
           off the main Ethereum chain and uses Rollup technology to bundle
           multiple transactions into one.
 spaceId: arbitrum-university
+videoUrl: null
+byteStyle: CardAndCircleProgress
