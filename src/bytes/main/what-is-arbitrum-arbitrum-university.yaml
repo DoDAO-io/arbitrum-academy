@@ -13,6 +13,8 @@ steps:
       efficiency of the Ethereum blockchain. It processes transactions off the
       main Ethereum chain and uses Rollup technology to bundle multiple
       transactions into one.
+    imageUrl: >-
+      https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Tidbits/what-is-arbitrum-arbitrum-university/1710355578664_png%26skoid%3D6aaadede-4fb3-4698-a8f6-684d7786b067%26sktid%3Da48cca56-e6da-484e-a814-9c849652bcb3%26skt%3D2024-03-13T15%253A43%253A46Z%26ske%3D2024-03-14T15%253A43%253A46Z%26sks%3Db%26skv%3D2021-08-06%26sig%3DYSsSaTQeaTxondU8bKLkiNajMKyB%252BNMjjtpL9LE258M%253D..png
     stepItems: []
   - name: Compatibility and Deployment
     uuid: 0acd8ce8-89ee-43c0-bb56-4c35d73969c4
@@ -21,6 +23,7 @@ steps:
       Ethereum's existing tools and smart contracts, which simplifies
       application deployment. The Arbitrum One mainnet supports smart contract
       execution with validation from the Ethereum network.
+    imageUrl: null
     stepItems: []
   - name: Benefits
     uuid: 2771822e-3b61-4247-bdfa-6c173ab4f47b
@@ -28,6 +31,7 @@ steps:
       The use of Arbitrum significantly lowers transaction fees, making it a
       cost-effective alternative for running decentralized applications and
       smart contracts compared to Ethereum's mainnet.
+    imageUrl: null
     stepItems: []
   - name: What is Layer 2?
     uuid: 8c71eac7-f980-4c8c-aa54-167eda0d199d
@@ -37,6 +41,7 @@ steps:
       scalability and performance issues by handling transactions off the main
       chain, thus enabling faster processing times and reduced transaction
       costs.
+    imageUrl: null
     stepItems: []
   - name: Benefits of Layer 2
     uuid: 8053b896-fead-47dc-bf1c-58e219cad904
@@ -45,10 +50,12 @@ steps:
       transactions per second, reducing costs and improving speed. Despite
       off-chain processing, these typically inherit the strong security
       guarantees of the underlying main chain.
+    imageUrl: null
     stepItems: []
   - name: Evaluation
     uuid: a842f292-5d23-43b0-9ba7-8c2327f17f81
     content: ''
+    imageUrl: null
     stepItems:
       - type: SingleChoice
         uuid: 273c0eaa-d965-4ecd-ad66-282580a439bd
@@ -72,6 +79,7 @@ steps:
   - name: Evaluation
     uuid: 3b51be2d-a578-43be-a79a-381b63507edc
     content: ''
+    imageUrl: null
     stepItems:
       - type: SingleChoice
         uuid: f14b9d80-a5e7-45e4-ab33-9dd79d6e4caa
