@@ -12,7 +12,7 @@ steps:
       Arbitrum is a Layer 2 scaling solution that enhances the scalability and
       efficiency of the Ethereum blockchain. It processes transactions off the
       main Ethereum chain and uses Rollup technology to bundle multiple
-      transactions into one.
+      transactions into one
     imageUrl: >-
       https://d31h13bdjwgzxs.cloudfront.net/academy/arbitrum-university/Tidbits/what-is-arbitrum-arbitrum-university/1710355578664_png%26skoid%3D6aaadede-4fb3-4698-a8f6-684d7786b067%26sktid%3Da48cca56-e6da-484e-a814-9c849652bcb3%26skt%3D2024-03-13T15%253A43%253A46Z%26ske%3D2024-03-14T15%253A43%253A46Z%26sks%3Db%26skv%3D2021-08-06%26sig%3DYSsSaTQeaTxondU8bKLkiNajMKyB%252BNMjjtpL9LE258M%253D..png
     stepItems: []
